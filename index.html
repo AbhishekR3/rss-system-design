@@ -77,9 +77,10 @@ border-radius:999px;padding:0 8px;cursor:pointer}
 <label><input type="radio" name="view" value="all">All Articles</label>
 </fieldset>
 <label>Company<select id="company"><option value="">All Companies</option>
-<option value="Atomic Object" data-label="Atomic Object" data-n-picked="2" data-n-all="6">Atomic Object (2)</option>
+<option value="Atomic Object" data-label="Atomic Object" data-n-picked="3" data-n-all="7">Atomic Object (3)</option>
 <option value="Auth0" data-label="Auth0" data-n-picked="2" data-n-all="7">Auth0 (2)</option>
 <option value="AWS" data-label="AWS" data-n-picked="0" data-n-all="3">AWS (0)</option>
+<option value="ByteByteGo" data-label="ByteByteGo" data-n-picked="0" data-n-all="1">ByteByteGo (0)</option>
 <option value="Cloudflare" data-label="Cloudflare" data-n-picked="11" data-n-all="11">Cloudflare (11)</option>
 <option value="Databricks" data-label="Databricks" data-n-picked="9" data-n-all="16">Databricks (9)</option>
 <option value="Discord" data-label="Discord" data-n-picked="0" data-n-all="1">Discord (0)</option>
@@ -110,7 +111,7 @@ border-radius:999px;padding:0 8px;cursor:pointer}
 </select></label>
 <label>Subject<select id="subject"><option value="">All Subjects</option>
 <option value="ml-platform" data-label="ML Platform &amp; Models" data-n-picked="10" data-n-all="15">ML Platform &amp; Models (10)</option>
-<option value="genai-apps" data-label="LLM Apps &amp; Agents" data-n-picked="23" data-n-all="35">LLM Apps &amp; Agents (23)</option>
+<option value="genai-apps" data-label="LLM Apps &amp; Agents" data-n-picked="23" data-n-all="36">LLM Apps &amp; Agents (23)</option>
 <option value="search-recsys" data-label="Search &amp; Recommendations" data-n-picked="2" data-n-all="2">Search &amp; Recommendations (2)</option>
 <option value="data-pipelines" data-label="Data Pipelines &amp; Streaming" data-n-picked="7" data-n-all="10">Data Pipelines &amp; Streaming (7)</option>
 <option value="storage-caching" data-label="Databases, Storage &amp; Caching" data-n-picked="9" data-n-all="10">Databases, Storage &amp; Caching (9)</option>
@@ -118,9 +119,9 @@ border-radius:999px;padding:0 8px;cursor:pointer}
 <option value="networking-edge" data-label="Networking &amp; Edge" data-n-picked="6" data-n-all="8">Networking &amp; Edge (6)</option>
 <option value="service-architecture" data-label="Service Architecture &amp; APIs" data-n-picked="1" data-n-all="3">Service Architecture &amp; APIs (1)</option>
 <option value="client-apps" data-label="Web &amp; Mobile Apps" data-n-picked="3" data-n-all="6">Web &amp; Mobile Apps (3)</option>
-<option value="security-systems" data-label="Security &amp; Identity" data-n-picked="10" data-n-all="20">Security &amp; Identity (10)</option>
+<option value="security-systems" data-label="Security &amp; Identity" data-n-picked="10" data-n-all="21">Security &amp; Identity (10)</option>
 <option value="observability-ops" data-label="Observability &amp; Operations" data-n-picked="2" data-n-all="3">Observability &amp; Operations (2)</option>
-<option value="dev-platform" data-label="Developer Platform &amp; CI/CD" data-n-picked="16" data-n-all="24">Developer Platform &amp; CI/CD (16)</option>
+<option value="dev-platform" data-label="Developer Platform &amp; CI/CD" data-n-picked="17" data-n-all="25">Developer Platform &amp; CI/CD (17)</option>
 <option value="org-community" data-label="Not System Design" data-n-picked="0" data-n-all="23">Not System Design (0)</option>
 </select></label>
 <label>Concern<select id="concern"><option value="">All Concerns</option>
@@ -130,23 +131,24 @@ border-radius:999px;padding:0 8px;cursor:pointer}
 <option value="cost" data-label="Cost Efficiency" data-n-picked="14" data-n-all="16">Cost Efficiency (14)</option>
 <option value="security" data-label="Security &amp; Compliance" data-n-picked="2" data-n-all="2">Security &amp; Compliance (2)</option>
 <option value="evolvability" data-label="Migrations &amp; Evolution" data-n-picked="6" data-n-all="7">Migrations &amp; Evolution (6)</option>
-<option value="operability" data-label="Operability &amp; Productivity" data-n-picked="8" data-n-all="8">Operability &amp; Productivity (8)</option>
+<option value="operability" data-label="Operability &amp; Productivity" data-n-picked="9" data-n-all="9">Operability &amp; Productivity (9)</option>
 <option value="evaluation" data-label="Testing &amp; Evaluation" data-n-picked="16" data-n-all="16">Testing &amp; Evaluation (16)</option>
 <option value="business-fit" data-label="Business &amp; Product Drivers" data-n-picked="5" data-n-all="7">Business &amp; Product Drivers (5)</option>
-<option value="team-process" data-label="Team &amp; Process Decisions" data-n-picked="3" data-n-all="5">Team &amp; Process Decisions (3)</option>
+<option value="team-process" data-label="Team &amp; Process Decisions" data-n-picked="4" data-n-all="6">Team &amp; Process Decisions (4)</option>
 </select></label>
 <label>Search<input type="search" id="q" placeholder="Filter" autocomplete="off"></label>
 </div>
 <main>
 <section class="day" id="day-2026-10-25" data-day="2026-10-25"><h2><time datetime="2026-10-25">2026-10-25 · Sunday</time><button type="button" class="fold" aria-expanded="true" aria-controls="list-2026-10-25" aria-label="Collapse this day" title="Collapse this day" hidden></button></h2>
-<p class="none">No articles today.</p>
+<p class="none" hidden>No articles today.</p>
 <ul id="list-2026-10-25">
-
+<li data-company="Atomic Object" data-status="read" data-subjects=" dev-platform " data-concerns=" team-process operability " data-text="atomic object agentic development: the fun part was never the typing an atomic object developer argues agentic development moves effort from typing to design, citing a power bi report builder that an agent built test-first into a thirty-thousand-line web application. developer platform &amp; ci/cd team &amp; process decisions operability &amp; productivity"><p class="line"><button type="button" class="co" style="background:#16CBC4;color:#1D1D1F" data-company="Atomic Object" title="Show only Atomic Object">Atomic Object</button> – <a href="https://spin.atomicobject.com/agentic-development-craft/">Agentic Development: The Fun Part Was Never the Typing</a></p><p class="sum">An Atomic Object developer argues agentic development moves effort from typing to design, citing a Power BI report builder that an agent built test-first into a thirty-thousand-line web application.</p><p class="tps"><button type="button" class="tp" data-topic="dev-platform" data-kind="subject" title="Show only Developer platform &amp; CI/CD">Developer platform &amp; CI/CD</button><button type="button" class="tp cn" data-topic="team-process" data-kind="concern" title="Show only Team &amp; process decisions">Team &amp; process decisions</button><button type="button" class="tp cn" data-topic="operability" data-kind="concern" title="Show only Operability &amp; productivity">Operability &amp; productivity</button></p></li>
 </ul></section>
 <section class="day" id="day-2026-10-24" data-day="2026-10-24"><h2><time datetime="2026-10-24">2026-10-24 · Saturday</time><button type="button" class="fold" aria-expanded="true" aria-controls="list-2026-10-24" aria-label="Collapse this day" title="Collapse this day" hidden></button></h2>
 <p class="none" hidden>No articles for this day.</p>
 <ul id="list-2026-10-24">
 <li data-company="Atomic Object" data-status="not_picked" data-subjects=" org-community " data-concerns="  " data-text="atomic object how to tell if a company’s culture is real before you accept the offer a marketer with 20 years in software contrasts culture presented on slides with culture shown in daily practice at atomic object, and lists ways to vet a company&#x27;s culture before accepting an offer, starting with reading what others say about it. not system design"><p class="line"><button type="button" class="co" style="background:#16CBC4;color:#1D1D1F" data-company="Atomic Object" title="Show only Atomic Object">Atomic Object</button> – <a href="https://spin.atomicobject.com/company-culture-real/">How to Tell If a Company’s Culture Is Real Before You Accept the Offer</a></p><p class="sum">A marketer with 20 years in software contrasts culture presented on slides with culture shown in daily practice at Atomic Object, and lists ways to vet a company&#x27;s culture before accepting an offer, starting with reading what others say about it.</p><p class="tps"><button type="button" class="tp" data-topic="org-community" data-kind="subject" title="Show only Not System Design">Not System Design</button></p></li>
+<li data-company="ByteByteGo" data-status="not_picked" data-subjects=" genai-apps security-systems " data-concerns="  " data-text="bytebytego ep230: rag vs agentic rag a bytebytego newsletter issue with short explainers on rag versus agentic rag, oauth 2.0 authorization with oidc authentication, and the linux directory structure, plus a video on ai building blocks. llm apps &amp; agents security &amp; identity"><p class="line"><button type="button" class="co" style="background:#149F76;color:#1D1D1F" data-company="ByteByteGo" title="Show only ByteByteGo">ByteByteGo</button> – <a href="https://blog.bytebytego.com/p/ep230-rag-vs-agentic-rag">EP230: RAG vs Agentic RAG</a></p><p class="sum">A ByteByteGo newsletter issue with short explainers on RAG versus agentic RAG, OAuth 2.0 authorization with OIDC authentication, and the Linux directory structure, plus a video on AI building blocks.</p><p class="tps"><button type="button" class="tp" data-topic="genai-apps" data-kind="subject" title="Show only LLM apps &amp; agents">LLM apps &amp; agents</button><button type="button" class="tp" data-topic="security-systems" data-kind="subject" title="Show only Security &amp; identity">Security &amp; identity</button></p></li>
 </ul></section>
 <section class="day" id="day-2026-10-23" data-day="2026-10-23"><h2><time datetime="2026-10-23">2026-10-23 · Friday</time><button type="button" class="fold" aria-expanded="true" aria-controls="list-2026-10-23" aria-label="Collapse this day" title="Collapse this day" hidden></button></h2>
 <p class="none" hidden>No articles for this day.</p>

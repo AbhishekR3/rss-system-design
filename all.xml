@@ -5,8 +5,33 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-10-24T12:00:00Z</updated>
+<updated>2026-10-25T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>EP230: RAG vs Agentic RAG</title>
+<link href="https://blog.bytebytego.com/p/ep230-rag-vs-agentic-rag"/>
+<id>urn:rss-system-design:all:0900cb93a7</id>
+<updated>2026-10-25T12:00:00Z</updated>
+<published>2026-10-24T15:30:37Z</published>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
+<summary>Not picked: Roundup of brief high-level explainers that list steps without design trade-offs, mechanisms or figures.</summary>
+</entry>
+<entry>
+<title>Agentic Development: The Fun Part Was Never the Typing</title>
+<link href="https://spin.atomicobject.com/agentic-development-craft/"/>
+<id>urn:rss-system-design:all:263106c594</id>
+<updated>2026-10-25T11:59:59Z</updated>
+<published>2026-10-25T12:00:57Z</published>
+<author><name>Atomic Object</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; process decisions"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
+<summary>An Atomic Object developer argues agentic development moves effort from typing to design, citing a Power BI report builder that an agent built test-first into a thirty-thousand-line web application.</summary>
+</entry>
 <entry>
 <title>How to Tell If a Company’s Culture Is Real Before You Accept the Offer</title>
 <link href="https://spin.atomicobject.com/company-culture-real/"/>
