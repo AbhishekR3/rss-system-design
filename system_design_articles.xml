@@ -8,33 +8,10 @@
 <updated>2026-10-25T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>Agentic Development: The Fun Part Was Never the Typing</title>
-<link href="https://spin.atomicobject.com/agentic-development-craft/"/>
-<id>urn:rss-system-design:263106c594</id>
-<updated>2026-10-25T12:00:00Z</updated>
-<published>2026-10-25T12:00:57Z</published>
-<author><name>Atomic Object</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; process decisions"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>An Atomic Object developer argues agentic development moves effort from typing to design, citing a Power BI report builder that an agent built test-first into a thirty-thousand-line web application.</summary>
-</entry>
-<entry>
-<title>Write End-to-End Tests in Your Backend’s Language</title>
-<link href="https://spin.atomicobject.com/tests-your-backends-language/"/>
-<id>urn:rss-system-design:af6181fa27</id>
-<updated>2026-10-25T11:59:59Z</updated>
-<published>2026-10-06T12:00:42Z</published>
-<author><name>Atomic Object</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>Atomic Object argues for writing browser end-to-end tests in the backend's language so test data setup can use domain models, shown with a FastAPI and Python Playwright example.</summary>
-</entry>
-<entry>
 <title>Architecting Secure Identity: Extending Auth0 PrivateLink with Intelligent Gateways</title>
 <link href="https://auth0.com/blog/extending-auth0-privatelink-with-intelligent-gateways/"/>
 <id>urn:rss-system-design:ae8ef60ed3</id>
-<updated>2026-10-25T11:59:58Z</updated>
+<updated>2026-10-25T12:00:00Z</updated>
 <published>2026-10-02T00:00:00Z</published>
 <author><name>Auth0</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -42,21 +19,10 @@
 <summary>Auth0 describes an intelligent gateway pattern that terminates a single outbound PrivateLink connection at an API gateway or reverse proxy and routes traffic to isolated VPCs.</summary>
 </entry>
 <entry>
-<title>Everybody Thinks Login Is Easy. Until It Is Not</title>
-<link href="https://auth0.com/blog/everybody-thinks-login-is-easy/"/>
-<id>urn:rss-system-design:14bbb9a1bf</id>
-<updated>2026-10-25T11:59:57Z</updated>
-<published>2026-10-07T00:00:00Z</published>
-<author><name>Auth0</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
-<summary>Auth0 argues that login grows from a form into an identity model, covering account linking, recovery, session revocation, enterprise organizations and delegation to AI agents.</summary>
-</entry>
-<entry>
 <title>ID-JAG, Explained: The New OAuth Grant for Cross-App Access</title>
 <link href="https://auth0.com/blog/what-is-id-jag/"/>
 <id>urn:rss-system-design:e5b1960285</id>
-<updated>2026-10-25T11:59:56Z</updated>
+<updated>2026-10-25T11:59:59Z</updated>
 <published>2026-10-20T00:00:00Z</published>
 <author><name>Auth0</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -64,23 +30,10 @@
 <summary>Auth0 explains ID-JAG, a new OAuth grant where an enterprise identity provider issues a signed assertion that lets an app or agent get an access token for another app without per-pair consent.</summary>
 </entry>
 <entry>
-<title>Multi-Tenant SaaS Apps with Auth0 Organizations — Part One</title>
-<link href="https://auth0.com/blog/multi-tenant-saas-apps-with-auth0-organizations-part-one/"/>
-<id>urn:rss-system-design:03700de70d</id>
-<updated>2026-10-25T11:59:55Z</updated>
-<published>2026-10-09T00:00:00Z</published>
-<author><name>Auth0</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<summary>Auth0 uses a fictional SaaS company to show how Auth0 Organizations model tenants for B2B login, enterprise SSO routing, tenant switching and org-scoped roles.</summary>
-</entry>
-<entry>
 <title>Securing AI Agents with Auth0 CIMD and Token Exchange</title>
 <link href="https://auth0.com/blog/securing-ai-agents-with-auth0-cimd-token-exchange/"/>
 <id>urn:rss-system-design:435e5f1f7a</id>
-<updated>2026-10-25T11:59:54Z</updated>
+<updated>2026-10-25T11:59:58Z</updated>
 <published>2026-10-20T00:00:00Z</published>
 <author><name>Auth0</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -88,32 +41,10 @@
 <summary>Auth0 describes securing AI agents as third-party OAuth clients with strict mode, Client ID Metadata Documents for registration and token exchange for delegation chains.</summary>
 </entry>
 <entry>
-<title>Announcing AWS Lambda Web Functions</title>
-<link href="https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/"/>
-<id>urn:rss-system-design:cb3064a9ed</id>
-<updated>2026-10-25T11:59:53Z</updated>
-<published>2026-10-12T22:34:47Z</published>
-<author><name>AWS</name></author>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>AWS announced Lambda Web Functions, which run standard port-listening HTTP servers on Lambda with up to 128 concurrent requests per environment and billing on active CPU time.</summary>
-</entry>
-<entry>
-<title>Geometry Nodes Workshop: September 2026</title>
-<link href="https://code.blender.org/2026/10/geometry-nodes-workshop-september-2026/"/>
-<id>urn:rss-system-design:029e39ff29</id>
-<updated>2026-10-25T11:59:52Z</updated>
-<published>2026-10-05T14:29:39Z</published>
-<author><name>Blender</name></author>
-<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; mobile apps"/>
-<summary>Blender's Geometry Nodes team summarizes its September 2026 workshop, covering recent features and design decisions for modal node tools, exposed bakes, lists, physics and node layout.</summary>
-</entry>
-<entry>
 <title>2026 Birthday week: network performance update</title>
 <link href="https://blog.cloudflare.com/network-performance-birthday-week-2026/"/>
 <id>urn:rss-system-design:d78d05baa0</id>
-<updated>2026-10-25T11:59:51Z</updated>
+<updated>2026-10-25T11:59:57Z</updated>
 <published>2026-10-02T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
@@ -125,7 +56,7 @@
 <title>AI Search is now generally available</title>
 <link href="https://blog.cloudflare.com/ai-search-ga/"/>
 <id>urn:rss-system-design:468c7037a6</id>
-<updated>2026-10-25T11:59:50Z</updated>
+<updated>2026-10-25T11:59:56Z</updated>
 <published>2026-10-01T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; recommendations"/>
@@ -138,7 +69,7 @@
 <title>Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure</title>
 <link href="https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/"/>
 <id>urn:rss-system-design:1f522f410f</id>
-<updated>2026-10-25T11:59:49Z</updated>
+<updated>2026-10-25T11:59:55Z</updated>
 <published>2026-10-02T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -150,7 +81,7 @@
 <title>Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities</title>
 <link href="https://blog.cloudflare.com/protect-your-netscaler-gateway/"/>
 <id>urn:rss-system-design:e356517d09</id>
-<updated>2026-10-25T11:59:48Z</updated>
+<updated>2026-10-25T11:59:54Z</updated>
 <published>2026-10-19T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -163,7 +94,7 @@
 <title>Bringing post-quantum cryptography to geographically fenced key management</title>
 <link href="https://blog.cloudflare.com/post-quantum-geo-key-manager/"/>
 <id>urn:rss-system-design:d39f172dbe</id>
-<updated>2026-10-25T11:59:47Z</updated>
+<updated>2026-10-25T11:59:53Z</updated>
 <published>2026-10-23T18:06:56Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -174,7 +105,7 @@
 <title>Deno is joining Cloudflare</title>
 <link href="https://blog.cloudflare.com/deno-joins-cloudflare/"/>
 <id>urn:rss-system-design:1aab300ff0</id>
-<updated>2026-10-25T11:59:46Z</updated>
+<updated>2026-10-25T11:59:52Z</updated>
 <published>2026-10-09T12:50:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
@@ -185,7 +116,7 @@
 <title>Deploy with Void</title>
 <link href="https://blog.cloudflare.com/deploy-with-void/"/>
 <id>urn:rss-system-design:10217d62a9</id>
-<updated>2026-10-25T11:59:45Z</updated>
+<updated>2026-10-25T11:59:51Z</updated>
 <published>2026-10-15T14:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
@@ -196,7 +127,7 @@
 <title>Identify AI model overuse with User Insights</title>
 <link href="https://blog.cloudflare.com/ai-model-overuse-user-insights/"/>
 <id>urn:rss-system-design:02c0c173df</id>
-<updated>2026-10-25T11:59:44Z</updated>
+<updated>2026-10-25T11:59:50Z</updated>
 <published>2026-09-30T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -209,7 +140,7 @@
 <title>Introducing Clairic, a new System One class of extraction models</title>
 <link href="https://blog.cloudflare.com/clairic-extraction-model/"/>
 <id>urn:rss-system-design:52d55b205d</id>
-<updated>2026-10-25T11:59:43Z</updated>
+<updated>2026-10-25T11:59:49Z</updated>
 <published>2026-10-19T17:48:26Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -222,7 +153,7 @@
 <title>Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash</title>
 <link href="https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"/>
 <id>urn:rss-system-design:f0f76cf038</id>
-<updated>2026-10-25T11:59:42Z</updated>
+<updated>2026-10-25T11:59:48Z</updated>
 <published>2026-10-09T18:27:34Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -234,7 +165,7 @@
 <title>Introducing Clef: our open-source decision models, and new RL fine-tuning platform</title>
 <link href="https://blog.cloudflare.com/clef-decision-models/"/>
 <id>urn:rss-system-design:b82838909f</id>
-<updated>2026-10-25T11:59:41Z</updated>
+<updated>2026-10-25T11:59:47Z</updated>
 <published>2026-10-01T15:34:02Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -245,7 +176,7 @@
 <title>Introducing Cloudflare Basin: an open, serverless data platform, now generally available</title>
 <link href="https://blog.cloudflare.com/cloudflare-basin/"/>
 <id>urn:rss-system-design:8b31ee0380</id>
-<updated>2026-10-25T11:59:40Z</updated>
+<updated>2026-10-25T11:59:46Z</updated>
 <published>2026-10-01T12:58:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -258,7 +189,7 @@
 <title>Introducing tsrs: A port of TypeScript to Rust</title>
 <link href="https://blog.cloudflare.com/typescript-rust-port/"/>
 <id>urn:rss-system-design:a3f6bdb00a</id>
-<updated>2026-10-25T11:59:39Z</updated>
+<updated>2026-10-25T11:59:45Z</updated>
 <published>2026-10-20T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
@@ -269,7 +200,7 @@
 <title>Monetization Gateway beta: charge AI agents for consumption with HTTP 402</title>
 <link href="https://blog.cloudflare.com/monetization-gateway-beta/"/>
 <id>urn:rss-system-design:e008d3bb3e</id>
-<updated>2026-10-25T11:59:38Z</updated>
+<updated>2026-10-25T11:59:44Z</updated>
 <published>2026-09-30T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
@@ -281,7 +212,7 @@
 <title>Pay Per Use: when AI uses your work, you should get paid</title>
 <link href="https://blog.cloudflare.com/pay-per-use/"/>
 <id>urn:rss-system-design:b5fd7ca54b</id>
-<updated>2026-10-25T11:59:37Z</updated>
+<updated>2026-10-25T11:59:43Z</updated>
 <published>2026-09-30T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
@@ -293,7 +224,7 @@
 <title>Rewinding the exponential: How we keep hardware usage down</title>
 <link href="https://blog.cloudflare.com/rewinding-the-exponential/"/>
 <id>urn:rss-system-design:6f6e1a4486</id>
-<updated>2026-10-25T11:59:36Z</updated>
+<updated>2026-10-25T11:59:42Z</updated>
 <published>2026-10-13T15:51:41Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -305,7 +236,7 @@
 <title>Support for modern cryptographic algorithms in Workers</title>
 <link href="https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/"/>
 <id>urn:rss-system-design:277ffec433</id>
-<updated>2026-10-25T11:59:35Z</updated>
+<updated>2026-10-25T11:59:41Z</updated>
 <published>2026-10-01T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -317,7 +248,7 @@
 <title>The Internet has a second audience</title>
 <link href="https://blog.cloudflare.com/agentic-web/"/>
 <id>urn:rss-system-design:7a8efd08c7</id>
-<updated>2026-10-25T11:59:34Z</updated>
+<updated>2026-10-25T11:59:40Z</updated>
 <published>2026-09-30T12:58:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
@@ -329,7 +260,7 @@
 <title>The keys to the Internet change on October 11. Are you ready?</title>
 <link href="https://blog.cloudflare.com/root-ksk-2024-rollover/"/>
 <id>urn:rss-system-design:c34e297b4a</id>
-<updated>2026-10-25T11:59:33Z</updated>
+<updated>2026-10-25T11:59:39Z</updated>
 <published>2026-10-06T17:50:11Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
@@ -339,23 +270,10 @@
 <summary>Cloudflare explains the October 11, 2026 DNS root key-signing key rollover, how resolvers learn the new key, and the readiness test it built using RFC 8509.</summary>
 </entry>
 <entry>
-<title>Biomedical Imaging's Real Bottleneck Is the Data, Not the Model</title>
-<link href="https://www.databricks.com/blog/biomedical-imagings-real-bottleneck-data-not-model"/>
-<id>urn:rss-system-design:20268ddf9c</id>
-<updated>2026-10-25T11:59:32Z</updated>
-<published>2026-10-08T21:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>Databricks argues that biomedical imaging AI is limited by data access and governance rather than models, and outlines a governed data foundation for imaging, training and validation.</summary>
-</entry>
-<entry>
 <title>Built for Agents: The Case for Spark Declarative Pipelines</title>
 <link href="https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines"/>
 <id>urn:rss-system-design:ef77d0b374</id>
-<updated>2026-10-25T11:59:31Z</updated>
+<updated>2026-10-25T11:59:38Z</updated>
 <published>2026-10-23T19:00:00Z</published>
 <author><name>Databricks</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -365,56 +283,10 @@
 <summary>Databricks benchmarked 528 agent-built data pipelines and found declarative Spark Declarative Pipelines cheaper, faster and leaner than procedural PySpark for coding agents.</summary>
 </entry>
 <entry>
-<title>Closing the Binary Blind Spot: Domain-Knowledge Injection for LLM Malware Triage in npm Packages</title>
-<link href="https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages"/>
-<id>urn:rss-system-design:2552bec412</id>
-<updated>2026-10-25T11:59:30Z</updated>
-<published>2026-10-16T15:37:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>Databricks researchers tested how LLMs triage npm packages hiding malicious native binaries and improved detection by injecting precomputed capability profiles into the prompt.</summary>
-</entry>
-<entry>
-<title>From post-training to production: How TinyFish runs its web-native model on Databricks AI Runtime</title>
-<link href="https://www.databricks.com/blog/post-training-production-how-tinyfish-runs-its-web-native-model-databricks-ai-runtime"/>
-<id>urn:rss-system-design:584edc0f4d</id>
-<updated>2026-10-25T11:59:29Z</updated>
-<published>2026-10-09T16:32:01Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>TinyFish post-trains, evaluates and serves its web-native agent model on Databricks, reporting a 77.6% task-success rate and serving cost per agent run.</summary>
-</entry>
-<entry>
-<title>How California built its Behavioral Health Public County Profile on Databricks</title>
-<link href="https://www.databricks.com/blog/how-california-built-its-behavioral-health-public-county-profile-databricks"/>
-<id>urn:rss-system-design:a276e4f989</id>
-<updated>2026-10-25T11:59:28Z</updated>
-<published>2026-10-09T21:30:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<summary>California's Department of Health Care Services built a public Behavioral Health County Profile dashboard on Databricks that brings data from all 58 counties into one place.</summary>
-</entry>
-<entry>
-<title>How HP Is Building an AI-Ready CDP with Databricks CustomerLake</title>
-<link href="https://www.databricks.com/blog/hp-ai-ready-cdp-databricks-customerlake"/>
-<id>urn:rss-system-design:428aebc8c8</id>
-<updated>2026-10-25T11:59:27Z</updated>
-<published>2026-10-20T00:01:41Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<summary>HP consolidated its marketing data into a governed lakehouse and adopted Databricks CustomerLake as its CDP, cutting audience creation from 2-3 months to 2 hours.</summary>
-</entry>
-<entry>
 <title>How our AI Research team uses AI Runtime</title>
 <link href="https://www.databricks.com/blog/how-our-ai-research-team-uses-ai-runtime"/>
 <id>urn:rss-system-design:eb6210d05e</id>
-<updated>2026-10-25T11:59:26Z</updated>
+<updated>2026-10-25T11:59:37Z</updated>
 <published>2026-10-15T21:37:44Z</published>
 <author><name>Databricks</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -423,82 +295,10 @@
 <summary>Databricks' AI Research team explains how it trains models up to nearly a trillion parameters on AI Runtime, including GPU node health checks, container reuse and experiment tracking.</summary>
 </entry>
 <entry>
-<title>Introducing Agent Memory on Databricks</title>
-<link href="https://www.databricks.com/blog/introducing-agent-memory-databricks"/>
-<id>urn:rss-system-design:137fd72d20</id>
-<updated>2026-10-25T11:59:25Z</updated>
-<published>2026-10-20T17:26:56Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<summary>Databricks introduced Agent Memory on Agent Bricks, based on its MemCurrent research, reporting triple the agent pass rate on enterprise tasks with 31% fewer tokens.</summary>
-</entry>
-<entry>
-<title>Introducing Funke: Native HL7v2 Parsing on Databricks</title>
-<link href="https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks"/>
-<id>urn:rss-system-design:714c79df7b</id>
-<updated>2026-10-25T11:59:24Z</updated>
-<published>2026-10-08T22:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<summary>Databricks open-sourced Funke, an HL7v2 parser that loads healthcare messages into native Spark types with the full hierarchy, as a declarative medallion pipeline replacing Smolder.</summary>
-</entry>
-<entry>
-<title>Introducing Private Network Gateway</title>
-<link href="https://www.databricks.com/blog/introducing-private-network-gateway"/>
-<id>urn:rss-system-design:e49a398e91</id>
-<updated>2026-10-25T11:59:23Z</updated>
-<published>2026-10-14T14:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>Databricks introduced Private Network Gateway, a managed encrypted gateway from serverless compute into one delegated customer subnet, so private databases and APIs become reachable without per-resource endpoints.</summary>
-</entry>
-<entry>
-<title>Lakebase and Agentic SDLC: Branching Databases for Coding Agents</title>
-<link href="https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents"/>
-<id>urn:rss-system-design:d953dbc7e6</id>
-<updated>2026-10-25T11:59:22Z</updated>
-<published>2026-10-08T22:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<summary>Databricks shows a development workflow where each coding agent's Git worktree and each pull request gets its own copy-on-write Lakebase Postgres branch.</summary>
-</entry>
-<entry>
-<title>MemCurrent: Designing Persistent Memory for Production Agents</title>
-<link href="https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents"/>
-<id>urn:rss-system-design:dca2db5ccf</id>
-<updated>2026-10-25T11:59:21Z</updated>
-<published>2026-10-20T18:15:47Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>Databricks describes MemCurrent, a memory architecture for production agents combining episodic and derived memory, evaluated on public benchmarks and an internal benchmark from real Genie sessions.</summary>
-</entry>
-<entry>
-<title>Real-time energy trading and analytics on Databricks</title>
-<link href="https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks"/>
-<id>urn:rss-system-design:c8ee78ab60</id>
-<updated>2026-10-25T11:59:20Z</updated>
-<published>2026-10-23T19:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>Databricks outlines a real-time energy trading architecture where streamed market data lands in Lakebase for the live desk and feeds analytics, ML signals and history from one copy.</summary>
-</entry>
-<entry>
 <title>Reducing Qwen training time by 6x on AI Runtime</title>
 <link href="https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime"/>
 <id>urn:rss-system-design:1c3ae698f3</id>
-<updated>2026-10-25T11:59:19Z</updated>
+<updated>2026-10-25T11:59:36Z</updated>
 <published>2026-10-14T11:30:00Z</published>
 <author><name>Databricks</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -507,48 +307,10 @@
 <summary>Databricks cut fine-tuning time for Qwen 3.8 27B from 7 hours 44 minutes to 1 hour 17 minutes using fused kernels and changes to batching, tokenization and padding.</summary>
 </entry>
 <entry>
-<title>Reducing the noise: How Atlassian built an OCSF security lakehouse on Databricks</title>
-<link href="https://www.databricks.com/blog/reducing-noise-how-atlassian-built-ocsf-security-lakehouse-databricks"/>
-<id>urn:rss-system-design:977f193b89</id>
-<updated>2026-10-25T11:59:18Z</updated>
-<published>2026-10-15T20:50:26Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>Atlassian standardized security logs on the OCSF schema and built a self-service security lakehouse on Databricks, handling 44 billion events a day and powering 500+ detection signals.</summary>
-</entry>
-<entry>
-<title>Sizing Lakebase Search: lessons from a real app and 4 million passages</title>
-<link href="https://www.databricks.com/blog/sizing-lakebase-search-lessons-real-app-and-4-million-passages"/>
-<id>urn:rss-system-design:22e0c66448</id>
-<updated>2026-10-25T11:59:17Z</updated>
-<published>2026-10-15T00:06:48Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; recommendations"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<summary>Databricks measured how search inside Lakebase Postgres behaves for the Slide Hub app and a 4-million-passage corpus, covering compute limits, candidate pools, cold starts, recall and cost.</summary>
-</entry>
-<entry>
-<title>Solving defense supply chain visibility through governed data sharing</title>
-<link href="https://www.databricks.com/blog/solving-defense-supply-chain-visibility-through-governed-data-sharing"/>
-<id>urn:rss-system-design:9358f1ad53</id>
-<updated>2026-10-25T11:59:16Z</updated>
-<published>2026-10-09T14:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<summary>Databricks proposes a federated, governed data exchange so the US Department of War can see supplier cost and supply chain data without central repositories or direct ERP connections.</summary>
-</entry>
-<entry>
 <title>The AI Bill is coming</title>
 <link href="https://www.databricks.com/blog/ai-bill-coming"/>
 <id>urn:rss-system-design:41b6b14754</id>
-<updated>2026-10-25T11:59:15Z</updated>
+<updated>2026-10-25T11:59:35Z</updated>
 <published>2026-10-22T18:12:49Z</published>
 <author><name>Databricks</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -561,7 +323,7 @@
 <title>The Fraud Analyst AI Coworker: Detecting Telecom Fraud in Real-Time on One Platform</title>
 <link href="https://www.databricks.com/blog/fraud-analyst-ai-coworker-detecting-telecom-fraud-real-time-one-platform"/>
 <id>urn:rss-system-design:c110e13f20</id>
-<updated>2026-10-25T11:59:14Z</updated>
+<updated>2026-10-25T11:59:34Z</updated>
 <published>2026-10-22T18:30:00Z</published>
 <author><name>Databricks</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -570,71 +332,10 @@
 <summary>Databricks argues that telecom fraud signals are split across six or seven systems synced by batch jobs, and outlines a unified real-time architecture and AI analyst assistant.</summary>
 </entry>
 <entry>
-<title>The new economics of AI cost management</title>
-<link href="https://www.databricks.com/blog/ai-cost-management"/>
-<id>urn:rss-system-design:34c595c5b3</id>
-<updated>2026-10-25T11:59:13Z</updated>
-<published>2026-10-22T19:14:24Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<summary>A Databricks engineer leading Unity Gateway explains how organizations should attribute, control and optimize AI spend, from request tags to on-demand context and model routing.</summary>
-</entry>
-<entry>
-<title>Transactions are Generally Available, advancing warehousing on the Lakehouse</title>
-<link href="https://www.databricks.com/blog/transactions-are-generally-available-advancing-warehousing-lakehouse"/>
-<id>urn:rss-system-design:e0bd166798</id>
-<updated>2026-10-25T11:59:12Z</updated>
-<published>2026-10-16T21:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<summary>Databricks made multi-statement, multi-table transactions generally available on Delta Lake and Apache Iceberg, with row-level concurrency and examples from Fivetran and Accolade.</summary>
-</entry>
-<entry>
-<title>Unlocking Data Portability: Preventing Catalog Lock-in with REGISTER and UNREGISTER APIs</title>
-<link href="https://www.databricks.com/blog/unlocking-data-portability-preventing-catalog-lock-register-and-unregister-apis"/>
-<id>urn:rss-system-design:a8c0638d22</id>
-<updated>2026-10-25T11:59:11Z</updated>
-<published>2026-10-05T16:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<summary>Databricks explains how Iceberg REST catalog REGISTER and the UNREGISTER endpoint it contributed let tables move between catalogs without copying data or causing split-brain commits.</summary>
-</entry>
-<entry>
-<title>What is HTAP? A plain-English guide to hybrid transactional/analytical processing</title>
-<link href="https://www.databricks.com/blog/what-htap-plain-english-guide-hybrid-transactionalanalytical-processing"/>
-<id>urn:rss-system-design:496a18ad7b</id>
-<updated>2026-10-25T11:59:10Z</updated>
-<published>2026-10-13T10:51:49Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<summary>Databricks explains how HTAP systems combine transactional and analytical processing, their trade-offs, and how TiDB, AlloyDB and Lakebase's lake-based approach implement them.</summary>
-</entry>
-<entry>
-<title>Can Agentic AI Find the Security Vulnerabilities Other Tests Miss?</title>
-<link href="https://www.erlang-solutions.com/blog/can-agentic-ai-find-the-security-vulnerabilities-other-tests-miss/"/>
-<id>urn:rss-system-design:7c42792f0b</id>
-<updated>2026-10-25T11:59:09Z</updated>
-<published>2026-10-08T08:40:46Z</published>
-<author><name>Erlang Solutions</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>Erlang Solutions describes an agent-driven security review of the Erlang/OTP repository that reported about 20 previously unknown potentially severe vulnerabilities, and how such findings must be validated.</summary>
-</entry>
-<entry>
 <title>How Meta Built Forum With AI-Native Engineering</title>
 <link href="https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/"/>
 <id>urn:rss-system-design:d57855fe70</id>
-<updated>2026-10-25T11:59:08Z</updated>
+<updated>2026-10-25T11:59:33Z</updated>
 <published>2026-10-15T19:00:03Z</published>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
@@ -647,7 +348,7 @@
 <title>Explainable AI: If You Can’t Evaluate It, Can You Trust It?</title>
 <link href="https://medium.com/feedzaitech/explainable-ai-if-you-cant-evaluate-it-can-you-trust-it-2cbfc35568e8?source=rss----e11168e7fe6b---4"/>
 <id>urn:rss-system-design:f4079ace9c</id>
-<updated>2026-10-25T11:59:07Z</updated>
+<updated>2026-10-25T11:59:32Z</updated>
 <published>2026-10-08T12:32:24Z</published>
 <author><name>Feedzai</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -658,7 +359,7 @@
 <title>From a Trace to Money Flow: How we built an interactive visualization to uncover money laundering</title>
 <link href="https://medium.com/feedzaitech/from-a-trace-to-money-flow-how-we-built-an-interactive-visualization-to-uncover-money-laundering-5424dba57e57?source=rss----e11168e7fe6b---4"/>
 <id>urn:rss-system-design:69f9338d4c</id>
-<updated>2026-10-25T11:59:06Z</updated>
+<updated>2026-10-25T11:59:31Z</updated>
 <published>2026-10-06T14:49:45Z</published>
 <author><name>Feedzai</name></author>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; mobile apps"/>
@@ -666,38 +367,10 @@
 <summary>Feedzai explains how it redesigned a fraud analysis graph into a Money Flow visualization that combines a network, a table and a sankey diagram to trace laundering networks.</summary>
 </entry>
 <entry>
-<title>The bridge to agent-scale Git infrastructure</title>
-<link href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/"/>
-<id>urn:rss-system-design:8f99f6dadd</id>
-<updated>2026-10-25T11:59:05Z</updated>
-<published>2026-10-21T16:00:00Z</published>
-<author><name>GitHub</name></author>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<summary>GitHub explains how it moved copies of 99.99999% of repositories to Azure and how per-reference quorums will move the busiest remaining ones despite a 25 ms round trip.</summary>
-</entry>
-<entry>
-<title>GitHub availability report: September 2026</title>
-<link href="https://github.blog/news-insights/company-news/github-availability-report-september-2026/"/>
-<id>urn:rss-system-design:ada3a6d29e</id>
-<updated>2026-10-25T11:59:04Z</updated>
-<published>2026-10-14T20:01:35Z</published>
-<author><name>GitHub</name></author>
-<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>GitHub's September 2026 availability report covers two incidents, including a cleanup job that exhausted a shared database's connections, and progress moving production services to Azure.</summary>
-</entry>
-<entry>
 <title>Secret protection must scale with software</title>
 <link href="https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/"/>
 <id>urn:rss-system-design:3902c43197</id>
-<updated>2026-10-25T11:59:03Z</updated>
+<updated>2026-10-25T11:59:30Z</updated>
 <published>2026-10-07T17:45:34Z</published>
 <author><name>GitHub</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -710,7 +383,7 @@
 <title>GrabMart data for faster disease outbreak detection</title>
 <link href="https://engineering.grab.com/grabmart-data-for-faster-disease-outbreak-detection"/>
 <id>urn:rss-system-design:adfb9360e3</id>
-<updated>2026-10-25T11:59:02Z</updated>
+<updated>2026-10-25T11:59:29Z</updated>
 <published>2026-10-13T00:23:00Z</published>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -722,7 +395,7 @@
 <title>Smarter personalization: How property data helps us understand user price sensitivity</title>
 <link href="https://engineering.grab.com/price-sensitivity-profiling-using-llm"/>
 <id>urn:rss-system-design:dec4559e73</id>
-<updated>2026-10-25T11:59:01Z</updated>
+<updated>2026-10-25T11:59:28Z</updated>
 <published>2026-10-06T00:23:00Z</published>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; recommendations"/>
@@ -735,7 +408,7 @@
 <title>Designing A Secure Voice AI System for Regulated Industries</title>
 <link href="https://www.haptik.ai/tech/voice-ai-system-for-regulated-industries"/>
 <id>urn:rss-system-design:0be5c97446</id>
-<updated>2026-10-25T11:59:00Z</updated>
+<updated>2026-10-25T11:59:27Z</updated>
 <published>2026-10-15T08:03:03Z</published>
 <author><name>Haptik</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -748,7 +421,7 @@
 <title>Mitigating memorization in LLMs</title>
 <link href="https://blog.janestreet.com/mitigating-memorization-in-llms/"/>
 <id>urn:rss-system-design:fb6d420756</id>
-<updated>2026-10-25T11:58:59Z</updated>
+<updated>2026-10-25T11:59:26Z</updated>
 <published>2026-09-30T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -760,7 +433,7 @@
 <title>What the SP interns have wrought, 2026 edition</title>
 <link href="https://blog.janestreet.com/wrought-2026-sp/"/>
 <id>urn:rss-system-design:799fea18cc</id>
-<updated>2026-10-25T11:58:58Z</updated>
+<updated>2026-10-25T11:59:25Z</updated>
 <published>2026-09-30T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
@@ -771,7 +444,7 @@
 <title>What the TDOE interns have wrought, 2026 edition</title>
 <link href="https://blog.janestreet.com/tdoe-intern-projects-2026/"/>
 <id>urn:rss-system-design:0edf0d705c</id>
-<updated>2026-10-25T11:58:57Z</updated>
+<updated>2026-10-25T11:59:24Z</updated>
 <published>2026-09-30T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
@@ -779,71 +452,10 @@
 <summary>Jane Street describes three Trading Desk Operations intern projects, including a system that flags discrepancies between internal voice-trade records and the public tape.</summary>
 </entry>
 <entry>
-<title>Decreasing CI Build times up to 50% by caching derived data using github actions.</title>
-<link href="https://devblog.kogan.com/blog/decreasing-ci-build-times-up-to-50-by-caching-derived-data-using-github-actions"/>
-<id>urn:rss-system-design:b31b6b582d</id>
-<updated>2026-10-25T11:58:56Z</updated>
-<published>2023-10-04T05:16:00Z</published>
-<author><name>Kogan.com</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>Kogan cut its iOS CI build time from over 30 minutes to about 15 by caching Xcode derived data in GitHub Actions, keyed by the nearest develop commit.</summary>
-</entry>
-<entry>
-<title>Introducing The Developer Workflow Team</title>
-<link href="https://coopcoopbware.tumblr.com/post/167553827650"/>
-<id>urn:rss-system-design:3100f55c09</id>
-<updated>2026-10-25T11:58:55Z</updated>
-<published>2017-11-16T14:12:16Z</published>
-<author><name>Mozilla</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; process decisions"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>Mozilla introduces its Developer Workflow team, explains why it scoped itself beyond the build system, and lists its planned build migrations and what it chose not to do.</summary>
-</entry>
-<entry>
-<title>New to me: the Taskcluster team</title>
-<link href="https://coopcoopbware.tumblr.com/post/173126143130"/>
-<id>urn:rss-system-design:dea7039a16</id>
-<updated>2026-10-25T11:58:54Z</updated>
-<published>2018-04-20T13:03:00Z</published>
-<author><name>Mozilla</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; process decisions"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<summary>Mozilla's Taskcluster manager explains taking on that team, and its priorities: redeployability, support for packet.net bare-metal and ARM hardware, and keeping the lights on.</summary>
-</entry>
-<entry>
-<title>Shameless self (release) promotion: Firefox 53.0b1 from TaskCluster</title>
-<link href="https://coopcoopbware.tumblr.com/post/158362146735"/>
-<id>urn:rss-system-design:3313a09ff0</id>
-<updated>2026-10-25T11:58:53Z</updated>
-<published>2017-03-13T19:17:17Z</published>
-<author><name>Mozilla</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<summary>Mozilla released Firefox 53.0b1 for Linux and Android from TaskCluster while Mac and Windows still came from buildbot, using the same task graph as nightly builds.</summary>
-</entry>
-<entry>
-<title>Taskcluster: CI for Engineers</title>
-<link href="https://coopcoopbware.tumblr.com/post/636411382111272960"/>
-<id>urn:rss-system-design:7442d07b68</id>
-<updated>2026-10-25T11:58:52Z</updated>
-<published>2020-12-02T17:13:09Z</published>
-<author><name>Mozilla</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<summary>Mozilla removed Taskcluster's need for Azure and Heroku so it can be installed on Kubernetes outside Mozilla, and describes when the CI system is a good fit.</summary>
-</entry>
-<entry>
 <title>Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale</title>
 <link href="https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:82a3371158</id>
-<updated>2026-10-25T11:58:51Z</updated>
+<updated>2026-10-25T11:59:23Z</updated>
 <published>2026-10-16T16:01:02Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
@@ -855,7 +467,7 @@
 <title>The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale</title>
 <link href="https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:44f624f424</id>
-<updated>2026-10-25T11:58:50Z</updated>
+<updated>2026-10-25T11:59:22Z</updated>
 <published>2026-10-14T19:48:49Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -863,23 +475,10 @@
 <summary>Netflix describes the lifecycle of an LLM judge for recommendation explanations, from human-labeled benchmarks and reasoning-aligned rubric tuning to deployment and weekly human monitoring.</summary>
 </entry>
 <entry>
-<title>API Gateway and AI Gateway: Do You Need Both?</title>
-<link href="https://nordicapis.com/api-gateway-and-ai-gateway-do-you-need-both/"/>
-<id>urn:rss-system-design:2d935e28e3</id>
-<updated>2026-10-25T11:58:49Z</updated>
-<published>2026-10-21T07:00:00Z</published>
-<author><name>Nordic APIs</name></author>
-<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>Nordic APIs compares API gateways and AI gateways on direction of traffic, caching, rate limiting, security and monitoring, and argues most companies building LLM applications need both.</summary>
-</entry>
-<entry>
 <title>Agentic on the coach's couch: 24 questions, eight projects</title>
 <link href="https://blog-octo-com.translate.goog/l'agentic-sur-le-divan-du-coach--24-questions-huit-projets?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:fff4ba5c8f</id>
-<updated>2026-10-25T11:58:48Z</updated>
+<updated>2026-10-25T11:59:21Z</updated>
 <published>2026-10-02T16:03:10Z</published>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
@@ -892,7 +491,7 @@
 <title>Towards a model platform</title>
 <link href="https://blog-octo-com.translate.goog/vers-une-plateforme-de-modeles?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:48d0baca73</id>
-<updated>2026-10-25T11:58:47Z</updated>
+<updated>2026-10-25T11:59:20Z</updated>
 <published>2026-10-16T09:56:10Z</published>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -904,7 +503,7 @@
 <title>Introducing ModuleLens: Zooming into PyTorch Modules for Human and Agentic Engineering</title>
 <link href="https://medium.com/pinterest-engineering/introducing-modulelens-zooming-into-pytorch-modules-for-human-and-agentic-engineering-b7e9be9d29f8?source=rss-ef81ef829bcb------2"/>
 <id>urn:rss-system-design:156f20b288</id>
-<updated>2026-10-25T11:58:46Z</updated>
+<updated>2026-10-25T11:59:19Z</updated>
 <published>2026-10-19T15:01:04Z</published>
 <author><name>Pinterest</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -916,7 +515,7 @@
 <title>Open Source Profiler on an Internet Scale Fleet: Pinterest and Intel Partnership on gProfiler</title>
 <link href="https://medium.com/@Pinterest_Engineering/open-source-profiler-on-an-internet-scale-fleet-pinterest-and-intel-partnership-on-gprofiler-8fcb387d899c?source=rss-ef81ef829bcb------2"/>
 <id>urn:rss-system-design:0a44faa137</id>
-<updated>2026-10-25T11:58:45Z</updated>
+<updated>2026-10-25T11:59:18Z</updated>
 <published>2026-10-16T15:01:03Z</published>
 <author><name>Pinterest</name></author>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
@@ -925,121 +524,10 @@
 <summary>Pinterest and Intel describe adopting and extending the open-source gProfiler for continuous profiling across hundreds of thousands of instances, including dynamic profiling and hardware counter flame graphs.</summary>
 </entry>
 <entry>
-<title>Organizations need decision-grade knowledge. AI makes it urgent.</title>
-<link href="https://stackoverflow.blog/2026/09/30/organizations-need-decision-grade-knowledge-ai-makes-it-urgent/"/>
-<id>urn:rss-system-design:1e730646f0</id>
-<updated>2026-10-25T11:58:44Z</updated>
-<published>2026-09-30T17:00:00Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<summary>Stack Overflow explains the product decision behind Stack Internal, arguing that retrieval alone does not give answers people can act on and that experts should validate knowledge selectively.</summary>
-</entry>
-<entry>
-<title>Part 1: Make your AI agents boring: the determinism layer</title>
-<link href="https://stackoverflow.blog/2026/10/07/part-1-make-your-ai-agents-boring-the-determinism-layer/"/>
-<id>urn:rss-system-design:03ac2f9931</id>
-<updated>2026-10-25T11:58:43Z</updated>
-<published>2026-10-07T20:14:49Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<summary>Part 1 of a Stack Overflow series on production LLM systems describes a determinism layer where agents only propose actions and fixed graphs, typed outputs and a ledger keep systems testable.</summary>
-</entry>
-<entry>
-<title>Part 2: Evals as a deployment gate — and how to know when they drift</title>
-<link href="https://stackoverflow.blog/2026/10/07/evals-as-a-deployment-gate-and-how-to-know-when-they-drift/"/>
-<id>urn:rss-system-design:d56f64b12c</id>
-<updated>2026-10-25T11:58:42Z</updated>
-<published>2026-10-07T20:31:12Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>Part 2 of a Stack Overflow series on production LLM systems describes evals as a CI deployment gate plus baselines and shadow evals to catch drift.</summary>
-</entry>
-<entry>
-<title>Part 3: Knowing when your agent doesn’t know: the confidence layer</title>
-<link href="https://stackoverflow.blog/2026/10/07/part-3-knowing-when-your-agent-doesn-t-know-the-confidence-layer/"/>
-<id>urn:rss-system-design:b244d6b77f</id>
-<updated>2026-10-25T11:58:41Z</updated>
-<published>2026-10-07T20:40:29Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<summary>Part 3 of a Stack Overflow series on production LLM systems describes composing calibrated confidence from several signals, sampling a judge model and routing uncertain decisions to humans.</summary>
-</entry>
-<entry>
-<title>Part 4: Safety and governance for LLM systems: guardrails, PII, audit, and memory</title>
-<link href="https://stackoverflow.blog/2026/10/07/part-4-safety-and-governance-for-llm-systems-guardrails-pii-audit-and-memory/"/>
-<id>urn:rss-system-design:1fe4dc2492</id>
-<updated>2026-10-25T11:58:40Z</updated>
-<published>2026-10-07T20:48:55Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<summary>Part 4 of a Stack Overflow series on production LLM systems describes layered fail-closed guardrails, PII redaction at boundaries, an immutable audit ledger and scoped multi-tenant memory.</summary>
-</entry>
-<entry>
-<title>Part 5: Operating an LLM system: observability, cost, routing, and the platform underneath</title>
-<link href="https://stackoverflow.blog/2026/10/08/part-5-operating-an-llm-system-observability-cost-routing-and-the-platform-underneath/"/>
-<id>urn:rss-system-design:34f30611d9</id>
-<updated>2026-10-25T11:58:39Z</updated>
-<published>2026-10-08T20:08:53Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<summary>Part 5 of a Stack Overflow series on production LLM systems specifies decision-level observability, cost control at a gateway chokepoint, model routing and fallback, a kill switch and identity.</summary>
-</entry>
-<entry>
-<title>Part 6: An operating system for coding agents: the disciplined build</title>
-<link href="https://stackoverflow.blog/2026/10/07/part-6-an-operating-system-for-coding-agents-the-disciplined-build/"/>
-<id>urn:rss-system-design:d7052cce1c</id>
-<updated>2026-10-25T11:58:38Z</updated>
-<published>2026-10-07T20:09:22Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>Part 6 of a Stack Overflow series describes a harness for coding agents, from a constitution file and autonomy boundary to tiered context, memory, review panels and decision logs.</summary>
-</entry>
-<entry>
-<title>Why your platform team shouldn't build an AI context layer (even though they probably could)</title>
-<link href="https://stackoverflow.blog/2026/10/15/your-team-shouldnt-build-an-ai-context-layer/"/>
-<id>urn:rss-system-design:e5b615f2f0</id>
-<updated>2026-10-25T11:58:37Z</updated>
-<published>2026-10-15T17:00:00Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<summary>Stack Overflow argues that platform teams should not build an internal AI context layer, because capture, validation, governance and delivery become ongoing maintenance costs.</summary>
-</entry>
-<entry>
-<title>Why I tried to kill token billing (and why we kept it)</title>
-<link href="https://stripe.com/blog/where-pricing-is-headed"/>
-<id>urn:rss-system-design:1d7be80d9a</id>
-<updated>2026-10-25T11:58:36Z</updated>
-<published>2026-10-01T00:00:00Z</published>
-<author><name>Stripe</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<summary>Metronome's author explains why token billing is a poor customer-facing price but useful backend infrastructure, and argues for unified credits and output-based pricing.</summary>
-</entry>
-<entry>
 <title>Continuous Aggregate Refresh Policies for Solar and Wind SCADA Data: Choosing the Right Policy Shape</title>
 <link href="https://www.tigerdata.com/blog/continuous-aggregate-refresh-policies-solar-wind-scada"/>
 <id>urn:rss-system-design:54eb9bf022</id>
-<updated>2026-10-25T11:58:35Z</updated>
+<updated>2026-10-25T11:59:17Z</updated>
 <published>2026-10-07T12:14:21Z</published>
 <author><name>Timescale</name></author>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
@@ -1051,7 +539,7 @@
 <title>"I'm Sorry, Have We Met?" — Frictionless Memory for AI</title>
 <link href="https://tech.trivago.com/post/2026-10-16-im-sorry-have-we-met--frictionless-memory-for-ai/"/>
 <id>urn:rss-system-design:2bf9c7d142</id>
-<updated>2026-10-25T11:58:34Z</updated>
+<updated>2026-10-25T11:59:16Z</updated>
 <published>2026-10-16T00:00:00Z</published>
 <author><name>trivago</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -1156,22 +644,10 @@
 <summary>Shopify built Remote Dev, a pool of warm remote Macs that AI agents claim over SSH to build and test its mobile apps, with Android emulators on separate Linux VMs.</summary>
 </entry>
 <entry>
-<title>The Regression Tests Nobody Writes: Capturing How Software Actually Behaves</title>
-<link href="https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/"/>
-<id>urn:rss-system-design:b94797c028</id>
-<updated>2026-10-23T11:59:54Z</updated>
-<published>2026-10-22T19:37:29Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<summary>The article describes characterization tests and proposes recording a service's real network traffic, including database and queue calls, and replaying it to detect behaviour changes in long-lived systems.</summary>
-</entry>
-<entry>
 <title>How Retention Policies Silently Break Continuous Aggregates</title>
 <link href="https://www.tigerdata.com/blog/how-retention-policies-silently-break-continuous-aggregates"/>
 <id>urn:rss-system-design:0ddec0b5cd</id>
-<updated>2026-10-23T11:59:53Z</updated>
+<updated>2026-10-23T11:59:54Z</updated>
 <published>2026-10-23T12:28:41Z</published>
 <author><name>Timescale</name></author>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
@@ -1240,23 +716,10 @@
 <summary>Tiger Data built three memory systems for its Slack agent Eon, a fact list, a PostgreSQL knowledge graph and an ltree tree with hybrid search, and kept the tree.</summary>
 </entry>
 <entry>
-<title>Use Scenario Tables to Identify Requirements</title>
-<link href="https://spin.atomicobject.com/scenario-tables-requirements/"/>
-<id>urn:rss-system-design:eb7ddb8ec5</id>
-<updated>2026-10-21T12:00:00Z</updated>
-<published>2026-10-21T12:00:44Z</published>
-<author><name>Atomic Object</name></author>
-<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
-<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; process decisions"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>The author built a scenario table from the code of a nightly due-date sync job and reviewed it row by row with client staff, which exposed missing requirements.</summary>
-</entry>
-<entry>
 <title>8 eMudhra certificates are compromised. Here's what you need to know</title>
 <link href="https://blog.cloudflare.com/emudhra-certificate-compromise/"/>
 <id>urn:rss-system-design:f1bf501de5</id>
-<updated>2026-10-21T11:59:59Z</updated>
+<updated>2026-10-21T12:00:00Z</updated>
 <published>2026-10-20T22:20:16Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -1264,22 +727,10 @@
 <summary>Cloudflare describes its response after private keys of eight eMudhra intermediate certificates were compromised, including trust-store updates and CDN and Zero Trust mitigations deployed on October 20.</summary>
 </entry>
 <entry>
-<title>How Hamlet uses Databricks Lakebase Postgres to test changes against production data</title>
-<link href="https://www.databricks.com/blog/how-hamlet-uses-databricks-lakebase-postgres-test-changes-against-production-data"/>
-<id>urn:rss-system-design:626e063ebd</id>
-<updated>2026-10-21T11:59:58Z</updated>
-<published>2026-10-20T14:45:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>Hamlet moved pull request validation to Databricks Lakebase, where each pull request gets a copy-on-write branch of production data for its preview environment and AI coding agents.</summary>
-</entry>
-<entry>
 <title>The Quiet Tax on Machine Learning Teams</title>
 <link href="https://medium.com/expedia-group-tech/the-quiet-tax-on-machine-learning-teams-43d71bd539c7?source=rss----38998a53046f---4"/>
 <id>urn:rss-system-design:fe8770f1fd</id>
-<updated>2026-10-21T11:59:57Z</updated>
+<updated>2026-10-21T11:59:59Z</updated>
 <published>2026-10-20T15:38:37Z</published>
 <author><name>Expedia Group</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -1288,23 +739,10 @@
 <summary>Expedia Group built a CLI that scaffolds ML projects per business domain and copies shared infrastructure code into each project, to stop repeating CI/CD, permission and cluster setup for every model.</summary>
 </entry>
 <entry>
-<title>The Technology Behind the Names: How We're Bringing Local War Memorials to Life</title>
-<link href="https://tech.findmypast.com/technology-behind-names/"/>
-<id>urn:rss-system-design:b33b5e772c</id>
-<updated>2026-10-21T11:59:56Z</updated>
-<published>2026-10-20T13:00:00Z</published>
-<author><name>Findmypast</name></author>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>Findmypast linked military and census records into a graph, used embeddings for spelling variants and AI checks on newspaper articles to tell the stories behind names on over 9,000 WW1 memorials.</summary>
-</entry>
-<entry>
 <title>How 3 Java Champions are using GitHub Copilot for increased productivity</title>
 <link href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"/>
 <id>urn:rss-system-design:fbec33bd28</id>
-<updated>2026-10-21T11:59:55Z</updated>
+<updated>2026-10-21T11:59:58Z</updated>
 <published>2026-10-20T16:05:03Z</published>
 <author><name>GitHub</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
@@ -1317,7 +755,7 @@
 <title>App stability at scale with a layered defense</title>
 <link href="https://engineering.grab.com/app-stability-at-scale-with-a-layered-defense"/>
 <id>urn:rss-system-design:6d1bafd633</id>
-<updated>2026-10-21T11:59:54Z</updated>
+<updated>2026-10-21T11:59:57Z</updated>
 <published>2026-10-21T00:23:00Z</published>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; mobile apps"/>
@@ -1329,7 +767,7 @@
 <title>Cross-store product clustering across millions of stores</title>
 <link href="https://shopify.engineering/catalog-clustering-part-ii"/>
 <id>urn:rss-system-design:2a8881dbb8</id>
-<updated>2026-10-21T11:59:53Z</updated>
+<updated>2026-10-21T11:59:56Z</updated>
 <published>2026-10-20T13:48:59Z</published>
 <author><name>Shopify</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -1341,7 +779,7 @@
 <title>How Shopify turns open models into task experts</title>
 <link href="https://shopify.engineering/open-model-task-experts"/>
 <id>urn:rss-system-design:497306ca80</id>
-<updated>2026-10-21T11:59:52Z</updated>
+<updated>2026-10-21T11:59:55Z</updated>
 <published>2026-10-21T02:12:40Z</published>
 <author><name>Shopify</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -1355,7 +793,7 @@
 <title>Designing IIoT Ingest That Survives a Cut Uplink</title>
 <link href="https://www.tigerdata.com/blog/designing-iiot-ingest-that-survives-cut-uplink"/>
 <id>urn:rss-system-design:2184dc86d6</id>
-<updated>2026-10-21T11:59:51Z</updated>
+<updated>2026-10-21T11:59:54Z</updated>
 <published>2026-10-21T12:08:45Z</published>
 <author><name>Timescale</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -1365,22 +803,10 @@
 <summary>A guide to an IIoT ingest path in PostgreSQL that replays buffered rows exactly once after an outage, using a unique constraint, a SQLite buffer and a rate-capped COPY replay.</summary>
 </entry>
 <entry>
-<title>Observability At Scale — Every Byte Counts</title>
-<link href="https://medium.com/wise-engineering/observability-at-scale-every-byte-counts-80f5e505d710?source=rss----f2565bbe9c46---4"/>
-<id>urn:rss-system-design:1d8a5ddb6d</id>
-<updated>2026-10-21T11:59:50Z</updated>
-<published>2026-10-20T13:03:15Z</published>
-<author><name>Wise</name></author>
-<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>Wise cut monthly observability spend by 40% through five changes, including lz4 for Loki chunks, zstd for traces, Prometheus Remote Write v2 and a larger query split interval.</summary>
-</entry>
-<entry>
 <title>Spin-Up, Test, Tear-Down: How trivago Runs 600+ Preview Environments on Kubernetes</title>
 <link href="https://tech.trivago.com/post/2026-10-20-spin-up-test-tear-down-how-trivago-runs-600-preview-environments-on-kubernetes/"/>
 <id>urn:rss-system-design:55c045d7ab</id>
-<updated>2026-10-21T11:59:49Z</updated>
+<updated>2026-10-21T11:59:53Z</updated>
 <published>2026-10-20T00:00:00Z</published>
 <author><name>trivago</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
@@ -1466,34 +892,10 @@
 <summary>Shopify built Overexposed, a scanner that lists GKE Ingresses and Cloud Run services from Cloud Asset Inventory and probes each anonymously to find unintended public exposure.</summary>
 </entry>
 <entry>
-<title>How to Run SQL Server Outside Docker Sandboxes</title>
-<link href="https://spin.atomicobject.com/sql-server-outside-sandboxes/"/>
-<id>urn:rss-system-design:68dfaccc9a</id>
-<updated>2026-10-19T12:00:00Z</updated>
-<published>2026-10-19T12:00:34Z</published>
-<author><name>Atomic Object</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>The author ran one SQL Server on the host for several Claude Code agents in Docker sbx sandboxes, giving each sandbox its own database name and forwarding a port with socat.</summary>
-</entry>
-<entry>
-<title>Exploring OTP Patterns for Agentic Workflows</title>
-<link href="https://www.erlang-solutions.com/blog/exploring-otp-patterns-for-agentic-workflows/"/>
-<id>urn:rss-system-design:3c1909279b</id>
-<updated>2026-10-19T11:59:59Z</updated>
-<published>2026-10-19T11:31:55Z</published>
-<author><name>Erlang Solutions</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<summary>The first chapter on OTP patterns for agent workflows keeps each run's state in one GenServer and rebuilds it after a crash from an append-only log of goals, decisions and results.</summary>
-</entry>
-<entry>
 <title>A pragmatic guide to AI-assisted development</title>
 <link href="https://feed.thoughtbot.com/link/24077/17500399/a-pragmatic-guide-to-ai-assisted-development"/>
 <id>urn:rss-system-design:f1c56c4fdb</id>
-<updated>2026-10-19T11:59:58Z</updated>
+<updated>2026-10-19T12:00:00Z</updated>
 <published>2026-10-19T00:00:00Z</published>
 <author><name>thoughtbot</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
@@ -1504,21 +906,10 @@
 <summary>The author used Claude Code with Opus 5.5 to trace and fix a bug in an internal scheduling tool, with separate sessions for implementation, review and verification, ending in a one-line change.</summary>
 </entry>
 <entry>
-<title>On-Behalf-Of Is a Pattern. Token Exchange Is the Standard.</title>
-<link href="https://auth0.com/blog/on-behalf-of-is-a-pattern-token-exchange-is-the-standard/"/>
-<id>urn:rss-system-design:0d548d196e</id>
-<updated>2026-10-17T12:00:00Z</updated>
-<published>2026-10-16T10:38:00Z</published>
-<author><name>Auth0</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<summary>The article compares the On-Behalf-Of pattern, Microsoft's jwt-bearer flow and RFC 8693 Token Exchange for delegated API calls, and how each applies to AI agents.</summary>
-</entry>
-<entry>
 <title>Continuous accountability for Verified bots</title>
 <link href="https://blog.cloudflare.com/verified-bots-accountability/"/>
 <id>urn:rss-system-design:34e98f1886</id>
-<updated>2026-10-17T11:59:59Z</updated>
+<updated>2026-10-17T12:00:00Z</updated>
 <published>2026-10-16T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -1529,7 +920,7 @@
 <title>Flex Model: an event-driven feature engineering system</title>
 <link href="https://blog.janestreet.com/flex-model-an-event-driven-feature-engineering-system/"/>
 <id>urn:rss-system-design:c43be8ebb5</id>
-<updated>2026-10-17T11:59:58Z</updated>
+<updated>2026-10-17T11:59:59Z</updated>
 <published>2026-10-13T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -1542,7 +933,7 @@
 <title>Agent rooms: the only place where you are happy to be contradicted</title>
 <link href="https://blog-octo-com.translate.goog/les-salles-d'agents--le-seul-endroit-ou-l'on-est-content-d'etre-contredit?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:c9dd80811d</id>
-<updated>2026-10-17T11:59:57Z</updated>
+<updated>2026-10-17T11:59:58Z</updated>
 <published>2026-10-16T18:54:11Z</published>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -1555,7 +946,7 @@
 <title>Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM</title>
 <link href="https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/"/>
 <id>urn:rss-system-design:e42f5608ab</id>
-<updated>2026-10-17T11:59:56Z</updated>
+<updated>2026-10-17T11:59:57Z</updated>
 <published>2026-10-16T14:29:18Z</published>
 <author><name>Spotify</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -1590,23 +981,10 @@
 <summary>Cloudflare and OpenAI ran a research pilot in which signals from Cloudflare's network helped OpenAI's search crawler discover and index new web pages for ChatGPT.</summary>
 </entry>
 <entry>
-<title>How FactSet cut model training and deployment from days to hours with Databricks AI Runtime</title>
-<link href="https://www.databricks.com/blog/how-factset-cut-model-training-and-deployment-days-hours-databricks-ai-runtime"/>
-<id>urn:rss-system-design:b3a0405976</id>
-<updated>2026-10-16T11:59:58Z</updated>
-<published>2026-10-14T22:55:41Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
-<summary>FactSet moved its Text-to-Formula system from a RAG approach to regularly retrained fine-tuned open models, running the retraining on Databricks AI Runtime serverless GPUs.</summary>
-</entry>
-<entry>
 <title>2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale</title>
 <link href="https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/"/>
 <id>urn:rss-system-design:40f3aca09c</id>
-<updated>2026-10-16T11:59:57Z</updated>
+<updated>2026-10-16T11:59:58Z</updated>
 <published>2026-10-15T18:30:29Z</published>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
@@ -1617,59 +995,10 @@
 <summary>Meta describes how it prepared its infrastructure for record World Cup 2026 traffic with capacity buffers, graceful degradation, per-region forecasting and continued deployments.</summary>
 </entry>
 <entry>
-<title>Staying Evergreen: How we automated secure access and repo hygiene in a shared org</title>
-<link href="https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/"/>
-<id>urn:rss-system-design:3571a14eeb</id>
-<updated>2026-10-16T11:59:56Z</updated>
-<published>2026-10-15T18:00:00Z</published>
-<author><name>GitHub</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>GitHub built Evergreen, a GitHub App that automates quarterly outside collaborator access reviews and archives stale repositories in a shared organization.</summary>
-</entry>
-<entry>
-<title>MCP standardized tools. Now we need the infrastructure around them.</title>
-<link href="https://stackoverflow.blog/2026/10/15/mcp-standardized-tools-now-we-need-the-infrastructure-around-them/"/>
-<id>urn:rss-system-design:eccca181ec</id>
-<updated>2026-10-16T11:59:55Z</updated>
-<published>2026-10-15T20:39:29Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<summary>The author of Hexum.dev argues that MCP standardized tool interfaces but left authentication, deployment, tool selection, security, reliability and observability for teams to build.</summary>
-</entry>
-<entry>
-<title>“Impossible to Hide Secret …”: Uncovering Security and Privacy Issues in LLM-Native IDEs</title>
-<link href="https://stackoverflow.blog/2026/10/06/impossible-to-hide-secret-uncovering-security-and-privacy-issues-in-llm-native-ides/"/>
-<id>urn:rss-system-design:58d927224d</id>
-<updated>2026-10-16T11:59:54Z</updated>
-<published>2026-10-06T20:04:14Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<summary>A summary of a preprint study that built a taxonomy of security and privacy incidents developers reported about LLM-native IDEs and the mitigations they used.</summary>
-</entry>
-<entry>
-<title>How I Designed a Roommate Matching Tool on a 20KB Budget</title>
-<link href="https://spin.atomicobject.com/roommate-matching-tool/"/>
-<id>urn:rss-system-design:a40524672a</id>
-<updated>2026-10-15T12:00:00Z</updated>
-<published>2026-10-15T12:00:38Z</published>
-<author><name>Atomic Object</name></author>
-<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; mobile apps"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<summary>A design team built a self-service roommate matching website for a housing nonprofit whose participants use low-data phones, explaining each design choice against those constraints.</summary>
-</entry>
-<entry>
 <title>Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug</title>
 <link href="https://blog.cloudflare.com/hyperdrive-mysql/"/>
 <id>urn:rss-system-design:d5ae079938</id>
-<updated>2026-10-15T11:59:59Z</updated>
+<updated>2026-10-15T12:00:00Z</updated>
 <published>2026-10-14T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
@@ -1681,7 +1010,7 @@
 <title>Yandex outage: Data shows that instead of going dark, malicious bots went on the move</title>
 <link href="https://blog.cloudflare.com/yandex-outage/"/>
 <id>urn:rss-system-design:ee3005fe32</id>
-<updated>2026-10-15T11:59:58Z</updated>
+<updated>2026-10-15T11:59:59Z</updated>
 <published>2026-10-14T20:24:19Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
@@ -1693,7 +1022,7 @@
 <title>Don’t get burned, make your Stripe MRR boring and correct</title>
 <link href="https://evilmartians.com/chronicles/dont-get-burned-make-your-stripe-mrr-boring-and-correct"/>
 <id>urn:rss-system-design:90e2b85958</id>
-<updated>2026-10-15T11:59:57Z</updated>
+<updated>2026-10-15T11:59:58Z</updated>
 <published>2026-10-14T00:00:00Z</published>
 <author><name>Evil Martians</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -1703,24 +1032,10 @@
 <summary>A guide to calculating monthly recurring revenue from Stripe subscription state and choosing subscription-change strategies so that each MRR movement is classified correctly.</summary>
 </entry>
 <entry>
-<title>From 2,500 requests to 24: Rebuilding star history without the stargazers</title>
-<link href="https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/"/>
-<id>urn:rss-system-design:0c37ff6588</id>
-<updated>2026-10-15T11:59:56Z</updated>
-<published>2026-10-14T19:11:33Z</published>
-<author><name>GitHub</name></author>
-<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>GitHub replaced identity-based stargazer pagination with a time-filtered aggregate star history endpoint, reducing a typical history from 2,500 requests to 24 and cutting privacy exposure and database cost.</summary>
-</entry>
-<entry>
 <title>Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II</title>
 <link href="https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:c628cb242f</id>
-<updated>2026-10-15T11:59:55Z</updated>
+<updated>2026-10-15T11:59:57Z</updated>
 <published>2026-10-14T19:51:35Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -1732,7 +1047,7 @@
 <title>DataJunction as Netflix’s answer to the missing piece of the modern data stack</title>
 <link href="https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:cafc6aac0f</id>
-<updated>2026-10-15T11:59:54Z</updated>
+<updated>2026-10-15T11:59:56Z</updated>
 <published>2026-10-14T19:59:08Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -1744,7 +1059,7 @@
 <title>Integrating Netflix’s Foundation Model into Personalization applications</title>
 <link href="https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:6c2c424ddc</id>
-<updated>2026-10-15T11:59:53Z</updated>
+<updated>2026-10-15T11:59:55Z</updated>
 <published>2026-10-14T20:02:22Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -1756,7 +1071,7 @@
 <title>Measuring the Impact of Personalized Recommendations</title>
 <link href="https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:9a9192d40f</id>
-<updated>2026-10-15T11:59:52Z</updated>
+<updated>2026-10-15T11:59:54Z</updated>
 <published>2026-10-14T19:57:43Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; recommendations"/>
@@ -1767,7 +1082,7 @@
 <title>Netflix Conductor: The Next Chapter</title>
 <link href="https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:f58f3f82b9</id>
-<updated>2026-10-15T11:59:51Z</updated>
+<updated>2026-10-15T11:59:53Z</updated>
 <published>2026-10-14T19:50:17Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service architecture &amp; APIs"/>
@@ -1779,7 +1094,7 @@
 <title>Netflix Stratum Media Processing: Automated Container Right-Sizing</title>
 <link href="https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:9735a41892</id>
-<updated>2026-10-15T11:59:50Z</updated>
+<updated>2026-10-15T11:59:52Z</updated>
 <published>2026-10-14T19:48:20Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
@@ -1791,7 +1106,7 @@
 <title>Reliable GPU compute for large training &amp; inference jobs</title>
 <link href="https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:e4f4b68141</id>
-<updated>2026-10-15T11:59:49Z</updated>
+<updated>2026-10-15T11:59:51Z</updated>
 <published>2026-10-14T19:47:42Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
@@ -1803,7 +1118,7 @@
 <title>Running Apache Spark experiments in my sleep (and on a plane)</title>
 <link href="https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:c6c5908992</id>
-<updated>2026-10-15T11:59:48Z</updated>
+<updated>2026-10-15T11:59:50Z</updated>
 <published>2026-10-14T19:49:11Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -1815,7 +1130,7 @@
 <title>TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads</title>
 <link href="https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:1aa653cec9</id>
-<updated>2026-10-15T11:59:47Z</updated>
+<updated>2026-10-15T11:59:49Z</updated>
 <published>2026-10-14T19:56:08Z</published>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
@@ -1828,7 +1143,7 @@
 <title>Systemic Digital Twin: collecting field activities</title>
 <link href="https://blog-octo-com.translate.goog/jumeau-numerique-systemique--referentiel-et-data?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:55ce7c5c65</id>
-<updated>2026-10-15T11:59:46Z</updated>
+<updated>2026-10-15T11:59:48Z</updated>
 <published>2026-10-15T08:21:10Z</published>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -1886,33 +1201,10 @@
 <summary>GitHub replaced an LLM-based generic secret detection pipeline with regex candidate generation plus a fine-tuned ModernBERT classifier, and describes its training, evaluation and rollout.</summary>
 </entry>
 <entry>
-<title>Why Your Sandbox Never Quite Matches Production (And Why That's Fine)</title>
-<link href="https://stackoverflow.blog/2026/10/13/why-your-sandbox-never-quite-matches-production-and-why-that-s-fine/"/>
-<id>urn:rss-system-design:affc7218e2</id>
-<updated>2026-10-14T11:59:56Z</updated>
-<published>2026-10-13T16:35:35Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<summary>An opinion piece arguing that sandbox environments always drift from production and that effort should go to keeping simulated upstream behavioral contracts current rather than full infrastructure parity.</summary>
-</entry>
-<entry>
-<title>The “alien” economics of AI monetization</title>
-<link href="https://stripe.com/blog/economics-of-ai-monetization"/>
-<id>urn:rss-system-design:26f69b8a03</id>
-<updated>2026-10-14T11:59:55Z</updated>
-<published>2026-10-13T00:00:00Z</published>
-<author><name>Stripe</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost efficiency"/>
-<summary>A recap of Stripe's Monetize conference describing how Fin, Snowflake, Replit, Clay and others changed pricing, cost controls and value measurement for AI products.</summary>
-</entry>
-<entry>
 <title>Announcing pg_vectorsearch: Scalable Open-Source Vector Search in PostgreSQL</title>
 <link href="https://www.tigerdata.com/blog/announcing-pg_vectorsearch-scalable-open-source-vector-search-postgresql"/>
 <id>urn:rss-system-design:20f7187768</id>
-<updated>2026-10-14T11:59:54Z</updated>
+<updated>2026-10-14T11:59:56Z</updated>
 <published>2026-10-13T14:40:36Z</published>
 <author><name>Timescale</name></author>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; recommendations"/>
@@ -1934,34 +1226,10 @@
 <summary>Cloudflare embedded Apache DataFusion in its Go-based Logpush service so customers can filter, reshape and redact logs before export, after rejecting a Workers-based prototype.</summary>
 </entry>
 <entry>
-<title>How Flo Health built safer, more useful open models with Databricks AI Runtime</title>
-<link href="https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime"/>
-<id>urn:rss-system-design:834448fbd4</id>
-<updated>2026-10-13T11:59:59Z</updated>
-<published>2026-10-12T15:13:04Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<summary>Flo Health moved from a general-purpose model API to fine-tuned open models, building an evaluation framework of AI judges first and using it as the training signal.</summary>
-</entry>
-<entry>
-<title>Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions</title>
-<link href="https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/"/>
-<id>urn:rss-system-design:ebcb262565</id>
-<updated>2026-10-13T11:59:58Z</updated>
-<published>2026-10-12T16:00:00Z</published>
-<author><name>Docker</name></author>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; identity"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<summary>Docker describes a Docker Hub flaw where account-to-organization conversion reassigned personal access tokens to a new owner without rotating them, and the fix and design changes that followed.</summary>
-</entry>
-<entry>
 <title>OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks</title>
 <link href="https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/"/>
 <id>urn:rss-system-design:4b416d6814</id>
-<updated>2026-10-13T11:59:57Z</updated>
+<updated>2026-10-13T11:59:59Z</updated>
 <published>2026-10-12T21:19:18Z</published>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
@@ -1973,7 +1241,7 @@
 <title>Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest</title>
 <link href="https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/"/>
 <id>urn:rss-system-design:05317d29c2</id>
-<updated>2026-10-13T11:59:56Z</updated>
+<updated>2026-10-13T11:59:58Z</updated>
 <published>2026-10-12T16:01:32Z</published>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; edge"/>
@@ -1985,7 +1253,7 @@
 <title>Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations</title>
 <link href="https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/"/>
 <id>urn:rss-system-design:2d2a49a48e</id>
-<updated>2026-10-13T11:59:55Z</updated>
+<updated>2026-10-13T11:59:57Z</updated>
 <published>2026-10-12T16:00:50Z</published>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -2044,30 +1312,6 @@
 <category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; product drivers"/>
 <category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; evolution"/>
 <summary>Cloudflare redesigned the Radar landing page for non-expert audiences, replacing a bento layout with a tabbed flow and moving to shared Kumo components.</summary>
-</entry>
-<entry>
-<title>Load terabytes of data in minutes into Lakebase Postgres</title>
-<link href="https://www.databricks.com/blog/load-terabytes-data-minutes-lakebase-postgres"/>
-<id>urn:rss-system-design:4ef67c4267</id>
-<updated>2026-10-09T11:59:59Z</updated>
-<published>2026-10-08T18:49:31Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>Databricks Lakebase removed the single-writer Postgres bottleneck for bulk loads by having Spark build heap pages and B-tree indexes in parallel and swapping them in atomically.</summary>
-</entry>
-<entry>
-<title>A green exit code is not evidence that the work happened</title>
-<link href="https://stackoverflow.blog/2026/10/08/a-green-exit-code-is-not-evidence-that-the-work-happened/"/>
-<id>urn:rss-system-design:e32a5d99e2</id>
-<updated>2026-10-09T11:59:58Z</updated>
-<published>2026-10-08T14:00:00Z</published>
-<author><name>Stack Overflow</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; evaluation"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<summary>The article analyzes the silent green exit failure mode of autonomous agents using real incidents and argues for verifying outcomes, such as asserting on artifacts and alerting on absence of change.</summary>
 </entry>
 <entry>
 <title>Building an evidence-grounded agentic security operations harness on Cloudflare</title>
@@ -2160,21 +1404,10 @@
 <summary>Meta built an authenticated time service with Network Time Security, using stateless cookies from a derived daily key and separate key-exchange and NTP servers.</summary>
 </entry>
 <entry>
-<title>Building Git infrastructure for agent-scale development</title>
-<link href="https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/"/>
-<id>urn:rss-system-design:1515a8a306</id>
-<updated>2026-10-07T11:59:56Z</updated>
-<published>2026-10-06T20:57:56Z</published>
-<author><name>GitHub</name></author>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>GitHub explains why its replicated-disk Git storage tied write speed to read replicas and how a redesign separates durable storage from stateless compute, with a 35x write benchmark.</summary>
-</entry>
-<entry>
 <title>ReviewBench: An open benchmark for AI code review</title>
 <link href="https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/"/>
 <id>urn:rss-system-design:ee3fc94a6f</id>
-<updated>2026-10-07T11:59:55Z</updated>
+<updated>2026-10-07T11:59:56Z</updated>
 <published>2026-10-05T15:59:40Z</published>
 <author><name>GitHub</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -2186,7 +1419,7 @@
 <title>Automated merchant review summary system with integrated feedback</title>
 <link href="https://engineering.grab.com/automated-merchant-review-summary-system-with-integrated-feedback"/>
 <id>urn:rss-system-design:daa573a971</id>
-<updated>2026-10-07T11:59:54Z</updated>
+<updated>2026-10-07T11:59:55Z</updated>
 <published>2026-09-25T00:00:00Z</published>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -2198,7 +1431,7 @@
 <title>Powering AI-led research through simulation</title>
 <link href="https://engineering.grab.com/powering-ai-led-research-through-simulation"/>
 <id>urn:rss-system-design:9c11b5f991</id>
-<updated>2026-10-07T11:59:53Z</updated>
+<updated>2026-10-07T11:59:54Z</updated>
 <published>2026-10-05T00:00:00Z</published>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -2211,7 +1444,7 @@
 <title>Building and testing a config management orchestrator for Windows</title>
 <link href="https://blog.janestreet.com/config-management-orchestrator-for-windows/"/>
 <id>urn:rss-system-design:4e8b809e29</id>
-<updated>2026-10-07T11:59:52Z</updated>
+<updated>2026-10-07T11:59:53Z</updated>
 <published>2026-10-06T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
@@ -2224,7 +1457,7 @@
 <title>Scaling and benchmarking a critical message bus using a new indexing strategy</title>
 <link href="https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/"/>
 <id>urn:rss-system-design:39b1c47659</id>
-<updated>2026-10-07T11:59:51Z</updated>
+<updated>2026-10-07T11:59:52Z</updated>
 <published>2026-10-05T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -2236,7 +1469,7 @@
 <title>Metrics Board: Building an Agent-ready Metrics Layer</title>
 <link href="https://medium.com/pinterest-engineering/metrics-board-building-an-agent-ready-metrics-layer-2c8fefe68756?source=rss-ef81ef829bcb------2"/>
 <id>urn:rss-system-design:197d134e72</id>
-<updated>2026-10-07T11:59:50Z</updated>
+<updated>2026-10-07T11:59:51Z</updated>
 <published>2026-10-06T16:01:02Z</published>
 <author><name>Pinterest</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -2249,7 +1482,7 @@
 <title>Unsupervised Topic Discovery with Text Embeddings</title>
 <link href="https://eng.wealthfront.com/2026/10/05/unsupervised-topic-discovery-with-text-embeddings/"/>
 <id>urn:rss-system-design:20cd67e6ce</id>
-<updated>2026-10-07T11:59:49Z</updated>
+<updated>2026-10-07T11:59:50Z</updated>
 <published>2026-10-05T17:46:10Z</published>
 <author><name>Wealthfront</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -2295,23 +1528,10 @@
 <summary>Jane Street traced how recurring network maintenance exposed six bugs in Kafka relays, including DNS hangs, retry storms and file-descriptor exhaustion across glibc, Async and its Kafka client.</summary>
 </entry>
 <entry>
-<title>My Coding Agents Moved Off My Laptop and Onto a Remote Server</title>
-<link href="https://spin.atomicobject.com/coding-agents-remote-server/"/>
-<id>urn:rss-system-design:cf0b0d530c</id>
-<updated>2026-10-02T12:00:00Z</updated>
-<published>2026-10-02T12:00:14Z</published>
-<author><name>Atomic Object</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; cloud platforms"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>The author moved coding agents from a laptop to a home server, with one VM per client, Tailscale grants and a thin template, explaining the reason for each choice.</summary>
-</entry>
-<entry>
 <title>Announcing Cloudflare K2: serverless event streams</title>
 <link href="https://blog.cloudflare.com/cloudflare-k2-streams/"/>
 <id>urn:rss-system-design:34410eab95</id>
-<updated>2026-10-02T11:59:59Z</updated>
+<updated>2026-10-02T12:00:00Z</updated>
 <published>2026-10-01T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data pipelines &amp; streaming"/>
@@ -2324,7 +1544,7 @@
 <title>Introducing Workers KV Instant — powered by Quicksilver</title>
 <link href="https://blog.cloudflare.com/workers-kv-instant/"/>
 <id>urn:rss-system-design:dfea90186a</id>
-<updated>2026-10-02T11:59:58Z</updated>
+<updated>2026-10-02T11:59:59Z</updated>
 <published>2026-10-01T13:00:00Z</published>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
@@ -2336,7 +1556,7 @@
 <title>Lakebase Postgres branch-based restores for fast recovery at scale</title>
 <link href="https://www.databricks.com/blog/lakebase-postgres-branch-based-restores-fast-recovery-scale"/>
 <id>urn:rss-system-design:e79eb7ef5d</id>
-<updated>2026-10-02T11:59:57Z</updated>
+<updated>2026-10-02T11:59:58Z</updated>
 <published>2026-10-01T17:53:52Z</published>
 <author><name>Databricks</name></author>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
@@ -2345,23 +1565,10 @@
 <summary>Databricks explains how Lakebase Postgres restores a database as a metadata-only branch on decoupled storage instead of the multi-step point-in-time recovery process.</summary>
 </entry>
 <entry>
-<title>Real-Time Retail Intelligence: Building E-Commerce Recommendations with Lakebase and AI Search on Databricks</title>
-<link href="https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search"/>
-<id>urn:rss-system-design:baf7e76666</id>
-<updated>2026-10-02T11:59:56Z</updated>
-<published>2026-10-02T11:00:00Z</published>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; recommendations"/>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; performance"/>
-<summary>A Databricks e-commerce recommendation system combines a nightly precompute path with a synchronous session-aware path using Lakebase and AI Search.</summary>
-</entry>
-<entry>
 <title>A FUSE server for our in-house storage backend</title>
 <link href="https://blog.janestreet.com/linux-engineering-depot-fuse-index/"/>
 <id>urn:rss-system-design:da2df5102d</id>
-<updated>2026-10-02T11:59:55Z</updated>
+<updated>2026-10-02T11:59:57Z</updated>
 <published>2026-10-01T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, storage &amp; caching"/>
@@ -2372,7 +1579,7 @@
 <title>A resilient kernel log reporter</title>
 <link href="https://blog.janestreet.com/linux-engineering-kernel-reporter-index/"/>
 <id>urn:rss-system-design:e51b7c45ac</id>
-<updated>2026-10-02T11:59:54Z</updated>
+<updated>2026-10-02T11:59:56Z</updated>
 <published>2026-10-01T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; operations"/>
@@ -2383,7 +1590,7 @@
 <title>ShopGym: Realistic, reproducible sandboxes for shopping agents</title>
 <link href="https://shopify.engineering/shopgym"/>
 <id>urn:rss-system-design:56ca8429bd</id>
-<updated>2026-10-02T11:59:53Z</updated>
+<updated>2026-10-02T11:59:55Z</updated>
 <published>2026-10-01T16:23:24Z</published>
 <author><name>Shopify</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
@@ -2391,23 +1598,10 @@
 <summary>Shopify built ShopGym, which turns live storefronts into resettable sandbox shops for testing shopping agents, and measured where the copies diverge from live stores.</summary>
 </entry>
 <entry>
-<title>Get Into Agentic Development From the Shallow End</title>
-<link href="https://spin.atomicobject.com/agentic-development-shallow/"/>
-<id>urn:rss-system-design:0ff77c5b62</id>
-<updated>2026-10-01T12:00:00Z</updated>
-<published>2026-10-01T12:00:20Z</published>
-<author><name>Atomic Object</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM apps &amp; agents"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; compliance"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>The author built a deny, approve and assess permission system for a coding agent, logging approvals to SQLite and grouping them by intent to decide which broad rules are safe.</summary>
-</entry>
-<entry>
 <title>Can you use autoregressive diffusion to generate market data?</title>
 <link href="https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/"/>
 <id>urn:rss-system-design:8dd66e7303</id>
-<updated>2026-10-01T11:59:59Z</updated>
+<updated>2026-10-01T12:00:00Z</updated>
 <published>2026-09-30T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -2418,7 +1612,7 @@
 <title>Trading off compute for memory with activation checkpointing</title>
 <link href="https://blog.janestreet.com/trading-off-compute-for-memory-with-activation-checkpointing/"/>
 <id>urn:rss-system-design:54e57c5e17</id>
-<updated>2026-10-01T11:59:58Z</updated>
+<updated>2026-10-01T11:59:59Z</updated>
 <published>2026-09-30T00:00:00Z</published>
 <author><name>Jane Street</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML platform &amp; models"/>
@@ -2427,35 +1621,10 @@
 <summary>Jane Street designed a planner that chooses which activations to checkpoint, trading compute for memory with a greedy algorithm after finding gaps in PyTorch's built-in options.</summary>
 </entry>
 <entry>
-<title>Code sheriffing @ Mozilla: Past, Present, and Future</title>
-<link href="https://coopcoopbware.tumblr.com/post/166781825770"/>
-<id>urn:rss-system-design:79be60e00e</id>
-<updated>2026-10-01T11:59:57Z</updated>
-<published>2017-10-25T15:04:22Z</published>
-<author><name>Mozilla</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; process decisions"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>Mozilla explains how code sheriffing evolved, why losing Taipei coverage led it to choose a contractor service over another hire, and how removing an integration branch could simplify it.</summary>
-</entry>
-<entry>
-<title>Experiments in productivity: the shared bug queue</title>
-<link href="https://coopcoopbware.tumblr.com/post/170952242320"/>
-<id>urn:rss-system-design:c9747f13b1</id>
-<updated>2026-10-01T11:59:56Z</updated>
-<published>2018-02-16T20:42:49Z</published>
-<author><name>Mozilla</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; process decisions"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
-<summary>Mozilla's build module introduced a shared review queue to balance review load, with a triage safeguard and measured effects, without waiting for a new review tool.</summary>
-</entry>
-<entry>
 <title>Experience report: AI agents and skills on eight projects, we keep the wheel and the ditch can wait</title>
 <link href="https://blog-octo-com.translate.goog/rex--des-agents-ia-et-des-skills-sur-huit-projets-nous-gardons-le-volant-et-le-fosse-attendra?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:6bfc190478</id>
-<updated>2026-10-01T11:59:55Z</updated>
+<updated>2026-10-01T11:59:58Z</updated>
 <published>2026-10-01T08:06:10Z</published>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer platform &amp; CI/CD"/>
@@ -2464,17 +1633,6 @@
 <category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; productivity"/>
 <category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; resilience"/>
 <summary>An OCTO consultant describes a hub that measures, proposes and applies changes across eight agent-assisted projects, with rules that came from four incidents.</summary>
-</entry>
-<entry>
-<title>A Summer on the Achieve Team</title>
-<link href="https://medium.com/strava-engineering/a-summer-on-the-achieve-team-dabed37298f7?source=rss----89d4108ce2a3---4"/>
-<id>urn:rss-system-design:951d1d7dbd</id>
-<updated>2026-10-01T11:59:54Z</updated>
-<published>2026-09-30T16:01:02Z</published>
-<author><name>Strava</name></author>
-<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; mobile apps"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; correctness"/>
-<summary>A Strava intern explains why the iOS widget architecture could not be reused on watchOS and why a single writer with shared storage and reader widgets was chosen.</summary>
 </entry>
 <entry>
 <title>Cloudflare Containers, rebuilt to scale agent sandboxes</title>
