@@ -1,0 +1,25 @@
+name: Suggest a blog
+description: Suggest an engineering blog for the feed.
+title: "Suggest: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Know a company engineering blog that writes about system design? Suggest it here.
+        Every suggestion is looked at by hand. Limit: 3 a day and 10 a week per account.
+  - type: input
+    id: url
+    attributes:
+      label: Blog URL
+      description: The blog's home page or its RSS feed address.
+      placeholder: https://example.com/engineering
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it fits
+      description: Optional. What does it write about?
+    validations:
+      required: false
