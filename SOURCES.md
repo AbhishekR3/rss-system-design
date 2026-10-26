@@ -1,6 +1,6 @@
 # Sources
 
-The 88 company engineering blogs this feed pulls from. Updated Every Day at 8:00 AM Pacific Time. Blogs that are paused are not listed. *Latest post* is the newest article date seen; *Posts tracked* counts every post seen from the blog, including older ones recorded when the blog was first added.
+The 86 company engineering blogs this feed pulls from. Updated Every Day at 8:00 AM Pacific Time. Blogs that are paused are not listed. *Latest post* is the newest article date seen; *Posts tracked* counts every post seen from the blog, including older ones recorded when the blog was first added.
 
 Missing a blog, or have context to add (for example which section is polled)? [Open a suggestion](https://github.com/AbhishekR3/rss-system-design/issues/new?template=suggest-blog.yml) (needs a GitHub account).
 
@@ -12,8 +12,6 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Airbnb | [https://medium.com/airbnb-engineering](https://medium.com/airbnb-engineering) | `https://medium.com/feed/airbnb-engineering` | feed | 2026-10-13 | 12 |  |
 | Allegro | [https://blog.allegro.tech/](https://blog.allegro.tech/) | `https://blog.allegro.tech/feed.xml` | feed | 2026-08-19 | 10 |  |
 | Apple Machine Learning Research | [https://machinelearning.apple.com/](https://machinelearning.apple.com/) | `https://machinelearning.apple.com/rss.xml` | feed | 2026-10-15 | 10 |  |
-| Auth0 (Developers) | [https://auth0.com/blog/developers/](https://auth0.com/blog/developers/) | no feed; listing page read | page | 2026-10-20 | 11 |  |
-| Auth0 (Engineering) | [https://auth0.com/blog/engineering/](https://auth0.com/blog/engineering/) | no feed; listing page read | page | 2026-10-16 | 10 |  |
 | AWS | [https://aws.amazon.com/blogs/architecture/](https://aws.amazon.com/blogs/architecture/) | `https://aws.amazon.com/blogs/architecture/feed/` | feed | 2026-10-21 | 20 | Architecture blog only |
 | Bazaarvoice | [https://blog.developer.bazaarvoice.com/](https://blog.developer.bazaarvoice.com/) | `https://blog.developer.bazaarvoice.com/feed/` | feed | 2026-09-29 | 10 |  |
 | Block Engineering | [https://engineering.block.xyz/blog](https://engineering.block.xyz/blog) | `https://engineering.block.xyz/blog/rss.xml` | feed | 2026-10-14 | 20 |  |
