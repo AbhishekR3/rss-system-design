@@ -5,8 +5,88 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-10-26T18:00:26Z</updated>
+<updated>2026-10-27T16:58:16Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Harnais agentiques (2/2) : huit réflexes à désapprendre pour un harnais frugal</title>
+<link href="https://blog-octo-com.translate.goog/harnais-agentiques-(22)--huit-reflexes-a-desapprendre-pour-un-harnais-frugal-1?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:0610bf3dad</id>
+<updated>2026-10-27T06:53:10Z</updated>
+<published>2026-10-27T06:53:10Z</published>
+<author><name>OCTO Technology</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Easy to integrate, compliant by design: Bringing the Swiss Franc to Google Cloud Universal Ledger</title>
+<link href="https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/"/>
+<id>urn:rss-system-design:all:14a4e4e5be</id>
+<updated>2026-10-26T20:00:00Z</updated>
+<published>2026-10-26T20:00:00Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Key Takeaways from Tech at Agoda: From Assistants to AI Agents</title>
+<link href="https://medium.com/agoda-engineering/key-takeaways-from-tech-at-agoda-from-assistants-to-ai-agents-b0e9187730bb?source=rss----9bca683764b5--engineering"/>
+<id>urn:rss-system-design:all:34a1f9bdb8</id>
+<updated>2026-10-27T04:04:00Z</updated>
+<published>2026-10-27T04:04:00Z</published>
+<author><name>Agoda</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Last chance to get every live course in one membership</title>
+<link href="https://blog.bytebytego.com/p/last-chance-to-get-every-live-course"/>
+<id>urn:rss-system-design:all:834b1be2f9</id>
+<updated>2026-10-26T20:24:39Z</updated>
+<published>2026-10-26T20:24:39Z</published>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang</title>
+<link href="https://blog.cloudflare.com/kv-cache-exposure-remediation/"/>
+<id>urn:rss-system-design:all:929fdafa8a</id>
+<updated>2026-10-26T22:01:23Z</updated>
+<published>2026-10-26T22:01:23Z</published>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Beyond the Prompt: Engineering the Loop for Software Change at Scale</title>
+<link href="https://medium.com/expedia-group-tech/beyond-the-prompt-engineering-the-loop-for-software-change-at-scale-9ac26e3b2706?source=rss----38998a53046f---4"/>
+<id>urn:rss-system-design:all:9314dfe02e</id>
+<updated>2026-10-27T11:01:01Z</updated>
+<published>2026-10-27T11:01:01Z</published>
+<author><name>Expedia Group</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>GHARP: Real-Time Gaussian Head Animation from Large-Scale Reconstruction Prior</title>
+<link href="https://machinelearning.apple.com/research/gharp-head-animation"/>
+<id>urn:rss-system-design:all:954e49682b</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<published>2026-10-26T00:00:00Z</published>
+<author><name>Apple</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>[インターン体験記]加盟店精算を支えるSettlement Serviceのリアーキテクチャの取り組み</title>
+<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261027-1ac9405984/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:f4549b7e39</id>
+<updated>2026-10-27T16:58:16Z</updated>
+<published>2026-10-27T16:58:16Z</published>
+<author><name>Mercari</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
 <entry>
 <title>Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks</title>
 <link href="https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/"/>

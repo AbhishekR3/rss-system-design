@@ -9,6 +9,6 @@ The [web page](https://abhishekr3.github.io/rss-system-design/index.html) shows 
 
 Summaries and Classifier leverages AI; may contain errors.
 
-Articles come from 86 company engineering blogs. See [SOURCES.md](SOURCES.md) for the full list with links and feed addresses.
+Articles come from company engineering blogs. See [SOURCES.md](SOURCES.md) for the full list with links and feed addresses.
 
 Know a good engineering blog? [Suggest it here](https://github.com/AbhishekR3/rss-system-design/issues/new?template=suggest-blog.yml)
