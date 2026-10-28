@@ -5,8 +5,258 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-10-27T16:58:16Z</updated>
+<updated>2026-10-28T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Bringing Google TPUs to Oracle Cloud Infrastructure</title>
+<link href="https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/"/>
+<id>urn:rss-system-design:all:18a1113411</id>
+<updated>2026-10-27T14:00:00Z</updated>
+<published>2026-10-27T14:00:00Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>What took the Internet offline in Q3 2026</title>
+<link href="https://blog.cloudflare.com/q3-2026-internet-disruption-summary/"/>
+<id>urn:rss-system-design:all:1e587b8eb9</id>
+<updated>2026-10-27T13:00:00Z</updated>
+<published>2026-10-27T13:00:00Z</published>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How Apple Fits an LLM on Your iPhone</title>
+<link href="https://blog.bytebytego.com/p/how-apple-fits-an-llm-on-your-iphone"/>
+<id>urn:rss-system-design:all:2862aed6ff</id>
+<updated>2026-10-27T15:31:04Z</updated>
+<published>2026-10-27T15:31:04Z</published>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages</title>
+<link href="https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/"/>
+<id>urn:rss-system-design:all:2a5c8ec1ff</id>
+<updated>2026-10-27T16:00:00Z</updated>
+<published>2026-10-27T16:00:00Z</published>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4</title>
+<link href="https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/"/>
+<id>urn:rss-system-design:all:3a92d8ebc0</id>
+<updated>2026-10-27T20:50:39Z</updated>
+<published>2026-10-27T20:50:39Z</published>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Google Cloud and NASA: Testing robotic systems for deep space missions</title>
+<link href="https://cloud.google.com/blog/topics/public-sector/google-cloud-and-nasa-testing-robotic-systems-for-deep-space-missions/"/>
+<id>urn:rss-system-design:all:42d00b85ad</id>
+<updated>2026-10-27T04:00:00Z</updated>
+<published>2026-10-27T04:00:00Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Que s'est-il passé avec les packages npm sur ces 12 derniers mois ?</title>
+<link href="https://blog-octo-com.translate.goog/octo-que-s'est-il-passe-avec-les-packages-npm-sur-ces-12-derniers-mois?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:482a0ef3c2</id>
+<updated>2026-10-27T15:29:10Z</updated>
+<published>2026-10-27T15:29:10Z</published>
+<author><name>OCTO Technology</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>From spot fixes to measured gains: improving document extraction accuracy with ai_extract and MLflow Prompt Registry</title>
+<link href="https://www.databricks.com/blog/spot-fixes-measured-gains-improving-document-extraction-accuracy-aiextract-and-mlflow-prompt"/>
+<id>urn:rss-system-design:all:4aed764eb7</id>
+<updated>2026-10-28T12:00:00Z</updated>
+<published>2026-10-28T12:30:06Z</published>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>3 Ways to Boost MoE Inference on NVIDIA DGX Spark</title>
+<link href="https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/"/>
+<id>urn:rss-system-design:all:538db15dde</id>
+<updated>2026-10-27T15:00:00Z</updated>
+<published>2026-10-27T15:00:00Z</published>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Freight Search: Composing a Shared Search Index from Independently Owned Fragments</title>
+<link href="https://www.uber.com/us/en/blog/high-performance-search-platform/"/>
+<id>urn:rss-system-design:all:6f583eae59</id>
+<updated>2026-10-28T11:59:59Z</updated>
+<published>2026-10-28T12:30:06Z</published>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Securely connecting Gemini Enterprise to Snowflake data</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/"/>
+<id>urn:rss-system-design:all:73d9e45bab</id>
+<updated>2026-10-27T16:00:00Z</updated>
+<published>2026-10-27T16:00:00Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape</title>
+<link href="https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/"/>
+<id>urn:rss-system-design:all:7838a15d1e</id>
+<updated>2026-10-27T15:59:24Z</updated>
+<published>2026-10-27T15:59:24Z</published>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Introducing the Cloudflare PHP Capture the Flag challenge</title>
+<link href="https://blog.cloudflare.com/php-ctf/"/>
+<id>urn:rss-system-design:all:8287856c91</id>
+<updated>2026-10-27T13:00:00Z</updated>
+<published>2026-10-27T13:00:00Z</published>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/"/>
+<id>urn:rss-system-design:all:8778145b0a</id>
+<updated>2026-10-27T17:10:35Z</updated>
+<published>2026-10-27T17:10:35Z</published>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud</title>
+<link href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/"/>
+<id>urn:rss-system-design:all:896502d143</id>
+<updated>2026-10-27T13:00:00Z</updated>
+<published>2026-10-27T13:00:00Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Introducing VMware solution on Google Cloud</title>
+<link href="https://cloud.google.com/blog/products/infrastructure-modernization/vmware-solution-on-google-cloud/"/>
+<id>urn:rss-system-design:all:a0fa5ea1c5</id>
+<updated>2026-10-27T20:00:00Z</updated>
+<published>2026-10-27T20:00:00Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Powering the agentic enterprise with latest innovations in Oracle AI Database@Google Cloud</title>
+<link href="https://cloud.google.com/blog/products/databases/oracle-ai-databasegoogle-cloud-whats-new-at-oracle-ai-world/"/>
+<id>urn:rss-system-design:all:a3a5a5b972</id>
+<updated>2026-10-27T19:30:00Z</updated>
+<published>2026-10-27T19:30:00Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>PrivacyLib: Privacy Controls at the Data Access Boundary</title>
+<link href="https://engineering.fb.com/2026/10/27/security/privacylib/"/>
+<id>urn:rss-system-design:all:a4839def38</id>
+<updated>2026-10-27T16:00:12Z</updated>
+<published>2026-10-27T16:00:12Z</published>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Vessel-specific voyage optimization with machine learning: Manta on AWS</title>
+<link href="https://aws.amazon.com/blogs/architecture/vessel-specific-voyage-optimization-with-machine-learning-manta-on-aws/"/>
+<id>urn:rss-system-design:all:a4b986c1e2</id>
+<updated>2026-10-27T17:14:32Z</updated>
+<published>2026-10-27T17:14:32Z</published>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Publishing LMS courses with a Kiro SCORM pipeline</title>
+<link href="https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/"/>
+<id>urn:rss-system-design:all:acbee2bcc4</id>
+<updated>2026-10-27T17:23:23Z</updated>
+<published>2026-10-27T17:23:23Z</published>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Fast, reliable A2UI, with swappable inference formats</title>
+<link href="https://developers.googleblog.com/fast-reliable-a2ui/"/>
+<id>urn:rss-system-design:all:b8729281aa</id>
+<updated>2026-10-28T11:59:58Z</updated>
+<published>2026-10-28T12:30:06Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>NVIDIA RTX Spark Powers Neural Rendering and AI Characters in Games</title>
+<link href="https://developer.nvidia.com/blog/nvidia-rtx-spark-powers-neural-rendering-and-ai-characters-in-games/"/>
+<id>urn:rss-system-design:all:ba44bc4930</id>
+<updated>2026-10-27T17:00:00Z</updated>
+<published>2026-10-27T17:00:00Z</published>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How Spec-Driven Development Shaped My New Way of Engineering</title>
+<link href="https://engineering.gusto.com/how-spec-driven-development-shaped-my-new-way-of-engineering-ee0acb6d02b4?source=rss----645edd256348---4"/>
+<id>urn:rss-system-design:all:c78cb9d932</id>
+<updated>2026-10-27T17:43:13Z</updated>
+<published>2026-10-27T17:43:13Z</published>
+<author><name>Gusto</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype</title>
+<link href="https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/"/>
+<id>urn:rss-system-design:all:dc1ded807a</id>
+<updated>2026-10-28T11:59:57Z</updated>
+<published>2026-10-28T12:30:06Z</published>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How a beagle-shaped AI agent ships code to madewithvuejs.com</title>
+<link href="https://blog.sentry.io/beagle-ai-agent-workflows/"/>
+<id>urn:rss-system-design:all:f13e446994</id>
+<updated>2026-10-28T11:59:56Z</updated>
+<published>2026-10-28T12:30:06Z</published>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
 <entry>
 <title>Harnais agentiques (2/2) : huit réflexes à désapprendre pour un harnais frugal</title>
 <link href="https://blog-octo-com.translate.goog/harnais-agentiques-(22)--huit-reflexes-a-desapprendre-pour-un-harnais-frugal-1?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
