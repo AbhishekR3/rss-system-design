@@ -21,7 +21,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-10-27 | 79 |  |
 | Cockroach Labs Engineering | [https://www.cockroachlabs.com/blog/engineering/](https://www.cockroachlabs.com/blog/engineering/) | no feed; listing page read | page |  | 10 |  |
 | Confluent | [https://www.confluent.io/blog/area/technology/](https://www.confluent.io/blog/area/technology/) | `https://www.confluent.io/blog/area/technology/rss.xml` | feed | 2026-10-01 | 10 | Technology section only |
-| Databricks | [https://www.databricks.com/blog/category/engineering](https://www.databricks.com/blog/category/engineering) | no feed; listing page read | page | 2026-10-23 | 14 |  |
+| Databricks | [https://www.databricks.com/blog/category/engineering](https://www.databricks.com/blog/category/engineering) | no feed; listing page read | page | 2026-10-27 | 14 |  |
 | Databricks (Data Strategy) | [https://www.databricks.com/blog/category/data-strategy](https://www.databricks.com/blog/category/data-strategy) | no feed; listing page read | page | 2026-10-22 | 13 |  |
 | Datadog Engineering | [https://www.datadoghq.com/blog/engineering/](https://www.datadoghq.com/blog/engineering/) | `https://www.datadoghq.com/blog/engineering/index.xml` | feed | 2026-10-20 | 100 |  |
 | Deezer | [https://medium.com/deezer-engineering](https://medium.com/deezer-engineering) | `https://medium.com/feed/deezer-engineering` | feed | 2026-10-07 | 10 |  |
@@ -44,7 +44,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Gojek Engineering (Data) | [https://medium.com/gojekengineering/subpage/72dbe6258beb](https://medium.com/gojekengineering/subpage/72dbe6258beb) | `https://medium.com/feed/gojekengineering/tagged/data-science` | feed | 2025-10-07 | 10 | Data section only |
 | Gojek Engineering (Tech) | [https://medium.com/gojekengineering/subpage/a0c5f1afae5b](https://medium.com/gojekengineering/subpage/a0c5f1afae5b) | `https://medium.com/feed/gojekengineering/tagged/tech` | feed | 2026-03-04 | 9 | Tech section only |
 | Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-10-27 | 29 |  |
-| Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed |  | 23 |  |
+| Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-10-27 | 23 |  |
 | Grab | [http://engineering.grab.com/](http://engineering.grab.com/) | `http://engineering.grab.com/feed.xml` | feed | 2026-10-21 | 15 |  |
 | Gusto | [https://engineering.gusto.com/](https://engineering.gusto.com/) | `https://medium.com/feed/gusto-engineering` | feed | 2026-10-27 | 11 |  |
 | Haptik | [https://haptik.ai/tech/](https://haptik.ai/tech/) | `https://www.haptik.ai/tech/rss.xml` | feed | 2026-10-15 | 11 |  |
@@ -73,7 +73,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Pinterest | [https://medium.com/@Pinterest_Engineering](https://medium.com/@Pinterest_Engineering) | `https://medium.com/feed/@Pinterest_Engineering` | feed | 2026-10-19 | 14 |  |
 | PubNub: | [https://www.pubnub.com/blog/](https://www.pubnub.com/blog/) | `https://www.pubnub.com/feed/blog/` | feed | 2026-10-07 | 1247 |  |
 | Salesforce Engineering | [https://engineering.salesforce.com/](https://engineering.salesforce.com/) | `https://engineering.salesforce.com/feed/` | feed | 2026-10-08 | 10 |  |
-| Sentry Engineering | [https://blog.sentry.io/engineering/](https://blog.sentry.io/engineering/) | no feed; listing page read | page |  | 16 |  |
+| Sentry Engineering | [https://blog.sentry.io/engineering/](https://blog.sentry.io/engineering/) | no feed; listing page read | page | 2026-10-27 | 16 |  |
 | Shopify | [https://shopify.engineering/](https://shopify.engineering/) | `https://shopify.engineering/blog.atom` | feed | 2026-10-22 | 436 |  |
 | Slack | [https://slack.engineering/](https://slack.engineering/) | `https://slack.engineering/rss` | feed | 2026-07-14 | 8 |  |
 | Snap Engineering | [https://eng.snap.com/blog](https://eng.snap.com/blog) | no feed; listing page read | page |  | 11 |  |
@@ -86,7 +86,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Thumbtack | [https://www.thumbtack.com/engineering/](https://www.thumbtack.com/engineering/) | `https://medium.com/feed/thumbtack-engineering` | feed | 2026-10-07 | 11 |  |
 | Timescale | [https://blog.timescale.com/](https://blog.timescale.com/) | `https://www.timescale.com/blog/rss/` | feed | 2026-10-23 | 9 |  |
 | Trivago | [http://tech.trivago.com/](http://tech.trivago.com/) | `http://tech.trivago.com/rss.xml` | feed | 2026-10-20 | 161 |  |
-| Uber Engineering | [https://www.uber.com/us/en/blog/engineering/](https://www.uber.com/us/en/blog/engineering/) | no feed; listing page read | page |  | 14 |  |
+| Uber Engineering | [https://www.uber.com/us/en/blog/engineering/](https://www.uber.com/us/en/blog/engineering/) | no feed; listing page read | page | 2026-10-27 | 14 |  |
 | Vinted | [http://engineering.vinted.com/](http://engineering.vinted.com/) | `https://vinted.engineering//atom.xml` | feed | 2026-04-22 | 10 |  |
 | Walmart Global Tech | [https://medium.com/walmartglobaltech](https://medium.com/walmartglobaltech) | `https://medium.com/feed/walmartglobaltech` | feed | 2026-09-30 | 10 |  |
 | Wealthfront | [http://eng.wealthfront.com/](http://eng.wealthfront.com/) | `https://eng.wealthfront.com/feed/` | feed | 2026-10-05 | 11 |  |
