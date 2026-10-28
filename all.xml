@@ -78,7 +78,7 @@
 <summary>Not picked: A project announcement with a few figures but no architecture or trade-offs.</summary>
 </entry>
 <entry>
-<title>What happened with npm packages over the last 12 months?</title>
+<title>What happened with npm packages over the last 12 months? (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/octo-que-s'est-il-passe-avec-les-packages-npm-sur-ces-12-derniers-mois?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:482a0ef3c2</id>
 <updated>2026-10-28T11:59:54Z</updated>
@@ -316,7 +316,7 @@
 <summary>The madewithvuejs.com team describes Milly, an AI agent with access to GitHub, Linear, Sentry and Discord that scouts content, builds features and fixed production bugs under defined safeguards.</summary>
 </entry>
 <entry>
-<title>Agentic harnesses (2/2): eight reflexes to unlearn for a frugal harness</title>
+<title>Agentic harnesses (2/2): eight reflexes to unlearn for a frugal harness (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/harnais-agentiques-(22)--huit-reflexes-a-desapprendre-pour-un-harnais-frugal-1?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:0610bf3dad</id>
 <updated>2026-10-28T11:59:35Z</updated>
@@ -404,7 +404,7 @@
 <summary>A research abstract presenting GHARP, a two-stage method that animates 3D Gaussian heads in real time from a few images, reporting state-of-the-art quality on Ava-256 and up to 13× faster runtime on an A100.</summary>
 </entry>
 <entry>
-<title>[インターン体験記]加盟店精算を支えるSettlement Serviceのリアーキテクチャの取り組み</title>
+<title>[Intern report] Re-architecting the Settlement Service that supports merchant settlement (translated from Japanese)</title>
 <link href="https://engineering-mercari-com.translate.goog/blog/entry/20261027-1ac9405984/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:f4549b7e39</id>
 <updated>2026-10-28T11:59:28Z</updated>
@@ -605,7 +605,7 @@
 <summary>Google Cloud introduces IAM Helper, Agent Skills and Google-managed MCP tools that let coding agents troubleshoot 403 errors, author policies, simulate changes against 90 days of logs and request just-in-time access.</summary>
 </entry>
 <entry>
-<title>EDGE POKERにおけるエクスプロイト戦略AI実現への挑戦</title>
+<title>The challenge of building an exploit-strategy AI for EDGE POKER (translated from Japanese)</title>
 <link href="https://engineering-dena-com.translate.goog/blog/2026/10/intern-edge-poker-exploit/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:cae7d46fe5</id>
 <updated>2026-10-26T11:59:46Z</updated>
@@ -3222,7 +3222,7 @@
 <summary>A TimescaleDB retention job that dropped raw chunks inside a continuous aggregate's refresh window made the next refresh silently delete buckets; the fix is one retention-versus-refresh invariant plus an audit query.</summary>
 </entry>
 <entry>
-<title>Agentic harnesses (1/2): why yesterday's good practices are expensive today</title>
+<title>Agentic harnesses (1/2): why yesterday's good practices are expensive today (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/harnais-agentiques-(12)--pourquoi-les-bonnes-pratiques-d'hier-coutent-cher-aujourd'hui?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:1d5bab4c4a</id>
 <updated>2026-10-23T11:59:55Z</updated>
@@ -3247,7 +3247,7 @@
 <summary>Databricks co-founder Patrick Wendell explains how AI coding agent costs spiraled at Databricks and how a central gateway, model routing and spend visibility cut unit costs by up to 90%.</summary>
 </entry>
 <entry>
-<title>My agents were reading too much: what ten weeks of token hunting taught me</title>
+<title>My agents were reading too much: what ten weeks of token hunting taught me (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/mes-agents-lisaient-trop--ce-que-dix-semaines-de-chasse-aux-tokens-m'ont-appris?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:5e3ced5ac7</id>
 <updated>2026-10-23T11:59:53Z</updated>
@@ -3573,7 +3573,7 @@
 <summary>Not picked: Product how-to tutorial for moving a Copilot session into VS Code, with no system design trade-offs.</summary>
 </entry>
 <entry>
-<title>Local LLM on iOS 27: what Apple doesn't say in the docs</title>
+<title>Local LLM on iOS 27: what Apple doesn't say in the docs (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/llm-local-sur-ios-27--ce-qu'apple-ne-dit-pas-dans-la-doc?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:8b56732555</id>
 <updated>2026-10-20T11:59:54Z</updated>
@@ -3724,7 +3724,7 @@
 <summary>Jane Street replaced a monolithic feature system with Flex Model, an event-driven engine that turns market events into feature vectors using a fixed per-event plan built at startup.</summary>
 </entry>
 <entry>
-<title>Agent rooms: the only place where you are happy to be contradicted</title>
+<title>Agent rooms: the only place where you are happy to be contradicted (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/les-salles-d'agents--le-seul-endroit-ou-l'on-est-content-d'etre-contredit?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:c9dd80811d</id>
 <updated>2026-10-17T11:59:55Z</updated>
@@ -3775,7 +3775,7 @@
 <summary>Meta describes how it prepared its infrastructure for record World Cup 2026 traffic with capacity buffers, graceful degradation, per-region forecasting and continued deployments.</summary>
 </entry>
 <entry>
-<title>Towards a model platform</title>
+<title>Towards a model platform (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/vers-une-plateforme-de-modeles?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:48d0baca73</id>
 <updated>2026-10-16T11:59:58Z</updated>
@@ -3837,7 +3837,7 @@
 <summary>Databricks' AI Research team explains how it trains models up to nearly a trillion parameters on AI Runtime, including GPU node health checks, container reuse and experiment tracking.</summary>
 </entry>
 <entry>
-<title>Three facilitation techniques useful for consultants</title>
+<title>Three facilitation techniques useful for consultants (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/trois-techniques-d'animation-utiles-pour-les-consultantes?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:f2cd29112c</id>
 <updated>2026-10-16T11:59:53Z</updated>
@@ -3907,7 +3907,7 @@
 <summary>Netflix describes the lifecycle of an LLM judge for recommendation explanations, from human-labeled benchmarks and reasoning-aligned rubric tuning to deployment and weekly human monitoring.</summary>
 </entry>
 <entry>
-<title>Systemic Digital Twin: collecting field activities</title>
+<title>Systemic Digital Twin: collecting field activities (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/jumeau-numerique-systemique--referentiel-et-data?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:55ce7c5c65</id>
 <updated>2026-10-15T11:59:57Z</updated>
@@ -4219,7 +4219,7 @@
 <summary>Not picked: A beginner tutorial on configuring Copilot instructions, skills, agents and MCP servers without design trade-offs.</summary>
 </entry>
 <entry>
-<title>I don't code, BMAD codes for me with its agents: take it on trust or on proof?</title>
+<title>I don't code, BMAD codes for me with its agents: take it on trust or on proof? (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/je-ne-code-pas-bmad-code-pour-moi-avec-ses-agents--sur-parole-ou-sur-preuves?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:1012b63fca</id>
 <updated>2026-10-12T12:00:00Z</updated>
@@ -4256,7 +4256,7 @@
 <summary>Pinterest replaced a multi-stage keyword-clustering pipeline with a single fine-tuned 4B LLM to infer user journeys, covering distillation trade-offs, serving architecture, safety controls and online results.</summary>
 </entry>
 <entry>
-<title>Is agentic development the gravedigger of business domain modelling? - Part 2</title>
+<title>Is agentic development the gravedigger of business domain modelling? - Part 2 (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/le-developpement-agentique-est-il-le-fossoyeur-de-la-modelisation-metier?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:bda01d68c4</id>
 <updated>2026-10-10T11:59:58Z</updated>
@@ -4367,7 +4367,7 @@
 <summary>Thumbtack built Workbench to generate and automatically review 800,000 landing-page descriptions with LLMs, choosing between deterministic validators and LLM judges and between serial and batch pipelines.</summary>
 </entry>
 <entry>
-<title>Defining OKRs does not mean you have impact!</title>
+<title>Defining OKRs does not mean you have impact! (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/l'iceberg-okr?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:5baf24d545</id>
 <updated>2026-10-08T11:59:57Z</updated>
@@ -4516,7 +4516,7 @@
 <summary>Jane Street replaced a per-host PowerShell configuration system for Windows with a central OCaml orchestrator and a stateless F# agent, migrating in stages with an audit mode.</summary>
 </entry>
 <entry>
-<title>Is agentic development the gravedigger of business domain modelling? - Part 1</title>
+<title>Is agentic development the gravedigger of business domain modelling? - Part 1 (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/le-developpement-agentique-est-il-le-fossoyeur-de-la-modelisation-metier-part-1?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:62dadff87c</id>
 <updated>2026-10-07T11:59:52Z</updated>
@@ -4873,7 +4873,7 @@
 <summary>Not picked: Puzzle and event recap.</summary>
 </entry>
 <entry>
-<title>Agentic on the coach's couch: 24 questions, eight projects</title>
+<title>Agentic on the coach's couch: 24 questions, eight projects (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/l'agentic-sur-le-divan-du-coach--24-questions-huit-projets?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:fff4ba5c8f</id>
 <updated>2026-10-03T11:59:43Z</updated>
@@ -5108,7 +5108,7 @@
 <summary>Jane Street designed a planner that chooses which activations to checkpoint, trading compute for memory with a greedy algorithm after finding gaps in PyTorch's built-in options.</summary>
 </entry>
 <entry>
-<title>Experience report: AI agents and skills on eight projects, we keep the wheel and the ditch can wait</title>
+<title>Experience report: AI agents and skills on eight projects, we keep the wheel and the ditch can wait (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/rex--des-agents-ia-et-des-skills-sur-huit-projets-nous-gardons-le-volant-et-le-fosse-attendra?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:6bfc190478</id>
 <updated>2026-10-01T11:59:57Z</updated>
@@ -5215,7 +5215,7 @@
 <summary>Cloudflare moved Containers from deploy-time configuration to per-sandbox control in a Durable Object to scale agent sandboxes, with the migration plan and measured startup results.</summary>
 </entry>
 <entry>
-<title>What responsible digital technology owes to strategic autonomy (and vice versa)</title>
+<title>What responsible digital technology owes to strategic autonomy (and vice versa) (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/ce-que-le-numerique-responsable-doit-a-l'autonomie-strategique-(et-reciproquement)?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:15e7813621</id>
 <updated>2026-09-30T11:59:58Z</updated>

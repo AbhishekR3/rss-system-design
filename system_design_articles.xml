@@ -171,7 +171,7 @@
 <summary>A Gusto engineer describes adopting spec-driven development with AI agents, moving from spec-kit to OpenSpec, and adding a reviewer agent that scores spec and implementation alignment before pull requests.</summary>
 </entry>
 <entry>
-<title>[インターン体験記]加盟店精算を支えるSettlement Serviceのリアーキテクチャの取り組み</title>
+<title>[Intern report] Re-architecting the Settlement Service that supports merchant settlement (translated from Japanese)</title>
 <link href="https://engineering-mercari-com.translate.goog/blog/entry/20261027-1ac9405984/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:f4549b7e39</id>
 <updated>2026-10-28T11:59:47Z</updated>
@@ -217,7 +217,7 @@
 <summary>NVIDIA introduces the open-source gpu-fractioning operator and KAI Scheduler NvFractions mode, which use CUDA 13.4 to enforce per-workload GPU memory limits and compute modes in Kubernetes.</summary>
 </entry>
 <entry>
-<title>Agentic harnesses (2/2): eight reflexes to unlearn for a frugal harness</title>
+<title>Agentic harnesses (2/2): eight reflexes to unlearn for a frugal harness (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/harnais-agentiques-(22)--huit-reflexes-a-desapprendre-pour-un-harnais-frugal-1?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:0610bf3dad</id>
 <updated>2026-10-28T11:59:43Z</updated>
@@ -229,7 +229,7 @@
 <summary>A French guide to eight habits to unlearn when building agent harnesses for Claude Code, covering concise instructions, Tool Search, effort levels, total task cost, prompt caching, high-level tools, restarts and context compaction.</summary>
 </entry>
 <entry>
-<title>What happened with npm packages over the last 12 months?</title>
+<title>What happened with npm packages over the last 12 months? (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/octo-que-s'est-il-passe-avec-les-packages-npm-sur-ces-12-derniers-mois?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:482a0ef3c2</id>
 <updated>2026-10-28T11:59:42Z</updated>
@@ -708,7 +708,7 @@
 <summary>Databricks lays out a four-phase rollout of Genie One, from one governed sales ops domain and a 5 to 10 user pilot to org-wide access with federated ownership and Unity Catalog governance.</summary>
 </entry>
 <entry>
-<title>EDGE POKERにおけるエクスプロイト戦略AI実現への挑戦</title>
+<title>The challenge of building an exploit-strategy AI for EDGE POKER (translated from Japanese)</title>
 <link href="https://engineering-dena-com.translate.goog/blog/2026/10/intern-edge-poker-exploit/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:cae7d46fe5</id>
 <updated>2026-10-26T11:59:27Z</updated>
@@ -2718,7 +2718,7 @@
 <summary>Netflix added an allowlisted single-tenant mode to its Titus container platform that gives a task its own right-sized EC2 instance, after weighing shared-kernel tuning, microVMs, gVisor and plain EC2.</summary>
 </entry>
 <entry>
-<title>Agentic harnesses (1/2): why yesterday's good practices are expensive today</title>
+<title>Agentic harnesses (1/2): why yesterday's good practices are expensive today (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/harnais-agentiques-(12)--pourquoi-les-bonnes-pratiques-d'hier-coutent-cher-aujourd'hui?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:1d5bab4c4a</id>
 <updated>2026-10-23T11:59:51Z</updated>
@@ -2729,7 +2729,7 @@
 <summary>The article argues that coding-agent harness practices built for weaker models, such as long AGENTS.md files and maximum reasoning, now cost more, using token prices and prompt-cache behaviour as worked examples.</summary>
 </entry>
 <entry>
-<title>My agents were reading too much: what ten weeks of token hunting taught me</title>
+<title>My agents were reading too much: what ten weeks of token hunting taught me (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/mes-agents-lisaient-trop--ce-que-dix-semaines-de-chasse-aux-tokens-m'ont-appris?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:5e3ced5ac7</id>
 <updated>2026-10-23T11:59:50Z</updated>
@@ -2990,7 +2990,7 @@
 <summary>Meta replaced a single all-knowing agent for data column onboarding with a 1,300-line deterministic orchestrator that routes workflows to 14 specialist subagents, cutting preparation from days to under an hour.</summary>
 </entry>
 <entry>
-<title>Local LLM on iOS 27: what Apple doesn't say in the docs</title>
+<title>Local LLM on iOS 27: what Apple doesn't say in the docs (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/llm-local-sur-ios-27--ce-qu'apple-ne-dit-pas-dans-la-doc?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:8b56732555</id>
 <updated>2026-10-20T11:59:54Z</updated>
@@ -3080,7 +3080,7 @@
 <summary>Netflix describes building an ontology-driven knowledge graph that links metrics, alerts, incidents, deployments and on-call data so incident investigations stop taking hours to reconstruct context.</summary>
 </entry>
 <entry>
-<title>Agent rooms: the only place where you are happy to be contradicted</title>
+<title>Agent rooms: the only place where you are happy to be contradicted (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/les-salles-d'agents--le-seul-endroit-ou-l'on-est-content-d'etre-contredit?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:c9dd80811d</id>
 <updated>2026-10-17T11:59:57Z</updated>
@@ -3184,7 +3184,7 @@
 <summary>Meta describes how a small team built its Forum app with AI agents running the plan-build-test loop under engineer supervision, gated by automated verification.</summary>
 </entry>
 <entry>
-<title>Towards a model platform</title>
+<title>Towards a model platform (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/vers-une-plateforme-de-modeles?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:48d0baca73</id>
 <updated>2026-10-16T11:59:54Z</updated>
@@ -3350,7 +3350,7 @@
 <summary>Netflix moved older TimeSeries data from hot Cassandra storage to S3, first through a Kafka and Flink streaming cold tier and then by reading Cassandra backups in S3 directly.</summary>
 </entry>
 <entry>
-<title>Systemic Digital Twin: collecting field activities</title>
+<title>Systemic Digital Twin: collecting field activities (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/jumeau-numerique-systemique--referentiel-et-data?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:55ce7c5c65</id>
 <updated>2026-10-15T11:59:46Z</updated>
@@ -3486,7 +3486,7 @@
 <summary>Grab describes an early-stage, undeployed concept for detecting disease outbreaks from aggregated GrabMart over-the-counter product demand, with privacy and governance controls.</summary>
 </entry>
 <entry>
-<title>I don't code, BMAD codes for me with its agents: take it on trust or on proof?</title>
+<title>I don't code, BMAD codes for me with its agents: take it on trust or on proof? (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/je-ne-code-pas-bmad-code-pour-moi-avec-ses-agents--sur-parole-ou-sur-preuves?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:1012b63fca</id>
 <updated>2026-10-12T12:00:00Z</updated>
@@ -3839,7 +3839,7 @@
 <summary>Jane Street traced how recurring network maintenance exposed six bugs in Kafka relays, including DNS hangs, retry storms and file-descriptor exhaustion across glibc, Async and its Kafka client.</summary>
 </entry>
 <entry>
-<title>Agentic on the coach's couch: 24 questions, eight projects</title>
+<title>Agentic on the coach's couch: 24 questions, eight projects (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/l'agentic-sur-le-divan-du-coach--24-questions-huit-projets?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:fff4ba5c8f</id>
 <updated>2026-10-03T11:59:55Z</updated>
@@ -4012,7 +4012,7 @@
 <summary>Jane Street describes three Trading Desk Operations intern projects, including a system that flags discrepancies between internal voice-trade records and the public tape.</summary>
 </entry>
 <entry>
-<title>Experience report: AI agents and skills on eight projects, we keep the wheel and the ditch can wait</title>
+<title>Experience report: AI agents and skills on eight projects, we keep the wheel and the ditch can wait (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/rex--des-agents-ia-et-des-skills-sur-huit-projets-nous-gardons-le-volant-et-le-fosse-attendra?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:6bfc190478</id>
 <updated>2026-10-01T11:59:55Z</updated>
