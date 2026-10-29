@@ -5,8 +5,151 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-10-27T12:00:00Z</updated>
+<updated>2026-10-28T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens</title>
+<link href="https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/"/>
+<id>urn:rss-system-design:abe3c925b8</id>
+<updated>2026-10-28T12:00:00Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Smarsh built a Claude skill that reviews an agentic workload against 150 AWS Agentic AI Lens best practices, using a JSON dataset, an evidence rubric and a deterministic workbook generator.</summary>
+</entry>
+<entry>
+<title>How Revinate accelerated API adoption with Amazon API Gateway</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-revinate-accelerated-api-adoption-with-amazon-api-gateway/"/>
+<id>urn:rss-system-design:e9194a7477</id>
+<updated>2026-10-28T11:59:59Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<summary>Revinate explains why it chose Amazon API Gateway and its portal over self-managed or enterprise gateways, and why it connected to EKS using TargetGroupBinding with Network Load Balancer target groups.</summary>
+</entry>
+<entry>
+<title>How Uber Built A Gateway For AI Agents To Access Tools</title>
+<link href="https://blog.bytebytego.com/p/how-uber-built-a-gateway-for-ai-agents"/>
+<id>urn:rss-system-design:ccdcae5827</id>
+<updated>2026-10-28T11:59:58Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>The article explains how Uber built an MCP Gateway with a registry, a proxy that translates to HTTP, gRPC and TChannel, AutoCrawler tool discovery, tool-level access control and context-saving features.</summary>
+</entry>
+<entry>
+<title>Adopting Cloud SQL Backup Vault to meet strict backup requirements (DeNA Infra SRE) (translated from Japanese)</title>
+<link href="https://engineering-dena-com.translate.goog/blog/2026/10/cloudsql-backupvault/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:536f657661</id>
+<updated>2026-10-28T11:59:57Z</updated>
+<author><name>DeNA</name></author>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>DeNA describes adopting Cloud SQL Backup Vault with a cross-project setup for immutable backups, estimating about 77% lower monthly cost than daily GCS exports and noting plan and billing limits.</summary>
+</entry>
+<entry>
+<title>2026 Summer Engineering Intern Projects – Part One</title>
+<link href="https://careersatdoordash.com/blog/2026-summer-engineering-intern-projects-part-one/"/>
+<id>urn:rss-system-design:325dce954f</id>
+<updated>2026-10-28T11:59:56Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Summarizes three summer 2026 intern projects on trustworthy LLM systems: a data-quality check suggester, an agent that builds dashboards, and an automated root cause analysis pipeline for multi-agent failures.</summary>
+</entry>
+<entry>
+<title>Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design</title>
+<link href="https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/"/>
+<id>urn:rss-system-design:39127629a9</id>
+<updated>2026-10-28T11:59:55Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Meta describes the next Andromeda ads retrieval system, using a mixture-of-experts gating model, a fused GPU kernel and single-GPU co-location to score over one billion ads per second per server.</summary>
+</entry>
+<entry>
+<title>Behind the scenes, two months later: How we ship Google Agent Skills like products</title>
+<link href="https://cloud.google.com/blog/topics/developers-practitioners/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products/"/>
+<id>urn:rss-system-design:813bd371b0</id>
+<updated>2026-10-28T11:59:54Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Google describes the pull request pipeline for its Agent Skills repository, with linters, semantic versioning checks, eval-suite validation, link checks, an AI review agent and human approval.</summary>
+</entry>
+<entry>
+<title>How GKE networking scales to support high densities of concurrent AI agents</title>
+<link href="https://cloud.google.com/blog/products/networking/gke-networking-dataplane-for-large-agentic-ai-workloads/"/>
+<id>urn:rss-system-design:2d0629110a</id>
+<updated>2026-10-28T11:59:53Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Google explains how moving high-cardinality pod labels to annotations and filtering labels in GKE Dataplane V2 avoids the 65,536 Cilium identity limit for high-density agent sandboxes.</summary>
+</entry>
+<entry>
+<title>Hill-Climbing Agent Quality with Agents CLI Evaluation</title>
+<link href="https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/"/>
+<id>urn:rss-system-design:2a8d977a35</id>
+<updated>2026-10-28T11:59:52Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>A walkthrough of the Agents CLI eval commands on a LangChain agent, covering baseline scoring, a prompt regression, a model swap, nightly scheduled runs, threshold alerts and prompt optimization.</summary>
+</entry>
+<entry>
+<title>Agentic harnesses (epilogue): working day to day with a frontier agent (translated from French)</title>
+<link href="https://blog-octo-com.translate.goog/harnais-agentiques-(epilogue)--travailler-au-quotidien-avec-un-agent-de-frontiere?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:e67302ad6a</id>
+<updated>2026-10-28T11:59:51Z</updated>
+<author><name>OCTO Technology</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>The epilogue of an OCTO series describes a Claude Code workflow of agent interviews, Opus planning and Sonnet implementation, plus methods to re-audit the harness and reduce token use.</summary>
+</entry>
+<entry>
+<title>A JSON schema Is not an AI governance layer</title>
+<link href="https://stackoverflow.blog/2026/10/28/a-json-schema-is-not-an-ai-governance-layer/"/>
+<id>urn:rss-system-design:c4728b3f99</id>
+<updated>2026-10-28T11:59:50Z</updated>
+<author><name>Stack Overflow</name></author>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>The author of the PIC protocol explains how duplicate identifiers, input normalization and self-asserted trust made agent action verifiers disagree, and proposes schema, semantic and policy layers with conformance vectors.</summary>
+</entry>
 <entry>
 <title>How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/"/>
@@ -59,10 +202,22 @@
 <summary>Databricks describes improving ai_extract accuracy on about 40 fields by versioning prompts and schemas in MLflow Prompt Registry and scoring candidates against reviewer-approved ground truth, cutting errors by 32%.</summary>
 </entry>
 <entry>
+<title>How to make postMessage type-safe in under 350 bytes</title>
+<link href="https://evilmartians.com/chronicles/how-to-make-postmessage-type-safe-in-under-350-bytes"/>
+<id>urn:rss-system-design:f5a08e05ce</id>
+<updated>2026-10-27T11:59:56Z</updated>
+<author><name>Evil Martians</name></author>
+<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Evil Martians describes typed-channel, a 271-byte library that makes postMessage, event buses and Figma plugin messaging type-safe, and its 0.11 request API with AbortSignal cancellation.</summary>
+</entry>
+<entry>
 <title>Beyond the Prompt: Engineering the Loop for Software Change at Scale</title>
 <link href="https://medium.com/expedia-group-tech/beyond-the-prompt-engineering-the-loop-for-software-change-at-scale-9ac26e3b2706?source=rss----38998a53046f---4"/>
 <id>urn:rss-system-design:9314dfe02e</id>
-<updated>2026-10-27T11:59:56Z</updated>
+<updated>2026-10-27T11:59:55Z</updated>
 <author><name>Expedia Group</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -75,7 +230,7 @@
 <title>PrivacyLib: Privacy Controls at the Data Access Boundary</title>
 <link href="https://engineering.fb.com/2026/10/27/security/privacylib/"/>
 <id>urn:rss-system-design:a4839def38</id>
-<updated>2026-10-27T11:59:55Z</updated>
+<updated>2026-10-27T11:59:54Z</updated>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
@@ -88,7 +243,7 @@
 <title>Securely connecting Gemini Enterprise to Snowflake data</title>
 <link href="https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/"/>
 <id>urn:rss-system-design:73d9e45bab</id>
-<updated>2026-10-27T11:59:54Z</updated>
+<updated>2026-10-27T11:59:53Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -99,7 +254,7 @@
 <title>Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype</title>
 <link href="https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/"/>
 <id>urn:rss-system-design:dc1ded807a</id>
-<updated>2026-10-27T11:59:53Z</updated>
+<updated>2026-10-27T11:59:52Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
@@ -113,7 +268,7 @@
 <title>Fast, reliable A2UI, with swappable inference formats</title>
 <link href="https://developers.googleblog.com/fast-reliable-a2ui/"/>
 <id>urn:rss-system-design:b8729281aa</id>
-<updated>2026-10-27T11:59:52Z</updated>
+<updated>2026-10-27T11:59:51Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -126,7 +281,7 @@
 <title>How Spec-Driven Development Shaped My New Way of Engineering</title>
 <link href="https://engineering.gusto.com/how-spec-driven-development-shaped-my-new-way-of-engineering-ee0acb6d02b4?source=rss----645edd256348---4"/>
 <id>urn:rss-system-design:c78cb9d932</id>
-<updated>2026-10-27T11:59:51Z</updated>
+<updated>2026-10-27T11:59:50Z</updated>
 <author><name>Gusto</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
 <category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
@@ -137,7 +292,7 @@
 <title>[Intern report] Re-architecting the Settlement Service that supports merchant settlement (translated from Japanese)</title>
 <link href="https://engineering-mercari-com.translate.goog/blog/entry/20261027-1ac9405984/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:f4549b7e39</id>
-<updated>2026-10-27T11:59:50Z</updated>
+<updated>2026-10-27T11:59:49Z</updated>
 <author><name>Mercari</name></author>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
 <category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
@@ -149,7 +304,7 @@
 <title>3 Ways to Boost MoE Inference on NVIDIA DGX Spark</title>
 <link href="https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/"/>
 <id>urn:rss-system-design:538db15dde</id>
-<updated>2026-10-27T11:59:49Z</updated>
+<updated>2026-10-27T11:59:48Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
@@ -160,7 +315,7 @@
 <title>Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages</title>
 <link href="https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/"/>
 <id>urn:rss-system-design:2a5c8ec1ff</id>
-<updated>2026-10-27T11:59:48Z</updated>
+<updated>2026-10-27T11:59:47Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -171,7 +326,7 @@
 <title>Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4</title>
 <link href="https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/"/>
 <id>urn:rss-system-design:3a92d8ebc0</id>
-<updated>2026-10-27T11:59:47Z</updated>
+<updated>2026-10-27T11:59:46Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -183,7 +338,7 @@
 <title>What happened with npm packages over the last 12 months? (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/octo-que-s'est-il-passe-avec-les-packages-npm-sur-ces-12-derniers-mois?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:482a0ef3c2</id>
-<updated>2026-10-27T11:59:46Z</updated>
+<updated>2026-10-27T11:59:45Z</updated>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -194,7 +349,7 @@
 <title>How a beagle-shaped AI agent ships code to madewithvuejs.com</title>
 <link href="https://blog.sentry.io/beagle-ai-agent-workflows/"/>
 <id>urn:rss-system-design:f13e446994</id>
-<updated>2026-10-27T11:59:45Z</updated>
+<updated>2026-10-27T11:59:44Z</updated>
 <author><name>Sentry</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -207,7 +362,7 @@
 <title>Freight Search: Composing a Shared Search Index from Independently Owned Fragments</title>
 <link href="https://www.uber.com/us/en/blog/high-performance-search-platform/"/>
 <id>urn:rss-system-design:6f583eae59</id>
-<updated>2026-10-27T11:59:44Z</updated>
+<updated>2026-10-27T11:59:43Z</updated>
 <author><name>Uber</name></author>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
