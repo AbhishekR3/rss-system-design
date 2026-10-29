@@ -28,6 +28,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | DeNA Engineering (ja) | [https://engineering.dena.com/blog/](https://engineering.dena.com/blog/) | `https://engineering.dena.com/blog/index.xml` | feed | 2026-10-25 | 31 |  |
 | Discord | [https://discord.com/category/engineering](https://discord.com/category/engineering) | no feed; listing page read | page | 2026-08-06 | 78 |  |
 | Docker | [https://www.docker.com/blog/category/engineering/](https://www.docker.com/blog/category/engineering/) | `https://www.docker.com/blog/category/engineering/feed/` | feed | 2026-09-24 | 10 | Engineering section only |
+| DoorDash | [https://careersatdoordash.com/engineering-blog/](https://careersatdoordash.com/engineering-blog/) | `https://careersatdoordash.com/blog/category/engineering/feed/` | feed | 2026-10-28 | 10 |  |
 | Dropbox | [https://blogs.dropbox.com/tech/](https://blogs.dropbox.com/tech/) | `https://dropbox.tech/feed` | feed | 2026-09-29 | 10 |  |
 | Ebay | [https://www.ebayinc.com/stories/blogs/tech/](https://www.ebayinc.com/stories/blogs/tech/) | `https://www.ebayinc.com/stories/news/rss/` | feed | 2026-10-14 | 34 |  |
 | Engineering@Microsoft | [https://devblogs.microsoft.com/engineering-at-microsoft/](https://devblogs.microsoft.com/engineering-at-microsoft/) | `https://devblogs.microsoft.com/engineering-at-microsoft/feed/` | feed | 2026-02-27 | 10 |  |
@@ -82,6 +83,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Squarespace | [https://engineering.squarespace.com/](https://engineering.squarespace.com/) | `https://engineering.squarespace.com/blog?format=rss` | feed | 2026-07-24 | 20 |  |
 | Stack Overflow | [https://stackoverflow.blog/ai/](https://stackoverflow.blog/ai/) | no feed; listing page read | page |  | 25 |  |
 | Stripe | [https://stripe.dev/blog/topic/engineering](https://stripe.dev/blog/topic/engineering) | no feed; listing page read | page |  | 26 |  |
+| The Pragmatic Engineer | [https://newsletter.pragmaticengineer.com/](https://newsletter.pragmaticengineer.com/) | `https://newsletter.pragmaticengineer.com/feed` | feed | 2026-10-21 | 9 | Public posts only |
 | Thoughtbot | [https://robots.thoughtbot.com/](https://robots.thoughtbot.com/) | `https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots` | feed | 2026-10-23 | 8 |  |
 | Thumbtack | [https://www.thumbtack.com/engineering/](https://www.thumbtack.com/engineering/) | `https://medium.com/feed/thumbtack-engineering` | feed | 2026-10-07 | 11 |  |
 | Timescale | [https://blog.timescale.com/](https://blog.timescale.com/) | `https://www.timescale.com/blog/rss/` | feed | 2026-10-23 | 9 |  |
