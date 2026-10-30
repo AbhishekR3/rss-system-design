@@ -5,8 +5,246 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-10-28T12:00:00Z</updated>
+<updated>2026-10-29T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale</title>
+<link href="https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/"/>
+<id>urn:rss-system-design:all:1b82706e0c</id>
+<updated>2026-10-29T12:00:00Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Architecture walkthrough of Catching JiTTests, covering the dodgy diff and intent-aware test generation workflows, the LLM-as-Judge ensemble paired with the rule-based RubFake assessor, and the human-on-the-loop review design.</summary>
+</entry>
+<entry>
+<title>Software engineering at Google &amp; CS education with Titus Winters</title>
+<link href="https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and"/>
+<id>urn:rss-system-design:all:22a42169ff</id>
+<updated>2026-10-29T11:59:59Z</updated>
+<author><name>The Pragmatic Engineer</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the process decision to require a test with every change after Search slowed to quarterly releases, and the parse, match, coexist, shard and delete steps of a roughly 250M-line C++ refactor.</summary>
+</entry>
+<entry>
+<title>Measuring soft navigation web vitals</title>
+<link href="https://blog.sentry.io/measuring-soft-navigation-web-vitals/"/>
+<id>urn:rss-system-design:all:25055d11ca</id>
+<updated>2026-10-29T11:59:58Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Architecture walkthrough of soft navigation web vitals in Sentry JavaScript SDK v11, covering why idle-based `navigation` spans miss user-visible timing, span streaming for late vitals, and the `browser.navigation.type` attribute.</summary>
+</entry>
+<entry>
+<title>GitLab Orbit is GA: Higher agent accuracy, lower token cost</title>
+<link href="https://about.gitlab.com/blog/gitlab-orbit-ga/"/>
+<id>urn:rss-system-design:all:25a8884aa6</id>
+<updated>2026-10-29T11:59:57Z</updated>
+<author><name>GitLab</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<summary>Not picked: The article was a general availability announcement listing features, test results and pricing for GitLab Orbit without walking through its architecture.</summary>
+</entry>
+<entry>
+<title>How boAt delivers personalized fitness coaching with Amazon Bedrock</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/"/>
+<id>urn:rss-system-design:all:267bcc6989</id>
+<updated>2026-10-29T11:59:56Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to build AI Coach on AWS Lambda and Amazon Bedrock on-demand inference with Llama 3.3 70B, plus a translation layer that expanded legacy JSON keys and substituted safe defaults.</summary>
+</entry>
+<entry>
+<title>Connecting Cloudflare and Honeybadger with OpenTelemetry</title>
+<link href="https://www.honeybadger.io/blog/cloudflare-honeybadger-otel/"/>
+<id>urn:rss-system-design:all:3028eb80e5</id>
+<updated>2026-10-29T11:59:55Z</updated>
+<author><name>Honeybadger</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<summary>Not picked: The article was a setup tutorial for sending Cloudflare Workers logs to Honeybadger with no design trade-offs.</summary>
+</entry>
+<entry>
+<title>eBay unveils collection of cars inspired by gaming's most iconic rides</title>
+<link href="https://www.ebayinc.com/stories/news/ebay-unveils-collection-of-cars-inspired-by-gamings-most-iconic-rides/"/>
+<id>urn:rss-system-design:all:4e3f8bf9df</id>
+<updated>2026-10-29T11:59:54Z</updated>
+<author><name>eBay</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
+<summary>Not picked: The article was a company marketing announcement about a charity car auction.</summary>
+</entry>
+<entry>
+<title>Microsoft Research Focus – Edition #97</title>
+<link href="https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/"/>
+<id>urn:rss-system-design:all:4f15bf93ed</id>
+<updated>2026-10-29T11:59:53Z</updated>
+<author><name>Microsoft</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<summary>Not picked: The article was a podcast roundup of short research news items without system design detail.</summary>
+</entry>
+<entry>
+<title>Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&amp;A)</title>
+<link href="https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/"/>
+<id>urn:rss-system-design:all:5728e62b8f</id>
+<updated>2026-10-29T11:59:52Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<summary>Not picked: The article announced a new bug bounty tier and discussed vulnerability research trends in a Q&amp;A without a system design walkthrough.</summary>
+</entry>
+<entry>
+<title>Querying Databricks Apache Iceberg Tables with the borderless Lakehouse</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/"/>
+<id>urn:rss-system-design:all:58b1aeccc6</id>
+<updated>2026-10-29T11:59:51Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of zero-copy BigQuery reads of Databricks-managed Iceberg tables, covering Unity Catalog federation with credential vending, manifest-based partition pruning, metadata refresh as often as every 5 minutes, and compaction.</summary>
+</entry>
+<entry>
+<title>Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants</title>
+<link href="https://blog.cloudflare.com/ddos-threat-report-2026-q3/"/>
+<id>urn:rss-system-design:all:9ce168752d</id>
+<updated>2026-10-29T11:59:50Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<summary>Not picked: The article was a quarterly report of DDoS attack statistics and trends.</summary>
+</entry>
+<entry>
+<title>How DoorDash Reduced LLM Search Costs by 98% Without Losing Accuracy</title>
+<link href="https://careersatdoordash.com/blog/how-doordash-reduced-llm-search-costs-by-98-without-losing-accuracy/"/>
+<id>urn:rss-system-design:all:a64669c5f9</id>
+<updated>2026-10-29T11:59:49Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Shows the design decision to decouple LLM search grounding from the model provider through an MCP-compatible gateway with exact and semantic caches and provider fallback, cutting QIU search cost by more than 98%.</summary>
+</entry>
+<entry>
+<title>Data Movement Strategies In System Design</title>
+<link href="https://blog.bytebytego.com/p/data-movement-strategies-in-system"/>
+<id>urn:rss-system-design:all:a86185eb36</id>
+<updated>2026-10-29T11:59:48Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<summary>The available text only outlined design choices among data movement strategies, listing pull, polling, push, long polling, SSE and WebSockets, message queues, change data capture and how to choose one.</summary>
+</entry>
+<entry>
+<title>Grounding agents in one context graph connecting semantic models you already trust</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/"/>
+<id>urn:rss-system-design:all:bd20fb45b4</id>
+<updated>2026-10-29T11:59:47Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<summary>Not picked: The article was a product announcement listing the semantic model sources that Knowledge Catalog now ingests.</summary>
+</entry>
+<entry>
+<title>What’s new with Google Data Cloud</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/"/>
+<id>urn:rss-system-design:all:c2bf9d5ea8</id>
+<updated>2026-10-29T11:59:46Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<summary>Not picked: The article was a running roundup of Google Data Cloud product updates.</summary>
+</entry>
+<entry>
+<title>Build Generative UI Apps with A2UI &amp; CopilotKit Agents</title>
+<link href="https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/"/>
+<id>urn:rss-system-design:all:d64805000b</id>
+<updated>2026-10-29T11:59:45Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the trade-off between pre-built components and agent-written UI code for generative UI, and the A2UI choice of declarative JSON messages checked against a trusted client component catalog and streamed over AG-UI.</summary>
+</entry>
+<entry>
+<title>Securing Your Stack: Recent PHP and eMudhra Updates on Heroku</title>
+<link href="https://www.heroku.com/blog/securing-your-stack-recent-php-and-emudhra-updates-on-heroku/"/>
+<id>urn:rss-system-design:all:e4fcc16ca9</id>
+<updated>2026-10-29T11:59:44Z</updated>
+<author><name>Heroku</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<summary>Not picked: The article was a security patch notice with upgrade instructions for Heroku users.</summary>
+</entry>
+<entry>
+<title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/"/>
+<id>urn:rss-system-design:all:ed0ca7f5f0</id>
+<updated>2026-10-29T11:59:43Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the migration decisions for moving the BMW Connected Vehicle platform to Graviton, including native versus QEMU-emulated multi-arch builds, tainted opt-in Karpenter node pools and x86 fallback, saving about 600,000 dollars annually.</summary>
+</entry>
+<entry>
+<title>Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials</title>
+<link href="https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/"/>
+<id>urn:rss-system-design:all:fa55622cf9</id>
+<updated>2026-10-29T11:59:42Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the precision versus throughput trade-off of running PET interatomic potential inference with BF16x9 and TF32x3 Tensor Core FP32 methods, reaching up to 1.7x MD-step speedups while preserving energy conservation.</summary>
+</entry>
+<entry>
+<title>Adaptive Integer Compression in TimescaleDB: Built for the Read Path</title>
+<link href="https://www.tigerdata.com/blog/adaptive-integer-compression-aic-in-timescaledb"/>
+<id>urn:rss-system-design:all:0231c6ae06</id>
+<updated>2026-10-29T11:59:41Z</updated>
+<author><name>Timescale</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>TimescaleDB introduces Adaptive Integer Compression, which picks a fast-decoding encoding per block of up to 256 values, giving about 10% smaller databases and around 50% faster typical queries.</summary>
+</entry>
 <entry>
 <title>Near-zero downtime upgrades: Announcing Cloud SQL for MySQL blue-green deployments</title>
 <link href="https://cloud.google.com/blog/products/databases/cloud-sql-blue-green-deployments/"/>
@@ -248,6 +486,20 @@
 <category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
 <category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
 <summary>Evil Martians describes typed-channel, a 271-byte library that makes postMessage, event buses and Figma plugin messaging type-safe, and its 0.11 request API with AbortSignal cancellation.</summary>
+</entry>
+<entry>
+<title>How to Use AI Coding in Systems That Cannot Fail: Practice and Limits in Distributed Storage (translated from Chinese)</title>
+<link href="https://tech-meituan-com.translate.goog/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:f78606104e</id>
+<updated>2026-10-29T11:59:40Z</updated>
+<author><name>Meituan</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Meituan's storage team describes using AI for code review, debugging, a CMake build migration and an ARM port of a distributed KV store, and how tests and runtime logs verified AI findings.</summary>
 </entry>
 <entry>
 <title>The revised rules of engineering management with Will Larson</title>

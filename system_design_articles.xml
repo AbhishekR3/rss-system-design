@@ -5,8 +5,152 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-10-28T12:00:00Z</updated>
+<updated>2026-10-29T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/"/>
+<id>urn:rss-system-design:ed0ca7f5f0</id>
+<updated>2026-10-29T12:00:00Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the migration decisions for moving the BMW Connected Vehicle platform to Graviton, including native versus QEMU-emulated multi-arch builds, tainted opt-in Karpenter node pools and x86 fallback, saving about 600,000 dollars annually.</summary>
+</entry>
+<entry>
+<title>How boAt delivers personalized fitness coaching with Amazon Bedrock</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/"/>
+<id>urn:rss-system-design:267bcc6989</id>
+<updated>2026-10-29T11:59:59Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to build AI Coach on AWS Lambda and Amazon Bedrock on-demand inference with Llama 3.3 70B, plus a translation layer that expanded legacy JSON keys and substituted safe defaults.</summary>
+</entry>
+<entry>
+<title>Data Movement Strategies In System Design</title>
+<link href="https://blog.bytebytego.com/p/data-movement-strategies-in-system"/>
+<id>urn:rss-system-design:a86185eb36</id>
+<updated>2026-10-29T11:59:58Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<summary>The available text only outlined design choices among data movement strategies, listing pull, polling, push, long polling, SSE and WebSockets, message queues, change data capture and how to choose one.</summary>
+</entry>
+<entry>
+<title>How DoorDash Reduced LLM Search Costs by 98% Without Losing Accuracy</title>
+<link href="https://careersatdoordash.com/blog/how-doordash-reduced-llm-search-costs-by-98-without-losing-accuracy/"/>
+<id>urn:rss-system-design:a64669c5f9</id>
+<updated>2026-10-29T11:59:57Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Shows the design decision to decouple LLM search grounding from the model provider through an MCP-compatible gateway with exact and semantic caches and provider fallback, cutting QIU search cost by more than 98%.</summary>
+</entry>
+<entry>
+<title>Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale</title>
+<link href="https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/"/>
+<id>urn:rss-system-design:1b82706e0c</id>
+<updated>2026-10-29T11:59:56Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Architecture walkthrough of Catching JiTTests, covering the dodgy diff and intent-aware test generation workflows, the LLM-as-Judge ensemble paired with the rule-based RubFake assessor, and the human-on-the-loop review design.</summary>
+</entry>
+<entry>
+<title>Querying Databricks Apache Iceberg Tables with the borderless Lakehouse</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/"/>
+<id>urn:rss-system-design:58b1aeccc6</id>
+<updated>2026-10-29T11:59:55Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of zero-copy BigQuery reads of Databricks-managed Iceberg tables, covering Unity Catalog federation with credential vending, manifest-based partition pruning, metadata refresh as often as every 5 minutes, and compaction.</summary>
+</entry>
+<entry>
+<title>Build Generative UI Apps with A2UI &amp; CopilotKit Agents</title>
+<link href="https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/"/>
+<id>urn:rss-system-design:d64805000b</id>
+<updated>2026-10-29T11:59:54Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the trade-off between pre-built components and agent-written UI code for generative UI, and the A2UI choice of declarative JSON messages checked against a trusted client component catalog and streamed over AG-UI.</summary>
+</entry>
+<entry>
+<title>How to Use AI Coding in Systems That Cannot Fail: Practice and Limits in Distributed Storage (translated from Chinese)</title>
+<link href="https://tech-meituan-com.translate.goog/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:f78606104e</id>
+<updated>2026-10-29T11:59:53Z</updated>
+<author><name>Meituan</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Meituan's storage team describes using AI for code review, debugging, a CMake build migration and an ARM port of a distributed KV store, and how tests and runtime logs verified AI findings.</summary>
+</entry>
+<entry>
+<title>Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials</title>
+<link href="https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/"/>
+<id>urn:rss-system-design:fa55622cf9</id>
+<updated>2026-10-29T11:59:52Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the precision versus throughput trade-off of running PET interatomic potential inference with BF16x9 and TF32x3 Tensor Core FP32 methods, reaching up to 1.7x MD-step speedups while preserving energy conservation.</summary>
+</entry>
+<entry>
+<title>Measuring soft navigation web vitals</title>
+<link href="https://blog.sentry.io/measuring-soft-navigation-web-vitals/"/>
+<id>urn:rss-system-design:25055d11ca</id>
+<updated>2026-10-29T11:59:51Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Architecture walkthrough of soft navigation web vitals in Sentry JavaScript SDK v11, covering why idle-based `navigation` spans miss user-visible timing, span streaming for late vitals, and the `browser.navigation.type` attribute.</summary>
+</entry>
+<entry>
+<title>Software engineering at Google &amp; CS education with Titus Winters</title>
+<link href="https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and"/>
+<id>urn:rss-system-design:22a42169ff</id>
+<updated>2026-10-29T11:59:50Z</updated>
+<author><name>The Pragmatic Engineer</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the process decision to require a test with every change after Search slowed to quarterly releases, and the parse, match, coexist, shard and delete steps of a roughly 250M-line C++ refactor.</summary>
+</entry>
+<entry>
+<title>Adaptive Integer Compression in TimescaleDB: Built for the Read Path</title>
+<link href="https://www.tigerdata.com/blog/adaptive-integer-compression-aic-in-timescaledb"/>
+<id>urn:rss-system-design:0231c6ae06</id>
+<updated>2026-10-29T11:59:49Z</updated>
+<author><name>Timescale</name></author>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>TimescaleDB introduces Adaptive Integer Compression, which picks a fast-decoding encoding per block of up to 256 values, giving about 10% smaller databases and around 50% faster typical queries.</summary>
+</entry>
 <entry>
 <title>Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens</title>
 <link href="https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/"/>
