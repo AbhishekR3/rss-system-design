@@ -5,13 +5,245 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-10-29T12:00:00Z</updated>
+<updated>2026-10-30T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>New Gemini courses for financial services and legal teams</title>
+<link href="https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/"/>
+<id>urn:rss-system-design:all:02f3fb579a</id>
+<updated>2026-10-30T12:00:00Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
+<summary>Not picked: The article announced training courses and describes no system.</summary>
+</entry>
+<entry>
+<title>An agent or a committee? What using committees has taught me since setting them up (translated from French)</title>
+<link href="https://blog-octo-com.translate.goog/un-agent-ou-un-comite-ce-que-l'usage-des-comites-m'a-appris-depuis-leur-mise-en-place?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:089830c556</id>
+<updated>2026-10-30T11:59:59Z</updated>
+<author><name>OCTO Technology</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the decision to use one agent with escalation and a script verifier instead of agent committees, after a committee cost 4.3 times more tokens and the agent verifier wrongly accepted 8 of 44 proofs.</summary>
+</entry>
+<entry>
+<title>4 real? Tracking exploitation and patching of eMudhra’s weak keys</title>
+<link href="https://blog.cloudflare.com/emudhra-patching/"/>
+<id>urn:rss-system-design:all:0d012593ad</id>
+<updated>2026-10-30T11:59:58Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Failure analysis of eMudhra intermediate CA keys recoverable from public certificates, covering how Cloudflare patched Pingora within hours, logged about 22,000 weak-key handshakes, and probed client trust through challenge pages.</summary>
+</entry>
+<entry>
+<title>Overhauling DoorDash’s Runtime Configuration Value Distribution with SquashFS</title>
+<link href="https://careersatdoordash.com/blog/overhauling-doordashs-runtime-configuration-value-distribution-with-squashfs/"/>
+<id>urn:rss-system-design:all:0d43431ded</id>
+<updated>2026-10-30T11:59:57Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Shows the design decision to replace eager .tar.gz extraction of tens of thousands of config files on every Kubernetes node with on-demand SquashFS loop mounts, cutting extraction latency over 100x and EBS IOPS over 5x.</summary>
+</entry>
+<entry>
+<title>From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence</title>
+<link href="https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/"/>
+<id>urn:rss-system-design:all:108ca5faea</id>
+<updated>2026-10-30T11:59:56Z</updated>
+<author><name>Microsoft</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Architecture walkthrough of a platform generating synthetic enterprise tenants grounded in occupational data, job postings and SEC filings plus a six-stage query pipeline, a design driven by the constraint that no customer data be used.</summary>
+</entry>
+<entry>
+<title>5 lessons for getting agentic AI into production</title>
+<link href="https://8thlight.com/insights/5-lessons-for-getting-agentic-ai-into-production"/>
+<id>urn:rss-system-design:all:14602210b1</id>
+<updated>2026-10-21T12:00:00Z</updated>
+<author><name>8th Light</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<summary>Not picked: The article gave general advice gathered at executive dinners without a concrete system or trade-off analysis.</summary>
+</entry>
+<entry>
+<title>Upgrading MLflow Pipelines Across a Python Version Boundary</title>
+<link href="https://engineering.zalando.com/posts/2026/10/upgrading-mlflow-pipelines.html"/>
+<id>urn:rss-system-design:all:2257186a92</id>
+<updated>2026-10-29T12:00:00Z</updated>
+<author><name>Zalando</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to recover cloudpickle-serialized MLflow models broken by the Python 3.10 to 3.12 upgrade through a Load and Repack migration instead of retraining, and the planned move to native serialization formats.</summary>
+</entry>
+<entry>
+<title>Innovate on your own business terms: Google Cloud spend caps now generally available</title>
+<link href="https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/"/>
+<id>urn:rss-system-design:all:326b190c2d</id>
+<updated>2026-10-30T11:59:55Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Not picked: The article announced a billing feature and listed its capabilities without architecture detail.</summary>
+</entry>
+<entry>
+<title>How to Check and Configure NVIDIA GPUDirect Storage for Your Platform</title>
+<link href="https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/"/>
+<id>urn:rss-system-design:all:5a7dce29ce</id>
+<updated>2026-10-30T11:59:54Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Not picked: The article was a usage tutorial for a diagnostic tool without design trade-offs.</summary>
+</entry>
+<entry>
+<title>Deliberate decisions and enterprise AI value</title>
+<link href="https://www.databricks.com/blog/deliberate-decisions-and-enterprise-ai-value"/>
+<id>urn:rss-system-design:all:641f763280</id>
+<updated>2026-10-30T11:59:53Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
+<summary>Not picked: The article promoted a leadership report and describes no system.</summary>
+</entry>
+<entry>
+<title>Cloudflare services for private origins is now generally available</title>
+<link href="https://blog.cloudflare.com/private-origins-public-to-private/"/>
+<id>urn:rss-system-design:all:68ab75b34b</id>
+<updated>2026-10-30T11:59:52Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<summary>Not picked: The article announced general availability of a feature and listed supported services with only a brief routing note.</summary>
+</entry>
+<entry>
+<title>What’s new in AI infrastructure and orchestration in October</title>
+<link href="https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/"/>
+<id>urn:rss-system-design:all:72816117db</id>
+<updated>2026-10-30T11:59:51Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<summary>Not picked: The article was a roundup of product launches and links.</summary>
+</entry>
+<entry>
+<title>Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw</title>
+<link href="https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/"/>
+<id>urn:rss-system-design:all:825dfb6f5c</id>
+<updated>2026-10-30T11:59:50Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<summary>Not picked: The article described the components of a product offering without architecture detail or trade-offs.</summary>
+</entry>
+<entry>
+<title>When the Kubernetes API went silent: A three-layer networking mystery</title>
+<link href="https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/"/>
+<id>urn:rss-system-design:all:8e822b544a</id>
+<updated>2026-10-30T11:59:49Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Failure analysis of GKE pods timing out to the API server, traced to a Private Service Connect change dropping RFC 5961 challenge ACKs, packet reordering, Envoy half-close and a Linux kernel 6.1 FIN-handling bug.</summary>
+</entry>
+<entry>
+<title>What’s new with Google Cloud</title>
+<link href="https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/"/>
+<id>urn:rss-system-design:all:9eee711eb9</id>
+<updated>2026-10-30T11:59:48Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<summary>Not picked: The article was a running roundup of announcements, webinars and tutorials.</summary>
+</entry>
+<entry>
+<title>Meet the 2026 eBay Live x Up &amp; Running Grant recipients</title>
+<link href="https://www.ebayinc.com/stories/news/meet-the-2026-ebay-live-up-and-running-grant-recipients-sellers/"/>
+<id>urn:rss-system-design:all:b977ebc78b</id>
+<updated>2026-10-30T11:59:47Z</updated>
+<author><name>eBay</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
+<summary>Not picked: The article announced seller grant recipients and describes no system.</summary>
+</entry>
+<entry>
+<title>DevFest is back!</title>
+<link href="https://developers.googleblog.com/devfest-is-back/"/>
+<id>urn:rss-system-design:all:c352d9d60e</id>
+<updated>2026-10-30T11:59:46Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
+<summary>Not picked: The article announced a community event series and describes no system.</summary>
+</entry>
+<entry>
+<title>Run AI Models for Edge Application Development with Just a Few Commands</title>
+<link href="https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/"/>
+<id>urn:rss-system-design:all:da03312284</id>
+<updated>2026-10-30T11:59:45Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<summary>Not picked: The article was a setup tutorial with benchmark figures and no design trade-offs.</summary>
+</entry>
+<entry>
+<title>Build a Validated Kubernetes Runtime for NVIDIA Dynamo</title>
+<link href="https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/"/>
+<id>urn:rss-system-design:all:eb885d774e</id>
+<updated>2026-10-30T11:59:44Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Architecture walkthrough of NVIDIA Dynamo's Kubernetes runtime, comparing the Dynamo Frontend router with the Gateway API and EPP path for KV-cache-aware routing, and why live KV events are used instead of predicted cache state.</summary>
+</entry>
+<entry>
+<title>It’s ok that computers are (sometimes) better than us</title>
+<link href="https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/"/>
+<id>urn:rss-system-design:all:19adfdfbe1</id>
+<updated>2026-10-30T11:59:43Z</updated>
+<author><name>Stack Overflow</name></author>
+<category scheme="urn:rss-system-design:status" term="unchecked" label="Not classified: too short or could not be read"/>
+<summary>Not classified: too short or could not be read.</summary>
+</entry>
 <entry>
 <title>Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale</title>
 <link href="https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/"/>
 <id>urn:rss-system-design:all:1b82706e0c</id>
-<updated>2026-10-29T12:00:00Z</updated>
+<updated>2026-10-29T11:59:59Z</updated>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -24,7 +256,7 @@
 <title>Software engineering at Google &amp; CS education with Titus Winters</title>
 <link href="https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and"/>
 <id>urn:rss-system-design:all:22a42169ff</id>
-<updated>2026-10-29T11:59:59Z</updated>
+<updated>2026-10-29T11:59:58Z</updated>
 <author><name>The Pragmatic Engineer</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -36,7 +268,7 @@
 <title>Measuring soft navigation web vitals</title>
 <link href="https://blog.sentry.io/measuring-soft-navigation-web-vitals/"/>
 <id>urn:rss-system-design:all:25055d11ca</id>
-<updated>2026-10-29T11:59:58Z</updated>
+<updated>2026-10-29T11:59:57Z</updated>
 <author><name>Sentry</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -48,7 +280,7 @@
 <title>GitLab Orbit is GA: Higher agent accuracy, lower token cost</title>
 <link href="https://about.gitlab.com/blog/gitlab-orbit-ga/"/>
 <id>urn:rss-system-design:all:25a8884aa6</id>
-<updated>2026-10-29T11:59:57Z</updated>
+<updated>2026-10-29T11:59:56Z</updated>
 <author><name>GitLab</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -59,7 +291,7 @@
 <title>How boAt delivers personalized fitness coaching with Amazon Bedrock</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/"/>
 <id>urn:rss-system-design:all:267bcc6989</id>
-<updated>2026-10-29T11:59:56Z</updated>
+<updated>2026-10-29T11:59:55Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -73,7 +305,7 @@
 <title>Connecting Cloudflare and Honeybadger with OpenTelemetry</title>
 <link href="https://www.honeybadger.io/blog/cloudflare-honeybadger-otel/"/>
 <id>urn:rss-system-design:all:3028eb80e5</id>
-<updated>2026-10-29T11:59:55Z</updated>
+<updated>2026-10-29T11:59:54Z</updated>
 <author><name>Honeybadger</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -83,7 +315,7 @@
 <title>eBay unveils collection of cars inspired by gaming's most iconic rides</title>
 <link href="https://www.ebayinc.com/stories/news/ebay-unveils-collection-of-cars-inspired-by-gamings-most-iconic-rides/"/>
 <id>urn:rss-system-design:all:4e3f8bf9df</id>
-<updated>2026-10-29T11:59:54Z</updated>
+<updated>2026-10-29T11:59:53Z</updated>
 <author><name>eBay</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
@@ -93,7 +325,7 @@
 <title>Microsoft Research Focus – Edition #97</title>
 <link href="https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/"/>
 <id>urn:rss-system-design:all:4f15bf93ed</id>
-<updated>2026-10-29T11:59:53Z</updated>
+<updated>2026-10-29T11:59:52Z</updated>
 <author><name>Microsoft</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -104,7 +336,7 @@
 <title>Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&amp;A)</title>
 <link href="https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/"/>
 <id>urn:rss-system-design:all:5728e62b8f</id>
-<updated>2026-10-29T11:59:52Z</updated>
+<updated>2026-10-29T11:59:51Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -114,7 +346,7 @@
 <title>Querying Databricks Apache Iceberg Tables with the borderless Lakehouse</title>
 <link href="https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/"/>
 <id>urn:rss-system-design:all:58b1aeccc6</id>
-<updated>2026-10-29T11:59:51Z</updated>
+<updated>2026-10-29T11:59:50Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
@@ -125,10 +357,24 @@
 <summary>Architecture walkthrough of zero-copy BigQuery reads of Databricks-managed Iceberg tables, covering Unity Catalog federation with credential vending, manifest-based partition pruning, metadata refresh as often as every 5 minutes, and compaction.</summary>
 </entry>
 <entry>
+<title>Designing a Generalized Ads Marketplace Platform</title>
+<link href="https://www.uber.com/us/en/blog/designing-ads-marketplace/"/>
+<id>urn:rss-system-design:all:63c1945083</id>
+<updated>2026-10-30T11:59:42Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decisions behind the Uber generalized ads marketplace, including supply, marketplace and demand separation, the AdSpec abstraction, extension-based requests, page-level APIs and config-defined isolated fleets sharing one codebase.</summary>
+</entry>
+<entry>
 <title>Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants</title>
 <link href="https://blog.cloudflare.com/ddos-threat-report-2026-q3/"/>
 <id>urn:rss-system-design:all:9ce168752d</id>
-<updated>2026-10-29T11:59:50Z</updated>
+<updated>2026-10-29T11:59:49Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -139,7 +385,7 @@
 <title>How DoorDash Reduced LLM Search Costs by 98% Without Losing Accuracy</title>
 <link href="https://careersatdoordash.com/blog/how-doordash-reduced-llm-search-costs-by-98-without-losing-accuracy/"/>
 <id>urn:rss-system-design:all:a64669c5f9</id>
-<updated>2026-10-29T11:59:49Z</updated>
+<updated>2026-10-29T11:59:48Z</updated>
 <author><name>DoorDash</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -153,7 +399,7 @@
 <title>Data Movement Strategies In System Design</title>
 <link href="https://blog.bytebytego.com/p/data-movement-strategies-in-system"/>
 <id>urn:rss-system-design:all:a86185eb36</id>
-<updated>2026-10-29T11:59:48Z</updated>
+<updated>2026-10-29T11:59:47Z</updated>
 <author><name>ByteByteGo</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
@@ -164,7 +410,7 @@
 <title>Grounding agents in one context graph connecting semantic models you already trust</title>
 <link href="https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/"/>
 <id>urn:rss-system-design:all:bd20fb45b4</id>
-<updated>2026-10-29T11:59:47Z</updated>
+<updated>2026-10-29T11:59:46Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -175,7 +421,7 @@
 <title>What’s new with Google Data Cloud</title>
 <link href="https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/"/>
 <id>urn:rss-system-design:all:c2bf9d5ea8</id>
-<updated>2026-10-29T11:59:46Z</updated>
+<updated>2026-10-29T11:59:45Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
@@ -186,7 +432,7 @@
 <title>Build Generative UI Apps with A2UI &amp; CopilotKit Agents</title>
 <link href="https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/"/>
 <id>urn:rss-system-design:all:d64805000b</id>
-<updated>2026-10-29T11:59:45Z</updated>
+<updated>2026-10-29T11:59:44Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -199,7 +445,7 @@
 <title>Securing Your Stack: Recent PHP and eMudhra Updates on Heroku</title>
 <link href="https://www.heroku.com/blog/securing-your-stack-recent-php-and-emudhra-updates-on-heroku/"/>
 <id>urn:rss-system-design:all:e4fcc16ca9</id>
-<updated>2026-10-29T11:59:44Z</updated>
+<updated>2026-10-29T11:59:43Z</updated>
 <author><name>Heroku</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -210,7 +456,7 @@
 <title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/"/>
 <id>urn:rss-system-design:all:ed0ca7f5f0</id>
-<updated>2026-10-29T11:59:43Z</updated>
+<updated>2026-10-29T11:59:42Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -224,7 +470,7 @@
 <title>Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials</title>
 <link href="https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/"/>
 <id>urn:rss-system-design:all:fa55622cf9</id>
-<updated>2026-10-29T11:59:42Z</updated>
+<updated>2026-10-29T11:59:41Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -236,7 +482,7 @@
 <title>Adaptive Integer Compression in TimescaleDB: Built for the Read Path</title>
 <link href="https://www.tigerdata.com/blog/adaptive-integer-compression-aic-in-timescaledb"/>
 <id>urn:rss-system-design:all:0231c6ae06</id>
-<updated>2026-10-29T11:59:41Z</updated>
+<updated>2026-10-29T11:59:40Z</updated>
 <author><name>Timescale</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
@@ -413,7 +659,7 @@
 <title>Knowing When to Quit</title>
 <link href="https://blog.allegro.tech/2026/10/knowing-when-to-quit.html"/>
 <id>urn:rss-system-design:all:c6dd7c8309</id>
-<updated>2026-10-21T12:00:00Z</updated>
+<updated>2026-10-21T11:59:59Z</updated>
 <author><name>Allegro</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
@@ -491,7 +737,7 @@
 <title>How to Use AI Coding in Systems That Cannot Fail: Practice and Limits in Distributed Storage (translated from Chinese)</title>
 <link href="https://tech-meituan-com.translate.goog/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:f78606104e</id>
-<updated>2026-10-29T11:59:40Z</updated>
+<updated>2026-10-29T11:59:39Z</updated>
 <author><name>Meituan</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -505,7 +751,7 @@
 <title>The revised rules of engineering management with Will Larson</title>
 <link href="https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering"/>
 <id>urn:rss-system-design:all:28a12ec095</id>
-<updated>2026-10-21T11:59:59Z</updated>
+<updated>2026-10-21T11:59:58Z</updated>
 <author><name>The Pragmatic Engineer</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
@@ -667,7 +913,7 @@
 <title>Aligning Dispatch to Reality: Using Reinforcement Learning to Adapt Real-Time Objective Weight</title>
 <link href="https://careersatdoordash.com/blog/aligning-dispatch-to-reality-using-reinforcement-learning-to-adapt-real-time-objective-weight/"/>
 <id>urn:rss-system-design:all:29b1a3108a</id>
-<updated>2026-10-21T11:59:58Z</updated>
+<updated>2026-10-21T11:59:57Z</updated>
 <author><name>DoorDash</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -1545,7 +1791,7 @@
 <title>Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD</title>
 <link href="https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/"/>
 <id>urn:rss-system-design:all:0acaf72d59</id>
-<updated>2026-10-21T11:59:57Z</updated>
+<updated>2026-10-21T11:59:56Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -1598,7 +1844,7 @@
 <title>Inside NVIDIA Sentry: Secure AI Agents at Runtime</title>
 <link href="https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/"/>
 <id>urn:rss-system-design:all:15dc543e01</id>
-<updated>2026-10-21T11:59:56Z</updated>
+<updated>2026-10-21T11:59:55Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -2662,7 +2908,7 @@
 <title>How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale</title>
 <link href="https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/"/>
 <id>urn:rss-system-design:all:a304b6a050</id>
-<updated>2026-10-21T11:59:55Z</updated>
+<updated>2026-10-21T11:59:54Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -2778,7 +3024,7 @@
 <title>Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search</title>
 <link href="https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/"/>
 <id>urn:rss-system-design:all:b43bb9d51c</id>
-<updated>2026-10-21T11:59:54Z</updated>
+<updated>2026-10-21T11:59:53Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -2816,7 +3062,7 @@
 <title>Developing an AI Factory Digital Twin with an Agent-Assisted Workflow</title>
 <link href="https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/"/>
 <id>urn:rss-system-design:all:b7422fdbc4</id>
-<updated>2026-10-21T11:59:53Z</updated>
+<updated>2026-10-21T11:59:52Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -2844,7 +3090,7 @@
 <title>Automate medical coding with Step Functions and Amazon Bedrock AgentCore</title>
 <link href="https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore/"/>
 <id>urn:rss-system-design:all:b8951545d9</id>
-<updated>2026-10-21T11:59:52Z</updated>
+<updated>2026-10-21T11:59:51Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -3906,7 +4152,7 @@
 <title>How we built ChatGPT’s novel ad stack for user trust and relevance</title>
 <link href="https://openai.com/index/building-chatgpt-ad-stack"/>
 <id>urn:rss-system-design:all:edef63b51a</id>
-<updated>2026-10-21T11:59:51Z</updated>
+<updated>2026-10-21T11:59:50Z</updated>
 <author><name>OpenAI</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
@@ -4083,7 +4329,7 @@
 <title>Introducing full transaction detection for Cloudflare WAF</title>
 <link href="https://blog.cloudflare.com/full-transaction-waf/"/>
 <id>urn:rss-system-design:all:5e1de757df</id>
-<updated>2026-10-21T11:59:50Z</updated>
+<updated>2026-10-21T11:59:49Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -4119,7 +4365,7 @@
 <title>How Commerce.com and Cloudflare are getting storefronts ready for AI agents</title>
 <link href="https://blog.cloudflare.com/webmcp-commerce/"/>
 <id>urn:rss-system-design:all:c89f270435</id>
-<updated>2026-10-21T11:59:49Z</updated>
+<updated>2026-10-21T11:59:48Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -4131,7 +4377,7 @@
 <title>Cloudflare deploys protections against php2shell vulnerability</title>
 <link href="https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"/>
 <id>urn:rss-system-design:all:da92d86b61</id>
-<updated>2026-10-21T11:59:48Z</updated>
+<updated>2026-10-21T11:59:47Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -4143,7 +4389,7 @@
 <title>Designing IIoT Ingest That Survives a Cut Uplink</title>
 <link href="https://www.tigerdata.com/blog/designing-iiot-ingest-that-survives-cut-uplink"/>
 <id>urn:rss-system-design:all:2184dc86d6</id>
-<updated>2026-10-21T11:59:47Z</updated>
+<updated>2026-10-21T11:59:46Z</updated>
 <author><name>Timescale</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>

@@ -5,8 +5,98 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-10-29T12:00:00Z</updated>
+<updated>2026-10-30T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>4 real? Tracking exploitation and patching of eMudhra’s weak keys</title>
+<link href="https://blog.cloudflare.com/emudhra-patching/"/>
+<id>urn:rss-system-design:0d012593ad</id>
+<updated>2026-10-30T12:00:00Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Failure analysis of eMudhra intermediate CA keys recoverable from public certificates, covering how Cloudflare patched Pingora within hours, logged about 22,000 weak-key handshakes, and probed client trust through challenge pages.</summary>
+</entry>
+<entry>
+<title>Overhauling DoorDash’s Runtime Configuration Value Distribution with SquashFS</title>
+<link href="https://careersatdoordash.com/blog/overhauling-doordashs-runtime-configuration-value-distribution-with-squashfs/"/>
+<id>urn:rss-system-design:0d43431ded</id>
+<updated>2026-10-30T11:59:59Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Shows the design decision to replace eager .tar.gz extraction of tens of thousands of config files on every Kubernetes node with on-demand SquashFS loop mounts, cutting extraction latency over 100x and EBS IOPS over 5x.</summary>
+</entry>
+<entry>
+<title>When the Kubernetes API went silent: A three-layer networking mystery</title>
+<link href="https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/"/>
+<id>urn:rss-system-design:8e822b544a</id>
+<updated>2026-10-30T11:59:58Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Failure analysis of GKE pods timing out to the API server, traced to a Private Service Connect change dropping RFC 5961 challenge ACKs, packet reordering, Envoy half-close and a Linux kernel 6.1 FIN-handling bug.</summary>
+</entry>
+<entry>
+<title>From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence</title>
+<link href="https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/"/>
+<id>urn:rss-system-design:108ca5faea</id>
+<updated>2026-10-30T11:59:57Z</updated>
+<author><name>Microsoft</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Architecture walkthrough of a platform generating synthetic enterprise tenants grounded in occupational data, job postings and SEC filings plus a six-stage query pipeline, a design driven by the constraint that no customer data be used.</summary>
+</entry>
+<entry>
+<title>Build a Validated Kubernetes Runtime for NVIDIA Dynamo</title>
+<link href="https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/"/>
+<id>urn:rss-system-design:eb885d774e</id>
+<updated>2026-10-30T11:59:56Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Architecture walkthrough of NVIDIA Dynamo's Kubernetes runtime, comparing the Dynamo Frontend router with the Gateway API and EPP path for KV-cache-aware routing, and why live KV events are used instead of predicted cache state.</summary>
+</entry>
+<entry>
+<title>An agent or a committee? What using committees has taught me since setting them up (translated from French)</title>
+<link href="https://blog-octo-com.translate.goog/un-agent-ou-un-comite-ce-que-l'usage-des-comites-m'a-appris-depuis-leur-mise-en-place?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:089830c556</id>
+<updated>2026-10-30T11:59:55Z</updated>
+<author><name>OCTO Technology</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the decision to use one agent with escalation and a script verifier instead of agent committees, after a committee cost 4.3 times more tokens and the agent verifier wrongly accepted 8 of 44 proofs.</summary>
+</entry>
+<entry>
+<title>Designing a Generalized Ads Marketplace Platform</title>
+<link href="https://www.uber.com/us/en/blog/designing-ads-marketplace/"/>
+<id>urn:rss-system-design:63c1945083</id>
+<updated>2026-10-30T11:59:54Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decisions behind the Uber generalized ads marketplace, including supply, marketplace and demand separation, the AdSpec abstraction, extension-based requests, page-level APIs and config-defined isolated fleets sharing one codebase.</summary>
+</entry>
 <entry>
 <title>How BMW Group accelerated connected vehicle workloads on AWS Graviton</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/"/>
@@ -150,6 +240,18 @@
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
 <category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
 <summary>TimescaleDB introduces Adaptive Integer Compression, which picks a fast-decoding encoding per block of up to 256 values, giving about 10% smaller databases and around 50% faster typical queries.</summary>
+</entry>
+<entry>
+<title>Upgrading MLflow Pipelines Across a Python Version Boundary</title>
+<link href="https://engineering.zalando.com/posts/2026/10/upgrading-mlflow-pipelines.html"/>
+<id>urn:rss-system-design:2257186a92</id>
+<updated>2026-10-29T11:59:48Z</updated>
+<author><name>Zalando</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to recover cloudpickle-serialized MLflow models broken by the Python 3.10 to 3.12 upgrade through a Load and Repack migration instead of retraining, and the planned move to native serialization formats.</summary>
 </entry>
 <entry>
 <title>Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens</title>
