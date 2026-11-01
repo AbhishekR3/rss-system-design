@@ -6,6 +6,7 @@
 <meta name="color-scheme" content="light dark">
 <title>RSS System Design Articles</title>
 <link rel="alternate" type="application/atom+xml" title="RSS System Design Articles" href="system_design_articles.xml">
+<link rel="alternate" type="application/atom+xml" title="RSS System Design Articles: Top 3" href="top3_picks.xml">
 <style>
 :root{--bg:#fff;--fg:#1d1d1f;--muted:#5f6368;--line:#e3e3e6;--accent:#0b57d0;--chip:#f1f3f4;
 --sj-bg:#d9f1ee;--sj-fg:#0b5c55;--sj-line:#7cc8bf;--cn-bg:#fdecc8;--cn-fg:#7a4a00;--cn-line:#e0b24f}
@@ -37,7 +38,11 @@ border:0;border-radius:6px;padding:0 6px;cursor:pointer;line-height:1}
 .fold:hover{color:var(--fg)}
 .fold::before{content:"\25BE"}
 .day.folded .fold::before{content:"\25B8"}
-.day.folded ul,.day.folded .none{display:none}
+.day.folded ul,.day.folded .none,.day.folded .top3{display:none}
+.top3{background:var(--chip);border-radius:8px;padding:8px 14px 2px;margin:10px 0 4px}
+.top3 .t3h{margin:0;font-size:.8rem;color:var(--muted)}
+.top3 li{padding:6px 0 8px}
+@media (prefers-color-scheme:light){.top3 .co{box-shadow:0 0 0 1px rgba(0,0,0,.15)}}
 ul{list-style:none;margin:0;padding:0}
 li{padding:10px 0}
 .line{margin:0;font-weight:600}
@@ -113,16 +118,16 @@ border-radius:999px;padding:0 8px;cursor:pointer}
 <option value="Zalando" data-label="Zalando" data-n-picked="1" data-n-all="1">Zalando (1)</option>
 </select></label>
 <label>Subject<select id="subject"><option value="">All Subjects</option>
-<option value="ml-platform" data-label="ML Platform &amp; Models" data-n-picked="19" data-n-all="27">ML Platform &amp; Models (19)</option>
+<option value="ml-platform" data-label="ML Platform &amp; Models" data-n-picked="19" data-n-all="28">ML Platform &amp; Models (19)</option>
 <option value="genai-apps" data-label="LLM Apps &amp; Agents" data-n-picked="29" data-n-all="43">LLM Apps &amp; Agents (29)</option>
 <option value="search-recsys" data-label="Search &amp; Recommendations" data-n-picked="5" data-n-all="5">Search &amp; Recommendations (5)</option>
 <option value="data-pipelines" data-label="Data Pipelines &amp; Streaming" data-n-picked="16" data-n-all="25">Data Pipelines &amp; Streaming (16)</option>
 <option value="storage-caching" data-label="Databases, Storage &amp; Caching" data-n-picked="8" data-n-all="15">Databases, Storage &amp; Caching (8)</option>
-<option value="compute-platform" data-label="Compute &amp; Cloud Platforms" data-n-picked="15" data-n-all="24">Compute &amp; Cloud Platforms (15)</option>
+<option value="compute-platform" data-label="Compute &amp; Cloud Platforms" data-n-picked="15" data-n-all="25">Compute &amp; Cloud Platforms (15)</option>
 <option value="networking-edge" data-label="Networking &amp; Edge" data-n-picked="5" data-n-all="12">Networking &amp; Edge (5)</option>
 <option value="service-architecture" data-label="Service Architecture &amp; APIs" data-n-picked="11" data-n-all="11">Service Architecture &amp; APIs (11)</option>
 <option value="client-apps" data-label="Web &amp; Mobile Apps" data-n-picked="7" data-n-all="10">Web &amp; Mobile Apps (7)</option>
-<option value="security-systems" data-label="Security &amp; Identity" data-n-picked="14" data-n-all="22">Security &amp; Identity (14)</option>
+<option value="security-systems" data-label="Security &amp; Identity" data-n-picked="14" data-n-all="21">Security &amp; Identity (14)</option>
 <option value="observability-ops" data-label="Observability &amp; Operations" data-n-picked="10" data-n-all="14">Observability &amp; Operations (10)</option>
 <option value="dev-platform" data-label="Developer Platform &amp; CI/CD" data-n-picked="18" data-n-all="24">Developer Platform &amp; CI/CD (18)</option>
 <option value="org-community" data-label="Not System Design" data-n-picked="0" data-n-all="7">Not System Design (0)</option>
@@ -142,6 +147,11 @@ border-radius:999px;padding:0 8px;cursor:pointer}
 <label>Search<input type="search" id="q" placeholder="Filter" autocomplete="off"></label>
 </div>
 <main>
+<section class="day" id="day-2026-10-31" data-day="2026-10-31"><h2><time datetime="2026-10-31">2026-10-31 · Saturday</time><button type="button" class="fold" aria-expanded="true" aria-controls="list-2026-10-31" aria-label="Collapse this day" title="Collapse this day" hidden></button></h2>
+<p class="none" hidden>No articles for this day.</p>
+<ul id="list-2026-10-31">
+<li data-company="ByteByteGo" data-status="not_picked" data-subjects=" ml-platform genai-apps compute-platform " data-concerns="  " data-text="bytebytego ep231: ai terms you need to know a newsletter issue that defined ai terms such as agentic ai, rag and mcp, listed changes from gpt-2 to gpt-6 including parameter counts and context windows, and described gpu streaming multiprocessor internals. ml platform &amp; models llm apps &amp; agents compute &amp; cloud platforms"><p class="line"><button type="button" class="co" style="background:#149F76;color:#1D1D1F" data-company="ByteByteGo" title="Show only ByteByteGo">ByteByteGo</button> – <a href="https://blog.bytebytego.com/p/ep231-ai-terms-you-need-to-know">EP231: AI Terms You Need to Know</a></p><p class="sum">A newsletter issue that defined AI terms such as agentic AI, RAG and MCP, listed changes from GPT-2 to GPT-6 including parameter counts and context windows, and described GPU Streaming Multiprocessor internals.</p><p class="tps"><button type="button" class="tp" data-topic="ml-platform" data-kind="subject" title="Show only ML Platform &amp; Models">ML Platform &amp; Models</button><button type="button" class="tp" data-topic="genai-apps" data-kind="subject" title="Show only LLM Apps &amp; Agents">LLM Apps &amp; Agents</button><button type="button" class="tp" data-topic="compute-platform" data-kind="subject" title="Show only Compute &amp; Cloud Platforms">Compute &amp; Cloud Platforms</button></p></li>
+</ul></section>
 <section class="day" id="day-2026-10-30" data-day="2026-10-30"><h2><time datetime="2026-10-30">2026-10-30 · Friday</time><button type="button" class="fold" aria-expanded="true" aria-controls="list-2026-10-30" aria-label="Collapse this day" title="Collapse this day" hidden></button></h2>
 <p class="none" hidden>No articles for this day.</p>
 <ul id="list-2026-10-30">
@@ -291,11 +301,6 @@ border-radius:999px;padding:0 8px;cursor:pointer}
 <li data-company="Spotify" data-status="read" data-subjects=" observability-ops compute-platform data-pipelines " data-concerns=" reliability scalability " data-text="spotify content ingestion &amp; podcast video incident report spotify reports on the june 24 video podcast publishing delay caused by transcoding capacity limits, a batch job and a scheduling bug, and the fixes including about 67% more transcoding capacity. observability &amp; operations compute &amp; cloud platforms data pipelines &amp; streaming reliability &amp; resilience scale &amp; performance"><p class="line"><button type="button" class="co" style="background:#1DB954;color:#1D1D1F" data-company="Spotify" title="Show only Spotify">Spotify</button> – <a href="https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report">Content Ingestion &amp; Podcast Video Incident Report</a></p><p class="sum">Spotify reports on the June 24 video podcast publishing delay caused by transcoding capacity limits, a batch job and a scheduling bug, and the fixes including about 67% more transcoding capacity.</p><p class="tps"><button type="button" class="tp" data-topic="observability-ops" data-kind="subject" title="Show only Observability &amp; Operations">Observability &amp; Operations</button><button type="button" class="tp" data-topic="compute-platform" data-kind="subject" title="Show only Compute &amp; Cloud Platforms">Compute &amp; Cloud Platforms</button><button type="button" class="tp" data-topic="data-pipelines" data-kind="subject" title="Show only Data Pipelines &amp; Streaming">Data Pipelines &amp; Streaming</button><button type="button" class="tp cn" data-topic="reliability" data-kind="concern" title="Show only Reliability &amp; Resilience">Reliability &amp; Resilience</button><button type="button" class="tp cn" data-topic="scalability" data-kind="concern" title="Show only Scale &amp; Performance">Scale &amp; Performance</button></p></li>
 <li data-company="Spotify" data-status="read" data-subjects=" genai-apps data-pipelines " data-concerns=" team-process consistency scalability " data-text="spotify encoding your domain expert: the context layer behind spotify&#x27;s data assistant spotify describes the cluster-based context layer behind its vedder data assistant, where domain experts curate datasets, question-sql pairs and docs over 70,000+ datasets, with curators accepting only 12.5% of mined pairs. llm apps &amp; agents data pipelines &amp; streaming team &amp; process decisions consistency &amp; correctness scale &amp; performance"><p class="line"><button type="button" class="co" style="background:#1DB954;color:#1D1D1F" data-company="Spotify" title="Show only Spotify">Spotify</button> – <a href="https://engineering.atspotify.com/2026/6/encoding-your-domain-expert-the-context-layer-behind-spotifys-data-assistant">Encoding Your Domain Expert: The Context Layer Behind Spotify&#x27;s Data Assistant</a></p><p class="sum">Spotify describes the cluster-based context layer behind its Vedder data assistant, where domain experts curate datasets, question-SQL pairs and docs over 70,000+ datasets, with curators accepting only 12.5% of mined pairs.</p><p class="tps"><button type="button" class="tp" data-topic="genai-apps" data-kind="subject" title="Show only LLM Apps &amp; Agents">LLM Apps &amp; Agents</button><button type="button" class="tp" data-topic="data-pipelines" data-kind="subject" title="Show only Data Pipelines &amp; Streaming">Data Pipelines &amp; Streaming</button><button type="button" class="tp cn" data-topic="team-process" data-kind="concern" title="Show only Team &amp; Process Decisions">Team &amp; Process Decisions</button><button type="button" class="tp cn" data-topic="consistency" data-kind="concern" title="Show only Consistency &amp; Correctness">Consistency &amp; Correctness</button><button type="button" class="tp cn" data-topic="scalability" data-kind="concern" title="Show only Scale &amp; Performance">Scale &amp; Performance</button></p></li>
 </ul></section>
-<section class="day" id="day-2026-10-24" data-day="2026-10-24"><h2><time datetime="2026-10-24">2026-10-24 · Saturday</time><button type="button" class="fold" aria-expanded="true" aria-controls="list-2026-10-24" aria-label="Collapse this day" title="Collapse this day" hidden></button></h2>
-<p class="none" hidden>No articles for this day.</p>
-<ul id="list-2026-10-24">
-<li data-company="ByteByteGo" data-status="not_picked" data-subjects=" genai-apps security-systems " data-concerns="  " data-text="bytebytego ep230: rag vs agentic rag a bytebytego newsletter issue with short explainers on rag versus agentic rag, oauth 2.0 authorization with oidc authentication, and the linux directory structure, plus a video on ai building blocks. llm apps &amp; agents security &amp; identity"><p class="line"><button type="button" class="co" style="background:#149F76;color:#1D1D1F" data-company="ByteByteGo" title="Show only ByteByteGo">ByteByteGo</button> – <a href="https://blog.bytebytego.com/p/ep230-rag-vs-agentic-rag">EP230: RAG vs Agentic RAG</a></p><p class="sum">A ByteByteGo newsletter issue with short explainers on RAG versus agentic RAG, OAuth 2.0 authorization with OIDC authentication, and the Linux directory structure, plus a video on AI building blocks.</p><p class="tps"><button type="button" class="tp" data-topic="genai-apps" data-kind="subject" title="Show only LLM Apps &amp; Agents">LLM Apps &amp; Agents</button><button type="button" class="tp" data-topic="security-systems" data-kind="subject" title="Show only Security &amp; Identity">Security &amp; Identity</button></p></li>
-</ul></section>
 <p id="empty" hidden>No articles match these filters.</p>
 </main>
 </div>
@@ -337,7 +342,9 @@ border-radius:999px;padding:0 8px;cursor:pointer}
     });
     var filtered=!!(c||sj||cn||t);
     days.forEach(function(d){
-      var any=!!d.querySelector('li:not([hidden])'), none=d.querySelector('.none');
+      var any=!!d.querySelector('li[data-company]:not([hidden])'), none=d.querySelector('.none'),
+          top=d.querySelector('.top3');
+      if(top) top.hidden=filtered;   // the day's top 3 box only shows while no filter or search is set
       if(none) none.hidden=any;
       d.hidden=filtered&&!any;
     });

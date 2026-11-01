@@ -4,6 +4,7 @@ Subscribe in any RSS reader:
 
 * [Picked articles](https://abhishekr3.github.io/rss-system-design/system_design_articles.xml), updated daily: `https://abhishekr3.github.io/rss-system-design/system_design_articles.xml`
 * [Every article](https://abhishekr3.github.io/rss-system-design/all.xml), picked or not: `https://abhishekr3.github.io/rss-system-design/all.xml`
+* [Top 3 articles](https://abhishekr3.github.io/rss-system-design/top3_picks.xml), the top 3 picked articles of each day: `https://abhishekr3.github.io/rss-system-design/top3_picks.xml`
 
 The [web page](https://abhishekr3.github.io/rss-system-design/index.html) shows the last 7 days. The RSS feeds contain every article.
 

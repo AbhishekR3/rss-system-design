@@ -5,8 +5,20 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-10-30T12:00:00Z</updated>
+<updated>2026-10-31T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>EP231: AI Terms You Need to Know</title>
+<link href="https://blog.bytebytego.com/p/ep231-ai-terms-you-need-to-know"/>
+<id>urn:rss-system-design:all:10dfd3542f</id>
+<updated>2026-10-31T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<summary>Not picked: Newsletter roundup of short AI explainers and a course promotion, with no design decisions, trade-offs or failure analysis.</summary>
+</entry>
 <entry>
 <title>New Gemini courses for financial services and legal teams</title>
 <link href="https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/"/>
