@@ -44,7 +44,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | GoDaddy | [https://www.godaddy.com/resources/category/engineering](https://www.godaddy.com/resources/category/engineering) | `https://www.godaddy.com/resources/category/engineering/feed` | feed | 2026-10-22 | 10 |  |
 | Gojek Engineering (Data) | [https://medium.com/gojekengineering/subpage/72dbe6258beb](https://medium.com/gojekengineering/subpage/72dbe6258beb) | `https://medium.com/feed/gojekengineering/tagged/data-science` | feed | 2025-10-07 | 10 | Data section only |
 | Gojek Engineering (Tech) | [https://medium.com/gojekengineering/subpage/a0c5f1afae5b](https://medium.com/gojekengineering/subpage/a0c5f1afae5b) | `https://medium.com/feed/gojekengineering/tagged/tech` | feed | 2026-03-04 | 9 | Tech section only |
-| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-10-30 | 44 |  |
+| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-02 | 47 |  |
 | Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-10-30 | 27 |  |
 | Grab | [http://engineering.grab.com/](http://engineering.grab.com/) | `http://engineering.grab.com/feed.xml` | feed | 2026-10-21 | 15 |  |
 | Gusto | [https://engineering.gusto.com/](https://engineering.gusto.com/) | `https://medium.com/feed/gusto-engineering` | feed | 2026-10-27 | 11 |  |
@@ -67,12 +67,12 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Netflix | [https://medium.com/netflix-techblog](https://medium.com/netflix-techblog) | `https://netflixtechblog.com/feed` | feed | 2026-10-26 | 25 |  |
 | New York Times | [https://open.blogs.nytimes.com](https://open.blogs.nytimes.com) | `https://open.nytimes.com/feed` | feed | 2026-09-17 | 10 |  |
 | NVIDIA | [https://developer.nvidia.com/blog](https://developer.nvidia.com/blog) | `https://developer.nvidia.com/blog/feed/` | feed | 2026-10-30 | 111 | Technical blog |
-| OCTO Technology | [https://blog.octo.com/en/](https://blog.octo.com/en/) | `https://blog.octo.com/feed` | feed | 2026-10-30 | 29 |  |
+| OCTO Technology | [https://blog.octo.com/en/](https://blog.octo.com/en/) | `https://blog.octo.com/feed` | feed | 2026-11-02 | 30 |  |
 | OLX | [https://tech.olx.com/](https://tech.olx.com/) | `https://tech.olx.com/feed` | feed | 2026-08-21 | 10 |  |
 | OpenAI | [https://openai.com/news/engineering/](https://openai.com/news/engineering/) | `https://openai.com/news/rss.xml` | feed | 2026-10-23 | 22 | Engineering section only |
 | Palantir | [https://blog.palantir.com/](https://blog.palantir.com/) | `https://blog.palantir.com/feed` | feed | 2026-10-02 | 11 |  |
 | Pinterest | [https://medium.com/@Pinterest_Engineering](https://medium.com/@Pinterest_Engineering) | `https://medium.com/feed/@Pinterest_Engineering` | feed | 2026-10-19 | 14 |  |
-| PubNub: | [https://www.pubnub.com/blog/](https://www.pubnub.com/blog/) | `https://www.pubnub.com/feed/blog/` | feed | 2026-10-07 | 1247 |  |
+| PubNub: | [https://www.pubnub.com/blog/](https://www.pubnub.com/blog/) | `https://www.pubnub.com/feed/blog/` | feed | 2026-10-25 | 1248 |  |
 | Salesforce Engineering | [https://engineering.salesforce.com/](https://engineering.salesforce.com/) | `https://engineering.salesforce.com/feed/` | feed | 2026-10-08 | 10 |  |
 | Sentry Engineering | [https://blog.sentry.io/engineering/](https://blog.sentry.io/engineering/) | no feed; listing page read | page | 2026-10-29 | 17 |  |
 | Shopify | [https://shopify.engineering/](https://shopify.engineering/) | `https://shopify.engineering/blog.atom` | feed | 2026-10-22 | 436 |  |

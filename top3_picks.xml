@@ -5,8 +5,15 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-10-31T12:00:00Z</updated>
+<updated>2026-11-01T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>No articles for 2026-11-01</title>
+<link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-01"/>
+<id>urn:rss-system-design:top3:none-2026-11-01</id>
+<updated>2026-11-01T12:00:00Z</updated>
+<summary>No articles for 2026-11-01.</summary>
+</entry>
 <entry>
 <title>No articles for 2026-10-31</title>
 <link href="https://abhishekr3.github.io/rss-system-design/#day-2026-10-31"/>
