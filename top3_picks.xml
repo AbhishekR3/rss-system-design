@@ -5,8 +5,46 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-01T12:00:00Z</updated>
+<updated>2026-11-02T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>How we halved DNS build delay and cut memory use by 85%</title>
+<link href="https://blog.cloudflare.com/dns-targeted-zone-builds/"/>
+<id>urn:rss-system-design:top3:b10d0651ae</id>
+<updated>2026-11-02T12:00:00Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design decision to run only the smallest provably safe DNS build, with fresh-state verification, Kafka soft commits and mirror testing, which cut peak memory by 85% and halved median build completion delay.</summary>
+</entry>
+<entry>
+<title>Learning new skills without forgetting: Self-Distillation vs GRPO</title>
+<link href="https://careersatdoordash.com/blog/learning-new-skills-without-forgetting-self-distillation-vs-grpo/"/>
+<id>urn:rss-system-design:top3:8f34d45bee</id>
+<updated>2026-11-02T11:59:59Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the design decision between Self-Distillation and GRPO for continual post-training, weighing GRPO's higher compute against forgetting, as self-distilled Nemotron lost 30 points on logic while GRPO never dropped more than 0.2 points.</summary>
+</entry>
+<entry>
+<title>Scaling Git at OpenAI</title>
+<link href="https://openai.com/index/scaling-git-at-openai"/>
+<id>urn:rss-system-design:top3:de4cf53f9d</id>
+<updated>2026-11-02T11:59:58Z</updated>
+<author><name>OpenAI</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Shows the design decision to relax repository-wide consistency to per-ref causal consistency and reuse packfiles across fetches, which reduced median push latency by nearly 80% and serves nearly a petabyte of Git data per day.</summary>
+</entry>
 <entry>
 <title>No articles for 2026-11-01</title>
 <link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-01"/>
