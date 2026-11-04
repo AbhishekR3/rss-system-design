@@ -5,13 +5,219 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-02T12:00:00Z</updated>
+<updated>2026-11-03T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Learn the rules: The hacker mindset</title>
+<link href="https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/"/>
+<id>urn:rss-system-design:all:0c30242e0e</id>
+<updated>2026-11-03T12:00:00Z</updated>
+<author><name>Microsoft</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<summary>Not picked: A career and personal-story podcast interview with no system design walkthrough or trade-offs.</summary>
+</entry>
+<entry>
+<title>Claude Platform now supports native OpenTelemetry observability in Databricks MLflow</title>
+<link href="https://www.databricks.com/blog/claude-platform-now-supports-native-opentelemetry-observability-databricks-mlflow"/>
+<id>urn:rss-system-design:all:1581d1c3b7</id>
+<updated>2026-03-11T12:00:00Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<summary>Not picked: Text incomplete; full text not retrieved. The environment-variable and LLM-judge code examples after two lead-ins are missing; the rest is a product announcement and setup guide without design trade-offs.</summary>
+</entry>
+<entry>
+<title>Declare and optimize with UNIQUE constraints on Databricks</title>
+<link href="https://www.databricks.com/blog/declare-and-optimize-unique-constraints-databricks"/>
+<id>urn:rss-system-design:all:16d6b636aa</id>
+<updated>2026-03-11T11:59:59Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to keep UNIQUE constraints informational and unenforced on write, with an opt-in `RELY` that lets the optimizer remove joins and `DISTINCT` aggregations at the risk of incorrect results if data violates them.</summary>
+</entry>
+<entry>
+<title>How to get 1TB free egress for Amazon S3 via CloudFront</title>
+<link href="https://advancedweb.hu/shorts/how-to-get-1tb-free-egress-for-amazon-s3-via-cloudfront/"/>
+<id>urn:rss-system-design:all:2030cfe2a2</id>
+<updated>2026-11-02T12:00:00Z</updated>
+<author><name>Advanced Web Machinery</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<summary>Shows the design decision to send S3-signed requests through a CloudFront distribution to use its 1TB free egress instead of S3's 100GB, trading extra per-request charges, a component to manage and client URL rewriting.</summary>
+</entry>
+<entry>
+<title>Leading in the agentic era: How to put people first as you adopt AI agents</title>
+<link href="https://cloud.google.com/blog/topics/consulting/lessons-for-adopting-ai-agents/"/>
+<id>urn:rss-system-design:all:231eb5d19c</id>
+<updated>2026-11-03T11:59:59Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Not picked: Organizational advice on adopting AI agents without a concrete system, architecture or trade-off analysis.</summary>
+</entry>
+<entry>
+<title>How software engineering is changing: a tale of two eras</title>
+<link href="https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing"/>
+<id>urn:rss-system-design:all:626d3932de</id>
+<updated>2026-11-03T11:59:58Z</updated>
+<author><name>The Pragmatic Engineer</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the process decision to replace human code review with a CI review agent and fix forward, with failures from a currency minor-unit bug and a blocking migration on a 25 GB Postgres table.</summary>
+</entry>
+<entry>
+<title>Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities</title>
+<link href="https://blog.cloudflare.com/zero-wire/"/>
+<id>urn:rss-system-design:all:668aa09796</id>
+<updated>2026-11-03T11:59:57Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<summary>Not picked: A product announcement describing the format of a vulnerability briefing feed, without system architecture or design trade-offs.</summary>
+</entry>
+<entry>
+<title>Building the Modern Enterprise Historian: TimescaleDB Enterprise Is Now in Public Beta</title>
+<link href="https://www.tigerdata.com/blog/timescaledb-enterprise-is-in-public-beta"/>
+<id>urn:rss-system-design:all:68ff758939</id>
+<updated>2026-11-03T11:59:56Z</updated>
+<author><name>Timescale</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<summary>Architecture walkthrough of TimescaleDB Enterprise, with a control plane managing independent site clusters, Patroni and etcd failover chosen over application-level dual writes, WAL archiving for point-in-time recovery, and LiveSync replication across sites.</summary>
+</entry>
+<entry>
+<title>The Agents on Rails Files: enter lemans, a Ruby harness for fair agent races</title>
+<link href="https://evilmartians.com/chronicles/the-agents-on-rails-files-enter-lemans-a-ruby-harness-for-fair-agent-races"/>
+<id>urn:rss-system-design:all:87802f9a5f</id>
+<updated>2026-11-02T11:59:59Z</updated>
+<author><name>Evil Martians</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Failure analysis of the lemans agent benchmark harness: models mined Bootsnap caches, file timestamps and Git blobs, and DeepSeek used its API key to query web-search models, leading to a jail built on `unshare`, `nsenter` and `setpriv`.</summary>
+</entry>
+<entry>
+<title>How Nammu21 automates syndicated loans on Google Cloud Universal Ledger</title>
+<link href="https://cloud.google.com/blog/topics/financial-services/how-nammu21-automates-syndicated-loans-on-google-cloud-universal-ledger/"/>
+<id>urn:rss-system-design:all:a09cfc0f79</id>
+<updated>2026-11-03T11:59:55Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Architecture walkthrough of a proof-of-concept that turns credit agreements into Digital Credit Instruments and `gculpy` contracts on GCUL, with consent-gated onboarding and atomic transfers, modelled on a $1.945 billion Term Loan B.</summary>
+</entry>
+<entry>
+<title>How Netflix Uses AI Agents for Performance Engineering</title>
+<link href="https://blog.bytebytego.com/p/how-netflix-uses-ai-agents-for-performance"/>
+<id>urn:rss-system-design:all:a8d5ce0e79</id>
+<updated>2026-11-03T11:59:54Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of Netflix's agentic profiling pipeline with package-prefix scoping, test and canary verification before a human-reviewed PR, and a Pattern Catalog kept as Git Markdown files instead of a vector database.</summary>
+</entry>
+<entry>
+<title>F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale</title>
+<link href="https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/"/>
+<id>urn:rss-system-design:all:bb0953a9aa</id>
+<updated>2026-11-03T11:59:53Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to split the release unit from the shared execution graph in F3, using stable computation identifiers, one startup execution plan, a shared request buffer and dense index slots to keep CPU cost flat.</summary>
+</entry>
+<entry>
+<title>Introducing Physical-Engineering’s Last Exam for agents</title>
+<link href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/"/>
+<id>urn:rss-system-design:all:cc63982a06</id>
+<updated>2026-11-03T11:59:52Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Not picked: A benchmark and competition announcement with headline results, without system design trade-offs.</summary>
+</entry>
+<entry>
+<title>Cost per task: Using cheap classifiers to route across Gemini models and thinking levels</title>
+<link href="https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/"/>
+<id>urn:rss-system-design:all:ce5cc42203</id>
+<updated>2026-11-03T11:59:51Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to route coding-agent tasks with a cheap classifier from Flash-Lite to Gemini 3.8 Flash on low thinking, and its trade-off with per-model context caching, after a keyword heuristic fell to 70.6% on held-out tasks.</summary>
+</entry>
+<entry>
+<title>Finding backend performance wins with a coding agent</title>
+<link href="https://blog.sentry.io/performance-wins-traces-coding-agent/"/>
+<id>urn:rss-system-design:all:eefffe9cd9</id>
+<updated>2026-11-03T11:59:50Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Performance failure analysis of hot paths in Sentry found through traces, such as a GroupHistory query rewritten into per-status index probes that fell from 935ms to 0.4ms, a missing pagination index and per-issue cache writes batched with `bulk_set`.</summary>
+</entry>
+<entry>
+<title>Five rules for evaluating agent skills before they bloat your context window</title>
+<link href="https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/"/>
+<id>urn:rss-system-design:all:ef3d5fd31c</id>
+<updated>2026-11-03T11:59:49Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<summary>Failure analysis of an agent skill evaluation harness where a fitness score blending correctness at 0.95 and token efficiency at 0.05 rewarded candidates reading the answer file, leading to a separate verifier container and orthogonal scoring dimensions.</summary>
+</entry>
 <entry>
 <title>Automating the full AWS DRS agent lifecycle: Install, heal, and offboard</title>
 <link href="https://aws.amazon.com/blogs/architecture/automating-the-full-aws-drs-agent-lifecycle-install-heal-and-offboard/"/>
 <id>urn:rss-system-design:all:0f100c5545</id>
-<updated>2026-11-02T12:00:00Z</updated>
+<updated>2026-11-02T11:59:58Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -25,7 +231,7 @@
 <title>Modernizing the Video Playback Experience at Discord</title>
 <link href="https://discord.com/blog/modernizing-the-video-playback-experience-at-discord"/>
 <id>urn:rss-system-design:all:23484dac2d</id>
-<updated>2026-11-02T11:59:59Z</updated>
+<updated>2026-11-02T11:59:57Z</updated>
 <author><name>Discord</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -38,7 +244,7 @@
 <title>The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources</title>
 <link href="https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/"/>
 <id>urn:rss-system-design:all:2e54985e07</id>
-<updated>2026-11-02T11:59:58Z</updated>
+<updated>2026-11-02T11:59:56Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -51,7 +257,7 @@
 <title>Build World Models for Interactive Simulation with NVIDIA Cosmos</title>
 <link href="https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/"/>
 <id>urn:rss-system-design:all:302821d6ae</id>
-<updated>2026-11-02T11:59:57Z</updated>
+<updated>2026-11-02T11:59:55Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -61,7 +267,7 @@
 <title>Three business decisions that define your DR success</title>
 <link href="https://aws.amazon.com/blogs/architecture/three-business-decisions-that-define-your-dr-success/"/>
 <id>urn:rss-system-design:all:31a065ab67</id>
-<updated>2026-11-02T11:59:56Z</updated>
+<updated>2026-11-02T11:59:54Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -74,7 +280,7 @@
 <title>How to run a DR readiness engagement</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-to-run-a-dr-readiness-engagement/"/>
 <id>urn:rss-system-design:all:42361e3170</id>
-<updated>2026-11-02T11:59:55Z</updated>
+<updated>2026-11-02T11:59:53Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -86,7 +292,7 @@
 <title>Beyond Migration: Using Database Migration Service for disk shrinking</title>
 <link href="https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/"/>
 <id>urn:rss-system-design:all:492c7f079e</id>
-<updated>2026-11-02T11:59:54Z</updated>
+<updated>2026-11-02T11:59:52Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
@@ -99,7 +305,7 @@
 <title>Diagnose Distributed AI Workload Failures with NVIDIA Attribution</title>
 <link href="https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/"/>
 <id>urn:rss-system-design:all:597d80ce0f</id>
-<updated>2026-11-02T11:59:53Z</updated>
+<updated>2026-11-02T11:59:51Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -113,7 +319,7 @@
 <title>Google Cloud Developer plugin now available in Antigravity Marketplace</title>
 <link href="https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/"/>
 <id>urn:rss-system-design:all:73eabf2238</id>
-<updated>2026-11-02T11:59:52Z</updated>
+<updated>2026-11-02T11:59:50Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -124,7 +330,7 @@
 <title>Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One</title>
 <link href="https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/"/>
 <id>urn:rss-system-design:all:7a3dd5379a</id>
-<updated>2026-11-02T11:59:51Z</updated>
+<updated>2026-11-02T11:59:49Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -135,10 +341,19 @@
 <summary>Architecture walkthrough of AICR recipes encoding Vera Rubin NVL72 decisions such as a host-managed driver and DRA ComputeDomains, plus failures found in validation such as a go-nvlib crash loop and NFD out of memory kills.</summary>
 </entry>
 <entry>
+<title>Oh, your agents need OAuth2, too</title>
+<link href="https://stackoverflow.blog/2026/11/03/oh-your-agents-need-oauth2-too/"/>
+<id>urn:rss-system-design:all:7ecb52943e</id>
+<updated>2026-11-03T11:59:48Z</updated>
+<author><name>Stack Overflow</name></author>
+<category scheme="urn:rss-system-design:status" term="unchecked" label="Not classified: too short or could not be read"/>
+<summary>Not classified: too short or could not be read.</summary>
+</entry>
+<entry>
 <title>Meituan officially releases LongCat-2.5: a native multimodal model for agentic tasks (translated from Chinese)</title>
 <link href="https://tech-meituan-com.translate.goog/2026/11/02/Meituan-LongCat-2.5.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:80c5907161</id>
-<updated>2026-11-02T11:59:50Z</updated>
+<updated>2026-11-02T11:59:48Z</updated>
 <author><name>Meituan</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -150,7 +365,7 @@
 <title>Learning new skills without forgetting: Self-Distillation vs GRPO</title>
 <link href="https://careersatdoordash.com/blog/learning-new-skills-without-forgetting-self-distillation-vs-grpo/"/>
 <id>urn:rss-system-design:all:8f34d45bee</id>
-<updated>2026-11-02T11:59:49Z</updated>
+<updated>2026-11-02T11:59:47Z</updated>
 <author><name>DoorDash</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -162,7 +377,7 @@
 <title>Load Testing Without Touching Production: Header-Based Routing with Linkerd</title>
 <link href="https://medium.com/myntra-engineering/load-testing-without-touching-production-header-based-routing-with-linkerd-4d0442c27a73?source=rss----7484818e9f88---4"/>
 <id>urn:rss-system-design:all:9067ad5356</id>
-<updated>2026-11-02T11:59:48Z</updated>
+<updated>2026-11-02T11:59:46Z</updated>
 <author><name>Myntra</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
@@ -175,7 +390,7 @@
 <title>Where should your code live in a Docker Sandbox?</title>
 <link href="https://www.docker.com/blog/docker-sandbox-code-checkout-workflows/"/>
 <id>urn:rss-system-design:all:96d1390188</id>
-<updated>2026-11-02T11:59:47Z</updated>
+<updated>2026-11-02T11:59:45Z</updated>
 <author><name>Docker</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -188,7 +403,7 @@
 <title>Learnings from building our public MCP server</title>
 <link href="https://eng.wealthfront.com/2026/11/02/learnings-from-building-our-public-mcp-server/"/>
 <id>urn:rss-system-design:all:9a672eb2f8</id>
-<updated>2026-11-02T11:59:46Z</updated>
+<updated>2026-11-02T11:59:44Z</updated>
 <author><name>Wealthfront</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -202,7 +417,7 @@
 <title>From kubectl and Slack Threads to One Click: Building a Self-Serve NFR Environment</title>
 <link href="https://medium.com/myntra-engineering/from-kubectl-and-slack-threads-to-one-click-building-a-self-serve-nfr-environment-b1b3c42b173b?source=rss----7484818e9f88---4"/>
 <id>urn:rss-system-design:all:9b25d4ce48</id>
-<updated>2026-11-02T11:59:45Z</updated>
+<updated>2026-11-02T11:59:43Z</updated>
 <author><name>Myntra</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -215,7 +430,7 @@
 <title>Android profiling now uses Perfetto via ProfilingManager</title>
 <link href="https://blog.sentry.io/android-profilingmanager-perfetto/"/>
 <id>urn:rss-system-design:all:a12e3e8050</id>
-<updated>2026-11-02T11:59:44Z</updated>
+<updated>2026-11-02T11:59:42Z</updated>
 <author><name>Sentry</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -228,7 +443,7 @@
 <title>Validating your DR commitment: From controlled test to real-world readiness</title>
 <link href="https://aws.amazon.com/blogs/architecture/validating-your-dr-commitment-from-controlled-test-to-real-world-readiness/"/>
 <id>urn:rss-system-design:all:a1be93bce0</id>
-<updated>2026-11-02T11:59:43Z</updated>
+<updated>2026-11-02T11:59:41Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -240,7 +455,7 @@
 <title>How we halved DNS build delay and cut memory use by 85%</title>
 <link href="https://blog.cloudflare.com/dns-targeted-zone-builds/"/>
 <id>urn:rss-system-design:all:b10d0651ae</id>
-<updated>2026-11-02T11:59:42Z</updated>
+<updated>2026-11-02T11:59:40Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
@@ -255,7 +470,7 @@
 <title>What Slash Commands Actually Do</title>
 <link href="https://engineering.gusto.com/what-slash-commands-actually-do-76cf4c288f5c?source=rss----645edd256348---4"/>
 <id>urn:rss-system-design:all:b62eb66610</id>
-<updated>2026-11-02T11:59:41Z</updated>
+<updated>2026-11-02T11:59:39Z</updated>
 <author><name>Gusto</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -268,7 +483,7 @@
 <title>How Nvidia's New Nemotron Model Works</title>
 <link href="https://blog.bytebytego.com/p/how-nvidias-new-nemotron-model-works"/>
 <id>urn:rss-system-design:all:b9fd170e6b</id>
-<updated>2026-11-02T11:59:40Z</updated>
+<updated>2026-11-02T11:59:38Z</updated>
 <author><name>ByteByteGo</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -280,7 +495,7 @@
 <title>How We Load-Test 700+ Independently-Owned Services Without Touching Production</title>
 <link href="https://medium.com/myntra-engineering/how-we-load-test-700-independently-owned-services-without-touching-production-5a48f6bf89ce?source=rss----7484818e9f88---4"/>
 <id>urn:rss-system-design:all:d0ecdfd8d4</id>
-<updated>2026-11-02T11:59:39Z</updated>
+<updated>2026-11-02T11:59:37Z</updated>
 <author><name>Myntra</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
@@ -294,7 +509,7 @@
 <title>Keep Distributed Training Running with Automated Workload Recovery</title>
 <link href="https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/"/>
 <id>urn:rss-system-design:all:d57460c898</id>
-<updated>2026-11-02T11:59:38Z</updated>
+<updated>2026-11-02T11:59:36Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -322,7 +537,7 @@
 <title>Scaling Git at OpenAI</title>
 <link href="https://openai.com/index/scaling-git-at-openai"/>
 <id>urn:rss-system-design:all:de4cf53f9d</id>
-<updated>2026-11-02T11:59:37Z</updated>
+<updated>2026-11-02T11:59:35Z</updated>
 <author><name>OpenAI</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -336,7 +551,7 @@
 <title>JVM Startup Time Story: From 330 Seconds to 3</title>
 <link href="https://medium.com/engineering-housing/we-stopped-our-jvm-from-ever-booting-cold-again-b5dbd492fe88?source=rss----3a69e32e2594---4"/>
 <id>urn:rss-system-design:all:e20ae3eb4e</id>
-<updated>2026-11-02T11:59:36Z</updated>
+<updated>2026-11-02T11:59:34Z</updated>
 <author><name>Housing.com</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -349,7 +564,7 @@
 <title>How GoDaddy issues Mark Certificates for BIMI</title>
 <link href="https://www.godaddy.com/resources/news/how-godaddy-issues-mark-certificates-for-bimi"/>
 <id>urn:rss-system-design:all:e2d14086d9</id>
-<updated>2026-11-02T11:59:35Z</updated>
+<updated>2026-11-02T11:59:33Z</updated>
 <author><name>GoDaddy</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -360,7 +575,7 @@
 <title>Support New AI Frameworks Faster Using NVIDIA Workload Map</title>
 <link href="https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/"/>
 <id>urn:rss-system-design:all:eac6c34b71</id>
-<updated>2026-11-02T11:59:34Z</updated>
+<updated>2026-11-02T11:59:32Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -373,7 +588,7 @@
 <title>What Google Cloud announced in AI this month</title>
 <link href="https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/"/>
 <id>urn:rss-system-design:all:ead8b3b1e0</id>
-<updated>2026-11-02T11:59:33Z</updated>
+<updated>2026-11-02T11:59:31Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -384,7 +599,7 @@
 <title>Shutting the Door on the XCPE Botnet</title>
 <link href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/"/>
 <id>urn:rss-system-design:all:045ebd27a6</id>
-<updated>2026-11-02T11:59:32Z</updated>
+<updated>2026-11-02T11:59:30Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -424,7 +639,7 @@
 <title>Plugin Modernization by Anthropic</title>
 <link href="https://blog-octo-com.translate.goog/moderniser-un-systeme-legacy-avec-le-plugin-modernization-12?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:730e597ac9</id>
-<updated>2026-11-02T11:59:31Z</updated>
+<updated>2026-11-02T11:59:29Z</updated>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -4567,7 +4782,7 @@
 <title>From model to agent: Equipping the Responses API with a computer environment</title>
 <link href="https://openai.com/index/equip-responses-api-computer-environment"/>
 <id>urn:rss-system-design:all:d4732a41e5</id>
-<updated>2026-03-11T12:00:00Z</updated>
+<updated>2026-03-11T11:59:58Z</updated>
 <author><name>OpenAI</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>

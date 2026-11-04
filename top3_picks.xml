@@ -5,27 +5,54 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-02T12:00:00Z</updated>
+<updated>2026-11-03T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>How we halved DNS build delay and cut memory use by 85%</title>
-<link href="https://blog.cloudflare.com/dns-targeted-zone-builds/"/>
-<id>urn:rss-system-design:top3:b10d0651ae</id>
-<updated>2026-11-02T12:00:00Z</updated>
-<author><name>Cloudflare</name></author>
-<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<title>How Netflix Uses AI Agents for Performance Engineering</title>
+<link href="https://blog.bytebytego.com/p/how-netflix-uses-ai-agents-for-performance"/>
+<id>urn:rss-system-design:top3:a8d5ce0e79</id>
+<updated>2026-11-03T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of Netflix's agentic profiling pipeline with package-prefix scoping, test and canary verification before a human-reviewed PR, and a Pattern Catalog kept as Git Markdown files instead of a vector database.</summary>
+</entry>
+<entry>
+<title>Cost per task: Using cheap classifiers to route across Gemini models and thinking levels</title>
+<link href="https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/"/>
+<id>urn:rss-system-design:top3:ce5cc42203</id>
+<updated>2026-11-03T11:59:59Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
-<summary>Shows the design decision to run only the smallest provably safe DNS build, with fresh-state verification, Kafka soft commits and mirror testing, which cut peak memory by 85% and halved median build completion delay.</summary>
+<summary>Shows the design decision to route coding-agent tasks with a cheap classifier from Flash-Lite to Gemini 3.8 Flash on low thinking, and its trade-off with per-model context caching, after a keyword heuristic fell to 70.6% on held-out tasks.</summary>
+</entry>
+<entry>
+<title>F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale</title>
+<link href="https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/"/>
+<id>urn:rss-system-design:top3:bb0953a9aa</id>
+<updated>2026-11-03T11:59:58Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to split the release unit from the shared execution graph in F3, using stable computation identifiers, one startup execution plan, a shared request buffer and dense index slots to keep CPU cost flat.</summary>
 </entry>
 <entry>
 <title>Learning new skills without forgetting: Self-Distillation vs GRPO</title>
 <link href="https://careersatdoordash.com/blog/learning-new-skills-without-forgetting-self-distillation-vs-grpo/"/>
 <id>urn:rss-system-design:top3:8f34d45bee</id>
-<updated>2026-11-02T11:59:59Z</updated>
+<updated>2026-11-02T12:00:00Z</updated>
 <author><name>DoorDash</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
@@ -33,17 +60,28 @@
 <summary>Shows the design decision between Self-Distillation and GRPO for continual post-training, weighing GRPO's higher compute against forgetting, as self-distilled Nemotron lost 30 points on logic while GRPO never dropped more than 0.2 points.</summary>
 </entry>
 <entry>
-<title>Scaling Git at OpenAI</title>
-<link href="https://openai.com/index/scaling-git-at-openai"/>
-<id>urn:rss-system-design:top3:de4cf53f9d</id>
-<updated>2026-11-02T11:59:58Z</updated>
-<author><name>OpenAI</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<title>Meituan officially releases LongCat-2.5: a native multimodal model for agentic tasks (translated from Chinese)</title>
+<link href="https://tech-meituan-com.translate.goog/2026/11/02/Meituan-LongCat-2.5.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:top3:80c5907161</id>
+<updated>2026-11-02T11:59:59Z</updated>
+<author><name>Meituan</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
-<summary>Shows the design decision to relax repository-wide consistency to per-ref causal consistency and reuse packfiles across fetches, which reduced median push latency by nearly 80% and serves nearly a petabyte of Git data per day.</summary>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Architecture walkthrough of LongCat-2.5 training and inference, covering supernode-aligned parallelism, threshold-triggered expert replication, dual-sharded FSDP with 86% higher per-card throughput, and W4A4 inference with 43.3% higher prefill throughput.</summary>
+</entry>
+<entry>
+<title>Keep Distributed Training Running with Automated Workload Recovery</title>
+<link href="https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/"/>
+<id>urn:rss-system-design:top3:d57460c898</id>
+<updated>2026-11-02T11:59:58Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of NVIDIA Recovery's detect, attribute, isolate and restart loop behind a scheduler-independent Advisor API, which recorded about 8,550 anomaly detections with a 94-second mean recovery-action latency on one cluster.</summary>
 </entry>
 <entry>
 <title>No articles for 2026-11-01</title>
