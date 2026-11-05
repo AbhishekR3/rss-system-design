@@ -5,21 +5,56 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-03T12:00:00Z</updated>
+<updated>2026-11-04T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>How Netflix Uses AI Agents for Performance Engineering</title>
-<link href="https://blog.bytebytego.com/p/how-netflix-uses-ai-agents-for-performance"/>
-<id>urn:rss-system-design:top3:a8d5ce0e79</id>
-<updated>2026-11-03T12:00:00Z</updated>
+<title>How Anthropic Redesigned Source Control</title>
+<link href="https://blog.bytebytego.com/p/how-anthropic-redesigned-source-control"/>
+<id>urn:rss-system-design:top3:fe00845835</id>
+<updated>2026-11-04T12:00:00Z</updated>
 <author><name>ByteByteGo</name></author>
-<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design decision to replace Git mirrors with Scion, which moves history, diffs and commits to a server backed by Spanner and content-addressed caches, trading client independence for service dependence at 25 million CI checkouts per day.</summary>
+</entry>
+<entry>
+<title>Improving a basketball shot expected-value model with pose estimation (translated from Japanese)</title>
+<link href="https://engineering-dena-com.translate.goog/blog/2026/11/kbt-shot-expected-value/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:top3:c33c3fe855</id>
+<updated>2026-11-04T11:59:59Z</updated>
+<author><name>DeNA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to switch from 2D ViTPose++ to 3D SAM 3D Body pose and fix monocular scale by linear least squares over 18 frames with ground, parabola and smoothness terms, raising AUC from 0.6696 to 0.6731.</summary>
+</entry>
+<entry>
+<title>Scaling Model Evaluation at Pinterest with Ray (Part 4)</title>
+<link href="https://medium.com/pinterest-engineering/scaling-model-evaluation-at-pinterest-with-ray-part-4-4a96cd12cc11?source=rss-ef81ef829bcb------2"/>
+<id>urn:rss-system-design:top3:2a3c1588aa</id>
+<updated>2026-11-04T11:59:58Z</updated>
+<author><name>Pinterest</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
 <category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to fuse metric computation into Ray batch inference with a `ReducibleMetric` partials contract, trading an exact global sort for threshold confusion matrices on ROC-AUC, cutting evaluation time by up to 32%.</summary>
+</entry>
+<entry>
+<title>Sequential Store: building the foundation for Block’s foundational models</title>
+<link href="http://engineering.block.xyz/blog/sequential-store-building-the-foundation-for-blocks-foundational-models"/>
+<id>urn:rss-system-design:top3:fc92a4cf4b</id>
+<updated>2026-11-03T12:00:00Z</updated>
+<author><name>Block</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
 <category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
-<summary>Architecture walkthrough of Netflix's agentic profiling pipeline with package-prefix scoping, test and canary verification before a human-reviewed PR, and a Pattern Catalog kept as Git Markdown files instead of a vector database.</summary>
+<summary>Architecture walkthrough of the Sequential Store, which standardizes hundreds of event streams with config selectors, keeps an append-only label vocabulary across versions, and redesigned deduplication keys and monitors after silent failures dropped over a year of rows.</summary>
 </entry>
 <entry>
 <title>Cost per task: Using cheap classifiers to route across Gemini models and thinking levels</title>

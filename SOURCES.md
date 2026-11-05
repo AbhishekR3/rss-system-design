@@ -14,26 +14,26 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Apple Machine Learning Research | [https://machinelearning.apple.com/](https://machinelearning.apple.com/) | `https://machinelearning.apple.com/rss.xml` | feed | 2026-10-26 | 11 |  |
 | AWS | [https://aws.amazon.com/blogs/architecture/](https://aws.amazon.com/blogs/architecture/) | `https://aws.amazon.com/blogs/architecture/feed/` | feed | 2026-11-02 | 33 | Architecture blog only |
 | Bazaarvoice | [https://blog.developer.bazaarvoice.com/](https://blog.developer.bazaarvoice.com/) | `https://blog.developer.bazaarvoice.com/feed/` | feed | 2026-09-29 | 10 |  |
-| Block Engineering | [https://engineering.block.xyz/blog](https://engineering.block.xyz/blog) | `https://engineering.block.xyz/blog/rss.xml` | feed | 2026-10-14 | 20 |  |
+| Block Engineering | [https://engineering.block.xyz/blog](https://engineering.block.xyz/blog) | `https://engineering.block.xyz/blog/rss.xml` | feed | 2026-11-03 | 21 |  |
 | Booking.com (booking.ai) | [https://booking.ai/](https://booking.ai/) | `https://booking.ai/feed` | feed | 2026-10-19 | 10 |  |
-| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-03 | 29 |  |
+| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-04 | 30 |  |
 | Canva | [https://engineering.canva.com](https://engineering.canva.com) | `https://www.canva.dev/blog/engineering/feed.xml` | feed | 2026-09-17 | 10 |  |
-| Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-11-03 | 84 |  |
+| Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-11-04 | 85 |  |
 | Cockroach Labs Engineering | [https://www.cockroachlabs.com/blog/engineering/](https://www.cockroachlabs.com/blog/engineering/) | no feed; listing page read | page |  | 10 |  |
-| Confluent | [https://www.confluent.io/blog/area/technology/](https://www.confluent.io/blog/area/technology/) | `https://www.confluent.io/blog/area/technology/rss.xml` | feed | 2026-10-01 | 10 | Technology section only |
-| Databricks | [https://www.databricks.com/blog/category/engineering](https://www.databricks.com/blog/category/engineering) | no feed; listing page read | page | 2026-10-27 | 16 |  |
+| Confluent | [https://www.confluent.io/blog/area/technology/](https://www.confluent.io/blog/area/technology/) | `https://www.confluent.io/blog/area/technology/rss.xml` | feed | 2026-11-04 | 13 | Technology section only |
+| Databricks | [https://www.databricks.com/blog/category/engineering](https://www.databricks.com/blog/category/engineering) | no feed; listing page read | page | 2026-10-27 | 18 |  |
 | Databricks (Data Strategy) | [https://www.databricks.com/blog/category/data-strategy](https://www.databricks.com/blog/category/data-strategy) | no feed; listing page read | page | 2026-10-30 | 14 |  |
 | Datadog Engineering | [https://www.datadoghq.com/blog/engineering/](https://www.datadoghq.com/blog/engineering/) | `https://www.datadoghq.com/blog/engineering/index.xml` | feed | 2026-10-20 | 100 |  |
 | Deezer | [https://medium.com/deezer-engineering](https://medium.com/deezer-engineering) | `https://medium.com/feed/deezer-engineering` | feed | 2026-10-07 | 10 |  |
-| DeNA Engineering (ja) | [https://engineering.dena.com/blog/](https://engineering.dena.com/blog/) | `https://engineering.dena.com/blog/index.xml` | feed | 2026-10-28 | 32 |  |
+| DeNA Engineering (ja) | [https://engineering.dena.com/blog/](https://engineering.dena.com/blog/) | `https://engineering.dena.com/blog/index.xml` | feed | 2026-11-04 | 33 |  |
 | Discord | [https://discord.com/category/engineering](https://discord.com/category/engineering) | no feed; listing page read | page | 2026-11-02 | 79 |  |
 | Docker | [https://www.docker.com/blog/category/engineering/](https://www.docker.com/blog/category/engineering/) | `https://www.docker.com/blog/category/engineering/feed/` | feed | 2026-11-02 | 11 | Engineering section only |
 | DoorDash | [https://careersatdoordash.com/engineering-blog/](https://careersatdoordash.com/engineering-blog/) | `https://careersatdoordash.com/blog/category/engineering/feed/` | feed | 2026-11-02 | 13 |  |
-| Dropbox | [https://blogs.dropbox.com/tech/](https://blogs.dropbox.com/tech/) | `https://dropbox.tech/feed` | feed | 2026-09-29 | 10 |  |
-| Ebay | [https://www.ebayinc.com/stories/blogs/tech/](https://www.ebayinc.com/stories/blogs/tech/) | `https://www.ebayinc.com/stories/news/rss/` | feed | 2026-10-30 | 37 |  |
+| Dropbox | [https://blogs.dropbox.com/tech/](https://blogs.dropbox.com/tech/) | `https://dropbox.tech/feed` | feed | 2026-11-05 | 11 |  |
+| Ebay | [https://www.ebayinc.com/stories/blogs/tech/](https://www.ebayinc.com/stories/blogs/tech/) | `https://www.ebayinc.com/stories/news/rss/` | feed | 2026-11-04 | 38 |  |
 | Engineering@Microsoft | [https://devblogs.microsoft.com/engineering-at-microsoft/](https://devblogs.microsoft.com/engineering-at-microsoft/) | `https://devblogs.microsoft.com/engineering-at-microsoft/feed/` | feed | 2026-02-27 | 10 |  |
 | Etsy Code as Craft | [https://www.etsy.com/codeascraft](https://www.etsy.com/codeascraft) | `https://www.etsy.com/codeascraft/rss` | feed | 2026-09-29 | 20 |  |
-| Evil Martians | [https://evilmartians.com/chronicles/](https://evilmartians.com/chronicles/) | `https://evilmartians.com/chronicles.atom` | feed | 2026-11-03 | 26 |  |
+| Evil Martians | [https://evilmartians.com/chronicles/](https://evilmartians.com/chronicles/) | `https://evilmartians.com/chronicles.atom` | feed | 2026-11-04 | 28 |  |
 | Expedia | [https://medium.com/expedia-group-tech](https://medium.com/expedia-group-tech) | `https://medium.com/feed/expedia-group-tech` | feed | 2026-10-27 | 12 |  |
 | Facebook Engineering | [https://engineering.fb.com/](https://engineering.fb.com/) | `https://engineering.fb.com/feed/` | feed | 2026-11-03 | 26 |  |
 | Feedzai | [https://medium.com/feedzaitech](https://medium.com/feedzaitech) | `https://medium.com/feed/feedzaitech` | feed | 2026-10-08 | 12 |  |
@@ -44,7 +44,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | GoDaddy | [https://www.godaddy.com/resources/category/engineering](https://www.godaddy.com/resources/category/engineering) | `https://www.godaddy.com/resources/category/engineering/feed` | feed | 2026-11-02 | 11 |  |
 | Gojek Engineering (Data) | [https://medium.com/gojekengineering/subpage/72dbe6258beb](https://medium.com/gojekengineering/subpage/72dbe6258beb) | `https://medium.com/feed/gojekengineering/tagged/data-science` | feed | 2025-10-07 | 10 | Data section only |
 | Gojek Engineering (Tech) | [https://medium.com/gojekengineering/subpage/a0c5f1afae5b](https://medium.com/gojekengineering/subpage/a0c5f1afae5b) | `https://medium.com/feed/gojekengineering/tagged/tech` | feed | 2026-03-04 | 9 | Tech section only |
-| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-03 | 55 |  |
+| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-05 | 63 |  |
 | Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-11-03 | 28 |  |
 | Grab | [http://engineering.grab.com/](http://engineering.grab.com/) | `http://engineering.grab.com/feed.xml` | feed | 2026-10-21 | 15 |  |
 | Gusto | [https://engineering.gusto.com/](https://engineering.gusto.com/) | `https://medium.com/feed/gusto-engineering` | feed | 2026-11-02 | 12 |  |
@@ -66,12 +66,12 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Myntra Engineering | [https://medium.com/myntra-engineering](https://medium.com/myntra-engineering) | `https://medium.com/feed/myntra-engineering` | feed | 2026-11-02 | 13 |  |
 | Netflix | [https://medium.com/netflix-techblog](https://medium.com/netflix-techblog) | `https://netflixtechblog.com/feed` | feed | 2026-10-26 | 25 |  |
 | New York Times | [https://open.blogs.nytimes.com](https://open.blogs.nytimes.com) | `https://open.nytimes.com/feed` | feed | 2026-09-17 | 10 |  |
-| NVIDIA | [https://developer.nvidia.com/blog](https://developer.nvidia.com/blog) | `https://developer.nvidia.com/blog/feed/` | feed | 2026-11-02 | 116 | Technical blog |
-| OCTO Technology | [https://blog.octo.com/en/](https://blog.octo.com/en/) | `https://blog.octo.com/feed` | feed | 2026-11-02 | 30 |  |
+| NVIDIA | [https://developer.nvidia.com/blog](https://developer.nvidia.com/blog) | `https://developer.nvidia.com/blog/feed/` | feed | 2026-11-04 | 120 | Technical blog |
+| OCTO Technology | [https://blog.octo.com/en/](https://blog.octo.com/en/) | `https://blog.octo.com/feed` | feed | 2026-11-04 | 31 |  |
 | OLX | [https://tech.olx.com/](https://tech.olx.com/) | `https://tech.olx.com/feed` | feed | 2026-08-21 | 10 |  |
 | OpenAI | [https://openai.com/news/engineering/](https://openai.com/news/engineering/) | `https://openai.com/news/rss.xml` | feed | 2026-11-02 | 23 | Engineering section only |
 | Palantir | [https://blog.palantir.com/](https://blog.palantir.com/) | `https://blog.palantir.com/feed` | feed | 2026-10-02 | 11 |  |
-| Pinterest | [https://medium.com/@Pinterest_Engineering](https://medium.com/@Pinterest_Engineering) | `https://medium.com/feed/@Pinterest_Engineering` | feed | 2026-10-19 | 14 |  |
+| Pinterest | [https://medium.com/@Pinterest_Engineering](https://medium.com/@Pinterest_Engineering) | `https://medium.com/feed/@Pinterest_Engineering` | feed | 2026-11-04 | 15 |  |
 | PubNub: | [https://www.pubnub.com/blog/](https://www.pubnub.com/blog/) | `https://www.pubnub.com/feed/blog/` | feed | 2026-10-25 | 1248 |  |
 | Salesforce Engineering | [https://engineering.salesforce.com/](https://engineering.salesforce.com/) | `https://engineering.salesforce.com/feed/` | feed | 2026-10-08 | 10 |  |
 | Sentry Engineering | [https://blog.sentry.io/engineering/](https://blog.sentry.io/engineering/) | no feed; listing page read | page | 2026-11-03 | 19 |  |
