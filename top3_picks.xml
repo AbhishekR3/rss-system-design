@@ -5,30 +5,75 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-04T12:00:00Z</updated>
+<updated>2026-11-05T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>How Anthropic Redesigned Source Control</title>
-<link href="https://blog.bytebytego.com/p/how-anthropic-redesigned-source-control"/>
-<id>urn:rss-system-design:top3:fe00845835</id>
-<updated>2026-11-04T12:00:00Z</updated>
-<author><name>ByteByteGo</name></author>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
-<summary>Shows the design decision to replace Git mirrors with Scion, which moves history, diffs and commits to a server backed by Spanner and content-addressed caches, trading client independence for service dependence at 25 million CI checkouts per day.</summary>
+<title>How TUI scales threat modeling for 100+ teams with Amazon Bedrock</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/"/>
+<id>urn:rss-system-design:top3:7329494b2e</id>
+<updated>2026-11-05T12:00:00Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<summary>Shows the design decision to select 16 of 192 security standards through pre-generated metadata instead of loading all or using RAG, plus a tool budget forcing gap analysis in a LangGraph threat-modeling agent.</summary>
 </entry>
 <entry>
-<title>Improving a basketball shot expected-value model with pose estimation (translated from Japanese)</title>
-<link href="https://engineering-dena-com.translate.goog/blog/2026/11/kbt-shot-expected-value/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
-<id>urn:rss-system-design:top3:c33c3fe855</id>
-<updated>2026-11-04T11:59:59Z</updated>
-<author><name>DeNA</name></author>
+<title>How two engineer side projects became the agent taking action inside Dropbox</title>
+<link href="https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox"/>
+<id>urn:rss-system-design:top3:13e4297a45</id>
+<updated>2026-11-05T11:59:59Z</updated>
+<author><name>Dropbox</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of the Dropbox file agent: per-conversation QEMU snapshot VMs from Riviera, a host_tools proxy that adds credentials only after permission checks, and version records that let one conversation be undone.</summary>
+</entry>
+<entry>
+<title>Powering open infrastructure for autonomous agents</title>
+<link href="https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf/"/>
+<id>urn:rss-system-design:top3:69086e9e52</id>
+<updated>2026-11-05T11:59:58Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Architecture walkthrough of Agent Substrate, which splits agents into Actors, reusable Workers from a warm pool and secret-injecting Gateways, snapshotting idle agents and restoring them in under 500 milliseconds for 10x container density.</summary>
+</entry>
+<entry>
+<title>Faster Retrieval for Better, More Efficient RAG</title>
+<link href="https://machinelearning.apple.com/research/faster-retrieval"/>
+<id>urn:rss-system-design:top3:2b1eb15af8</id>
+<updated>2026-11-04T12:00:00Z</updated>
+<author><name>Apple</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
-<summary>Shows the design decision to switch from 2D ViTPose++ to 3D SAM 3D Body pose and fix monocular scale by linear least squares over 18 frames with ground, parabola and smoothness terms, raising AUC from 0.6696 to 0.6731.</summary>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the design decision to replace centroid routing in IVF indexes with small learned networks, SupportNet for cluster routing and KeyNet as a query rewriter, trading a one-time training cost for faster retrieval.</summary>
+</entry>
+<entry>
+<title>How we continuously validate formal specifications in production</title>
+<link href="https://www.datadoghq.com/blog/engineering/continuous-formal-spec-validation/"/>
+<id>urn:rss-system-design:top3:34270be2e2</id>
+<updated>2026-11-04T11:59:59Z</updated>
+<author><name>Datadog</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Failure analysis and design decision: FETCh turned TLA+ specs into Rust monitors, checking events per pod in a sidecar instead of using Bloom filters, and found conflicting placements that would have crashed backfill.</summary>
 </entry>
 <entry>
 <title>Scaling Model Evaluation at Pinterest with Ray (Part 4)</title>
@@ -106,17 +151,17 @@
 <summary>Architecture walkthrough of LongCat-2.5 training and inference, covering supernode-aligned parallelism, threshold-triggered expert replication, dual-sharded FSDP with 86% higher per-card throughput, and W4A4 inference with 43.3% higher prefill throughput.</summary>
 </entry>
 <entry>
-<title>Keep Distributed Training Running with Automated Workload Recovery</title>
-<link href="https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/"/>
-<id>urn:rss-system-design:top3:d57460c898</id>
+<title>Learnings from building our public MCP server</title>
+<link href="https://eng.wealthfront.com/2026/11/02/learnings-from-building-our-public-mcp-server/"/>
+<id>urn:rss-system-design:top3:9a672eb2f8</id>
 <updated>2026-11-02T11:59:58Z</updated>
-<author><name>NVIDIA</name></author>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
-<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
-<summary>Architecture walkthrough of NVIDIA Recovery's detect, attribute, isolate and restart loop behind a scheduler-independent Advisor API, which recorded about 8,550 anomaly detections with a 94-second mean recovery-action latency on one cluster.</summary>
+<author><name>Wealthfront</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Shows the design decision to use user-generated OAuth client IDs instead of Client ID Metadata Documents or Dynamic Client Registration for a public MCP server, and the move from entity-based to intent-based tools.</summary>
 </entry>
 <entry>
 <title>No articles for 2026-11-01</title>
