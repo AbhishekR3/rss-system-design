@@ -5,13 +5,65 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-05T12:00:00Z</updated>
+<updated>2026-11-06T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Accelerating Reinforcement Learning Weight Refit with the Reshard Collective</title>
+<link href="https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/"/>
+<id>urn:rss-system-design:top3:c9345e60ce</id>
+<updated>2026-11-06T12:00:00Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design decision to reformulate RL weight refit as a DTensor reshard in NCCL M2N Reshard, using it for feed-forward weights only, giving 2.7x to 5.7x faster refit than gather-and-broadcast.</summary>
+</entry>
+<entry>
+<title>Safe and Efficient Multi-Epoch Embedding Training</title>
+<link href="https://medium.com/pinterest-engineering/safe-and-efficient-multi-epoch-embedding-training-103bec2abc83?source=rss-ef81ef829bcb------2"/>
+<id>urn:rss-system-design:top3:e4ced540a5</id>
+<updated>2026-11-06T11:59:59Z</updated>
+<author><name>Pinterest</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Failure analysis and design decisions for Pinterest Homefeed ranking: embedding overfitting caused a nearly 6% offline drop, delayed embedding updates fixed it, and semi-synchronous prefetching overlapped embedding lookups, giving +1.09% online saves.</summary>
+</entry>
+<entry>
+<title>Making Every Core Count: In Pursuit Of Faster Apache Spark Jobs at Uber</title>
+<link href="https://www.uber.com/us/en/blog/uber-benchmarking-quanton/"/>
+<id>urn:rss-system-design:top3:3971405528</id>
+<updated>2026-11-06T11:59:58Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows design decisions for Spark efficiency: offloading SQL operators to Gluten/Velox, choosing Celeborn columnar shuffle over native shuffle, and benchmarking Quanton on Hudi writes with a 7.8× data-table write speedup.</summary>
+</entry>
+<entry>
+<title>How OrderServ achieved up to 64% cost savings with multi-tenant ECS</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/"/>
+<id>urn:rss-system-design:top3:a125c999e5</id>
+<updated>2026-11-05T12:00:00Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<summary>Shows design decisions moving from per-brand clusters to a shared ECS cluster with a tenancy library as primary isolation, and from Fargate to EC2 warm pools, cutting scaling from 5–7 minutes to 30–60 seconds.</summary>
+</entry>
 <entry>
 <title>How TUI scales threat modeling for 100+ teams with Amazon Bedrock</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/"/>
 <id>urn:rss-system-design:top3:7329494b2e</id>
-<updated>2026-11-05T12:00:00Z</updated>
+<updated>2026-11-05T11:59:59Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -24,7 +76,7 @@
 <title>How two engineer side projects became the agent taking action inside Dropbox</title>
 <link href="https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox"/>
 <id>urn:rss-system-design:top3:13e4297a45</id>
-<updated>2026-11-05T11:59:59Z</updated>
+<updated>2026-11-05T11:59:58Z</updated>
 <author><name>Dropbox</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -33,20 +85,6 @@
 <category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
 <category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
 <summary>Architecture walkthrough of the Dropbox file agent: per-conversation QEMU snapshot VMs from Riviera, a host_tools proxy that adds credentials only after permission checks, and version records that let one conversation be undone.</summary>
-</entry>
-<entry>
-<title>Powering open infrastructure for autonomous agents</title>
-<link href="https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf/"/>
-<id>urn:rss-system-design:top3:69086e9e52</id>
-<updated>2026-11-05T11:59:58Z</updated>
-<author><name>Google</name></author>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<summary>Architecture walkthrough of Agent Substrate, which splits agents into Actors, reusable Workers from a warm pool and secret-injecting Gateways, snapshotting idle agents and restoring them in under 500 milliseconds for 10x container density.</summary>
 </entry>
 <entry>
 <title>Faster Retrieval for Better, More Efficient RAG</title>
