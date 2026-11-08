@@ -5,8 +5,21 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-06T12:00:00Z</updated>
+<updated>2026-11-07T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Securing AI Agents: Lessons From Real-World Deployment</title>
+<link href="https://www.uber.com/us/en/blog/securing-ai-agents/"/>
+<id>urn:rss-system-design:top3:516d0b818a</id>
+<updated>2026-11-07T12:00:00Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of Uber Secure AI, with AI Registry, AI Guard and Agent Guard as policy points, and the decision to use small local models in parallel to meet latency budgets instead of general-purpose LLMs.</summary>
+</entry>
 <entry>
 <title>Accelerating Reinforcement Learning Weight Refit with the Reshard Collective</title>
 <link href="https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/"/>

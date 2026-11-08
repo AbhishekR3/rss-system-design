@@ -5,8 +5,17 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-06T12:00:00Z</updated>
+<updated>2026-11-07T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>EP232: 6 Frequently Used Orchestration Frameworks in an AI system</title>
+<link href="https://blog.bytebytego.com/p/ep232-6-frequently-used-orchestration"/>
+<id>urn:rss-system-design:all:b8097a6085</id>
+<updated>2026-11-07T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
 <entry>
 <title>I Build Everything In Sprites Now</title>
 <link href="https://fly.io/blog/i-build-everything-in-sprites-now/"/>
@@ -110,6 +119,20 @@
 <category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
 <summary>Failure analysis of coding agents distracted by TODO(bug/...) comments: 13% of sessions were exposed, unprompted detours added 70% more steps and 77% more tokens, and a cleanup agent removed obsolete references.</summary>
+</entry>
+<entry>
+<title>Securing AI Agents: Lessons From Real-World Deployment</title>
+<link href="https://www.uber.com/us/en/blog/securing-ai-agents/"/>
+<id>urn:rss-system-design:all:516d0b818a</id>
+<updated>2026-11-07T11:59:59Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of Uber Secure AI, with AI Registry, AI Guard and Agent Guard as policy points, and the decision to use small local models in parallel to meet latency budgets instead of general-purpose LLMs.</summary>
 </entry>
 <entry>
 <title>Make Computers Make Computers</title>
