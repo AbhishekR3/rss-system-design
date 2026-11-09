@@ -18,7 +18,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Booking.com (booking.ai) | [https://booking.ai/](https://booking.ai/) | `https://booking.ai/feed` | feed | 2026-10-19 | 10 |  |
 | ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-07 | 32 |  |
 | Canva | [https://engineering.canva.com](https://engineering.canva.com) | `https://www.canva.dev/blog/engineering/feed.xml` | feed | 2026-09-17 | 10 |  |
-| Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-11-06 | 87 |  |
+| Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-11-09 | 88 |  |
 | Cockroach Labs Engineering | [https://www.cockroachlabs.com/blog/engineering/](https://www.cockroachlabs.com/blog/engineering/) | no feed; listing page read | page |  | 10 |  |
 | Confluent | [https://www.confluent.io/blog/area/technology/](https://www.confluent.io/blog/area/technology/) | `https://www.confluent.io/blog/area/technology/rss.xml` | feed | 2026-11-04 | 13 | Technology section only |
 | Databricks | [https://www.databricks.com/blog/category/engineering](https://www.databricks.com/blog/category/engineering) | no feed; listing page read | page | 2026-10-27 | 19 |  |
@@ -44,8 +44,8 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | GoDaddy | [https://www.godaddy.com/resources/category/engineering](https://www.godaddy.com/resources/category/engineering) | `https://www.godaddy.com/resources/category/engineering/feed` | feed | 2026-11-02 | 11 |  |
 | Gojek Engineering (Data) | [https://medium.com/gojekengineering/subpage/72dbe6258beb](https://medium.com/gojekengineering/subpage/72dbe6258beb) | `https://medium.com/feed/gojekengineering/tagged/data-science` | feed | 2025-10-07 | 10 | Data section only |
 | Gojek Engineering (Tech) | [https://medium.com/gojekengineering/subpage/a0c5f1afae5b](https://medium.com/gojekengineering/subpage/a0c5f1afae5b) | `https://medium.com/feed/gojekengineering/tagged/tech` | feed | 2026-03-04 | 9 | Tech section only |
-| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-06 | 70 |  |
-| Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-11-06 | 29 |  |
+| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-09 | 74 |  |
+| Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-11-09 | 30 |  |
 | Grab | [http://engineering.grab.com/](http://engineering.grab.com/) | `http://engineering.grab.com/feed.xml` | feed | 2026-10-21 | 15 |  |
 | Gusto | [https://engineering.gusto.com/](https://engineering.gusto.com/) | `https://medium.com/feed/gusto-engineering` | feed | 2026-11-02 | 12 |  |
 | Haptik | [https://haptik.ai/tech/](https://haptik.ai/tech/) | `https://www.haptik.ai/tech/rss.xml` | feed | 2026-10-15 | 11 |  |
@@ -84,7 +84,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Stack Overflow | [https://stackoverflow.blog/ai/](https://stackoverflow.blog/ai/) | no feed; listing page read | page | 2026-11-03 | 28 |  |
 | Stripe | [https://stripe.dev/blog/topic/engineering](https://stripe.dev/blog/topic/engineering) | no feed; listing page read | page | 2026-10-29 | 27 |  |
 | The Pragmatic Engineer | [https://newsletter.pragmaticengineer.com/](https://newsletter.pragmaticengineer.com/) | `https://newsletter.pragmaticengineer.com/feed` | feed | 2026-11-05 | 12 | Public posts only |
-| Thoughtbot | [https://robots.thoughtbot.com/](https://robots.thoughtbot.com/) | `https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots` | feed | 2026-10-23 | 8 |  |
+| Thoughtbot | [https://robots.thoughtbot.com/](https://robots.thoughtbot.com/) | `https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots` | feed | 2026-11-09 | 9 |  |
 | Thumbtack | [https://www.thumbtack.com/engineering/](https://www.thumbtack.com/engineering/) | `https://medium.com/feed/thumbtack-engineering` | feed | 2026-10-07 | 11 |  |
 | Timescale | [https://blog.timescale.com/](https://blog.timescale.com/) | `https://www.timescale.com/blog/rss/` | feed | 2026-11-05 | 12 |  |
 | Trivago | [http://tech.trivago.com/](http://tech.trivago.com/) | `http://tech.trivago.com/rss.xml` | feed | 2026-10-20 | 161 |  |

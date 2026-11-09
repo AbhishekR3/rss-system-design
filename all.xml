@@ -5,8 +5,17 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-07T12:00:00Z</updated>
+<updated>2026-11-08T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>NWRUG's (Manchester, UK) November 2026 meeting — (Un)learning programming</title>
+<link href="https://feed.thoughtbot.com/link/24077/17518085/nwrug-s-manchester-uk-november-2026-meeting-un-learning-programming"/>
+<id>urn:rss-system-design:all:7c6b7ae9df</id>
+<updated>2026-11-08T12:00:00Z</updated>
+<author><name>thoughtbot</name></author>
+<category scheme="urn:rss-system-design:status" term="unchecked" label="Not classified: too short or could not be read"/>
+<summary>Not classified: too short or could not be read.</summary>
+</entry>
 <entry>
 <title>EP232: 6 Frequently Used Orchestration Frameworks in an AI system</title>
 <link href="https://blog.bytebytego.com/p/ep232-6-frequently-used-orchestration"/>
