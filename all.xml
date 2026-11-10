@@ -5,16 +5,214 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-08T12:00:00Z</updated>
+<updated>2026-11-09T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>From prompt to app: Build with Google Maps in AI Studio</title>
+<link href="https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/"/>
+<id>urn:rss-system-design:all:09bf667352</id>
+<updated>2026-11-09T12:00:00Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Using AI to Build AI: How Agentforce Engineers Scale Automation Without Sacrificing Reliability</title>
+<link href="https://engineering.salesforce.com/using-ai-to-build-ai-how-agentforce-engineers-scale-automation-without-sacrificing-reliability/"/>
+<id>urn:rss-system-design:all:0aa2c59188</id>
+<updated>2026-11-09T11:59:59Z</updated>
+<author><name>Salesforce</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>New survey finds enterprises trapped between legacy software and AI modernization</title>
+<link href="https://cloud.google.com/blog/products/ai-machine-learning/new-survey-finds-enterprises-trapped-between-legacy-software-and-ai-modernization/"/>
+<id>urn:rss-system-design:all:0c3d98cf02</id>
+<updated>2026-11-09T11:59:58Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Transforming fleet analytics for Novus Hi-Tech through agentic AI</title>
+<link href="https://aws.amazon.com/blogs/architecture/transforming-fleet-analytics-for-novus-hi-tech-through-agentic-ai/"/>
+<id>urn:rss-system-design:all:1b999657fa</id>
+<updated>2026-11-09T11:59:57Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Extending LLDB to Debug Applications That Span CPUs and GPUs</title>
+<link href="https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/"/>
+<id>urn:rss-system-design:all:4a8b2fa918</id>
+<updated>2026-11-09T11:59:56Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System</title>
+<link href="https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4"/>
+<id>urn:rss-system-design:all:588e442ed6</id>
+<updated>2026-11-09T11:59:55Z</updated>
+<author><name>Netflix</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5</title>
+<link href="https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/"/>
+<id>urn:rss-system-design:all:72f5e68026</id>
+<updated>2026-11-09T11:59:54Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>The open AI-native stack on Kubernetes: From open models to distributed inference and agents</title>
+<link href="https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/"/>
+<id>urn:rss-system-design:all:8252d472a2</id>
+<updated>2026-11-09T11:59:53Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Cloud CISO Perspectives: Our security forecast for 2027</title>
+<link href="https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-security-forecast-2027/"/>
+<id>urn:rss-system-design:all:985cae3904</id>
+<updated>2026-11-09T11:59:52Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Zero-Copy Migration: How Yelp Moved Its Cassandra Fleet Between Kubernetes Clusters</title>
+<link href="https://engineeringblog.yelp.com/2026/11/zero-copy-cassandra-kubernetes-migration.html"/>
+<id>urn:rss-system-design:all:9d5db1bbb2</id>
+<updated>2026-11-08T12:00:00Z</updated>
+<author><name>Yelp</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Hedging Erasure-Coded Reads in HDFS</title>
+<link href="https://product.hubspot.com/blog/hedging-erasure-coded-reads-in-hdfs"/>
+<id>urn:rss-system-design:all:b2351b95ff</id>
+<updated>2026-11-09T11:59:51Z</updated>
+<author><name>HubSpot</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Announcing Long-Context Training on TPUs with MaxText Context Parallelism</title>
+<link href="https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/"/>
+<id>urn:rss-system-design:all:b4107ce985</id>
+<updated>2026-11-09T11:59:50Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How a broken release name overloaded our database</title>
+<link href="https://blog.sentry.io/broken-release-database-load/"/>
+<id>urn:rss-system-design:all:b743d2a63e</id>
+<updated>2026-11-09T11:59:49Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How LinkedIn Uses AI to Review 40,000 Pull Requests a Week</title>
+<link href="https://blog.bytebytego.com/p/how-linkedin-uses-ai-to-review-40000"/>
+<id>urn:rss-system-design:all:c0212b2cac</id>
+<updated>2026-11-09T11:59:48Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How DeepL keeps closest-exit routing during maintenance with AWS Cloud WAN</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-deepl-keeps-closest-exit-routing-during-maintenance-with-aws-cloud-wan/"/>
+<id>urn:rss-system-design:all:c26aa7aa7f</id>
+<updated>2026-11-09T11:59:47Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>AI Product Management at Spotify: A View From Three Angles</title>
+<link href="https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles"/>
+<id>urn:rss-system-design:all:e164236673</id>
+<updated>2026-11-09T11:59:46Z</updated>
+<author><name>Spotify</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA</title>
+<link href="https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/"/>
+<id>urn:rss-system-design:all:1bf2fb1086</id>
+<updated>2026-11-09T11:59:45Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>What is Pathways? Single-controller training for large models</title>
+<link href="https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/"/>
+<id>urn:rss-system-design:all:25611dc724</id>
+<updated>2026-11-09T11:59:44Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Our newest TPUs: 8tx and 8i Max, built for the agentic era</title>
+<link href="https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max/"/>
+<id>urn:rss-system-design:all:52f094f487</id>
+<updated>2026-11-09T11:59:43Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Now generally available: GKE dynamic slicing for higher resilience, and efficiency for TPUs</title>
+<link href="https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/"/>
+<id>urn:rss-system-design:all:6685ae1cfc</id>
+<updated>2026-11-09T11:59:42Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
 <entry>
 <title>NWRUG's (Manchester, UK) November 2026 meeting — (Un)learning programming</title>
 <link href="https://feed.thoughtbot.com/link/24077/17518085/nwrug-s-manchester-uk-november-2026-meeting-un-learning-programming"/>
 <id>urn:rss-system-design:all:7c6b7ae9df</id>
-<updated>2026-11-08T12:00:00Z</updated>
+<updated>2026-11-08T11:59:59Z</updated>
 <author><name>thoughtbot</name></author>
 <category scheme="urn:rss-system-design:status" term="unchecked" label="Not classified: too short or could not be read"/>
 <summary>Not classified: too short or could not be read.</summary>
+</entry>
+<entry>
+<title>Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU</title>
+<link href="https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/"/>
+<id>urn:rss-system-design:all:d52f2b02e2</id>
+<updated>2026-11-09T11:59:41Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Launching the Vite Ecosystem Fund</title>
+<link href="https://blog.cloudflare.com/launching-vite-ecosystem-fund/"/>
+<id>urn:rss-system-design:all:fb3d55aec3</id>
+<updated>2026-11-09T11:59:40Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
 </entry>
 <entry>
 <title>EP232: 6 Frequently Used Orchestration Frameworks in an AI system</title>

@@ -12,11 +12,11 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Airbnb | [https://medium.com/airbnb-engineering](https://medium.com/airbnb-engineering) | `https://medium.com/feed/airbnb-engineering` | feed | 2026-10-13 | 12 |  |
 | Allegro | [https://blog.allegro.tech/](https://blog.allegro.tech/) | `https://blog.allegro.tech/feed.xml` | feed | 2026-10-21 | 11 |  |
 | Apple Machine Learning Research | [https://machinelearning.apple.com/](https://machinelearning.apple.com/) | `https://machinelearning.apple.com/rss.xml` | feed | 2026-11-05 | 12 |  |
-| AWS | [https://aws.amazon.com/blogs/architecture/](https://aws.amazon.com/blogs/architecture/) | `https://aws.amazon.com/blogs/architecture/feed/` | feed | 2026-11-06 | 35 | Architecture blog only |
+| AWS | [https://aws.amazon.com/blogs/architecture/](https://aws.amazon.com/blogs/architecture/) | `https://aws.amazon.com/blogs/architecture/feed/` | feed | 2026-11-09 | 37 | Architecture blog only |
 | Bazaarvoice | [https://blog.developer.bazaarvoice.com/](https://blog.developer.bazaarvoice.com/) | `https://blog.developer.bazaarvoice.com/feed/` | feed | 2026-09-29 | 10 |  |
 | Block Engineering | [https://engineering.block.xyz/blog](https://engineering.block.xyz/blog) | `https://engineering.block.xyz/blog/rss.xml` | feed | 2026-11-03 | 21 |  |
 | Booking.com (booking.ai) | [https://booking.ai/](https://booking.ai/) | `https://booking.ai/feed` | feed | 2026-10-19 | 10 |  |
-| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-07 | 32 |  |
+| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-09 | 33 |  |
 | Canva | [https://engineering.canva.com](https://engineering.canva.com) | `https://www.canva.dev/blog/engineering/feed.xml` | feed | 2026-09-17 | 10 |  |
 | Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-11-09 | 88 |  |
 | Cockroach Labs Engineering | [https://www.cockroachlabs.com/blog/engineering/](https://www.cockroachlabs.com/blog/engineering/) | no feed; listing page read | page |  | 10 |  |
@@ -35,7 +35,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Etsy Code as Craft | [https://www.etsy.com/codeascraft](https://www.etsy.com/codeascraft) | `https://www.etsy.com/codeascraft/rss` | feed | 2026-09-29 | 20 |  |
 | Evil Martians | [https://evilmartians.com/chronicles/](https://evilmartians.com/chronicles/) | `https://evilmartians.com/chronicles.atom` | feed | 2026-11-04 | 28 |  |
 | Expedia | [https://medium.com/expedia-group-tech](https://medium.com/expedia-group-tech) | `https://medium.com/feed/expedia-group-tech` | feed | 2026-10-27 | 12 |  |
-| Facebook Engineering | [https://engineering.fb.com/](https://engineering.fb.com/) | `https://engineering.fb.com/feed/` | feed | 2026-11-03 | 26 |  |
+| Facebook Engineering | [https://engineering.fb.com/](https://engineering.fb.com/) | `https://engineering.fb.com/feed/` | feed | 2026-11-09 | 27 |  |
 | Feedzai | [https://medium.com/feedzaitech](https://medium.com/feedzaitech) | `https://medium.com/feed/feedzaitech` | feed | 2026-10-08 | 12 |  |
 | Flipkart Tech | [https://blog.flipkart.tech/](https://blog.flipkart.tech/) | `https://blog.flipkart.tech/feed` | feed | 2026-08-03 | 10 |  |
 | Fly.io | [https://fly.io/blog/](https://fly.io/blog/) | `https://fly.io/blog/feed.xml` | feed | 2026-11-06 | 52 |  |
@@ -44,8 +44,8 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | GoDaddy | [https://www.godaddy.com/resources/category/engineering](https://www.godaddy.com/resources/category/engineering) | `https://www.godaddy.com/resources/category/engineering/feed` | feed | 2026-11-02 | 11 |  |
 | Gojek Engineering (Data) | [https://medium.com/gojekengineering/subpage/72dbe6258beb](https://medium.com/gojekengineering/subpage/72dbe6258beb) | `https://medium.com/feed/gojekengineering/tagged/data-science` | feed | 2025-10-07 | 10 | Data section only |
 | Gojek Engineering (Tech) | [https://medium.com/gojekengineering/subpage/a0c5f1afae5b](https://medium.com/gojekengineering/subpage/a0c5f1afae5b) | `https://medium.com/feed/gojekengineering/tagged/tech` | feed | 2026-03-04 | 9 | Tech section only |
-| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-09 | 74 |  |
-| Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-11-09 | 30 |  |
+| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-10 | 78 |  |
+| Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-11-09 | 32 |  |
 | Grab | [http://engineering.grab.com/](http://engineering.grab.com/) | `http://engineering.grab.com/feed.xml` | feed | 2026-10-21 | 15 |  |
 | Gusto | [https://engineering.gusto.com/](https://engineering.gusto.com/) | `https://medium.com/feed/gusto-engineering` | feed | 2026-11-02 | 12 |  |
 | Haptik | [https://haptik.ai/tech/](https://haptik.ai/tech/) | `https://www.haptik.ai/tech/rss.xml` | feed | 2026-10-15 | 11 |  |
@@ -53,35 +53,35 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Heroku | [https://blog.heroku.com/engineering](https://blog.heroku.com/engineering) | `https://www.heroku.com/feed/` | feed | 2026-10-29 | 151 |  |
 | Honeybadger | [http://blog.honeybadger.io/](http://blog.honeybadger.io/) | `https://www.honeybadger.io/blog/feed.xml` | feed | 2026-10-29 | 12 |  |
 | Housing.com | [https://medium.com/engineering-housing](https://medium.com/engineering-housing) | `https://medium.com/feed/engineering-housing` | feed | 2026-11-03 | 11 |  |
-| HubSpot | [http://product.hubspot.com/blog/topic/engineering](http://product.hubspot.com/blog/topic/engineering) | `https://product.hubspot.com/blog/rss.xml` | feed | 2026-08-14 | 10 |  |
+| HubSpot | [http://product.hubspot.com/blog/topic/engineering](http://product.hubspot.com/blog/topic/engineering) | `https://product.hubspot.com/blog/rss.xml` | feed | 2026-11-09 | 11 |  |
 | Indeed | [http://engineering.indeedblog.com/blog/](http://engineering.indeedblog.com/blog/) | `https://engineering.indeedblog.com/feed/` | feed | 2026-08-12 | 10 |  |
 | Instacart | [https://tech.instacart.com/](https://tech.instacart.com/) | `https://tech.instacart.com/feed` | feed | 2026-09-03 | 10 |  |
 | Jane Street | [https://blogs.janestreet.com/category/ocaml/](https://blogs.janestreet.com/category/ocaml/) | `https://blogs.janestreet.com/feed.xml` | feed | 2026-11-02 | 114 |  |
 | JioHotstar | [https://blog.hotstar.com/](https://blog.hotstar.com/) | `https://blog.hotstar.com/feed` | feed | 2026-10-19 | 10 |  |
 | Lyft | [https://eng.lyft.com/](https://eng.lyft.com/) | `https://eng.lyft.com/feed` | feed | 2026-09-10 | 10 |  |
 | Medium | [https://medium.com/medium-eng](https://medium.com/medium-eng) | `https://medium.engineering/feed` | feed | 2026-10-22 | 11 |  |
-| Meituan Tech Team (zh) | [https://tech.meituan.com/](https://tech.meituan.com/) | `https://tech.meituan.com/feed/` | feed | 2026-11-02 | 12 |  |
-| Mercari Engineering (ja) | [https://engineering.mercari.com/blog/](https://engineering.mercari.com/blog/) | `https://engineering.mercari.com/blog/feed.xml` | feed | 2026-10-27 | 101 |  |
+| Meituan Tech Team (zh) | [https://tech.meituan.com/](https://tech.meituan.com/) | `https://tech.meituan.com/feed/` | feed | 2026-11-10 | 13 |  |
+| Mercari Engineering (ja) | [https://engineering.mercari.com/blog/](https://engineering.mercari.com/blog/) | `https://engineering.mercari.com/blog/feed.xml` | feed | 2026-11-10 | 103 |  |
 | Microsoft Research | [https://www.microsoft.com/en-us/research/blog/](https://www.microsoft.com/en-us/research/blog/) | `https://www.microsoft.com/en-us/research/feed/` | feed | 2026-11-05 | 14 |  |
 | Myntra Engineering | [https://medium.com/myntra-engineering](https://medium.com/myntra-engineering) | `https://medium.com/feed/myntra-engineering` | feed | 2026-11-02 | 13 |  |
-| Netflix | [https://medium.com/netflix-techblog](https://medium.com/netflix-techblog) | `https://netflixtechblog.com/feed` | feed | 2026-10-26 | 25 |  |
+| Netflix | [https://medium.com/netflix-techblog](https://medium.com/netflix-techblog) | `https://netflixtechblog.com/feed` | feed | 2026-11-09 | 26 |  |
 | New York Times | [https://open.blogs.nytimes.com](https://open.blogs.nytimes.com) | `https://open.nytimes.com/feed` | feed | 2026-09-17 | 10 |  |
-| NVIDIA | [https://developer.nvidia.com/blog](https://developer.nvidia.com/blog) | `https://developer.nvidia.com/blog/feed/` | feed | 2026-11-06 | 124 | Technical blog |
+| NVIDIA | [https://developer.nvidia.com/blog](https://developer.nvidia.com/blog) | `https://developer.nvidia.com/blog/feed/` | feed | 2026-11-09 | 125 | Technical blog |
 | OCTO Technology | [https://blog.octo.com/en/](https://blog.octo.com/en/) | `https://blog.octo.com/feed` | feed | 2026-11-04 | 31 |  |
 | OLX | [https://tech.olx.com/](https://tech.olx.com/) | `https://tech.olx.com/feed` | feed | 2026-08-21 | 10 |  |
 | OpenAI | [https://openai.com/news/engineering/](https://openai.com/news/engineering/) | `https://openai.com/news/rss.xml` | feed | 2026-11-02 | 23 | Engineering section only |
 | Palantir | [https://blog.palantir.com/](https://blog.palantir.com/) | `https://blog.palantir.com/feed` | feed | 2026-10-02 | 11 |  |
 | Pinterest | [https://medium.com/@Pinterest_Engineering](https://medium.com/@Pinterest_Engineering) | `https://medium.com/feed/@Pinterest_Engineering` | feed | 2026-11-06 | 16 |  |
 | PubNub: | [https://www.pubnub.com/blog/](https://www.pubnub.com/blog/) | `https://www.pubnub.com/feed/blog/` | feed | 2026-10-25 | 1248 |  |
-| Salesforce Engineering | [https://engineering.salesforce.com/](https://engineering.salesforce.com/) | `https://engineering.salesforce.com/feed/` | feed | 2026-10-08 | 10 |  |
-| Sentry Engineering | [https://blog.sentry.io/engineering/](https://blog.sentry.io/engineering/) | no feed; listing page read | page | 2026-11-03 | 19 |  |
+| Salesforce Engineering | [https://engineering.salesforce.com/](https://engineering.salesforce.com/) | `https://engineering.salesforce.com/feed/` | feed | 2026-11-09 | 11 |  |
+| Sentry Engineering | [https://blog.sentry.io/engineering/](https://blog.sentry.io/engineering/) | no feed; listing page read | page | 2026-11-09 | 20 |  |
 | Shopify | [https://shopify.engineering/](https://shopify.engineering/) | `https://shopify.engineering/blog.atom` | feed | 2026-11-05 | 437 |  |
 | Slack | [https://slack.engineering/](https://slack.engineering/) | `https://slack.engineering/rss` | feed | 2026-07-14 | 8 |  |
 | Snap Engineering | [https://eng.snap.com/blog](https://eng.snap.com/blog) | no feed; listing page read | page |  | 11 |  |
 | Soundcloud | [https://developers.soundcloud.com/blog/](https://developers.soundcloud.com/blog/) | `https://developers.soundcloud.com/blog/blog.rss` | feed | 2026-08-11 | 205 |  |
-| Spotify | [https://engineering.atspotify.com/](https://engineering.atspotify.com/) | no feed; listing page read | page | 2026-10-16 | 20 |  |
+| Spotify | [https://engineering.atspotify.com/](https://engineering.atspotify.com/) | no feed; listing page read | page | 2026-11-09 | 21 |  |
 | Squarespace | [https://engineering.squarespace.com/](https://engineering.squarespace.com/) | `https://engineering.squarespace.com/blog?format=rss` | feed | 2026-07-24 | 20 |  |
-| Stack Overflow | [https://stackoverflow.blog/ai/](https://stackoverflow.blog/ai/) | no feed; listing page read | page | 2026-11-03 | 28 |  |
+| Stack Overflow | [https://stackoverflow.blog/ai/](https://stackoverflow.blog/ai/) | no feed; listing page read | page | 2026-11-10 | 29 |  |
 | Stripe | [https://stripe.dev/blog/topic/engineering](https://stripe.dev/blog/topic/engineering) | no feed; listing page read | page | 2026-10-29 | 27 |  |
 | The Pragmatic Engineer | [https://newsletter.pragmaticengineer.com/](https://newsletter.pragmaticengineer.com/) | `https://newsletter.pragmaticengineer.com/feed` | feed | 2026-11-05 | 12 | Public posts only |
 | Thoughtbot | [https://robots.thoughtbot.com/](https://robots.thoughtbot.com/) | `https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots` | feed | 2026-11-09 | 9 |  |
@@ -92,5 +92,5 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Vinted | [http://engineering.vinted.com/](http://engineering.vinted.com/) | `https://vinted.engineering//atom.xml` | feed | 2026-04-22 | 10 |  |
 | Walmart Global Tech | [https://medium.com/walmartglobaltech](https://medium.com/walmartglobaltech) | `https://medium.com/feed/walmartglobaltech` | feed | 2026-09-30 | 10 |  |
 | Wealthfront | [http://eng.wealthfront.com/](http://eng.wealthfront.com/) | `https://eng.wealthfront.com/feed/` | feed | 2026-11-02 | 12 |  |
-| Yelp Engineering | [https://engineeringblog.yelp.com/](https://engineeringblog.yelp.com/) | `https://engineeringblog.yelp.com/feed.xml` | feed | 2026-09-29 | 10 |  |
+| Yelp Engineering | [https://engineeringblog.yelp.com/](https://engineeringblog.yelp.com/) | `https://engineeringblog.yelp.com/feed.xml` | feed | 2026-11-09 | 11 |  |
 | Zalando Engineering | [https://engineering.zalando.com/](https://engineering.zalando.com/) | `https://engineering.zalando.com/atom.xml` | feed | 2026-10-29 | 101 |  |
