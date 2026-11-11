@@ -5,8 +5,260 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-09T12:00:00Z</updated>
+<updated>2026-11-10T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Don't just flag it, fix it: How to run CodeMender in your pull requests</title>
+<link href="https://cloud.google.com/blog/products/identity-security/how-to-run-codemender-in-your-pull-requests/"/>
+<id>urn:rss-system-design:all:0f2e7381a8</id>
+<updated>2026-11-10T12:00:00Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>BigQuery measures is now GA: Unifying BI metrics and knowledge graphs for AI accuracy</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/"/>
+<id>urn:rss-system-design:all:13443ab5d8</id>
+<updated>2026-11-10T11:59:59Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Pixels to Tokens: Token Space Efficient Active Learning for Low-Budget Semantic Segmentation</title>
+<link href="https://machinelearning.apple.com/research/pixels-tokens-active-learning"/>
+<id>urn:rss-system-design:all:17f1655320</id>
+<updated>2026-10-20T12:00:00Z</updated>
+<author><name>Apple</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How I Taught an AI to Read My Logs</title>
+<link href="https://medium.com/expedia-group-tech/how-i-taught-an-ai-to-read-my-logs-9c04f1cfa750?source=rss----38998a53046f---4"/>
+<id>urn:rss-system-design:all:2e6cf16e40</id>
+<updated>2026-11-10T11:59:58Z</updated>
+<author><name>Expedia Group</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations</title>
+<link href="https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/"/>
+<id>urn:rss-system-design:all:35b9134746</id>
+<updated>2026-11-10T11:59:57Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>eBay’s Watchlist Trend Report reveals how fashion’s creative director shakeups are creating demand for archival items</title>
+<link href="https://www.ebayinc.com/stories/news/ebays-watchlist-trend-report-reveals-how-fashions-creative-director-shakeups-are-creating-demand-for-archival-items/"/>
+<id>urn:rss-system-design:all:35d4f3ba48</id>
+<updated>2026-11-10T11:59:56Z</updated>
+<author><name>eBay</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Self-service regional failover with Amazon Application Recovery Controller Region Switch and centralized ingress controls</title>
+<link href="https://aws.amazon.com/blogs/architecture/self-service-regional-failover-with-amazon-application-recovery-controller-region-switch-and-centralized-ingress-controls/"/>
+<id>urn:rss-system-design:all:3825bf0105</id>
+<updated>2026-11-10T11:59:55Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Incident Report: August 11, 2026</title>
+<link href="https://product.hubspot.com/blog/incident-report-august-11-2026"/>
+<id>urn:rss-system-design:all:47481a7ad6</id>
+<updated>2026-11-10T11:59:54Z</updated>
+<author><name>HubSpot</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Building an Automated Improvement Harness for an AI Support Agent</title>
+<link href="https://careersatdoordash.com/blog/building-an-automated-improvement-harness-for-an-ai-support-agent/"/>
+<id>urn:rss-system-design:all:4d02b0fd44</id>
+<updated>2026-11-10T11:59:53Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Inside the Gemini factory: Accelerating partner solutions</title>
+<link href="https://cloud.google.com/blog/topics/partners/inside-the-gemini-factory-accelerating-partner-solutions/"/>
+<id>urn:rss-system-design:all:601d85d67e</id>
+<updated>2026-11-10T11:59:52Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>From Data Silos to Feature Serving: How We Unified Fragmented Data for Training, Inference, and Reuse</title>
+<link href="https://product.hubspot.com/blog/from-data-silos-to-feature-serving-how-we-unified-fragmented-data-for-training-inference-and-reuse"/>
+<id>urn:rss-system-design:all:70cb7844e7</id>
+<updated>2026-11-10T11:59:51Z</updated>
+<author><name>HubSpot</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Experimenting with ClusterNetworkPolicy in GKE</title>
+<link href="https://cloud.google.com/blog/topics/developers-practitioners/experimenting-with-clusternetworkpolicy-in-gke/"/>
+<id>urn:rss-system-design:all:770a6d4bc1</id>
+<updated>2026-11-10T11:59:50Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>MCP or CLI? Yes.</title>
+<link href="https://blog.sentry.io/mcp-or-cli/"/>
+<id>urn:rss-system-design:all:7ee621e8e8</id>
+<updated>2026-11-10T11:59:49Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Skipper, Airbnb’s embedded workflow engine, is now open source</title>
+<link href="https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-is-now-open-source-78dd354f472b?source=rss----53c7c27702d5---4"/>
+<id>urn:rss-system-design:all:840291dff6</id>
+<updated>2026-11-10T11:59:48Z</updated>
+<author><name>Airbnb</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How Salesforce Scaled Engineering AI Adoption Without Stifling Innovation</title>
+<link href="https://engineering.salesforce.com/how-salesforce-scaled-engineering-ai-adoption-without-stifling-innovation/"/>
+<id>urn:rss-system-design:all:8b4bef4cf2</id>
+<updated>2026-11-10T11:59:47Z</updated>
+<author><name>Salesforce</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot</title>
+<link href="https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/"/>
+<id>urn:rss-system-design:all:a0a1d23e60</id>
+<updated>2026-11-10T11:59:46Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Agent Substrate: Advancing Kubernetes for Agents at Scale</title>
+<link href="https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/"/>
+<id>urn:rss-system-design:all:a1ebe716d4</id>
+<updated>2026-11-10T11:59:45Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents</title>
+<link href="https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"/>
+<id>urn:rss-system-design:all:a2dc47659d</id>
+<updated>2026-11-10T11:59:44Z</updated>
+<author><name>Microsoft</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Beyond Test Cards: A Fake Payment Provider for Testing at Scale</title>
+<link href="https://eng.lyft.com/beyond-test-cards-a-fake-payment-provider-for-testing-at-scale-c69dddadb115?source=rss----25cd379abb8---4"/>
+<id>urn:rss-system-design:all:b261743a87</id>
+<updated>2026-11-10T11:59:43Z</updated>
+<author><name>Lyft</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Attention to Mamba: A Recipe for Cross-Architecture Distillation</title>
+<link href="https://machinelearning.apple.com/research/attention-mamba-distillation"/>
+<id>urn:rss-system-design:all:c38a16f6ce</id>
+<updated>2026-11-02T12:00:00Z</updated>
+<author><name>Apple</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale</title>
+<link href="https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/"/>
+<id>urn:rss-system-design:all:c59bd18a7f</id>
+<updated>2026-11-10T11:59:42Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How GitHub Used AI to Port Copilot From TypeScript to Rust in Record Time</title>
+<link href="https://blog.bytebytego.com/p/how-github-used-ai-to-port-copilot"/>
+<id>urn:rss-system-design:all:c7433ec470</id>
+<updated>2026-11-10T11:59:41Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Running AV Reasoning Models Within Onboard Compute and Latency Limits</title>
+<link href="https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/"/>
+<id>urn:rss-system-design:all:d218a5f096</id>
+<updated>2026-11-10T11:59:40Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery</title>
+<link href="https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/"/>
+<id>urn:rss-system-design:all:e51c143773</id>
+<updated>2026-11-10T11:59:39Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>The Blueprint: How Authentic Brands Group expands creativity with AuthOS</title>
+<link href="https://cloud.google.com/blog/topics/retail/the-blueprint-how-authentic-brands-group-expands-creativity-with-authos/"/>
+<id>urn:rss-system-design:all:ed52e75e8e</id>
+<updated>2026-11-10T11:59:38Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Hiring Junior Engineers</title>
+<link href="https://eng.lyft.com/hiring-junior-engineers-1edc53e0fd5f?source=rss----25cd379abb8---4"/>
+<id>urn:rss-system-design:all:f52e831d36</id>
+<updated>2026-11-10T11:59:37Z</updated>
+<author><name>Lyft</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How we rebuilt the Shopify app in 12 weeks</title>
+<link href="https://shopify.engineering/shopify-app-rebuild"/>
+<id>urn:rss-system-design:all:f546912bc5</id>
+<updated>2026-11-10T11:59:36Z</updated>
+<author><name>Shopify</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine</title>
+<link href="https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/"/>
+<id>urn:rss-system-design:all:fadc01073b</id>
+<updated>2026-11-10T11:59:35Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
 <entry>
 <title>From prompt to app: Build with Google Maps in AI Studio</title>
 <link href="https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/"/>
@@ -35,11 +287,47 @@
 <summary>Waiting to be classified.</summary>
 </entry>
 <entry>
+<title>Introducing Gemini for healthcare</title>
+<link href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/"/>
+<id>urn:rss-system-design:all:12aee2d81e</id>
+<updated>2026-11-10T11:59:34Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
 <title>Transforming fleet analytics for Novus Hi-Tech through agentic AI</title>
 <link href="https://aws.amazon.com/blogs/architecture/transforming-fleet-analytics-for-novus-hi-tech-through-agentic-ai/"/>
 <id>urn:rss-system-design:all:1b999657fa</id>
 <updated>2026-11-09T11:59:57Z</updated>
 <author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Customer support is the gnarliest AI problem</title>
+<link href="https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/"/>
+<id>urn:rss-system-design:all:29ccc2efe1</id>
+<updated>2026-11-10T11:59:33Z</updated>
+<author><name>Stack Overflow</name></author>
+<category scheme="urn:rss-system-design:status" term="unchecked" label="Not classified: too short or could not be read"/>
+<summary>Not classified: too short or could not be read.</summary>
+</entry>
+<entry>
+<title>「Merpay Tech Talk 〜クレジットモデリングチームのプロダクト開発と生成AI活用の最前線〜」を開催しました！ #merpay_techtalk</title>
+<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261109-20261109_mptechtalk_report/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:2e6d9599f8</id>
+<updated>2026-11-10T11:59:32Z</updated>
+<author><name>Mercari</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>プロンプト生成エージェントとLLMによるメルカリの商品カタログ連携のAI-Native化</title>
+<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261110-ai-native-catalog-construction/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:485ae21646</id>
+<updated>2026-11-10T11:59:31Z</updated>
+<author><name>Mercari</name></author>
 <category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
 <summary>Waiting to be classified.</summary>
 </entry>
@@ -58,6 +346,15 @@
 <id>urn:rss-system-design:all:588e442ed6</id>
 <updated>2026-11-09T11:59:55Z</updated>
 <author><name>Netflix</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>美团 LongCat-2.5 正式开源：从看见，到抵达</title>
+<link href="https://tech-meituan-com.translate.goog/2026/11/10/Meituan-LongCat-2.5-Open-Source.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:640af74012</id>
+<updated>2026-11-10T11:59:30Z</updated>
+<author><name>Meituan</name></author>
 <category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
 <summary>Waiting to be classified.</summary>
 </entry>
@@ -1179,7 +1476,7 @@
 <title>How to get 1TB free egress for Amazon S3 via CloudFront</title>
 <link href="https://advancedweb.hu/shorts/how-to-get-1tb-free-egress-for-amazon-s3-via-cloudfront/"/>
 <id>urn:rss-system-design:all:2030cfe2a2</id>
-<updated>2026-11-02T12:00:00Z</updated>
+<updated>2026-11-02T11:59:59Z</updated>
 <author><name>Advanced Web Machinery</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
@@ -1240,7 +1537,7 @@
 <title>The Agents on Rails Files: enter lemans, a Ruby harness for fair agent races</title>
 <link href="https://evilmartians.com/chronicles/the-agents-on-rails-files-enter-lemans-a-ruby-harness-for-fair-agent-races"/>
 <id>urn:rss-system-design:all:87802f9a5f</id>
-<updated>2026-11-02T11:59:59Z</updated>
+<updated>2026-11-02T11:59:58Z</updated>
 <author><name>Evil Martians</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -1351,7 +1648,7 @@
 <title>Automating the full AWS DRS agent lifecycle: Install, heal, and offboard</title>
 <link href="https://aws.amazon.com/blogs/architecture/automating-the-full-aws-drs-agent-lifecycle-install-heal-and-offboard/"/>
 <id>urn:rss-system-design:all:0f100c5545</id>
-<updated>2026-11-02T11:59:58Z</updated>
+<updated>2026-11-02T11:59:57Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -1365,7 +1662,7 @@
 <title>Modernizing the Video Playback Experience at Discord</title>
 <link href="https://discord.com/blog/modernizing-the-video-playback-experience-at-discord"/>
 <id>urn:rss-system-design:all:23484dac2d</id>
-<updated>2026-11-02T11:59:57Z</updated>
+<updated>2026-11-02T11:59:56Z</updated>
 <author><name>Discord</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -1378,7 +1675,7 @@
 <title>The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources</title>
 <link href="https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/"/>
 <id>urn:rss-system-design:all:2e54985e07</id>
-<updated>2026-11-02T11:59:56Z</updated>
+<updated>2026-11-02T11:59:55Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -1391,7 +1688,7 @@
 <title>Build World Models for Interactive Simulation with NVIDIA Cosmos</title>
 <link href="https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/"/>
 <id>urn:rss-system-design:all:302821d6ae</id>
-<updated>2026-11-02T11:59:55Z</updated>
+<updated>2026-11-02T11:59:54Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -1401,7 +1698,7 @@
 <title>Three business decisions that define your DR success</title>
 <link href="https://aws.amazon.com/blogs/architecture/three-business-decisions-that-define-your-dr-success/"/>
 <id>urn:rss-system-design:all:31a065ab67</id>
-<updated>2026-11-02T11:59:54Z</updated>
+<updated>2026-11-02T11:59:53Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -1414,7 +1711,7 @@
 <title>How to run a DR readiness engagement</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-to-run-a-dr-readiness-engagement/"/>
 <id>urn:rss-system-design:all:42361e3170</id>
-<updated>2026-11-02T11:59:53Z</updated>
+<updated>2026-11-02T11:59:52Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -1426,7 +1723,7 @@
 <title>Beyond Migration: Using Database Migration Service for disk shrinking</title>
 <link href="https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/"/>
 <id>urn:rss-system-design:all:492c7f079e</id>
-<updated>2026-11-02T11:59:52Z</updated>
+<updated>2026-11-02T11:59:51Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
@@ -1439,7 +1736,7 @@
 <title>Diagnose Distributed AI Workload Failures with NVIDIA Attribution</title>
 <link href="https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/"/>
 <id>urn:rss-system-design:all:597d80ce0f</id>
-<updated>2026-11-02T11:59:51Z</updated>
+<updated>2026-11-02T11:59:50Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -1453,7 +1750,7 @@
 <title>Google Cloud Developer plugin now available in Antigravity Marketplace</title>
 <link href="https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/"/>
 <id>urn:rss-system-design:all:73eabf2238</id>
-<updated>2026-11-02T11:59:50Z</updated>
+<updated>2026-11-02T11:59:49Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -1464,7 +1761,7 @@
 <title>Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One</title>
 <link href="https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/"/>
 <id>urn:rss-system-design:all:7a3dd5379a</id>
-<updated>2026-11-02T11:59:49Z</updated>
+<updated>2026-11-02T11:59:48Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -1487,7 +1784,7 @@
 <title>Meituan officially releases LongCat-2.5: a native multimodal model for agentic tasks (translated from Chinese)</title>
 <link href="https://tech-meituan-com.translate.goog/2026/11/02/Meituan-LongCat-2.5.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:80c5907161</id>
-<updated>2026-11-02T11:59:48Z</updated>
+<updated>2026-11-02T11:59:47Z</updated>
 <author><name>Meituan</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -1499,7 +1796,7 @@
 <title>Learning new skills without forgetting: Self-Distillation vs GRPO</title>
 <link href="https://careersatdoordash.com/blog/learning-new-skills-without-forgetting-self-distillation-vs-grpo/"/>
 <id>urn:rss-system-design:all:8f34d45bee</id>
-<updated>2026-11-02T11:59:47Z</updated>
+<updated>2026-11-02T11:59:46Z</updated>
 <author><name>DoorDash</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -1511,7 +1808,7 @@
 <title>Load Testing Without Touching Production: Header-Based Routing with Linkerd</title>
 <link href="https://medium.com/myntra-engineering/load-testing-without-touching-production-header-based-routing-with-linkerd-4d0442c27a73?source=rss----7484818e9f88---4"/>
 <id>urn:rss-system-design:all:9067ad5356</id>
-<updated>2026-11-02T11:59:46Z</updated>
+<updated>2026-11-02T11:59:45Z</updated>
 <author><name>Myntra</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
@@ -1524,7 +1821,7 @@
 <title>Where should your code live in a Docker Sandbox?</title>
 <link href="https://www.docker.com/blog/docker-sandbox-code-checkout-workflows/"/>
 <id>urn:rss-system-design:all:96d1390188</id>
-<updated>2026-11-02T11:59:45Z</updated>
+<updated>2026-11-02T11:59:44Z</updated>
 <author><name>Docker</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -1537,7 +1834,7 @@
 <title>Learnings from building our public MCP server</title>
 <link href="https://eng.wealthfront.com/2026/11/02/learnings-from-building-our-public-mcp-server/"/>
 <id>urn:rss-system-design:all:9a672eb2f8</id>
-<updated>2026-11-02T11:59:44Z</updated>
+<updated>2026-11-02T11:59:43Z</updated>
 <author><name>Wealthfront</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -1551,7 +1848,7 @@
 <title>From kubectl and Slack Threads to One Click: Building a Self-Serve NFR Environment</title>
 <link href="https://medium.com/myntra-engineering/from-kubectl-and-slack-threads-to-one-click-building-a-self-serve-nfr-environment-b1b3c42b173b?source=rss----7484818e9f88---4"/>
 <id>urn:rss-system-design:all:9b25d4ce48</id>
-<updated>2026-11-02T11:59:43Z</updated>
+<updated>2026-11-02T11:59:42Z</updated>
 <author><name>Myntra</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -1564,7 +1861,7 @@
 <title>Android profiling now uses Perfetto via ProfilingManager</title>
 <link href="https://blog.sentry.io/android-profilingmanager-perfetto/"/>
 <id>urn:rss-system-design:all:a12e3e8050</id>
-<updated>2026-11-02T11:59:42Z</updated>
+<updated>2026-11-02T11:59:41Z</updated>
 <author><name>Sentry</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -1577,7 +1874,7 @@
 <title>Validating your DR commitment: From controlled test to real-world readiness</title>
 <link href="https://aws.amazon.com/blogs/architecture/validating-your-dr-commitment-from-controlled-test-to-real-world-readiness/"/>
 <id>urn:rss-system-design:all:a1be93bce0</id>
-<updated>2026-11-02T11:59:41Z</updated>
+<updated>2026-11-02T11:59:40Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
@@ -1589,7 +1886,7 @@
 <title>How we halved DNS build delay and cut memory use by 85%</title>
 <link href="https://blog.cloudflare.com/dns-targeted-zone-builds/"/>
 <id>urn:rss-system-design:all:b10d0651ae</id>
-<updated>2026-11-02T11:59:40Z</updated>
+<updated>2026-11-02T11:59:39Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
@@ -1604,7 +1901,7 @@
 <title>What Slash Commands Actually Do</title>
 <link href="https://engineering.gusto.com/what-slash-commands-actually-do-76cf4c288f5c?source=rss----645edd256348---4"/>
 <id>urn:rss-system-design:all:b62eb66610</id>
-<updated>2026-11-02T11:59:39Z</updated>
+<updated>2026-11-02T11:59:38Z</updated>
 <author><name>Gusto</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -1617,7 +1914,7 @@
 <title>How Nvidia's New Nemotron Model Works</title>
 <link href="https://blog.bytebytego.com/p/how-nvidias-new-nemotron-model-works"/>
 <id>urn:rss-system-design:all:b9fd170e6b</id>
-<updated>2026-11-02T11:59:38Z</updated>
+<updated>2026-11-02T11:59:37Z</updated>
 <author><name>ByteByteGo</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -1629,7 +1926,7 @@
 <title>How We Load-Test 700+ Independently-Owned Services Without Touching Production</title>
 <link href="https://medium.com/myntra-engineering/how-we-load-test-700-independently-owned-services-without-touching-production-5a48f6bf89ce?source=rss----7484818e9f88---4"/>
 <id>urn:rss-system-design:all:d0ecdfd8d4</id>
-<updated>2026-11-02T11:59:37Z</updated>
+<updated>2026-11-02T11:59:36Z</updated>
 <author><name>Myntra</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
@@ -1643,7 +1940,7 @@
 <title>Keep Distributed Training Running with Automated Workload Recovery</title>
 <link href="https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/"/>
 <id>urn:rss-system-design:all:d57460c898</id>
-<updated>2026-11-02T11:59:36Z</updated>
+<updated>2026-11-02T11:59:35Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -1671,7 +1968,7 @@
 <title>Scaling Git at OpenAI</title>
 <link href="https://openai.com/index/scaling-git-at-openai"/>
 <id>urn:rss-system-design:all:de4cf53f9d</id>
-<updated>2026-11-02T11:59:35Z</updated>
+<updated>2026-11-02T11:59:34Z</updated>
 <author><name>OpenAI</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -1685,7 +1982,7 @@
 <title>JVM Startup Time Story: From 330 Seconds to 3</title>
 <link href="https://medium.com/engineering-housing/we-stopped-our-jvm-from-ever-booting-cold-again-b5dbd492fe88?source=rss----3a69e32e2594---4"/>
 <id>urn:rss-system-design:all:e20ae3eb4e</id>
-<updated>2026-11-02T11:59:34Z</updated>
+<updated>2026-11-02T11:59:33Z</updated>
 <author><name>Housing.com</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -1698,7 +1995,7 @@
 <title>How GoDaddy issues Mark Certificates for BIMI</title>
 <link href="https://www.godaddy.com/resources/news/how-godaddy-issues-mark-certificates-for-bimi"/>
 <id>urn:rss-system-design:all:e2d14086d9</id>
-<updated>2026-11-02T11:59:33Z</updated>
+<updated>2026-11-02T11:59:32Z</updated>
 <author><name>GoDaddy</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -1709,7 +2006,7 @@
 <title>Support New AI Frameworks Faster Using NVIDIA Workload Map</title>
 <link href="https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/"/>
 <id>urn:rss-system-design:all:eac6c34b71</id>
-<updated>2026-11-02T11:59:32Z</updated>
+<updated>2026-11-02T11:59:31Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -1722,7 +2019,7 @@
 <title>What Google Cloud announced in AI this month</title>
 <link href="https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/"/>
 <id>urn:rss-system-design:all:ead8b3b1e0</id>
-<updated>2026-11-02T11:59:31Z</updated>
+<updated>2026-11-02T11:59:30Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -1733,7 +2030,7 @@
 <title>Shutting the Door on the XCPE Botnet</title>
 <link href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/"/>
 <id>urn:rss-system-design:all:045ebd27a6</id>
-<updated>2026-11-02T11:59:30Z</updated>
+<updated>2026-11-02T11:59:29Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -1773,7 +2070,7 @@
 <title>Plugin Modernization by Anthropic</title>
 <link href="https://blog-octo-com.translate.goog/moderniser-un-systeme-legacy-avec-le-plugin-modernization-12?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:730e597ac9</id>
-<updated>2026-11-02T11:59:29Z</updated>
+<updated>2026-11-02T11:59:28Z</updated>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -2765,7 +3062,7 @@
 <title>How DoorDash Built a Next-Generation Real-Time Dispatch Platform</title>
 <link href="https://careersatdoordash.com/blog/how-doordash-built-a-next-generation-real-time-dispatch-platform/"/>
 <id>urn:rss-system-design:all:6d5fd50633</id>
-<updated>2026-10-20T12:00:00Z</updated>
+<updated>2026-10-20T11:59:59Z</updated>
 <author><name>DoorDash</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
@@ -6143,7 +6440,7 @@
 <title>The Agents on Rails Files: designing black-box evals for coding agents</title>
 <link href="https://evilmartians.com/chronicles/the-agents-on-rails-files-designing-black-box-evals-for-coding-agents"/>
 <id>urn:rss-system-design:all:78192128a7</id>
-<updated>2026-10-20T11:59:59Z</updated>
+<updated>2026-10-20T11:59:58Z</updated>
 <author><name>Evil Martians</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -6204,7 +6501,7 @@
 <title>Cross-store product clustering across millions of stores</title>
 <link href="https://shopify.engineering/catalog-clustering-part-ii"/>
 <id>urn:rss-system-design:all:2a8881dbb8</id>
-<updated>2026-10-20T11:59:58Z</updated>
+<updated>2026-10-20T11:59:57Z</updated>
 <author><name>Shopify</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -6216,7 +6513,7 @@
 <title>How Shopify turns open models into task experts</title>
 <link href="https://shopify.engineering/open-model-task-experts"/>
 <id>urn:rss-system-design:all:497306ca80</id>
-<updated>2026-10-20T11:59:57Z</updated>
+<updated>2026-10-20T11:59:56Z</updated>
 <author><name>Shopify</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -6242,7 +6539,7 @@
 <title>App stability at scale with a layered defense</title>
 <link href="https://engineering.grab.com/app-stability-at-scale-with-a-layered-defense"/>
 <id>urn:rss-system-design:all:6d1bafd633</id>
-<updated>2026-10-20T11:59:56Z</updated>
+<updated>2026-10-20T11:59:55Z</updated>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -6254,7 +6551,7 @@
 <title>Introducing tsrs: A port of TypeScript to Rust</title>
 <link href="https://blog.cloudflare.com/typescript-rust-port/"/>
 <id>urn:rss-system-design:all:a3f6bdb00a</id>
-<updated>2026-10-20T11:59:55Z</updated>
+<updated>2026-10-20T11:59:54Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -6265,7 +6562,7 @@
 <title>8 eMudhra certificates are compromised. Here's what you need to know</title>
 <link href="https://blog.cloudflare.com/emudhra-certificate-compromise/"/>
 <id>urn:rss-system-design:all:f1bf501de5</id>
-<updated>2026-10-20T11:59:54Z</updated>
+<updated>2026-10-20T11:59:53Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
@@ -6276,7 +6573,7 @@
 <title>How 3 Java Champions are using GitHub Copilot for increased productivity</title>
 <link href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"/>
 <id>urn:rss-system-design:all:fbec33bd28</id>
-<updated>2026-10-20T11:59:53Z</updated>
+<updated>2026-10-20T11:59:52Z</updated>
 <author><name>GitHub</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -6289,7 +6586,7 @@
 <title>The Quiet Tax on Machine Learning Teams</title>
 <link href="https://medium.com/expedia-group-tech/the-quiet-tax-on-machine-learning-teams-43d71bd539c7?source=rss----38998a53046f---4"/>
 <id>urn:rss-system-design:all:fe8770f1fd</id>
-<updated>2026-10-20T11:59:52Z</updated>
+<updated>2026-10-20T11:59:51Z</updated>
 <author><name>Expedia Group</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -6372,7 +6669,7 @@
 <title>Local LLM on iOS 27: what Apple doesn't say in the docs (translated from French)</title>
 <link href="https://blog-octo-com.translate.goog/llm-local-sur-ios-27--ce-qu'apple-ne-dit-pas-dans-la-doc?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:all:8b56732555</id>
-<updated>2026-10-20T11:59:51Z</updated>
+<updated>2026-10-20T11:59:50Z</updated>
 <author><name>OCTO Technology</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
