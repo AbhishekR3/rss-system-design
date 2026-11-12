@@ -5,28 +5,137 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-10T12:00:00Z</updated>
+<updated>2026-11-11T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>No articles for 2026-11-10</title>
-<link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-10"/>
-<id>urn:rss-system-design:top3:none-2026-11-10</id>
+<title>Shipping DoorDash’s First Production Transformer for Homepage Store Ranking</title>
+<link href="https://careersatdoordash.com/blog/homepage-store-ranking-transformer/"/>
+<id>urn:rss-system-design:top3:8a21c0c7c2</id>
+<updated>2026-11-11T12:00:00Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the design decision to add a transformer branch to the existing MMoE and DCN store ranker rather than replace it, capping click histories at 500 and hashing store IDs to cut parameters from 160 million to 10 million.</summary>
+</entry>
+<entry>
+<title>Intelligent Delivery: Making Every Unit of Compute Serve Better Ads</title>
+<link href="https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/"/>
+<id>urn:rss-system-design:top3:32ab81b217</id>
+<updated>2026-11-11T11:59:59Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the architecture of Intelligent Delivery: a shared Resource Core Model with 6B sparse parameters predicting per-request compute utility, feeding a hierarchy of region, hardware and per-host allocation engines under a tail-latency SLO.</summary>
+</entry>
+<entry>
+<title>Shopify’s generative discovery model</title>
+<link href="https://shopify.engineering/generative-discovery"/>
+<id>urn:rss-system-design:top3:45d531b5f5</id>
+<updated>2026-11-11T11:59:58Z</updated>
+<author><name>Shopify</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows design decisions for a shared generative retrieval model: RQ-KMeans semantic IDs with three 8,192-entry codebooks, choosing LFM2-2.6B at 25.5 ms p95 over Qwen3 models, and GPU trie-constrained decoding cutting overhead to about 1 ms.</summary>
+</entry>
+<entry>
+<title>From Data Silos to Feature Serving: How We Unified Fragmented Data for Training, Inference, and Reuse</title>
+<link href="https://product.hubspot.com/blog/from-data-silos-to-feature-serving-how-we-unified-fragmented-data-for-training-inference-and-reuse"/>
+<id>urn:rss-system-design:top3:70cb7844e7</id>
 <updated>2026-11-10T12:00:00Z</updated>
-<summary>No articles for 2026-11-10.</summary>
+<author><name>HubSpot</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Design decision to serve features from source systems (CRM, team RPC services, BYOT Iceberg tables) instead of ingesting them, trading guaranteed latency and data quality for no sync pipelines, plus point-in-time wide rows in the offline store.</summary>
 </entry>
 <entry>
-<title>No articles for 2026-11-09</title>
-<link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-09"/>
-<id>urn:rss-system-design:top3:none-2026-11-09</id>
+<title>Making Mercari's product catalog integration AI-native with a prompt generation agent and LLMs (translated from Japanese)</title>
+<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261110-ai-native-catalog-construction/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:top3:485ae21646</id>
+<updated>2026-11-10T11:59:59Z</updated>
+<author><name>Mercari</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the design decision to replace Go rule-based conversion of external catalog data with agent-generated LLM prompts, keeping deduplication in code and using Structured Outputs, with gpt-5.4-mini scoring 85.2% versus 69.6% for rules.</summary>
+</entry>
+<entry>
+<title>How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale</title>
+<link href="https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/"/>
+<id>urn:rss-system-design:top3:c59bd18a7f</id>
+<updated>2026-11-10T11:59:58Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Design decision to add a warp-group level abstraction to Triton instead of writing CUDA or a clean-slate language, trading full control for productivity, with GEM training at 20-25% end-to-end MFU and a 4x speedup kernel on H100.</summary>
+</entry>
+<entry>
+<title>How LinkedIn Uses AI to Review 40,000 Pull Requests a Week</title>
+<link href="https://blog.bytebytego.com/p/how-linkedin-uses-ai-to-review-40000"/>
+<id>urn:rss-system-design:top3:c0212b2cac</id>
 <updated>2026-11-09T12:00:00Z</updated>
-<summary>No articles for 2026-11-09.</summary>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows LinkedIn's build-versus-buy decision for AI code review, moving from a vendor reviewer to a multi-agent system that merges and cross-verifies findings from independent subagents under layered rules, with 63.9% of comments accepted.</summary>
 </entry>
 <entry>
-<title>No articles for 2026-11-08</title>
-<link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-08"/>
-<id>urn:rss-system-design:top3:none-2026-11-08</id>
+<title>What is Pathways? Single-controller training for large models</title>
+<link href="https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/"/>
+<id>urn:rss-system-design:top3:25611dc724</id>
+<updated>2026-11-09T11:59:59Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of the trade-off between SPMD lockstep execution and a single-controller dataflow runtime, covering virtual devices remapped by a resource manager after host failure, asynchronous dispatch with futures, and a central scheduler that avoids collective deadlocks.</summary>
+</entry>
+<entry>
+<title>Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System</title>
+<link href="https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4"/>
+<id>urn:rss-system-design:top3:588e442ed6</id>
+<updated>2026-11-09T11:59:58Z</updated>
+<author><name>Netflix</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to replace five holistic reasoning-model calls with confidence-gated literal and implicature judges plus a router to Stage-2 rechecks, cutting cost 52.4% and raising Recall-FAIL from 0.77 to 0.86 while P50 latency rose.</summary>
+</entry>
+<entry>
+<title>Zero-Copy Migration: How Yelp Moved Its Cassandra Fleet Between Kubernetes Clusters</title>
+<link href="https://engineeringblog.yelp.com/2026/11/zero-copy-cassandra-kubernetes-migration.html"/>
+<id>urn:rss-system-design:top3:9d5db1bbb2</id>
 <updated>2026-11-08T12:00:00Z</updated>
-<summary>No articles for 2026-11-08.</summary>
+<author><name>Yelp</name></author>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the design decision to migrate about 1000 Cassandra pods across Kubernetes clusters by re-pointing PVs at existing EBS volumes rather than streaming data, and failures such as stale VolumeAttachment objects on about 5% of moves.</summary>
 </entry>
 <entry>
 <title>Securing AI Agents: Lessons From Real-World Deployment</title>
