@@ -5,8 +5,197 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-11T12:00:00Z</updated>
+<updated>2026-11-12T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Theoretical Limits of Language Model Alignment</title>
+<link href="https://machinelearning.apple.com/research/theoretical-limits-alignment"/>
+<id>urn:rss-system-design:all:09092af9ed</id>
+<updated>2026-11-11T12:00:00Z</updated>
+<author><name>Apple</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Cyber Chaos Monkey: Staying ahead of security threats with AI agents</title>
+<link href="https://shopify.engineering/cyber-chaos-monkey"/>
+<id>urn:rss-system-design:all:0f0daa4a50</id>
+<updated>2026-11-12T12:00:00Z</updated>
+<author><name>Shopify</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>We have a Slopware Factory</title>
+<link href="https://blog.sentry.io/slopware-factory/"/>
+<id>urn:rss-system-design:all:13e44df907</id>
+<updated>2026-11-12T11:59:59Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How Pinterest Improved Analytics Agent Compliance with Loop Engineering</title>
+<link href="https://medium.com/pinterest-engineering/how-pinterest-improved-analytics-agent-compliance-with-loop-engineering-d3c52d0abaa2?source=rss-ef81ef829bcb------2"/>
+<id>urn:rss-system-design:all:18f5dbe44b</id>
+<updated>2026-11-12T11:59:58Z</updated>
+<author><name>Pinterest</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Throwing Out The Phonebook</title>
+<link href="https://fly.io/blog/throwing-out-the-phonebook/"/>
+<id>urn:rss-system-design:all:1f63ff7f19</id>
+<updated>2026-11-12T11:59:57Z</updated>
+<author><name>Fly.io</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Modular regression testing framework built on AWS for large-scale systems</title>
+<link href="https://aws.amazon.com/blogs/architecture/modular-regression-testing-framework-built-on-aws-for-large-scale-systems/"/>
+<id>urn:rss-system-design:all:206a6586bf</id>
+<updated>2026-11-12T11:59:56Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>How Agent Anomaly Detection scores on benchmarks we didn't write</title>
+<link href="https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/"/>
+<id>urn:rss-system-design:all:20fb8f8cc0</id>
+<updated>2026-11-12T11:59:55Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Build once, run on any agent: A practical guide to agent skills</title>
+<link href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/"/>
+<id>urn:rss-system-design:all:2d4436613d</id>
+<updated>2026-11-12T11:59:54Z</updated>
+<author><name>GitHub</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Top Types of Hidden Coupling and How to Deal With Them</title>
+<link href="https://blog.bytebytego.com/p/top-types-of-hidden-coupling-and"/>
+<id>urn:rss-system-design:all:2f2bf8dc95</id>
+<updated>2026-11-12T11:59:53Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Chrome Enterprise brings more protections to healthcare technologies</title>
+<link href="https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/"/>
+<id>urn:rss-system-design:all:585f7dd382</id>
+<updated>2026-11-12T11:59:52Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Discord &lt;3 Linux: A Year of Upgrades</title>
+<link href="https://discord.com/blog/discord-linux-a-year-of-upgrades"/>
+<id>urn:rss-system-design:all:601b953378</id>
+<updated>2026-11-12T11:59:51Z</updated>
+<author><name>Discord</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Using a Smart Clip Router to Benchmark Conversational Speech-To-Speech Agents</title>
+<link href="https://careersatdoordash.com/blog/voice-agent-benchmark-smart-clip-router/"/>
+<id>urn:rss-system-design:all:66c54e97ee</id>
+<updated>2026-11-12T11:59:50Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/"/>
+<id>urn:rss-system-design:all:7fa60c5ef4</id>
+<updated>2026-11-12T11:59:49Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Microsoft Research Focus – Edition #98</title>
+<link href="https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/"/>
+<id>urn:rss-system-design:all:9363117aae</id>
+<updated>2026-11-12T11:59:48Z</updated>
+<author><name>Microsoft</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Simplifying last mile cloud connectivity with Lumen and partner Cross-Cloud Interconnect</title>
+<link href="https://cloud.google.com/blog/products/networking/partner-cross-cloud-interconnect-for-last-mile-delivered-by-lumen/"/>
+<id>urn:rss-system-design:all:9a56b37a9f</id>
+<updated>2026-11-12T11:59:47Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Autonomous defense at cloud speed with SentinelOne and Google Security Operations</title>
+<link href="https://cloud.google.com/blog/topics/partners/autonomous-defense-at-cloud-speed-with-sentinelone-and-google-security-operations/"/>
+<id>urn:rss-system-design:all:b42ee82982</id>
+<updated>2026-11-12T11:59:46Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Scale distributed AI workloads with Ray and Anyscale on Amazon EC2</title>
+<link href="https://aws.amazon.com/blogs/architecture/scale-distributed-ai-workloads-with-ray-and-anyscale-on-amazon-ec2/"/>
+<id>urn:rss-system-design:all:c08dbc7f10</id>
+<updated>2026-11-12T11:59:45Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Dispelling LTAP myths</title>
+<link href="https://www.databricks.com/blog/dispelling-ltap-myths"/>
+<id>urn:rss-system-design:all:d21c5f6d9d</id>
+<updated>2026-11-12T11:59:44Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Catch Go bugs that fuzzing misses with Gemini and a constraint solver</title>
+<link href="https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/"/>
+<id>urn:rss-system-design:all:dc0e8f6052</id>
+<updated>2026-11-12T11:59:43Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Inside an enterprise AI agent: A governed, observable loop architecture</title>
+<link href="https://aws.amazon.com/blogs/architecture/inside-an-enterprise-ai-agent-a-governed-observable-loop-architecture/"/>
+<id>urn:rss-system-design:all:dec47e24f0</id>
+<updated>2026-11-12T11:59:42Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
+<entry>
+<title>Powering agentic cloud governance: What's new in Organization Policy</title>
+<link href="https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/"/>
+<id>urn:rss-system-design:all:e5187274f2</id>
+<updated>2026-11-12T11:59:41Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
 <entry>
 <title>Weighted State Souping for Efficient Long-Context Retrieval</title>
 <link href="https://machinelearning.apple.com/research/weighted-state-souping"/>
@@ -21,10 +210,24 @@
 <summary>Shows the design of caching independently encoded SSM chunk states and recombining them with learned query-dependent weights, with a sparse variant trading encoding cost against long-context retrieval quality.</summary>
 </entry>
 <entry>
+<title>Introducing Shard Manager</title>
+<link href="https://www.uber.com/us/en/blog/introducing-shard-manager/"/>
+<id>urn:rss-system-design:all:0d1a6c6985</id>
+<updated>2026-11-12T11:59:40Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to replace Ringpop consistent hashing with a standalone Shard Manager using reported load and etcd, rejecting Apache Helix and embedded controllers, which cut hottest-host CPU by 38%.</summary>
+</entry>
+<entry>
 <title>Choosing QuePaxa, an unusual consensus algorithm</title>
 <link href="https://blog.cloudflare.com/choosing-quepaxa/"/>
 <id>urn:rss-system-design:all:16053df933</id>
-<updated>2026-11-11T12:00:00Z</updated>
+<updated>2026-11-11T11:59:59Z</updated>
 <author><name>Cloudflare</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
@@ -38,7 +241,7 @@
 <title>How lemonflow built real-time agents for EV charging using Gemma and TPUs</title>
 <link href="https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus/"/>
 <id>urn:rss-system-design:all:1f70b6c283</id>
-<updated>2026-11-11T11:59:59Z</updated>
+<updated>2026-11-11T11:59:58Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -52,7 +255,7 @@
 <title>Intelligent Delivery: Making Every Unit of Compute Serve Better Ads</title>
 <link href="https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/"/>
 <id>urn:rss-system-design:all:32ab81b217</id>
-<updated>2026-11-11T11:59:58Z</updated>
+<updated>2026-11-11T11:59:57Z</updated>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
@@ -67,7 +270,7 @@
 <title>Introducing new AI functions for AlloyDB: ai.classify and ai.extract</title>
 <link href="https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/"/>
 <id>urn:rss-system-design:all:42eb57f149</id>
-<updated>2026-11-11T11:59:57Z</updated>
+<updated>2026-11-11T11:59:56Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
@@ -78,7 +281,7 @@
 <title>Shopify’s generative discovery model</title>
 <link href="https://shopify.engineering/generative-discovery"/>
 <id>urn:rss-system-design:all:45d531b5f5</id>
-<updated>2026-11-11T11:59:56Z</updated>
+<updated>2026-11-11T11:59:55Z</updated>
 <author><name>Shopify</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
@@ -106,7 +309,7 @@
 <title>Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory</title>
 <link href="https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/"/>
 <id>urn:rss-system-design:all:508420d298</id>
-<updated>2026-11-11T11:59:55Z</updated>
+<updated>2026-11-11T11:59:54Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -120,7 +323,7 @@
 <title>Don’t just prompt AI — architect it: Introducing the Professional Agentic Architect Certification</title>
 <link href="https://cloud.google.com/blog/topics/training-certifications/google-cloud-agentic-architect-certification-dont-just-prompt-ai-design-it/"/>
 <id>urn:rss-system-design:all:518d4e56dd</id>
-<updated>2026-11-11T11:59:54Z</updated>
+<updated>2026-11-11T11:59:53Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
@@ -130,7 +333,7 @@
 <title>A2UI 1.0: Build delightful, fast, reliable, agentic experiences</title>
 <link href="https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/"/>
 <id>urn:rss-system-design:all:57ed8b6862</id>
-<updated>2026-11-11T11:59:53Z</updated>
+<updated>2026-11-11T11:59:52Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -141,7 +344,7 @@
 <title>Recycle your tests: many shades of green</title>
 <link href="https://tech.trivago.com/post/2026-11-12-recycle-your-tests-many-shades-of-green/"/>
 <id>urn:rss-system-design:all:612d36318a</id>
-<updated>2026-11-11T11:59:52Z</updated>
+<updated>2026-11-11T11:59:51Z</updated>
 <author><name>trivago</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -154,7 +357,7 @@
 <title>eBay makes selling easier with enhanced camera-first experience</title>
 <link href="https://www.ebayinc.com/stories/news/ebay-makes-selling-easier-with-a-new-camera-first-experience/"/>
 <id>urn:rss-system-design:all:6c3b67a713</id>
-<updated>2026-11-11T11:59:51Z</updated>
+<updated>2026-11-11T11:59:50Z</updated>
 <author><name>eBay</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -164,7 +367,7 @@
 <title>How Zillow runs 100 million daily notifications on AWS Step Functions</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-zillow-runs-100-million-daily-notifications-on-aws-step-functions/"/>
 <id>urn:rss-system-design:all:7f2a111ead</id>
-<updated>2026-11-11T11:59:50Z</updated>
+<updated>2026-11-11T11:59:49Z</updated>
 <author><name>AWS</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
@@ -179,7 +382,7 @@
 <title>The Roundup by ByteByteGo</title>
 <link href="https://blog.bytebytego.com/p/the-roundup-by-bytebytego"/>
 <id>urn:rss-system-design:all:86481580c3</id>
-<updated>2026-11-11T11:59:49Z</updated>
+<updated>2026-11-11T11:59:48Z</updated>
 <author><name>ByteByteGo</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
@@ -189,7 +392,7 @@
 <title>Shipping DoorDash’s First Production Transformer for Homepage Store Ranking</title>
 <link href="https://careersatdoordash.com/blog/homepage-store-ranking-transformer/"/>
 <id>urn:rss-system-design:all:8a21c0c7c2</id>
-<updated>2026-11-11T11:59:48Z</updated>
+<updated>2026-11-11T11:59:47Z</updated>
 <author><name>DoorDash</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
@@ -203,7 +406,7 @@
 <title>LAST CALL FOR ENROLLMENT: Build Production Grade AI Systems</title>
 <link href="https://blog.bytebytego.com/p/last-call-for-enrollment-build-production"/>
 <id>urn:rss-system-design:all:8ba15d24fb</id>
-<updated>2026-11-11T11:59:47Z</updated>
+<updated>2026-11-11T11:59:46Z</updated>
 <author><name>ByteByteGo</name></author>
 <category scheme="urn:rss-system-design:status" term="unchecked" label="Not classified: too short or could not be read"/>
 <summary>Not classified: too short or could not be read.</summary>
@@ -223,7 +426,7 @@
 <title>6 AI Agent Capabilities to Evaluate Before Enterprise Deployment</title>
 <link href="https://engineering.salesforce.com/6-ai-agent-capabilities-to-evaluate-before-enterprise-deployment/"/>
 <id>urn:rss-system-design:all:aacaf04e7b</id>
-<updated>2026-11-11T11:59:46Z</updated>
+<updated>2026-11-11T11:59:45Z</updated>
 <author><name>Salesforce</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -247,7 +450,7 @@
 <title>Modernising legacy systems in UK banking and financial services</title>
 <link href="https://feed.thoughtbot.com/link/24077/17522520/modernizing-legacy-systems-in-uk-banking-and-financial-services"/>
 <id>urn:rss-system-design:all:e42998b6ca</id>
-<updated>2026-11-11T11:59:45Z</updated>
+<updated>2026-11-11T11:59:44Z</updated>
 <author><name>thoughtbot</name></author>
 <category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
@@ -520,7 +723,7 @@
 <title>Velox at Uber: Rebuilding Presto's® Execution Engine for Speed and Scale</title>
 <link href="https://www.uber.com/us/en/blog/velox-at-uber/"/>
 <id>urn:rss-system-design:all:b7c2886f90</id>
-<updated>2026-11-11T11:59:44Z</updated>
+<updated>2026-11-11T11:59:43Z</updated>
 <author><name>Uber</name></author>
 <category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>

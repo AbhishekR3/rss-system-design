@@ -5,8 +5,21 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-11T12:00:00Z</updated>
+<updated>2026-11-12T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Introducing Shard Manager</title>
+<link href="https://www.uber.com/us/en/blog/introducing-shard-manager/"/>
+<id>urn:rss-system-design:top3:0d1a6c6985</id>
+<updated>2026-11-12T12:00:00Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to replace Ringpop consistent hashing with a standalone Shard Manager using reported load and etcd, rejecting Apache Helix and embedded controllers, which cut hottest-host CPU by 38%.</summary>
+</entry>
 <entry>
 <title>Shipping DoorDash’s First Production Transformer for Homepage Store Ranking</title>
 <link href="https://careersatdoordash.com/blog/homepage-store-ranking-transformer/"/>
