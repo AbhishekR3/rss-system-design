@@ -5,13 +5,78 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-12T12:00:00Z</updated>
+<updated>2026-11-13T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>How Thermo Fisher Scientific built AI-powered patient matching on AWS</title>
+<link href="https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/"/>
+<id>urn:rss-system-design:top3:0f0ed8b00d</id>
+<updated>2026-11-13T12:00:00Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Architecture walkthrough of separating analytical Iceberg tables on S3 queried by Athena from operational DocumentDB, chosen as the closest MongoDB equivalent, over 20 million patient records, plus the move to wait-for-callback in Step Functions.</summary>
+</entry>
+<entry>
+<title>Introducing Spend Management: Spending limits and alerts for Cloudflare</title>
+<link href="https://blog.cloudflare.com/spend-management/"/>
+<id>urn:rss-system-design:top3:5ed3e6f49d</id>
+<updated>2026-11-13T11:59:59Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Architecture walkthrough of two-stage metering aggregation, an account-partitioned Usage Engine with a WAL, a Rating Engine that holds unpriced usage as pending, and caps pushed asynchronously through Quicksilver outside the request path.</summary>
+</entry>
+<entry>
+<title>Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS</title>
+<link href="https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/"/>
+<id>urn:rss-system-design:top3:84bc7ae3f7</id>
+<updated>2026-11-13T11:59:58Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to emulate DGEMM on integer Tensor Cores with Ozaki-II, trading a larger residue workspace, reduced by tiling, for linear GEMM count, with a fallback to native FP64 when mantissa bits exceed the limit.</summary>
+</entry>
+<entry>
+<title>Throwing Out The Phonebook</title>
+<link href="https://fly.io/blog/throwing-out-the-phonebook/"/>
+<id>urn:rss-system-design:top3:1f63ff7f19</id>
+<updated>2026-11-12T12:00:00Z</updated>
+<author><name>Fly.io</name></author>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Shows the design decision to replace a per-host BPF map of hundreds of thousands of migrated Machines with on-demand VXLAN route lookups holding 100 to 200 routes, trading about a second on first connections.</summary>
+</entry>
+<entry>
+<title>How Pinterest Improved Analytics Agent Compliance with Loop Engineering</title>
+<link href="https://medium.com/pinterest-engineering/how-pinterest-improved-analytics-agent-compliance-with-loop-engineering-d3c52d0abaa2?source=rss-ef81ef829bcb------2"/>
+<id>urn:rss-system-design:top3:18f5dbe44b</id>
+<updated>2026-11-12T11:59:59Z</updated>
+<author><name>Pinterest</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design decision to replace persistent sessions and memoryless Ralph Wiggum loops with fresh sessions plus a structured handoff, and the paired required and skip suites, regression guard and repair/break gate that accept changes.</summary>
+</entry>
 <entry>
 <title>Introducing Shard Manager</title>
 <link href="https://www.uber.com/us/en/blog/introducing-shard-manager/"/>
 <id>urn:rss-system-design:top3:0d1a6c6985</id>
-<updated>2026-11-12T12:00:00Z</updated>
+<updated>2026-11-12T11:59:58Z</updated>
 <author><name>Uber</name></author>
 <category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -60,10 +125,23 @@
 <summary>Shows design decisions for a shared generative retrieval model: RQ-KMeans semantic IDs with three 8,192-entry codebooks, choosing LFM2-2.6B at 25.5 ms p95 over Qwen3 models, and GPU trie-constrained decoding cutting overhead to about 1 ms.</summary>
 </entry>
 <entry>
+<title>Building an Automated Improvement Harness for an AI Support Agent</title>
+<link href="https://careersatdoordash.com/blog/building-an-automated-improvement-harness-for-an-ai-support-agent/"/>
+<id>urn:rss-system-design:top3:4d02b0fd44</id>
+<updated>2026-11-10T12:00:00Z</updated>
+<author><name>DoorDash</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Architecture walkthrough of an agent improvement harness with a Full, Partial and Missed resolution benchmark, four gap categories, separate completeness and correctness loops, and deterministic scripts controlling workflow state instead of model prose.</summary>
+</entry>
+<entry>
 <title>From Data Silos to Feature Serving: How We Unified Fragmented Data for Training, Inference, and Reuse</title>
 <link href="https://product.hubspot.com/blog/from-data-silos-to-feature-serving-how-we-unified-fragmented-data-for-training-inference-and-reuse"/>
 <id>urn:rss-system-design:top3:70cb7844e7</id>
-<updated>2026-11-10T12:00:00Z</updated>
+<updated>2026-11-10T11:59:59Z</updated>
 <author><name>HubSpot</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
@@ -72,19 +150,6 @@
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
 <category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <summary>Design decision to serve features from source systems (CRM, team RPC services, BYOT Iceberg tables) instead of ingesting them, trading guaranteed latency and data quality for no sync pipelines, plus point-in-time wide rows in the offline store.</summary>
-</entry>
-<entry>
-<title>Making Mercari's product catalog integration AI-native with a prompt generation agent and LLMs (translated from Japanese)</title>
-<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261110-ai-native-catalog-construction/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
-<id>urn:rss-system-design:top3:485ae21646</id>
-<updated>2026-11-10T11:59:59Z</updated>
-<author><name>Mercari</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
-<summary>Shows the design decision to replace Go rule-based conversion of external catalog data with agent-generated LLM prompts, keeping deduplication in code and using Structured Outputs, with gpt-5.4-mini scoring 85.2% versus 69.6% for rules.</summary>
 </entry>
 <entry>
 <title>How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale</title>
@@ -113,17 +178,15 @@
 <summary>Shows LinkedIn's build-versus-buy decision for AI code review, moving from a vendor reviewer to a multi-agent system that merges and cross-verifies findings from independent subagents under layered rules, with 63.9% of comments accepted.</summary>
 </entry>
 <entry>
-<title>What is Pathways? Single-controller training for large models</title>
-<link href="https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/"/>
-<id>urn:rss-system-design:top3:25611dc724</id>
+<title>Announcing Long-Context Training on TPUs with MaxText Context Parallelism</title>
+<link href="https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/"/>
+<id>urn:rss-system-design:top3:b4107ce985</id>
 <updated>2026-11-09T11:59:59Z</updated>
 <author><name>Google</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
-<summary>Architecture walkthrough of the trade-off between SPMD lockstep execution and a single-controller dataflow runtime, covering virtual devices remapped by a resource manager after host failure, asynchronous dispatch with futures, and a central scheduler that avoids collective deadlocks.</summary>
+<summary>Shows the trade-offs between all-gather, Ulysses all-to-all, ring attention and hybrid USP context parallelism in MaxText on TPUs, with ring attention reaching 48.7% MFU at 14M tokens on 64 TPU 7 chips.</summary>
 </entry>
 <entry>
 <title>Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System</title>
