@@ -5,8 +5,17 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-13T12:00:00Z</updated>
+<updated>2026-11-14T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>EP233: Kubernetes Explained for Busy Engineers</title>
+<link href="https://blog.bytebytego.com/p/ep233-kubernetes-explained-for-busy"/>
+<id>urn:rss-system-design:all:28e05e36f3</id>
+<updated>2026-11-14T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="pending" label="Waiting to be classified"/>
+<summary>Waiting to be classified.</summary>
+</entry>
 <entry>
 <title>How Thermo Fisher Scientific built AI-powered patient matching on AWS</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/"/>
