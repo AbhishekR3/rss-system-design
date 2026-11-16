@@ -5,8 +5,21 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-11-13T12:00:00Z</updated>
+<updated>2026-11-15T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Hire a Cyber-Scribe as an Intern: How We Automated Documentation Writing</title>
+<link href="https://blog.allegro.tech/2026/11/hire-a-cyber-scribe-as-an-intern-how-we-automated-documentation-writing.html"/>
+<id>urn:rss-system-design:408c03aa45</id>
+<updated>2026-11-15T12:00:00Z</updated>
+<author><name>Allegro</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design of an agent documentation workflow: a per-feature page standard, the pull request diff as the boundary of claims, a claim inventory, CI checks, and human approval gates before anything ships.</summary>
+</entry>
 <entry>
 <title>How Thermo Fisher Scientific built AI-powered patient matching on AWS</title>
 <link href="https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/"/>
@@ -309,6 +322,19 @@
 <category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
 <summary>Shows the design decision to replace Ringpop consistent hashing with a standalone Shard Manager using reported load and etcd, rejecting Apache Helix and embedded controllers, which cut hottest-host CPU by 38%.</summary>
+</entry>
+<entry>
+<title>Vinted is Fully Composed</title>
+<link href="https://vinted.engineering//2026/11/13/vinted-is-fully-composed/"/>
+<id>urn:rss-system-design:67a73375a7</id>
+<updated>2026-11-12T11:59:46Z</updated>
+<author><name>Vinted</name></author>
+<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decisions behind a full Compose migration: keeping Fragments as thin screen hosts, a dual-stack Bloom design system, `ComposeProxy` interop with its scrolling overhead, and over 100 A/B tests as rollback guards.</summary>
 </entry>
 <entry>
 <title>How Zillow runs 100 million daily notifications on AWS Step Functions</title>

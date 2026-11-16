@@ -5,8 +5,21 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-14T12:00:00Z</updated>
+<updated>2026-11-15T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Hire a Cyber-Scribe as an Intern: How We Automated Documentation Writing</title>
+<link href="https://blog.allegro.tech/2026/11/hire-a-cyber-scribe-as-an-intern-how-we-automated-documentation-writing.html"/>
+<id>urn:rss-system-design:top3:408c03aa45</id>
+<updated>2026-11-15T12:00:00Z</updated>
+<author><name>Allegro</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design of an agent documentation workflow: a per-feature page standard, the pull request diff as the boundary of claims, a claim inventory, CI checks, and human approval gates before anything ships.</summary>
+</entry>
 <entry>
 <title>No articles for 2026-11-14</title>
 <link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-14"/>
@@ -55,10 +68,23 @@
 <summary>Shows the design decision to emulate DGEMM on integer Tensor Cores with Ozaki-II, trading a larger residue workspace, reduced by tiling, for linear GEMM count, with a fallback to native FP64 when mantissa bits exceed the limit.</summary>
 </entry>
 <entry>
+<title>Dispelling LTAP myths</title>
+<link href="https://www.databricks.com/blog/dispelling-ltap-myths"/>
+<id>urn:rss-system-design:top3:d21c5f6d9d</id>
+<updated>2026-11-12T12:00:00Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to make the lake the durable store behind Postgres caches and pageservers instead of a CDC replica, with LSN-consistent reads merging recent pages and dirty-page compaction instead of logical replication.</summary>
+</entry>
+<entry>
 <title>Throwing Out The Phonebook</title>
 <link href="https://fly.io/blog/throwing-out-the-phonebook/"/>
 <id>urn:rss-system-design:top3:1f63ff7f19</id>
-<updated>2026-11-12T12:00:00Z</updated>
+<updated>2026-11-12T11:59:59Z</updated>
 <author><name>Fly.io</name></author>
 <category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -71,26 +97,13 @@
 <title>How Pinterest Improved Analytics Agent Compliance with Loop Engineering</title>
 <link href="https://medium.com/pinterest-engineering/how-pinterest-improved-analytics-agent-compliance-with-loop-engineering-d3c52d0abaa2?source=rss-ef81ef829bcb------2"/>
 <id>urn:rss-system-design:top3:18f5dbe44b</id>
-<updated>2026-11-12T11:59:59Z</updated>
+<updated>2026-11-12T11:59:58Z</updated>
 <author><name>Pinterest</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
 <category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
 <summary>Shows the design decision to replace persistent sessions and memoryless Ralph Wiggum loops with fresh sessions plus a structured handoff, and the paired required and skip suites, regression guard and repair/break gate that accept changes.</summary>
-</entry>
-<entry>
-<title>Introducing Shard Manager</title>
-<link href="https://www.uber.com/us/en/blog/introducing-shard-manager/"/>
-<id>urn:rss-system-design:top3:0d1a6c6985</id>
-<updated>2026-11-12T11:59:58Z</updated>
-<author><name>Uber</name></author>
-<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
-<summary>Shows the design decision to replace Ringpop consistent hashing with a standalone Shard Manager using reported load and etcd, rejecting Apache Helix and embedded controllers, which cut hottest-host CPU by 38%.</summary>
 </entry>
 <entry>
 <title>Shipping DoorDash’s First Production Transformer for Homepage Store Ranking</title>
