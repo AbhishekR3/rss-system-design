@@ -5,8 +5,19 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-15T12:00:00Z</updated>
+<updated>2026-11-16T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Improving Query Suggestions on Item Pages with Vector Search and a Reranking Model (translated from Japanese)</title>
+<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261113-query-suggest-vector-search-reranking/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:top3:e3f84d2313</id>
+<updated>2026-11-16T12:00:00Z</updated>
+<author><name>Mercari</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the architecture and a failure analysis: 32-dimension Domain-Aware Ruri embeddings in Vector Search with category restricts, a Triton-served MLP reranker, and a first merge design that cut Query Suggest purchases by 12.7%.</summary>
+</entry>
 <entry>
 <title>Hire a Cyber-Scribe as an Intern: How We Automated Documentation Writing</title>
 <link href="https://blog.allegro.tech/2026/11/hire-a-cyber-scribe-as-an-intern-how-we-automated-documentation-writing.html"/>
