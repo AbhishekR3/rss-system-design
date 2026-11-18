@@ -5,18 +5,166 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-11-16T12:00:00Z</updated>
+<updated>2026-11-17T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Agent Evaluation White Paper Series 02: Evaluation and Optimization Loop for a Merchant AI Assistant (translated from Chinese)</title>
+<link href="https://tech-meituan-com.translate.goog/2026/11/17/Agent-Evaluation-White-Paper-02.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:5c4574dad8</id>
+<updated>2026-11-17T12:00:00Z</updated>
+<author><name>Meituan</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design of an agent evaluation system with trade-offs: 41 tasks from SOP state graphs and bad cases, deterministic plus LLM graders, linear tool-order checks replaced by a DAG to fix false negatives, and stable logic moved into code.</summary>
+</entry>
+<entry>
+<title>From Predictive to Generative – How Michelangelo Accelerates Uber’s AI Journey</title>
+<link href="https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/"/>
+<id>urn:rss-system-design:e732656014</id>
+<updated>2026-11-17T11:59:59Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the architecture and design decisions behind Michelangelo 2.0: a Kubernetes-style control plane with offline and online data planes, project tiering, model iteration as code, Spark trainers replaced by Ray, and a Gen AI Gateway.</summary>
+</entry>
+<entry>
+<title>How Instacart Uses LLMs to Make People Buy More</title>
+<link href="https://blog.bytebytego.com/p/how-instacart-uses-llms-to-make-people"/>
+<id>urn:rss-system-design:a30e88c5bb</id>
+<updated>2026-11-16T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows design decisions in LLM query understanding: an offline teacher pipeline caching head-query tags and distilling into a LoRA Llama-3 8B, so only 2% of queries need live inference, and declining FP8 quantization despite 10% lower latency.</summary>
+</entry>
+<entry>
+<title>Tabular foundation models on Databricks AI Runtime</title>
+<link href="https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime"/>
+<id>urn:rss-system-design:46f8f7262a</id>
+<updated>2026-11-16T11:59:59Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Shows the design trade-offs of tabular foundation models: dense row and column attention in TabPFNv2 versus four-token row compression in TabICLv1, and GPU inference cost against removing per-task training pipelines.</summary>
+</entry>
+<entry>
+<title>Agents are sessions, not requests: size GKE node pools for AI agent sessions</title>
+<link href="https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/"/>
+<id>urn:rss-system-design:fa9ce42d9b</id>
+<updated>2026-11-16T11:59:58Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design trade-off between one Pod per agent session and suspending idle Agent Substrate actors to a warm pool, which saved 40% of the node bill at 2 prompts an hour but stops paying around 4.5 prompts an hour.</summary>
+</entry>
+<entry>
+<title>TPU Model Design Considerations and Optimization Guide</title>
+<link href="https://developers.googleblog.com/tpu-model-design-considerations-and-optimization-guide/"/>
+<id>urn:rss-system-design:35bba63f22</id>
+<updated>2026-11-16T11:59:57Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows model design decisions with trade-offs for TPUs, such as 256-aligned head_dim, LatentMoE dispatch compression that lifted training throughput 14 percent on a 30B MoE, and mapping parallelism axes to physical interconnect links.</summary>
+</entry>
+<entry>
+<title>Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch</title>
+<link href="https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/"/>
+<id>urn:rss-system-design:3300e16ee7</id>
+<updated>2026-11-16T11:59:56Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to keep separate sampler and trainer paths but force bitwise-identical logprobs through batch-invariant Pallas kernels, fixed-order cross-shard reductions and custom vector-Jacobian products, verified on 64 TPU v5p chips.</summary>
+</entry>
+<entry>
+<title>The Case for AI Guardrails: How We Switched AI from Copy-Pasta to Building the Way We Want</title>
+<link href="https://engineering.gusto.com/the-case-for-ai-guardrails-how-we-switched-ai-from-copy-pasta-to-building-the-way-we-want-c4559b820e65?source=rss----645edd256348---4"/>
+<id>urn:rss-system-design:c12006e2e6</id>
+<updated>2026-11-16T11:59:55Z</updated>
+<author><name>Gusto</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows a failure and the process decision that followed: coding agents copied a deprecated job-enqueueing pattern from 226 to 339 call sites, so Gusto enforced deprecations through a removal-only RuboCop ratchet with fix-explaining error messages.</summary>
+</entry>
 <entry>
 <title>Improving Query Suggestions on Item Pages with Vector Search and a Reranking Model (translated from Japanese)</title>
 <link href="https://engineering-mercari-com.translate.goog/blog/entry/20261113-query-suggest-vector-search-reranking/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:e3f84d2313</id>
-<updated>2026-11-16T12:00:00Z</updated>
+<updated>2026-11-16T11:59:54Z</updated>
 <author><name>Mercari</name></author>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
 <summary>Shows the architecture and a failure analysis: 32-dimension Domain-Aware Ruri embeddings in Vector Search with category restricts, a Triton-served MLP reranker, and a first merge design that cut Query Suggest purchases by 12.7%.</summary>
+</entry>
+<entry>
+<title>TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient</title>
+<link href="https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/"/>
+<id>urn:rss-system-design:e9b6990773</id>
+<updated>2026-11-16T11:59:53Z</updated>
+<author><name>Microsoft</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to cut coding-agent cost per repository through micro-skills, tool pruning and failure-loop intervention instead of a fixed strategy, reducing cost 18.4-30.9% on 277 SWE-Bench tasks without changing the agent.</summary>
+</entry>
+<entry>
+<title>Lean, AI and Tech Delivery - I Observed the Future of Development (translated from French)</title>
+<link href="https://blog-octo-com.translate.goog/lean-ai-et-delivery-tech-j'ai-observe-le-futur-du-developpement?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:2da9e63e18</id>
+<updated>2026-11-16T11:59:52Z</updated>
+<author><name>OCTO Technology</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows process decisions for AI-assisted development with trade-offs: specs that mirror the code kept separate from per-change intent files, Lean standards stored in the repo after weeks of upfront work, and a defect missed before standards existed.</summary>
+</entry>
+<entry>
+<title>Rebuilding Guardian: How Pinterest Upgraded Its Real-Time Abuse Platform to Modern Infrastructure…</title>
+<link href="https://medium.com/pinterest-engineering/rebuilding-guardian-how-pinterest-upgraded-its-real-time-abuse-platform-to-modern-infrastructure-56e45ee8f471?source=rss-ef81ef829bcb------2"/>
+<id>urn:rss-system-design:32e7d3f55b</id>
+<updated>2026-11-16T11:59:51Z</updated>
+<author><name>Pinterest</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design decisions in splitting a monolithic abuse platform into separate paths: a thin GSQL translator, stream splitting that cut indexed columns from O(20K) to O(K), StarRocks for analytics, and FlinkSQL replay on Iceberg.</summary>
+</entry>
+<entry>
+<title>Sentry Conventions: Naming is hard, semantics are harder</title>
+<link href="https://blog.sentry.io/sentry-conventions/"/>
+<id>urn:rss-system-design:5c3d633960</id>
+<updated>2026-11-16T11:59:50Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decision to define attribute semantics in a shared superset of OpenTelemetry conventions consumed by about 100 SDKs, Relay and Snuba, with deprecation chains that let queries coalesce old and new attribute names.</summary>
 </entry>
 <entry>
 <title>Hire a Cyber-Scribe as an Intern: How We Automated Documentation Writing</title>

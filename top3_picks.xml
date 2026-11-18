@@ -5,18 +5,38 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-16T12:00:00Z</updated>
+<updated>2026-11-17T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>Improving Query Suggestions on Item Pages with Vector Search and a Reranking Model (translated from Japanese)</title>
-<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261113-query-suggest-vector-search-reranking/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
-<id>urn:rss-system-design:top3:e3f84d2313</id>
-<updated>2026-11-16T12:00:00Z</updated>
-<author><name>Mercari</name></author>
-<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<title>Agent Evaluation White Paper Series 02: Evaluation and Optimization Loop for a Merchant AI Assistant (translated from Chinese)</title>
+<link href="https://tech-meituan-com.translate.goog/2026/11/17/Agent-Evaluation-White-Paper-02.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:top3:5c4574dad8</id>
+<updated>2026-11-17T12:00:00Z</updated>
+<author><name>Meituan</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
-<summary>Shows the architecture and a failure analysis: 32-dimension Domain-Aware Ruri embeddings in Vector Search with category restricts, a Triton-served MLP reranker, and a first merge design that cut Query Suggest purchases by 12.7%.</summary>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design of an agent evaluation system with trade-offs: 41 tasks from SOP state graphs and bad cases, deterministic plus LLM graders, linear tool-order checks replaced by a DAG to fix false negatives, and stable logic moved into code.</summary>
+</entry>
+<entry>
+<title>From Predictive to Generative – How Michelangelo Accelerates Uber’s AI Journey</title>
+<link href="https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/"/>
+<id>urn:rss-system-design:top3:e732656014</id>
+<updated>2026-11-17T11:59:59Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the architecture and design decisions behind Michelangelo 2.0: a Kubernetes-style control plane with offline and online data planes, project tiering, model iteration as code, Spark trainers replaced by Ray, and a Gen AI Gateway.</summary>
+</entry>
+<entry>
+<title>No articles for 2026-11-16</title>
+<link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-16"/>
+<id>urn:rss-system-design:top3:none-2026-11-16</id>
+<updated>2026-11-16T12:00:00Z</updated>
+<summary>No articles for 2026-11-16.</summary>
 </entry>
 <entry>
 <title>Hire a Cyber-Scribe as an Intern: How We Automated Documentation Writing</title>
