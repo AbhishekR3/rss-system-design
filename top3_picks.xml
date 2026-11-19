@@ -5,24 +5,79 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-17T12:00:00Z</updated>
+<updated>2026-11-18T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>Agent Evaluation White Paper Series 02: Evaluation and Optimization Loop for a Merchant AI Assistant (translated from Chinese)</title>
-<link href="https://tech-meituan-com.translate.goog/2026/11/17/Agent-Evaluation-White-Paper-02.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
-<id>urn:rss-system-design:top3:5c4574dad8</id>
-<updated>2026-11-17T12:00:00Z</updated>
-<author><name>Meituan</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<title>How we raised Databricks cluster rate limits by 7.5×</title>
+<link href="https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75"/>
+<id>urn:rss-system-design:top3:ba6d74b732</id>
+<updated>2026-11-18T12:00:00Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
 <category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
-<summary>Shows the design of an agent evaluation system with trade-offs: 41 tasks from SOP state graphs and bad cases, deterministic plus LLM graders, linear tool-order checks replaced by a DAG to fix false negatives, and stable logic moved into code.</summary>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to protect long-running cluster-creation workflows with adaptive concurrency slots, bounded queues and fair scheduling instead of fixed request-rate limits, keeping a fixed API rate ceiling as a final guardrail.</summary>
+</entry>
+<entry>
+<title>Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem</title>
+<link href="https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/"/>
+<id>urn:rss-system-design:top3:37ebeb1e93</id>
+<updated>2026-11-18T11:59:59Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows Meta's design decision to group ads ranking models around Standard Model Templates and iterate per template, trading model-specific flexibility for 92% less per-model engineering time and 5000+ shipped technique-model combinations.</summary>
+</entry>
+<entry>
+<title>How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models</title>
+<link href="https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/"/>
+<id>urn:rss-system-design:top3:79958d7a85</id>
+<updated>2026-11-18T11:59:58Z</updated>
+<author><name>Meta</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design of an agent-driven technique propagation system for ads ranking models, constrained by engineering bandwidth and compute, which Meta credits with a median 4x training compute reduction and 3x engineer productivity.</summary>
+</entry>
+<entry>
+<title>De-identifying text at scale: How Airbnb protects personal data in AI training</title>
+<link href="https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0?source=rss----53c7c27702d5---4"/>
+<id>urn:rss-system-design:top3:0fc9d5d252</id>
+<updated>2026-11-17T12:00:00Z</updated>
+<author><name>Airbnb</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<summary>Shows the design decisions behind a Presidio-based de-identification library shipped in-process as a pipeline step, replacing spaCy with GLiNER for names and addresses and seeding fake values per run to keep them consistent yet unlinkable.</summary>
+</entry>
+<entry>
+<title>Engineering AI Discover</title>
+<link href="https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4"/>
+<id>urn:rss-system-design:top3:0091928bb5</id>
+<updated>2026-11-17T11:59:59Z</updated>
+<author><name>Netflix</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Shows the design decisions behind the AI Discover intelligence layer: a plan-and-execute controller and executor over validated capability graphs, asynchronous page generation for TV, and safety rules enforced in code instead of prompts.</summary>
 </entry>
 <entry>
 <title>From Predictive to Generative – How Michelangelo Accelerates Uber’s AI Journey</title>
 <link href="https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/"/>
 <id>urn:rss-system-design:top3:e732656014</id>
-<updated>2026-11-17T11:59:59Z</updated>
+<updated>2026-11-17T11:59:58Z</updated>
 <author><name>Uber</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
@@ -32,11 +87,43 @@
 <summary>Shows the architecture and design decisions behind Michelangelo 2.0: a Kubernetes-style control plane with offline and online data planes, project tiering, model iteration as code, Spark trainers replaced by Ray, and a Gen AI Gateway.</summary>
 </entry>
 <entry>
-<title>No articles for 2026-11-16</title>
-<link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-16"/>
-<id>urn:rss-system-design:top3:none-2026-11-16</id>
+<title>How Instacart Uses LLMs to Make People Buy More</title>
+<link href="https://blog.bytebytego.com/p/how-instacart-uses-llms-to-make-people"/>
+<id>urn:rss-system-design:top3:a30e88c5bb</id>
 <updated>2026-11-16T12:00:00Z</updated>
-<summary>No articles for 2026-11-16.</summary>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows design decisions in LLM query understanding: an offline teacher pipeline caching head-query tags and distilling into a LoRA Llama-3 8B, so only 2% of queries need live inference, and declining FP8 quantization despite 10% lower latency.</summary>
+</entry>
+<entry>
+<title>How we scaled metrics aggregation by moving durable state into storage</title>
+<link href="https://www.datadoghq.com/blog/engineering/how-we-scaled-metrics-aggregation/"/>
+<id>urn:rss-system-design:top3:b33a8f9696</id>
+<updated>2026-11-16T11:59:59Z</updated>
+<author><name>Datadog</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design decisions across three generations of metrics aggregation, from static partitions with RocksDB to dynamic assignment with blob-backed state, to best-effort streaming with storage-side reconciliation of partial aggregates and late data.</summary>
+</entry>
+<entry>
+<title>Improving Query Suggestions on Item Pages with Vector Search and a Reranking Model (translated from Japanese)</title>
+<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261113-query-suggest-vector-search-reranking/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:top3:e3f84d2313</id>
+<updated>2026-11-16T11:59:58Z</updated>
+<author><name>Mercari</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the architecture and a failure analysis: 32-dimension Domain-Aware Ruri embeddings in Vector Search with category restricts, a Triton-served MLP reranker, and a first merge design that cut Query Suggest purchases by 12.7%.</summary>
 </entry>
 <entry>
 <title>Hire a Cyber-Scribe as an Intern: How We Automated Documentation Writing</title>
