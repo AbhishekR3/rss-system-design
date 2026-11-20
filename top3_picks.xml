@@ -5,26 +5,54 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-18T12:00:00Z</updated>
+<updated>2026-11-19T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>How we raised Databricks cluster rate limits by 7.5×</title>
-<link href="https://www.databricks.com/blog/how-we-raised-databricks-cluster-rate-limits-75"/>
-<id>urn:rss-system-design:top3:ba6d74b732</id>
-<updated>2026-11-18T12:00:00Z</updated>
+<title>Genie One Accuracy: Why Curated Agents Need Governed Context</title>
+<link href="https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"/>
+<id>urn:rss-system-design:top3:3fa520eb18</id>
+<updated>2026-11-19T12:00:00Z</updated>
 <author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
-<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
 <category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
-<summary>Shows the design decision to protect long-running cluster-creation workflows with adaptive concurrency slots, bounded queues and fair scheduling instead of fixed request-rate limits, keeping a fixed API rate ceiling as a final guardrail.</summary>
+<summary>Shows the design decision of where business definitions live for a routing analytics agent: curated agents plus certified Metric Views and Pages scored 93 to 95% on 125 questions, versus 83% for either alone and 64% for tables only.</summary>
+</entry>
+<entry>
+<title>Doing More by Storing Less: Speeding Up Real-Time Machine Learning</title>
+<link href="https://medium.com/feedzaitech/doing-more-by-storing-less-speeding-up-real-time-machine-learning-23639ae00e22?source=rss----e11168e7fe6b---4"/>
+<id>urn:rss-system-design:top3:bb13fa0d5e</id>
+<updated>2026-11-19T11:59:59Z</updated>
+<author><name>Feedzai</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<summary>Shows the design decision to probabilistically skip read-modify-write persistence for high-volume entities in real-time fraud feature profiles, scaling kept updates by inverse inclusion probability, trading exact totals for lower write load without lowering model accuracy.</summary>
+</entry>
+<entry>
+<title>Distributed LLM Training Across Metros: Streaming DiLoCo in MaxText</title>
+<link href="https://developers.googleblog.com/distributed-llm-training-across-metros-streaming-diloco-in-maxtext/"/>
+<id>urn:rss-system-design:top3:f8d8466e18</id>
+<updated>2026-11-19T11:59:58Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to sync one model fragment per step across TPU slices instead of full gradients, giving Qwen3-32B a 9.57x speedup over Data Parallel on a 10 Gbit/s link.</summary>
 </entry>
 <entry>
 <title>Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem</title>
 <link href="https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/"/>
 <id>urn:rss-system-design:top3:37ebeb1e93</id>
-<updated>2026-11-18T11:59:59Z</updated>
+<updated>2026-11-18T12:00:00Z</updated>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
@@ -37,7 +65,7 @@
 <title>How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models</title>
 <link href="https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/"/>
 <id>urn:rss-system-design:top3:79958d7a85</id>
-<updated>2026-11-18T11:59:58Z</updated>
+<updated>2026-11-18T11:59:59Z</updated>
 <author><name>Meta</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
@@ -46,6 +74,19 @@
 <category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
 <summary>Shows the design of an agent-driven technique propagation system for ads ranking models, constrained by engineering bandwidth and compute, which Meta credits with a median 4x training compute reduction and 3x engineer productivity.</summary>
+</entry>
+<entry>
+<title>Building Predictive AI Models When Synthetic Data Is All You Have</title>
+<link href="https://engineering.salesforce.com/building-predictive-ai-models-when-synthetic-data-is-all-you-have/"/>
+<id>urn:rss-system-design:top3:8e593644ce</id>
+<updated>2026-11-18T11:59:58Z</updated>
+<author><name>Salesforce</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to ship a training contract instead of fixed weights, so each customer trains its own XGBoost model in Data 360, and the choice of hourly batch scoring over real-time for scalability.</summary>
 </entry>
 <entry>
 <title>De-identifying text at scale: How Airbnb protects personal data in AI training</title>
@@ -115,15 +156,18 @@
 <summary>Shows the design decisions across three generations of metrics aggregation, from static partitions with RocksDB to dynamic assignment with blob-backed state, to best-effort streaming with storage-side reconciliation of partial aggregates and late data.</summary>
 </entry>
 <entry>
-<title>Improving Query Suggestions on Item Pages with Vector Search and a Reranking Model (translated from Japanese)</title>
-<link href="https://engineering-mercari-com.translate.goog/blog/entry/20261113-query-suggest-vector-search-reranking/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
-<id>urn:rss-system-design:top3:e3f84d2313</id>
+<title>Rebuilding Guardian: How Pinterest Upgraded Its Real-Time Abuse Platform to Modern Infrastructure…</title>
+<link href="https://medium.com/pinterest-engineering/rebuilding-guardian-how-pinterest-upgraded-its-real-time-abuse-platform-to-modern-infrastructure-56e45ee8f471?source=rss-ef81ef829bcb------2"/>
+<id>urn:rss-system-design:top3:32e7d3f55b</id>
 <updated>2026-11-16T11:59:58Z</updated>
-<author><name>Mercari</name></author>
-<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
-<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
-<summary>Shows the architecture and a failure analysis: 32-dimension Domain-Aware Ruri embeddings in Vector Search with category restricts, a Triton-served MLP reranker, and a first merge design that cut Query Suggest purchases by 12.7%.</summary>
+<author><name>Pinterest</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Shows the design decisions in splitting a monolithic abuse platform into separate paths: a thin GSQL translator, stream splitting that cut indexed columns from O(20K) to O(K), StarRocks for analytics, and FlinkSQL replay on Iceberg.</summary>
 </entry>
 <entry>
 <title>Hire a Cyber-Scribe as an Intern: How We Automated Documentation Writing</title>
