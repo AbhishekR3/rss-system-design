@@ -5,20 +5,61 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-19T12:00:00Z</updated>
+<updated>2026-11-20T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
 <entry>
-<title>Genie One Accuracy: Why Curated Agents Need Governed Context</title>
-<link href="https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context"/>
-<id>urn:rss-system-design:top3:3fa520eb18</id>
-<updated>2026-11-19T12:00:00Z</updated>
-<author><name>Databricks</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<title>Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/"/>
+<id>urn:rss-system-design:top3:c097d89a39</id>
+<updated>2026-11-20T12:00:00Z</updated>
+<author><name>Google</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>A failure analysis of an illustrative hourly pandas DAG whose unit of work grew with traffic until it exceeded 4 GB workers, and the redesign to Airflow 3 asset watchers with one task per file capped at 128 MB.</summary>
+</entry>
+<entry>
+<title>How Spanner Graph detects ads fraud and abuse at Google at multi-billion node scale</title>
+<link href="https://cloud.google.com/blog/products/databases/how-spanner-graph-detects-google-ads-fraud-and-abuse/"/>
+<id>urn:rss-system-design:top3:ebe7c6c8f0</id>
+<updated>2026-11-20T11:59:59Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<summary>Shows the design decision to replace hour-long MapReduce multi-hop joins with property graphs on existing Spanner tables, avoiding a separate graph database and ETL, for sub-second traversals over 500 billion nodes.</summary>
+</entry>
+<entry>
+<title>How an AI Agent Cut Production Change Reviews From 24 Hours to 12 Seconds</title>
+<link href="https://engineering.salesforce.com/how-an-ai-agent-cut-production-change-reviews-from-24-hours-to-12-seconds/"/>
+<id>urn:rss-system-design:top3:a019164289</id>
+<updated>2026-11-20T11:59:58Z</updated>
+<author><name>Salesforce</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
 <category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
-<summary>Shows the design decision of where business definitions live for a routing analytics agent: curated agents plus certified Metric Views and Pages scored 93 to 95% on 125 questions, versus 83% for either alone and 64% for tables only.</summary>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decision that deterministic gates decide and the LLM only narrates in ROAM, plus the failure where a wrong field name silently dropped approvals, fixed with API contract tests on recorded payloads.</summary>
+</entry>
+<entry>
+<title>AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS</title>
+<link href="https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/"/>
+<id>urn:rss-system-design:top3:b6965f9543</id>
+<updated>2026-11-19T12:00:00Z</updated>
+<author><name>AWS</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Architecture walkthrough of per-session macOS VMs on EC2 Mac hosts, with two guests per host under the license limit, snapshot disks via an NBD frontend, and a user-space Ethernet gateway chosen because NAT raced with its pf rules.</summary>
 </entry>
 <entry>
 <title>Doing More by Storing Less: Speeding Up Real-Time Machine Learning</title>
@@ -115,17 +156,15 @@
 <summary>Shows the design decisions behind the AI Discover intelligence layer: a plan-and-execute controller and executor over validated capability graphs, asynchronous page generation for TV, and safety rules enforced in code instead of prompts.</summary>
 </entry>
 <entry>
-<title>From Predictive to Generative – How Michelangelo Accelerates Uber’s AI Journey</title>
-<link href="https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/"/>
-<id>urn:rss-system-design:top3:e732656014</id>
+<title>Co-Designing Sparse Attention for Efficient Long-Context Inference</title>
+<link href="https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/"/>
+<id>urn:rss-system-design:top3:8f2dcd4cb6</id>
 <updated>2026-11-17T11:59:58Z</updated>
-<author><name>Uber</name></author>
+<author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
-<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
-<summary>Shows the architecture and design decisions behind Michelangelo 2.0: a Kubernetes-style control plane with offline and online data planes, project tiering, model iteration as code, Spark trainers replaced by Ray, and a Gen AI Gateway.</summary>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows the design trade-offs of sparse attention indexers on NVIDIA GPUs, measured with an FP8 kernel: query and key heads, head dimension, compression ratio, Top-k fusion and token versus block selection for long-context inference.</summary>
 </entry>
 <entry>
 <title>How Instacart Uses LLMs to Make People Buy More</title>
