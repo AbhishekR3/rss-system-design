@@ -5,8 +5,20 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-20T12:00:00Z</updated>
+<updated>2026-11-21T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>EP234: Docker vs Kubernetes</title>
+<link href="https://blog.bytebytego.com/p/ep234-docker-vs-kubernetes"/>
+<id>urn:rss-system-design:all:667b97f615</id>
+<updated>2026-11-21T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<summary>Not picked: A newsletter roundup of short generic explainers with no concrete system, design trade-offs or failure analysis.</summary>
+</entry>
 <entry>
 <title>DynaPORT modernization on Google Cloud with AlloyDB for PostgreSQL and GKE</title>
 <link href="https://cloud.google.com/blog/products/databases/dynaport-modernizes-with-alloydb/"/>

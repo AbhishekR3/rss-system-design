@@ -16,7 +16,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Bazaarvoice | [https://blog.developer.bazaarvoice.com/](https://blog.developer.bazaarvoice.com/) | `https://blog.developer.bazaarvoice.com/feed/` | feed | 2026-09-29 | 10 |  |
 | Block Engineering | [https://engineering.block.xyz/blog](https://engineering.block.xyz/blog) | `https://engineering.block.xyz/blog/rss.xml` | feed | 2026-11-10 | 22 |  |
 | Booking.com (booking.ai) | [https://booking.ai/](https://booking.ai/) | `https://booking.ai/feed` | feed | 2026-10-19 | 10 |  |
-| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-19 | 44 |  |
+| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-21 | 45 |  |
 | Canva | [https://engineering.canva.com](https://engineering.canva.com) | `https://www.canva.dev/blog/engineering/feed.xml` | feed | 2026-09-17 | 10 |  |
 | Claude Dev Blog | [https://claude.dev/](https://claude.dev/) | no feed; listing page read | page |  | 10 |  |
 | Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-11-20 | 99 |  |
