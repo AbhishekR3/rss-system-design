@@ -5,8 +5,46 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-21T12:00:00Z</updated>
+<updated>2026-11-22T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>How Grab built Scarlet: the AI teammate that turns a Slack message into a production data pipeline</title>
+<link href="https://engineering.grab.com/how-grab-built-scarlet-blog"/>
+<id>urn:rss-system-design:top3:577d8d3f17</id>
+<updated>2026-11-22T12:00:00Z</updated>
+<author><name>Grab</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<summary>Shows the design decision to replace a single system prompt with versioned Markdown skills, run data-platform actions under the requester's short-lived token, and validate candidate output against production tables, with merge rate rising from about 50% to over 85%.</summary>
+</entry>
+<entry>
+<title>Part 1: Simulation-first AI experimentation for ads at Grab</title>
+<link href="https://engineering.grab.com/part-1-ads-simulation-blogpost"/>
+<id>urn:rss-system-design:top3:2954b5c8c9</id>
+<updated>2026-11-22T11:59:59Z</updated>
+<author><name>Grab</name></author>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the architecture of a modular ads auction simulator with sequential replay and fidelity checks, and the trade-off of PDAP pacing with fewer parameters against a PID controller sensitive to spend-signal timing.</summary>
+</entry>
+<entry>
+<title>Replaying merged changes: how we test whether a knowledge base makes coding agents better</title>
+<link href="https://engineering.grab.com/replaying-merged-changes-knowledge-base-coding-agents-better"/>
+<id>urn:rss-system-design:top3:5f4704447d</id>
+<updated>2026-11-22T11:59:58Z</updated>
+<author><name>Grab</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to evaluate a code-derived knowledge base by replaying 50 merged MRs at the pre-merge commit and grading paired agent plans against the diff, trading code output for comparable plans.</summary>
+</entry>
 <entry>
 <title>No articles for 2026-11-21</title>
 <link href="https://abhishekr3.github.io/rss-system-design/#day-2026-11-21"/>

@@ -45,9 +45,9 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | GoDaddy | [https://www.godaddy.com/resources/category/engineering](https://www.godaddy.com/resources/category/engineering) | `https://www.godaddy.com/resources/category/engineering/feed` | feed | 2026-11-18 | 12 |  |
 | Gojek Engineering (Data) | [https://medium.com/gojekengineering/subpage/72dbe6258beb](https://medium.com/gojekengineering/subpage/72dbe6258beb) | `https://medium.com/feed/gojekengineering/tagged/data-science` | feed | 2025-10-07 | 10 | Data section only |
 | Gojek Engineering (Tech) | [https://medium.com/gojekengineering/subpage/a0c5f1afae5b](https://medium.com/gojekengineering/subpage/a0c5f1afae5b) | `https://medium.com/feed/gojekengineering/tagged/tech` | feed | 2026-03-04 | 9 | Tech section only |
-| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-20 | 129 |  |
+| Google Cloud | [https://cloud.google.com/blog](https://cloud.google.com/blog) | `https://cloudblog.withgoogle.com/rss/` | feed | 2026-11-20 | 130 |  |
 | Google Developers | [https://developers.googleblog.com/](https://developers.googleblog.com/) | `https://developers.googleblog.com/rss/` | feed | 2026-11-20 | 49 |  |
-| Grab | [http://engineering.grab.com/](http://engineering.grab.com/) | `http://engineering.grab.com/feed.xml` | feed | 2026-10-21 | 15 |  |
+| Grab | [http://engineering.grab.com/](http://engineering.grab.com/) | `http://engineering.grab.com/feed.xml` | feed | 2026-11-23 | 18 |  |
 | Gusto | [https://engineering.gusto.com/](https://engineering.gusto.com/) | `https://medium.com/feed/gusto-engineering` | feed | 2026-11-16 | 13 |  |
 | Haptik | [https://haptik.ai/tech/](https://haptik.ai/tech/) | `https://www.haptik.ai/tech/rss.xml` | feed | 2026-10-15 | 11 |  |
 | Helpshift | [https://medium.com/helpshift-engineering/](https://medium.com/helpshift-engineering/) | `https://medium.com/feed/helpshift-engineering` | feed | 2026-07-22 | 10 |  |
