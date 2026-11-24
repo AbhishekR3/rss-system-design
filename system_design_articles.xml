@@ -5,13 +5,117 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-11-22T12:00:00Z</updated>
+<updated>2026-11-23T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>DoorDash Dispatch: Building a Lightning-Fast Delivery System</title>
+<link href="https://blog.bytebytego.com/p/doordash-dispatch-building-a-lightning"/>
+<id>urn:rss-system-design:af0bdb2c13</id>
+<updated>2026-11-23T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>Architecture walkthrough of splitting dispatch into a stateful coordinator and stateless gRPC workers on geographic partitions with global reconciliation, reaching ten times the processing scale and over 99.96% of runs under 20 seconds.</summary>
+</entry>
+<entry>
+<title>Probing DNS at Cloudflare</title>
+<link href="https://blog.cloudflare.com/probing-dns-at-cloudflare/"/>
+<id>urn:rss-system-design:1b4f553113</id>
+<updated>2026-11-23T11:59:59Z</updated>
+<author><name>Cloudflare</name></author>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of Flamingo's modular action-handler design, the DNS propagation probe asserting freshness within 90s for authoritative servers and 600s for 1.1.1.1, and SLO burn rates that promote or roll back releases.</summary>
+</entry>
+<entry>
+<title>Announcing General Availability of native Lakebase Postgres sink for Spark Structured Streaming</title>
+<link href="https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming"/>
+<id>urn:rss-system-design:44ddaf13ee</id>
+<updated>2026-11-23T11:59:58Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of a streaming feature pipeline that upserts one row per user into Lakebase, replacing custom foreach writers that had to handle batching, retries and pooling, at about 20K events per second.</summary>
+</entry>
+<entry>
+<title>How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI</title>
+<link href="https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/"/>
+<id>urn:rss-system-design:4561497ba4</id>
+<updated>2026-11-23T11:59:57Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Shows the decision to consolidate separate EU, US and Australia Snowflake warehouses into BigQuery, with a layered migration, insert-and-overwrite incremental loads and serialized batch validations replacing row-level locking checks.</summary>
+</entry>
+<entry>
+<title>Did the user ask for this? Securing AI agents against intent hijacking with Semantic governance policies</title>
+<link href="https://developers.googleblog.com/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/"/>
+<id>urn:rss-system-design:d7d6c469d7</id>
+<updated>2026-11-23T11:59:56Z</updated>
+<author><name>Google</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to evaluate proposed tool calls rather than text, cutting AgentDojo attack success from 48.7% to 0.9% at a 2.6-point utility cost, with text-only attacks and adaptive attacks on the judge left open.</summary>
+</entry>
+<entry>
+<title>Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0</title>
+<link href="https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/"/>
+<id>urn:rss-system-design:3609bd131e</id>
+<updated>2026-11-23T11:59:55Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to enable matching and Bunch-Kaufman pivoting by default, trading possible fill-in for accuracy, and the hybrid memory mode that places factor data across GPU HBM and CPU DRAM to fit large problems on one GPU.</summary>
+</entry>
+<entry>
+<title>5 Lessons in AI Context Engineering: Why More Context Is Not Better</title>
+<link href="https://engineering.salesforce.com/5-lessons-in-ai-context-engineering-why-more-context-is-not-better/"/>
+<id>urn:rss-system-design:52fa666c8d</id>
+<updated>2026-11-23T11:59:54Z</updated>
+<author><name>Salesforce</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<summary>Shows the design decision to move identity resolution, joins and entitlement rules upstream into prejoined data graphs retrieved by key, trading hourly refresh staleness for median lookups below 200 milliseconds, with authorization resolved before retrieval.</summary>
+</entry>
+<entry>
+<title>Holding the Door for Agents</title>
+<link href="https://fly.io/blog/holding-the-door-for-agents/"/>
+<id>urn:rss-system-design:7f350655e5</id>
+<updated>2026-11-22T12:00:00Z</updated>
+<author><name>Fly.io</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decision to bound agent access with 24-hour self-renewing credentials, fixed top-up amounts and single-use capped cards, and an agent pipeline whose work order lives in code so agents cannot bypass gates.</summary>
+</entry>
 <entry>
 <title>How Grab built Scarlet: the AI teammate that turns a Slack message into a production data pipeline</title>
 <link href="https://engineering.grab.com/how-grab-built-scarlet-blog"/>
 <id>urn:rss-system-design:577d8d3f17</id>
-<updated>2026-11-22T12:00:00Z</updated>
+<updated>2026-11-22T11:59:59Z</updated>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
@@ -25,7 +129,7 @@
 <title>Part 1: Simulation-first AI experimentation for ads at Grab</title>
 <link href="https://engineering.grab.com/part-1-ads-simulation-blogpost"/>
 <id>urn:rss-system-design:2954b5c8c9</id>
-<updated>2026-11-22T11:59:59Z</updated>
+<updated>2026-11-22T11:59:58Z</updated>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -37,7 +141,7 @@
 <title>Replaying merged changes: how we test whether a knowledge base makes coding agents better</title>
 <link href="https://engineering.grab.com/replaying-merged-changes-knowledge-base-coding-agents-better"/>
 <id>urn:rss-system-design:5f4704447d</id>
-<updated>2026-11-22T11:59:58Z</updated>
+<updated>2026-11-22T11:59:57Z</updated>
 <author><name>Grab</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -688,10 +792,23 @@
 <summary>Failure analysis of a permissions cache update job killed by a row-count query guardrail, so the cache passed its 10 minute staleness threshold and database fallback exhausted thread pools; HubSpot then removed the fallback.</summary>
 </entry>
 <entry>
+<title>Connecting Energy Use to Scientific Output with Science per Joule</title>
+<link href="https://developer.nvidia.com/blog/connecting-energy-use-to-scientific-output-with-science-per-joule/"/>
+<id>urn:rss-system-design:a5c442dd90</id>
+<updated>2026-11-18T11:59:46Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision of where to draw the energy measurement boundary, where rated GPU power overstated energy by 39 to 77% on GB200, and the trade-off of running ICON on 40% fewer GPUs at similar time to solution.</summary>
+</entry>
+<entry>
 <title>Tackling GPU Bottlenecks in Plane-Wave DFT with K-Point Batching and Mixed Precision</title>
 <link href="https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/"/>
 <id>urn:rss-system-design:e31e93c565</id>
-<updated>2026-11-18T11:59:46Z</updated>
+<updated>2026-11-18T11:59:45Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -703,7 +820,7 @@
 <title>Inside the Codex sandbox</title>
 <link href="https://openai.com/index/inside-the-codex-sandbox"/>
 <id>urn:rss-system-design:53f2a14376</id>
-<updated>2026-11-18T11:59:45Z</updated>
+<updated>2026-11-18T11:59:44Z</updated>
 <author><name>OpenAI</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -716,7 +833,7 @@
 <title>Building Predictive AI Models When Synthetic Data Is All You Have</title>
 <link href="https://engineering.salesforce.com/building-predictive-ai-models-when-synthetic-data-is-all-you-have/"/>
 <id>urn:rss-system-design:8e593644ce</id>
-<updated>2026-11-18T11:59:44Z</updated>
+<updated>2026-11-18T11:59:43Z</updated>
 <author><name>Salesforce</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
@@ -729,7 +846,7 @@
 <title>Building secure mobile apps in the agentic era</title>
 <link href="https://shopify.engineering/secure-agentic-apps"/>
 <id>urn:rss-system-design:9f61c5979b</id>
-<updated>2026-11-18T11:59:43Z</updated>
+<updated>2026-11-18T11:59:42Z</updated>
 <author><name>Shopify</name></author>
 <category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
 <category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
@@ -743,7 +860,7 @@
 <title>Software factories and code reviews with Harjot Gill</title>
 <link href="https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews"/>
 <id>urn:rss-system-design:f7bfd04d60</id>
-<updated>2026-11-18T11:59:42Z</updated>
+<updated>2026-11-18T11:59:41Z</updated>
 <author><name>The Pragmatic Engineer</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -756,7 +873,7 @@
 <title>Tiger Lake is generally available: Keep your operational data in sync with your lakehouse</title>
 <link href="https://www.tigerdata.com/blog/tiger-lake-ga"/>
 <id>urn:rss-system-design:43042e672a</id>
-<updated>2026-11-18T11:59:41Z</updated>
+<updated>2026-11-18T11:59:40Z</updated>
 <author><name>Timescale</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
 <category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
@@ -840,10 +957,23 @@
 <summary>Walks through the ABFS architecture for Android: a CASFS kernel module that lazy-loads files by Git hash, a CAS server fed by Git-pushers, and Ninja-go two-phase caching that verifies read patches to reject stale results.</summary>
 </entry>
 <entry>
+<title>How a shared merchant data service can degrade gracefully</title>
+<link href="https://engineering.grab.com/shared-merchant-data-service"/>
+<id>urn:rss-system-design:4499b9a1aa</id>
+<updated>2026-11-17T11:59:54Z</updated>
+<author><name>Grab</name></author>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<summary>Failure analysis of cache-aside fallback that amplified a cache disruption into database overload, and the redesign with P0 to P2 request classes, a weighted token budget before the database, per-class pools and circuit breakers, and bounded stale reads.</summary>
+</entry>
+<entry>
 <title>Smooth Cruiser at Lyft: Built for Safety and Transparency</title>
 <link href="https://eng.lyft.com/smooth-cruiser-at-lyft-built-for-safety-and-transparency-b6a461e16f2a?source=rss----25cd379abb8---4"/>
 <id>urn:rss-system-design:d07d0b950c</id>
-<updated>2026-11-17T11:59:54Z</updated>
+<updated>2026-11-17T11:59:53Z</updated>
 <author><name>Lyft</name></author>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
@@ -855,7 +985,7 @@
 <title>Agent Evaluation White Paper Series 02: Evaluation and Optimization Loop for a Merchant AI Assistant (translated from Chinese)</title>
 <link href="https://tech-meituan-com.translate.goog/2026/11/17/Agent-Evaluation-White-Paper-02.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
 <id>urn:rss-system-design:5c4574dad8</id>
-<updated>2026-11-17T11:59:53Z</updated>
+<updated>2026-11-17T11:59:52Z</updated>
 <author><name>Meituan</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
@@ -866,7 +996,7 @@
 <title>Engineering AI Discover</title>
 <link href="https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4"/>
 <id>urn:rss-system-design:0091928bb5</id>
-<updated>2026-11-17T11:59:52Z</updated>
+<updated>2026-11-17T11:59:51Z</updated>
 <author><name>Netflix</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
@@ -879,7 +1009,7 @@
 <title>Co-Designing Sparse Attention for Efficient Long-Context Inference</title>
 <link href="https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/"/>
 <id>urn:rss-system-design:8f2dcd4cb6</id>
-<updated>2026-11-17T11:59:51Z</updated>
+<updated>2026-11-17T11:59:50Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
@@ -890,7 +1020,7 @@
 <title>Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins</title>
 <link href="https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/"/>
 <id>urn:rss-system-design:acba478b0f</id>
-<updated>2026-11-17T11:59:50Z</updated>
+<updated>2026-11-17T11:59:49Z</updated>
 <author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
 <category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
@@ -902,7 +1032,7 @@
 <title>How AI Slashed 600-Test-Failure Triage From Days to 90 Minutes</title>
 <link href="https://engineering.salesforce.com/how-ai-slashed-600-test-failure-triage-from-days-to-90-minutes/"/>
 <id>urn:rss-system-design:016ebbed73</id>
-<updated>2026-11-17T11:59:49Z</updated>
+<updated>2026-11-17T11:59:48Z</updated>
 <author><name>Salesforce</name></author>
 <category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
@@ -914,7 +1044,7 @@
 <title>From Predictive to Generative – How Michelangelo Accelerates Uber’s AI Journey</title>
 <link href="https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/"/>
 <id>urn:rss-system-design:e732656014</id>
-<updated>2026-11-17T11:59:48Z</updated>
+<updated>2026-11-17T11:59:47Z</updated>
 <author><name>Uber</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
 <category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
