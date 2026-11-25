@@ -5,8 +5,46 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-23T12:00:00Z</updated>
+<updated>2026-11-24T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Part 2: Generative bidders for ads at Grab</title>
+<link href="https://engineering.grab.com/part-2-ads-simulation-blogpost"/>
+<id>urn:rss-system-design:top3:4f12c489dc</id>
+<updated>2026-11-24T12:00:00Z</updated>
+<author><name>Grab</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Architecture walkthrough and design decision to replace reactive PID budget pacing with a Generator and Aligner that plan 30-minute pacing actions, trained and stress-tested in a Ray-parallelized auction simulator before live tests.</summary>
+</entry>
+<entry>
+<title>How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers</title>
+<link href="https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/"/>
+<id>urn:rss-system-design:top3:e9503c7ee7</id>
+<updated>2026-11-24T11:59:59Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Design decision with trade-offs: stream transformer blocks from system RAM to a 12 GB GPU, reuse the understanding context across denoising steps, and accept more RAM use and PCIe transfers, with benchmarks across four RTX cards.</summary>
+</entry>
+<entry>
+<title>How Uber Evals 1 Million Agent Skill Invocations a Month</title>
+<link href="https://www.uber.com/us/en/blog/optimizing-ubers-agent-skills/"/>
+<id>urn:rss-system-design:top3:e15749b36a</id>
+<updated>2026-11-24T11:59:58Z</updated>
+<author><name>Uber</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Architecture walkthrough of Uber's skills platform, with the trade-off between skill quality and context cost, eval suites split into golden, trajectory and author cases, and Code Mode scripts replacing 50,000 to 70,000 tokens of tool definitions.</summary>
+</entry>
 <entry>
 <title>DoorDash Dispatch: Building a Lightning-Fast Delivery System</title>
 <link href="https://blog.bytebytego.com/p/doordash-dispatch-building-a-lightning"/>
@@ -22,22 +60,10 @@
 <summary>Architecture walkthrough of splitting dispatch into a stateful coordinator and stateless gRPC workers on geographic partitions with global reconciliation, reaching ten times the processing scale and over 99.96% of runs under 20 seconds.</summary>
 </entry>
 <entry>
-<title>Did the user ask for this? Securing AI agents against intent hijacking with Semantic governance policies</title>
-<link href="https://developers.googleblog.com/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/"/>
-<id>urn:rss-system-design:top3:d7d6c469d7</id>
-<updated>2026-11-23T11:59:59Z</updated>
-<author><name>Google</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
-<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
-<summary>Shows the design decision to evaluate proposed tool calls rather than text, cutting AgentDojo attack success from 48.7% to 0.9% at a 2.6-point utility cost, with text-only attacks and adaptive attacks on the judge left open.</summary>
-</entry>
-<entry>
 <title>5 Lessons in AI Context Engineering: Why More Context Is Not Better</title>
 <link href="https://engineering.salesforce.com/5-lessons-in-ai-context-engineering-why-more-context-is-not-better/"/>
 <id>urn:rss-system-design:top3:52fa666c8d</id>
-<updated>2026-11-23T11:59:58Z</updated>
+<updated>2026-11-23T11:59:59Z</updated>
 <author><name>Salesforce</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
 <category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
@@ -46,6 +72,20 @@
 <category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
 <category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
 <summary>Shows the design decision to move identity resolution, joins and entitlement rules upstream into prejoined data graphs retrieved by key, trading hourly refresh staleness for median lookups below 200 milliseconds, with authorization resolved before retrieval.</summary>
+</entry>
+<entry>
+<title>Trillion Parameter Scale Recommendation Models on PyTorch</title>
+<link href="https://eng.snap.com/pytorch"/>
+<id>urn:rss-system-design:top3:da702528cd</id>
+<updated>2026-11-23T11:59:58Z</updated>
+<author><name>Snap</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="search-recsys" label="Search &amp; Recommendations"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<summary>Architecture walkthrough and design decision to keep embedding storage outside the compiled graph, so models under 20 GB ship whole while TB-scale models upsert changed rows to a remote store under stable bit-concatenated keys.</summary>
 </entry>
 <entry>
 <title>How Grab built Scarlet: the AI teammate that turns a Slack message into a production data pipeline</title>
