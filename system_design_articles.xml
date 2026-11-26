@@ -5,8 +5,97 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-11-24T12:00:00Z</updated>
+<updated>2026-11-25T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>How RSQL in the Address Bar Simplified Our Filter State Management</title>
+<link href="https://medium.com/agoda-engineering/how-rsql-in-the-address-bar-simplified-our-filter-state-management-2f0d4a5980e8?source=rss----9bca683764b5--engineering"/>
+<id>urn:rss-system-design:6e85f5dcdf</id>
+<updated>2026-11-25T12:00:00Z</updated>
+<author><name>Agoda</name></author>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="client-apps" label="Web &amp; Mobile Apps"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<summary>Shows the design decision to keep filter state in the URL rather than page memory, browser storage or saved views, and to encode it in RSQL instead of a custom format, JSON or OData, trading readability for URL length.</summary>
+</entry>
+<entry>
+<title>Fine-tuning and releasing Japanese ASR models for voice dialogue: fewer missed backchannels and fewer hallucinations on noise (translated from Japanese)</title>
+<link href="https://engineering-dena-com.translate.goog/blog/2026/11/asr-finetuning-voice-dialogue/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:b07d01c5b0</id>
+<updated>2026-11-25T11:59:59Z</updated>
+<author><name>DeNA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to pick ASR models by end-of-speech-to-final latency and fix accuracy by fine-tuning, such as truncating the loss 0.5 seconds after each word, which cut Nemotron backchannel reading CER from 54.8% to 17.3%.</summary>
+</entry>
+<entry>
+<title>How to choose the next safe step in application modernization</title>
+<link href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"/>
+<id>urn:rss-system-design:1a98b63663</id>
+<updated>2026-11-25T11:59:58Z</updated>
+<author><name>GitHub</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to choose the least disruptive treatment per component (keep, upgrade, swap, wrap, rewrite), and how a feasibility check in PiggyMetrics traced nine test errors to embedded MongoDB, favoring capture-then-upgrade over a redesign.</summary>
+</entry>
+<entry>
+<title>How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling</title>
+<link href="https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/"/>
+<id>urn:rss-system-design:4311b87000</id>
+<updated>2026-11-25T11:59:57Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to split each N128 score tile into two N64 register slots and reuse them for the next tile, working within a 95.3% register budget instead of allocating a second score buffer.</summary>
+</entry>
+<entry>
+<title>How MuleSoft Rebuilt a Live Observability Platform While Migrating 39 Petabytes of Customer Data</title>
+<link href="https://engineering.salesforce.com/how-mulesoft-rebuilt-a-live-observability-platform-while-migrating-39-petabytes-of-customer-data/"/>
+<id>urn:rss-system-design:cfc6a00ac3</id>
+<updated>2026-11-25T11:59:56Z</updated>
+<author><name>Salesforce</name></author>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decision to consolidate nearly 3,000 single-tenant monitoring clusters into 24 multi-tenant ones, relying on customers not peaking together, while a query translation layer and dual ingestion with automated validation preserved existing APIs.</summary>
+</entry>
+<entry>
+<title>One quadratic webhook pinned our autoscaler at its ceiling</title>
+<link href="https://blog.sentry.io/quadratic-webhook-autoscaler-ceiling/"/>
+<id>urn:rss-system-design:9dd5cec25a</id>
+<updated>2026-11-25T11:59:55Z</updated>
+<author><name>Sentry</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Failure analysis of an N² lookup in GitLab assignment sync that made about 2,000 RPC calls per installation from Region silos to Control, plus a P95 busyness scaling target that adding pods could not satisfy.</summary>
+</entry>
+<entry>
+<title>How Anthropic builds software in 2026 with Katelyn Lesse</title>
+<link href="https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in"/>
+<id>urn:rss-system-design:8bc07deb0c</id>
+<updated>2026-11-25T11:59:54Z</updated>
+<author><name>The Pragmatic Engineer</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the decision to rewrite the Python monolith behind the Messages API in Rust because of its growing CPU footprint, verified by shadowing production traffic, plus process decisions on agent-routed code review and agent-first on-call triage.</summary>
+</entry>
 <entry>
 <title>Data Modeling Best Practices for an Agentic CDP, Part 1: The Data Foundation</title>
 <link href="https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation"/>

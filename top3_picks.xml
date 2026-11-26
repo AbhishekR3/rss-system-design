@@ -5,8 +5,45 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-24T12:00:00Z</updated>
+<updated>2026-11-25T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>Fine-tuning and releasing Japanese ASR models for voice dialogue: fewer missed backchannels and fewer hallucinations on noise (translated from Japanese)</title>
+<link href="https://engineering-dena-com.translate.goog/blog/2026/11/asr-finetuning-voice-dialogue/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:top3:b07d01c5b0</id>
+<updated>2026-11-25T12:00:00Z</updated>
+<author><name>DeNA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<summary>Shows the design decision to pick ASR models by end-of-speech-to-final latency and fix accuracy by fine-tuning, such as truncating the loss 0.5 seconds after each word, which cut Nemotron backchannel reading CER from 54.8% to 17.3%.</summary>
+</entry>
+<entry>
+<title>How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling</title>
+<link href="https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/"/>
+<id>urn:rss-system-design:top3:4311b87000</id>
+<updated>2026-11-25T11:59:59Z</updated>
+<author><name>NVIDIA</name></author>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<summary>Shows the design decision to split each N128 score tile into two N64 register slots and reuse them for the next tile, working within a 95.3% register budget instead of allocating a second score buffer.</summary>
+</entry>
+<entry>
+<title>How MuleSoft Rebuilt a Live Observability Platform While Migrating 39 Petabytes of Customer Data</title>
+<link href="https://engineering.salesforce.com/how-mulesoft-rebuilt-a-live-observability-platform-while-migrating-39-petabytes-of-customer-data/"/>
+<id>urn:rss-system-design:top3:cfc6a00ac3</id>
+<updated>2026-11-25T11:59:58Z</updated>
+<author><name>Salesforce</name></author>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Shows the design decision to consolidate nearly 3,000 single-tenant monitoring clusters into 24 multi-tenant ones, relying on customers not peaking together, while a query translation layer and dual ingestion with automated validation preserved existing APIs.</summary>
+</entry>
 <entry>
 <title>Part 2: Generative bidders for ads at Grab</title>
 <link href="https://engineering.grab.com/part-2-ads-simulation-blogpost"/>
