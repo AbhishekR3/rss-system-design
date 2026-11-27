@@ -5,8 +5,59 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/all.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/?show=all"/>
 <id>urn:rss-system-design:all-public</id>
-<updated>2026-11-25T12:00:00Z</updated>
+<updated>2026-11-26T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>The Life of a Database Row: What Really Happens Behind the Scenes</title>
+<link href="https://blog.bytebytego.com/p/the-life-of-a-database-row-what-really"/>
+<id>urn:rss-system-design:all:56f631e429</id>
+<updated>2026-11-26T12:00:00Z</updated>
+<author><name>ByteByteGo</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<summary>The available introduction outlines an architecture walkthrough of how a database handles INSERT, UPDATE and DELETE through memory, WAL, indexes, old row versions, vacuum, replication and backup; the body was behind a paywall.</summary>
+</entry>
+<entry>
+<title>Rethinking read replicas for the lakebase architecture</title>
+<link href="https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture"/>
+<id>urn:rss-system-design:all:a7f2fedd6a</id>
+<updated>2026-11-26T11:59:59Z</updated>
+<author><name>Databricks</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Shows the design decision to separate Postgres compute from storage so a read replica is a read-only compute on shared pageservers and safekeepers, avoiding per-replica data copies and allowing seconds-long creation, autoscaling and scale to zero after 5 minutes idle.</summary>
+</entry>
+<entry>
+<title>NWRUG's (Manchester, UK) December 2026 meeting — Festive social</title>
+<link href="https://feed.thoughtbot.com/link/24077/17541701/nwrug-s-manchester-uk-december-2026-meeting-festive-social"/>
+<id>urn:rss-system-design:all:f4f7e7a9d5</id>
+<updated>2026-11-26T11:59:58Z</updated>
+<author><name>thoughtbot</name></author>
+<category scheme="urn:rss-system-design:status" term="not_picked" label="Not picked"/>
+<category scheme="urn:rss-system-design:subject" term="org-community" label="Not System Design"/>
+<summary>Not picked: An event announcement for a Ruby user group social with no system described.</summary>
+</entry>
+<entry>
+<title>We handed the daily morning SRE report to AI with Bedrock and Lambda (translated from Japanese)</title>
+<link href="https://engineering-dena-com.translate.goog/blog/2026/11/ai-sre-daily-report/?_x_tr_sl=ja&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:fe3be55389</id>
+<updated>2026-11-26T11:59:57Z</updated>
+<author><name>DeNA</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<summary>Shows an architecture walkthrough of an EventBridge Scheduler and Lambda job calling Claude on Bedrock with three read-only tools, with decisions on fixed JSON output, a 15-minute timeout fallback and trimmed tool results costing about 0.6 dollars per run.</summary>
+</entry>
 <entry>
 <title>How to choose the next safe step in application modernization</title>
 <link href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"/>
@@ -86,6 +137,20 @@
 <category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
 <category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <summary>Failure analysis of an N² lookup in GitLab assignment sync that made about 2,000 RPC calls per installation from Region silos to Control, plus a P95 busyness scaling target that adding pods could not satisfy.</summary>
+</entry>
+<entry>
+<title>From imitation to self-correction: recursive self-improvement practice for the Keeta customer-service model (translated from Chinese)</title>
+<link href="https://tech-meituan-com.translate.goog/2026/11/26/Agent-RSI-practice-in-meituan.html?_x_tr_sl=zh-CN&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp"/>
+<id>urn:rss-system-design:all:a80e190384</id>
+<updated>2026-11-26T11:59:56Z</updated>
+<author><name>Meituan</name></author>
+<category scheme="urn:rss-system-design:status" term="read" label="Picked"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
+<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Shows the design decision to train on attributed online failures with on-policy self-distillation (forward KL, K=32) rather than SFT or DPO, which cut the Bad Case rate from 6.42% to 1.97% and per-order serving cost by 70.5%.</summary>
 </entry>
 <entry>
 <title>Fine-tuning and releasing Japanese ASR models for voice dialogue: fewer missed backchannels and fewer hallucinations on noise (translated from Japanese)</title>
