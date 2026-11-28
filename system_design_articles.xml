@@ -5,8 +5,36 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/system_design_articles.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:system-design-articles</id>
-<updated>2026-11-26T12:00:00Z</updated>
+<updated>2026-11-27T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>September 29 Outage Incident Report: What we learnt</title>
+<link href="https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt"/>
+<id>urn:rss-system-design:bb478ac7b0</id>
+<updated>2026-11-27T12:00:00Z</updated>
+<author><name>Spotify</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Failure analysis of a deployment diff change that made Argo CD overwrite the autoscaler-managed `minReplicas` field on every sync, downscaling the login service, and of the token re-issuing herd at 200 times pre-incident traffic that slowed recovery.</summary>
+</entry>
+<entry>
+<title>Sandboxes, secure inference, and keeping agents from going rogue</title>
+<link href="https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/"/>
+<id>urn:rss-system-design:de0da3fa46</id>
+<updated>2026-11-27T11:59:59Z</updated>
+<author><name>Stack Overflow</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Covers architecture and trade-offs of agent sandboxes, with memory and disk snapshots distributed to runners on local NVMe for millisecond start, and of end-to-end encrypted inference, trading observability and per-token endpoints for customer control.</summary>
+</entry>
 <entry>
 <title>The Life of a Database Row: What Really Happens Behind the Scenes</title>
 <link href="https://blog.bytebytego.com/p/the-life-of-a-database-row-what-really"/>

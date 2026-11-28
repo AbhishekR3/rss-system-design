@@ -5,8 +5,36 @@
 <link rel="self" href="https://abhishekr3.github.io/rss-system-design/top3_picks.xml"/>
 <link rel="alternate" type="text/html" href="https://abhishekr3.github.io/rss-system-design/"/>
 <id>urn:rss-system-design:top3-picks</id>
-<updated>2026-11-26T12:00:00Z</updated>
+<updated>2026-11-27T12:00:00Z</updated>
 <author><name>rss-triage</name></author>
+<entry>
+<title>September 29 Outage Incident Report: What we learnt</title>
+<link href="https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt"/>
+<id>urn:rss-system-design:top3:bb478ac7b0</id>
+<updated>2026-11-27T12:00:00Z</updated>
+<author><name>Spotify</name></author>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="observability-ops" label="Observability &amp; Operations"/>
+<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Failure analysis of a deployment diff change that made Argo CD overwrite the autoscaler-managed `minReplicas` field on every sync, downscaling the login service, and of the token re-issuing herd at 200 times pre-incident traffic that slowed recovery.</summary>
+</entry>
+<entry>
+<title>Sandboxes, secure inference, and keeping agents from going rogue</title>
+<link href="https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/"/>
+<id>urn:rss-system-design:top3:de0da3fa46</id>
+<updated>2026-11-27T11:59:59Z</updated>
+<author><name>Stack Overflow</name></author>
+<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<summary>Covers architecture and trade-offs of agent sandboxes, with memory and disk snapshots distributed to runners on local NVMe for millisecond start, and of end-to-end encrypted inference, trading observability and per-token endpoints for customer control.</summary>
+</entry>
 <entry>
 <title>Rethinking read replicas for the lakebase architecture</title>
 <link href="https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture"/>
@@ -110,45 +138,43 @@
 <summary>Design decision with trade-offs: stream transformer blocks from system RAM to a 12 GB GPU, reuse the understanding context across denoising steps, and accept more RAM use and PCIe transfers, with benchmarks across four RTX cards.</summary>
 </entry>
 <entry>
-<title>How Uber Evals 1 Million Agent Skill Invocations a Month</title>
-<link href="https://www.uber.com/us/en/blog/optimizing-ubers-agent-skills/"/>
-<id>urn:rss-system-design:top3:e15749b36a</id>
+<title>Prepare Market Data for Forecasting with NVIDIA Megatron Core</title>
+<link href="https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/"/>
+<id>urn:rss-system-design:top3:a8b1a17972</id>
 <updated>2026-11-24T11:59:58Z</updated>
-<author><name>Uber</name></author>
-<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
-<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
-<category scheme="urn:rss-system-design:concern" term="evaluation" label="Testing &amp; Evaluation"/>
-<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
-<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
-<summary>Architecture walkthrough of Uber's skills platform, with the trade-off between skill quality and context cost, eval suites split into golden, trajectory and author cases, and Code Mode scripts replacing 50,000 to 70,000 tokens of tool definitions.</summary>
-</entry>
-<entry>
-<title>DoorDash Dispatch: Building a Lightning-Fast Delivery System</title>
-<link href="https://blog.bytebytego.com/p/doordash-dispatch-building-a-lightning"/>
-<id>urn:rss-system-design:top3:af0bdb2c13</id>
-<updated>2026-11-23T12:00:00Z</updated>
-<author><name>ByteByteGo</name></author>
-<category scheme="urn:rss-system-design:subject" term="service-architecture" label="Service Architecture &amp; APIs"/>
-<category scheme="urn:rss-system-design:subject" term="compute-platform" label="Compute &amp; Cloud Platforms"/>
+<author><name>NVIDIA</name></author>
 <category scheme="urn:rss-system-design:subject" term="ml-platform" label="ML Platform &amp; Models"/>
+<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
+<category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
 <category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="evolvability" label="Migrations &amp; Evolution"/>
-<category scheme="urn:rss-system-design:concern" term="reliability" label="Reliability &amp; Resilience"/>
-<summary>Architecture walkthrough of splitting dispatch into a stateful coordinator and stateless gRPC workers on geographic partitions with global reconciliation, reaching ten times the processing scale and over 99.96% of runs under 20 seconds.</summary>
+<summary>Architecture walkthrough of a market-bar pipeline that precomputes patches, windows and targets offline into memory-mapped tensors, broadcasts batches within tensor-parallel groups, and splits by date with an embargo to prevent leakage.</summary>
 </entry>
 <entry>
-<title>5 Lessons in AI Context Engineering: Why More Context Is Not Better</title>
-<link href="https://engineering.salesforce.com/5-lessons-in-ai-context-engineering-why-more-context-is-not-better/"/>
-<id>urn:rss-system-design:top3:52fa666c8d</id>
-<updated>2026-11-23T11:59:59Z</updated>
+<title>Supercharging AI Agents: Build a Git-Based Engineering Knowledge Framework in 20 Minutes</title>
+<link href="https://engineering.salesforce.com/supercharging-ai-agents-build-a-git-based-engineering-knowledge-framework-in-20-minutes/"/>
+<id>urn:rss-system-design:top3:997ad907c3</id>
+<updated>2026-11-23T12:00:00Z</updated>
 <author><name>Salesforce</name></author>
 <category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
-<category scheme="urn:rss-system-design:subject" term="data-pipelines" label="Data Pipelines &amp; Streaming"/>
-<category scheme="urn:rss-system-design:subject" term="storage-caching" label="Databases, Storage &amp; Caching"/>
-<category scheme="urn:rss-system-design:concern" term="scalability" label="Scale &amp; Performance"/>
-<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:subject" term="dev-platform" label="Developer Platform &amp; CI/CD"/>
+<category scheme="urn:rss-system-design:concern" term="cost" label="Cost Efficiency"/>
 <category scheme="urn:rss-system-design:concern" term="consistency" label="Consistency &amp; Correctness"/>
-<summary>Shows the design decision to move identity resolution, joins and entitlement rules upstream into prejoined data graphs retrieved by key, trading hourly refresh staleness for median lookups below 200 milliseconds, with authorization resolved before retrieval.</summary>
+<category scheme="urn:rss-system-design:concern" term="operability" label="Operability &amp; Productivity"/>
+<summary>Failure analysis and design decision: a single knowledge repository slowed retrieval and raised token use, so Salesforce split it into 21 domain brains linked by a knowledge graph, with source evidence, contradiction tracking and a weekly LINT skill.</summary>
+</entry>
+<entry>
+<title>MCP Gateway: How Snap Checks Both the Person and the Agent</title>
+<link href="https://eng.snap.com/mcp-gateway"/>
+<id>urn:rss-system-design:top3:fc204bc669</id>
+<updated>2026-11-23T11:59:59Z</updated>
+<author><name>Snap</name></author>
+<category scheme="urn:rss-system-design:subject" term="genai-apps" label="LLM Apps &amp; Agents"/>
+<category scheme="urn:rss-system-design:subject" term="security-systems" label="Security &amp; Identity"/>
+<category scheme="urn:rss-system-design:subject" term="networking-edge" label="Networking &amp; Edge"/>
+<category scheme="urn:rss-system-design:concern" term="security" label="Security &amp; Compliance"/>
+<category scheme="urn:rss-system-design:concern" term="business-fit" label="Business &amp; Product Drivers"/>
+<category scheme="urn:rss-system-design:concern" term="team-process" label="Team &amp; Process Decisions"/>
+<summary>Design decisions for an MCP gateway fronting more than 60 MCPs: an Agent Attestation Token so each call is checked as both person and agent, OAuth tokens kept in ATS, and PR-approved per-tool grants.</summary>
 </entry>
 <entry>
 <title>Trillion Parameter Scale Recommendation Models on PyTorch</title>

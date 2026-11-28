@@ -16,7 +16,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Bazaarvoice | [https://blog.developer.bazaarvoice.com/](https://blog.developer.bazaarvoice.com/) | `https://blog.developer.bazaarvoice.com/feed/` | feed | 2026-09-29 | 10 |  |
 | Block Engineering | [https://engineering.block.xyz/blog](https://engineering.block.xyz/blog) | `https://engineering.block.xyz/blog/rss.xml` | feed | 2026-11-10 | 22 |  |
 | Booking.com (booking.ai) | [https://booking.ai/](https://booking.ai/) | `https://booking.ai/feed` | feed | 2026-10-19 | 10 |  |
-| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-26 | 47 |  |
+| ByteByteGo | [https://blog.bytebytego.com/](https://blog.bytebytego.com/) | `https://blog.bytebytego.com/feed` | feed | 2026-11-27 | 48 |  |
 | Canva | [https://engineering.canva.com](https://engineering.canva.com) | `https://www.canva.dev/blog/engineering/feed.xml` | feed | 2026-09-17 | 10 |  |
 | Claude Dev Blog | [https://claude.dev/](https://claude.dev/) | no feed; listing page read | page | 2026-11-24 | 11 |  |
 | Cloudflare | [https://blog.cloudflare.com/](https://blog.cloudflare.com/) | `https://blog.cloudflare.com/rss` | feed | 2026-11-25 | 101 |  |
@@ -58,7 +58,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Indeed | [http://engineering.indeedblog.com/blog/](http://engineering.indeedblog.com/blog/) | `https://engineering.indeedblog.com/feed/` | feed | 2026-08-12 | 10 |  |
 | Instacart | [https://tech.instacart.com/](https://tech.instacart.com/) | `https://tech.instacart.com/feed` | feed | 2026-09-03 | 10 |  |
 | Jane Street | [https://blogs.janestreet.com/category/ocaml/](https://blogs.janestreet.com/category/ocaml/) | `https://blogs.janestreet.com/feed.xml` | feed | 2026-11-06 | 115 |  |
-| JioHotstar | [https://blog.hotstar.com/](https://blog.hotstar.com/) | `https://blog.hotstar.com/feed` | feed | 2026-10-19 | 10 |  |
+| JioHotstar | [https://blog.hotstar.com/](https://blog.hotstar.com/) | `https://blog.hotstar.com/feed` | feed | 2026-11-28 | 11 |  |
 | Lyft | [https://eng.lyft.com/](https://eng.lyft.com/) | `https://eng.lyft.com/feed` | feed | 2026-11-17 | 13 |  |
 | Medium | [https://medium.com/medium-eng](https://medium.com/medium-eng) | `https://medium.engineering/feed` | feed | 2026-10-22 | 11 |  |
 | Meituan Tech Team (zh) | [https://tech.meituan.com/](https://tech.meituan.com/) | `https://tech.meituan.com/feed/` | feed | 2026-11-26 | 16 |  |
@@ -80,7 +80,7 @@ Missing a blog, or have context to add (for example which section is polled)? [O
 | Slack | [https://slack.engineering/](https://slack.engineering/) | `https://slack.engineering/rss` | feed | 2026-07-14 | 8 |  |
 | Snap Engineering | [https://eng.snap.com/blog](https://eng.snap.com/blog) | no feed; listing page read | page | 2026-11-23 | 14 |  |
 | Soundcloud | [https://developers.soundcloud.com/blog/](https://developers.soundcloud.com/blog/) | `https://developers.soundcloud.com/blog/blog.rss` | feed | 2026-08-11 | 205 |  |
-| Spotify | [https://engineering.atspotify.com/](https://engineering.atspotify.com/) | no feed; listing page read | page | 2026-11-19 | 22 |  |
+| Spotify | [https://engineering.atspotify.com/](https://engineering.atspotify.com/) | no feed; listing page read | page | 2026-11-27 | 23 |  |
 | Squarespace | [https://engineering.squarespace.com/](https://engineering.squarespace.com/) | `https://engineering.squarespace.com/blog?format=rss` | feed | 2026-07-24 | 20 |  |
 | Stack Overflow | [https://stackoverflow.blog/ai/](https://stackoverflow.blog/ai/) | no feed; listing page read | page | 2026-11-27 | 38 |  |
 | Stripe | [https://stripe.dev/blog/topic/engineering](https://stripe.dev/blog/topic/engineering) | no feed; listing page read | page | 2026-10-29 | 27 |  |
